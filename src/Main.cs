@@ -1103,7 +1103,7 @@ namespace OstranautsRuKaya
             {"DELTA-V:", "ДЕЛЬТА-V:"},
             {"DOCK", "СТЫКОВКА"},
             {"DOCK INFO", "ИНФО О СТЫКОВКЕ"},
-            {"DOCKED WITH", "ПРИСТЫКОВАН С"},
+            {"DOCKED WITH", "СОСТЫКОВАН С"},
             {"DOCKED WITH:", "ПРИСТЫКОВАН С:"},
             {"DOCKING MESSAGE -", "СТЫКОВ. СООБЩ. -"},
             {"Danger", "Опасность"},
@@ -1299,7 +1299,7 @@ namespace OstranautsRuKaya
             {"ALARM MUTE", "ТИХ. ТРЕВ."},
             {"ALIGNED", "ВЫРОВН."},
             {"ALT", "ВЫС"},
-            {"ANT FAULT", "АНТ. ОШИБ."},
+            {"ANT FAULT", "АНТ. НЕИСПР."},
             {"ATC", "АТС"},
             {"BARY", "БАР"},
             {"BRG", "ПЕЛ"},
@@ -1319,7 +1319,7 @@ namespace OstranautsRuKaya
             {"IN", "ПРИБЛ"},
             {"INR", "ВНУТР"},
             {"KG", "КГ"},
-            {"KWH", "КвтЧ"},
+            {"KWH", "КВтЧ"},
             {"LICENSED", "ЛИЦЕНЗ."},
 
             {"MANEUVER DRIVE", "МАНЕВР. ПРИВОД"},
@@ -1337,22 +1337,22 @@ namespace OstranautsRuKaya
             {"PASSENGER SHUTTLE", "ПАССАЖ. ШАТЛ"},
             {"PB", "ПБ"},
             {"PLA", "ПЛН"},
-            {"POWER", "ЭЛЕКТР."},
-            {"PRINT STATUS", "ПЕЧАТЬ СТАТУСА"},
+            {"POWER", "ЭЛ-ВО"},
+            {"PRINT STATUS", "СТАТУС"},
             {"PROX WARN", "БЛИЗ. ПРЕДУПР."},
             {"QUICK ZOOM", "БЫСТР. ЗУМ"},
             {"RCS MANEUVERS", "МАНЕВРЫ RCS"},
             {"RESET", "СБРС"},
             {"REV", "НАЗ"},
-            {"RNG", "РАССТ."},
+            {"RNG", "РСТ."},
             {"ROTOR EFFICIENCY", "ЭФФ. РОТОРА"},
             {"ROTORS", "РОТОРЫ"},
             {"SENSORS", "ДАТЧИКИ"},
             {"SHIP", "КОР."},
             {"SHIP LABELS", "МЕТКИ КОР."},
-            {"SHIP LOGS", "ЖУРН. КОРАБ."},
+            {"SHIP LOGS", "ЛОГИ"},
             {"SHOW ZONES", "ПОК. ЗОНЫ"},
-            {"STATION KEEPING", "ДЕРЖ. СТАНЦ."},
+            {"STATION KEEPING", "УДЕРЖ. СТАНЦ."},
             {"STATUS", "СТАТУС"},
             {"STN", "СТЦ"},
             {"TARGET", "ЦЕЛЬ"},
@@ -1369,7 +1369,7 @@ namespace OstranautsRuKaya
             {"VIZ", "ВИЗ"},
             {"VREL", "ОТН.СК."},
             {"WARNINGS", "ПРЕДУПР."},
-            {"XPDR FAULT", "ТРАНСП. ОШИБ."},
+            {"XPDR FAULT", "ТРАНСП. НЕИСПР."},
             {"YAW", "РЫСК."},
             {"ZERO", "НУЛЬ"},
             {"ZOOM", "ЗУМ"},
@@ -1381,7 +1381,7 @@ namespace OstranautsRuKaya
             {"High", "Высок."},
             {"MAX", "МАКС"},
             {"RESERVES", "РЕЗЕРВЫ"},
-            {"ALARM", "ОПОВЕЩ."},
+            {"ALARM", "ОПОВ."},
             {"MUTE", "ВЫКЛ"},
             {"INVALID", "НЕВЕРН."},
             {"VALID", "ВЕРН."},
@@ -1390,13 +1390,22 @@ namespace OstranautsRuKaya
             {"No Target Selected", "Цель не выбрана"},
             {"Mode", "Режим"},
             {"Derelicts", "Заброшенные"},
-            {"RETURN TO", "ВЕРНУТЬСЯ В"},
+            {"RETURN TO", " "},
             {"NEXT PAGE>", "СЛЕД. СТР.>"},
 
 
 
 
             {"SELECT", "ВЫБ."},
+            {"TARGET DATA", "ДАННЫЕ ЦЕЛИ"},
+            {"COMMS CONTROL", "КОММУНИКАЦИЯ"},
+            {"Showing Logs", "Отображение логов"},
+            {"LOG ENTRIES FOUND", "ЛОГИ НАЙДЕНЫ"},
+            {"DISPLAYING", "ОТОБРАЖЕНИЕ"},
+            {"M/S", "М/С"},
+            {"NO CLEARANCE", "НЕТ ДОПУСКА"},
+            {"CLEARANCE", "ДОПУСК"},
+
         };
 
         internal static string TranslateString(string value)
@@ -1404,11 +1413,16 @@ namespace OstranautsRuKaya
             if (string.IsNullOrEmpty(value)) return value;
             if (HudTranslations.TryGetValue(value, out string translated))
                 return translated;
-            // Partial replacement for strings embedded in longer text
+            // Partial replacement with WORD BOUNDARIES
+            // Prevents "CLEAR" matching inside "CLEARANCE", "DOCK" inside "DOCKED" etc.
             foreach (var kvp in HudTranslations)
             {
                 if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
-                    value = value.Replace(kvp.Key, kvp.Value);
+                {
+                    // Use regex with word boundaries to avoid breaking compound words
+                    string pattern = @"\b" + System.Text.RegularExpressions.Regex.Escape(kvp.Key) + @"\b";
+                    value = System.Text.RegularExpressions.Regex.Replace(value, pattern, kvp.Value, System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                }
             }
             return value;
         }
