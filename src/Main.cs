@@ -198,6 +198,9 @@ namespace OstranautsRuKaya
             }
         }
 
+        private bool _dumpedOnce = false;
+        private int _dumpCounter = 0;
+
         // ─── Periodic scanner: runs EVERY frame from the plugin's own MonoBehaviour ───
         // This is the ONLY reliable way to catch prefab-deserialized text (PLA, SIGNAL, ON, OFF etc.)
         // because Unity deserialization bypasses C# set_text, and GUIOrbitDraw.Update only
@@ -207,7 +210,7 @@ namespace OstranautsRuKaya
             try
             {
                 _scanFrameCounter++;
-                if (_scanFrameCounter < 180) return; // every ~3 seconds at 60fps
+                if (_scanFrameCounter < 300) return; // every ~5 seconds at 60fps
                 _scanFrameCounter = 0;
 
                 // Scan UI.Text components
@@ -231,6 +234,45 @@ namespace OstranautsRuKaya
                         string translated = HUDTranslation.TranslateString(t.text);
                         if (translated != t.text)
                             t.text = translated;
+                    }
+                }
+
+                // ─── DEBUG: Dump untranslated text every scan cycle ───
+                _dumpCounter++;
+                if (_dumpCounter >= 1)
+                {
+                    _dumpCounter = 0;
+                    Log?.LogInfo("[Kaya] ====== UNTRANSLATED SCAN ======");
+                    foreach (var t in texts)
+                    {
+                        if (t != null && !string.IsNullOrEmpty(t.text))
+                        {
+                            string orig = t.text;
+                            string translated = HUDTranslation.TranslateString(orig);
+                            if (translated == orig && orig.Length < 60 && System.Text.RegularExpressions.Regex.IsMatch(orig, @"^[A-Za-z0-9 :;/\-\.]+$"))
+                            {
+                                string hex = "";
+                                foreach (char c in orig)
+                                    hex += string.Format("[{0:X2}]", (int)c);
+                                Log?.LogInfo($"[Kaya] UNTRANSLATED UI.Text '{orig}' len={orig.Length} hex={hex} parent={t.transform.parent?.name}");
+                            }
+                        }
+                    }
+                    foreach (var t in tmpTexts)
+                    {
+                        if (t != null && !string.IsNullOrEmpty(t.text))
+                        {
+                            string orig = t.text;
+                            string translated = HUDTranslation.TranslateString(orig);
+                            if (translated == orig && orig.Length < 60 && System.Text.RegularExpressions.Regex.IsMatch(orig, @"^[A-Za-z0-9 :;/\-\.]+$"))
+                            {
+                                string hex = "";
+                                foreach (char c in orig)
+                                    hex += string.Format("[{0:X2}]", (int)c);
+                                string typeName = t.GetType().Name;
+                                Log?.LogInfo($"[Kaya] UNTRANSLATED {typeName} '{orig}' len={orig.Length} hex={hex} parent={t.transform.parent?.name}");
+                            }
+                        }
                     }
                 }
             }
@@ -1570,6 +1612,38 @@ namespace OstranautsRuKaya
         {
             if (!string.IsNullOrEmpty(value))
                 value = HUDTranslation.TranslateString(value);
+        }
+    }
+
+    // ─── IMGUI hooks: GUILayout.DoLabel + GUI.DoLabel ───
+    // NavMod panels (PLA, SIGNAL, ON, OFF, STATION KEEPING etc.) use IMGUI GUILayout.Label
+    // which calls GUILayout.DoLabel(GUIContent, GUIStyle, GUILayoutOption[]).
+    // We translate the GUIContent.text in Prefix before rendering.
+    [HarmonyPatch(typeof(UnityEngine.GUILayout), "DoLabel")]
+    public static class Patch_GUILayout_DoLabel
+    {
+        static void Prefix(ref UnityEngine.GUIContent content)
+        {
+            if (content != null && !string.IsNullOrEmpty(content.text))
+            {
+                string translated = HUDTranslation.TranslateString(content.text);
+                if (translated != content.text)
+                    content.text = translated;
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(UnityEngine.GUI), "DoLabel")]
+    public static class Patch_GUI_DoLabel
+    {
+        static void Prefix(ref UnityEngine.GUIContent content)
+        {
+            if (content != null && !string.IsNullOrEmpty(content.text))
+            {
+                string translated = HUDTranslation.TranslateString(content.text);
+                if (translated != content.text)
+                    content.text = translated;
+            }
         }
     }
 }
