@@ -242,6 +242,11 @@ def build_publish_7z():
     log(f"DLL swapped in publish structure")
     
     # Repack with max compression (same settings as original)
+    # CRITICAL: delete output first — 7z 'a' appends to existing archive!
+    output_7z = "/tmp/publish_new.7z"
+    if os.path.exists(output_7z):
+        os.remove(output_7z)
+    
     log("Repacking publish.7z (max compression, this takes ~40s)...")
     result = subprocess.run([
         "7z", "a", "-t7z",
@@ -249,7 +254,7 @@ def build_publish_7z():
         "-m0=LZMA2:d26",
         "-mfb=64",
         "-ms=on",
-        "/tmp/publish_new.7z",
+        output_7z,
         f"{work}/publish/"
     ], capture_output=True, text=True, timeout=600)
     
