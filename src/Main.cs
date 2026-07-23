@@ -1030,7 +1030,7 @@ namespace OstranautsRuKaya
             {"<LOCAL CHANNEL", "<ЛОК. КАНАЛ"},
             {"<MAIN MENU", "<ГЛАВ. МЕНЮ"},
             {"<MESSAGE LOG", "<ЖУРН. СООБЩ."},
-            {"<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА"},
+            {"<PREVIOUS PAGE", "<ПРЕД. СТР."},
             {"<REQUEST CLEARANCE", "<ЗАПР. ДОПУСК"},
             {"<SHOW ON NAV MAP", "<ПОКАЗ. НА КАРТЕ"},
             {"<STATUS:", "<СТАТУС:"},
@@ -1385,6 +1385,14 @@ namespace OstranautsRuKaya
             {"MUTE", "ВЫКЛ"},
             {"INVALID", "НЕВЕРН."},
             {"VALID", "ВЕРН."},
+            {"CLAMP ALIGN", "ВЫРАВН. ЗАЖИМ."},
+            {"CLAMPS", "ЗАЖИМЫ"},
+            {"No Target Selected", "Цель не выбрана"},
+            {"Mode", "Режим"},
+            {"Derelicts", "Заброшенные"},
+            {"RETURN TO", "ВЕРНУТЬСЯ В"},
+            {"NEXT PAGE>", "СЛЕД. СТР."},
+
 
 
 
