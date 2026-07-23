@@ -52,27 +52,39 @@ def parse_translations(filepath):
     return result
 
 def update_dictionary(src, translations):
-    """Replace the HudTranslations dictionary content in Main.cs"""
-    # The dictionary is between the opening { and closing };
-    # Pattern: internal static readonly Dictionary<string, string> HudTranslations = new Dictionary...()\n        {\n ... \n        };
+    """Update HudTranslations dictionary — MERGE entries, don't replace existing ones not in file."""
     pattern = r'(internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>\(System\.StringComparer\.Ordinal\)\s*\{)\n(.*?)(\n\s*\};)'
+    m = re.search(pattern, src, re.DOTALL)
+    if not m:
+        log("WARNING: Dictionary replacement didn't match!")
+        return src
     
-    # Build new entries
-    lines = []
-    for en, ru in sorted(translations.items()):
-        # Escape for C# string
+    dict_body = m.group(2)
+    
+    # Parse existing entries from source
+    existing = {}
+    for em in re.finditer(r'\{"([^"]*)",\s*"([^"]*)"\}', dict_body):
+        existing[em.group(1)] = em.group(2)
+    
+    # Merge: update existing, add new
+    changed = 0
+    for en, ru in translations.items():
         en_esc = en.replace("\\", "\\\\").replace('"', '\\"')
         ru_esc = ru.replace("\\", "\\\\").replace('"', '\\"')
-        lines.append(f'            {{"{en_esc}", "{ru_esc}"}},')
-    new_body = "\n".join(lines)
+        if en in existing:
+            if existing[en] != ru:
+                # Update value
+                old_entry = f'{{"{en_esc}", "{existing[en]}"}}'
+                new_entry = f'{{"{en_esc}", "{ru_esc}"}}'
+                dict_body = dict_body.replace(old_entry, new_entry, 1)
+                changed += 1
+        else:
+            # Add new entry
+            dict_body = dict_body.rstrip() + f'\n            {{"{en_esc}", "{ru_esc}"}},\n'
+            changed += 1
     
-    new_src = re.sub(pattern, r'\1\n' + new_body + r'\3', src, flags=re.DOTALL)
-    
-    if new_src == src:
-        log("WARNING: Dictionary replacement didn't match!")
-    else:
-        log(f"Dictionary updated with {len(translations)} entries")
-    
+    new_src = src[:m.start(2)] + dict_body + src[m.end(2):]
+    log(f"Dictionary updated: {changed} entries changed/added (total {len(existing) + len(translations) - len(set(existing) & set(translations))})")
     return new_src
 
 def update_hardcoded_patches(src, translations):
