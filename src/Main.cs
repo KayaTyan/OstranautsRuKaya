@@ -16,6 +16,7 @@ using Ostranauts.ShipGUIs.MFD;
 using Ostranauts.Ships.Commands;
 using Ostranauts.ShipGUIs.NavStation;
 using Ostranauts.Ships;
+
 namespace OstranautsRuKaya
 {
     [BepInPlugin("ru.kaya.ostranautsrukaya", "OstranautsRuKaya", "1.0.0")]
@@ -1057,236 +1058,10 @@ namespace OstranautsRuKaya
             return false;
         }
     }
-    // ─── Additional MFD patches ───
-
-    // ─── MFD HUD Labels: Additional patches ───
-
-    // MFDWeaponSelect: translate HOLD BUTTON text and direction names
-    [HarmonyPatch(typeof(MFDWeaponSelect), "get_HoldButton")]
-    public static class Patch_MFDWeaponSelect_HoldButton
-    {
-        static void Postfix(ref string __result)
-        {
-            if (__result == "HOLD BUTTON FOR WEAPON MENU") __result = "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ";
-        }
-    }
-
-    // MFDWeaponSelect: patch _directionDict in constructor
-    [HarmonyPatch(typeof(MFDWeaponSelect), ".ctor")]
-    public static class Patch_MFDWeaponSelect_Ctor
-    {
-        static void Postfix(MFDWeaponSelect __instance)
-        {
-            try
-            {
-                var dictField = AccessTools.Field(typeof(MFDWeaponSelect), "_directionDict");
-                var dict = dictField?.GetValue(__instance) as Dictionary<int, string>;
-                if (dict != null)
-                {
-                    var keys = new List<int>(dict.Keys);
-                    foreach (var key in keys)
-                    {
-                        if (dict[key] == "FORWARD") dict[key] = "НОС";
-                        else if (dict[key] == "PORT") dict[key] = "ЛЕВЫЙ БОРТ";
-                        else if (dict[key] == "AFT") dict[key] = "КОРМА";
-                        else if (dict[key] == "STARBOARD") dict[key] = "ПРАВЫЙ БОРТ";
-                    }
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDWeaponDetails: RebuildMenu
-    [HarmonyPatch(typeof(MFDWeaponDetails), "RebuildMenu")]
-    public static class Patch_MFDWeaponDetails_RebuildMenu
-    {
-        static void Postfix(MFDWeaponDetails __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "<APPLIED", "<ПРИМЕНЕНО");
-                    MFDTranslate.ReplaceInList(left, "<APPLY TO ALL", "<ПРИМЕНИТЬ КО ВСЕМ");
-                    MFDTranslate.ReplaceInList(left, "<BACK", "<НАЗАД");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDMainMenuSensors: RebuildMenu
-    [HarmonyPatch(typeof(MFDMainMenuSensors), "RebuildMenu")]
-    public static class Patch_MFDMainMenuSensors_RebuildMenu
-    {
-        static void Postfix(MFDMainMenuSensors __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "LOCK", "ЗАХВАТ");
-                    MFDTranslate.ReplaceInList(left, "Sensors", "Датчики");
-                    MFDTranslate.ReplaceInList(left, "Signal:", "Сигнал:");
-                    MFDTranslate.ReplaceInList(left, "Weapons: ?", "Оружие: ?");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDSensors: get_Title
-    [HarmonyPatch(typeof(MFDSensors), "get_Title")]
-    public static class Patch_MFDSensors_Title
-    {
-        static void Postfix(ref string __result)
-        {
-            if (__result != null)
-            {
-                if (__result.Contains("ACTIVE SENSORS:")) 
-                    __result = __result.Replace("ACTIVE SENSORS:", "АКТИВ. СЕНСОРЫ:");
-                if (__result.Contains("PASSIVE SENSORS:")) 
-                    __result = __result.Replace("PASSIVE SENSORS:", "ПАССИВ. ДАТЧИКИ:");
-            }
-        }
-    }
-
-    // MFDStatus: RebuildMenu
-    [HarmonyPatch(typeof(MFDStatus), "RebuildMenu")]
-    public static class Patch_MFDStatus_RebuildMenu
-    {
-        static void Postfix(MFDStatus __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "CLEARED TO", "РАЗРЕШЕНО");
-                    MFDTranslate.ReplaceInList(left, "DOCK", "СТЫКОВКА");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDPage: RebuildMenu (navigation pages)
-    [HarmonyPatch(typeof(MFDPage), "RebuildMenu")]
-    public static class Patch_MFDPage_RebuildMenu
-    {
-        static void Postfix(MFDPage __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА");
-                    MFDTranslate.ReplaceInList(left, "<CYCLE PAGE", "<ЛИСТАТЬ СТРАНИЦУ");
-                    MFDTranslate.ReplaceInList(left, "<MAIN MENU", "<ГЛАВНОЕ МЕНЮ");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDShipSelect: RebuildMenu
-    [HarmonyPatch(typeof(MFDShipSelect), "RebuildMenu")]
-    public static class Patch_MFDShipSelect_RebuildMenu
-    {
-        static void Postfix(MFDShipSelect __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "TOGGLE MODES", "ПЕРЕКЛЮЧИТЬ РЕЖИМЫ");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // MFDComms: additional labels (extends existing patch)
-    [HarmonyPatch(typeof(MFDComms), "RebuildMenu")]
-    public static class Patch_MFDComms_RebuildMenu_Extra
-    {
-        static void Postfix(MFDComms __instance)
-        {
-            try
-            {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
-                var left = leftField?.GetValue(__instance) as List<string>;
-                if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "<BACK", "<НАЗАД");
-                    MFDTranslate.ReplaceInList(left, "<DOCKING", "<СТЫКОВКА");
-                    MFDTranslate.ReplaceInList(left, "<SHOW ON NAV MAP", "<ПОКАЗАТЬ НА КАРТЕ");
-                    MFDTranslate.ReplaceInList(left, "CLEARANCE AVAILABLE", "ДОПУСК ДОСТУПЕН");
-                    MFDTranslate.ReplaceInList(left, "Port#", "Порт#");
-                    MFDTranslate.ReplaceInList(left, "Waiting for response", "Ожидание ответа");
-                }
-            }
-            catch { }
-        }
-    }
-
-    // ─── ShipStatus patches ───
-
-    // ─── ShipStatus: replace static aNames[] labels ───
-    // ShipStatus builds a static string[] aNames with hardcoded labels
-    // We patch get_StatusLabel or the static method that returns labels
-    
-    [HarmonyPatch(typeof(ShipStatus))]
-    public static class Patch_ShipStatus_Static
-    {
-        static void Postfix()
-        {
-            try
-            {
-                var aNamesField = AccessTools.Field(typeof(ShipStatus), "aNames");
-                if (aNamesField != null)
-                {
-                    var names = aNamesField.GetValue(null) as string[];
-                    if (names != null)
-                    {
-                        for (int i = 0; i < names.Length; i++)
-                        {
-                            if (names[i] == "VESSEL RATING CODE:") names[i] = "КОД РЕЙТИНГА СУДНА:";
-                            if (names[i] == "VESSEL MASS:") names[i] = "МАССА СУДНА:";
-                            if (names[i] == "TRANSPONDER:") names[i] = "ТРАНСПОНДЕР:";
-                            if (names[i] == "TRANSPONDER ANTENNA:") names[i] = "АНТЕННА ТРАНСПОНДЕРА:";
-                            if (names[i] == "NAV STATION:") names[i] = "НАВИГ. СТАНЦИЯ:";
-                            if (names[i] == "REACTOR:") names[i] = "РЕАКТОР:";
-                            if (names[i] == "REACTOR HE3:") names[i] = "РЕАКТОР He3:";
-                            if (names[i] == "REACTOR D2O:") names[i] = "РЕАКТОР D2O:";
-                            if (names[i] == "RCS THRUSTERS:") names[i] = "RCS ДВИГАТЕЛИ:";
-                            if (names[i] == "RCS DISTRIBUTOR:") names[i] = "RCS РАСПРЕД.:";
-                            if (names[i] == "RCS REMASS:") names[i] = "RCS РЕАКЦ. МАССА:";
-                            if (names[i] == "BACKUP POWER:") names[i] = "РЕЗЕРВ ПИТАНИЯ:";
-                            if (names[i] == "LIFE SUPPORT WORKING O2 PUMPS:") names[i] = "ЖИЗН. ОБЕСП. РАБОТАЮЩ. НАСОСЫ O2:";
-                            if (names[i] == "LIFE SUPPORT O2 STORES:") names[i] = "ЖИЗН. ОБЕСП. ЗАПАС O2:";
-                            if (names[i] == "LIFE SUPPORT HEAT:") names[i] = "ЖИЗН. ОБЕСП. НАГРЕВ:";
-                            if (names[i] == "LIFE SUPPORT COOL:") names[i] = "ЖИЗН. ОБЕСП. ОХЛАЖД.:";
-                        }
-                    }
-                }
-            }
-            catch { }
-        }
-    }
-
+    // ─── Universal HUD string replacement ───
     // ─── Universal HUD String Replacement ───
-    // Wraps all HUD patches in a single class
+    // Hooks BOTH UnityEngine.UI.Text (MFD) AND TMP_Text (other UI)
+
     public static class HUDTranslation
     {
         internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.Ordinal)
@@ -1570,31 +1345,46 @@ namespace OstranautsRuKaya
             {"public ATC channel", "публичный канал АТС"}
         };
 
-        // Patch TMP_Text.set_text - catches all TextMeshPro text rendering
+        internal static string TranslateString(string value)
+        {
+            if (string.IsNullOrEmpty(value)) return value;
+            
+            // Exact match replacement
+            if (HudTranslations.TryGetValue(value, out string translated))
+                return translated;
+            
+            // Partial replacement for strings embedded in longer text
+            // (e.g. "DOCKED WITH: USS Testudo" or text with color tags)
+            bool changed = false;
+            foreach (var kvp in HudTranslations)
+            {
+                if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
+                {
+                    value = value.Replace(kvp.Key, kvp.Value);
+                    changed = true;
+                }
+            }
+            return value;
+        }
+
+        // Patch UnityEngine.UI.Text.set_text — used by GUIMFDDisplay for MFD rendering
+        [HarmonyPatch(typeof(UnityEngine.UI.Text), "set_text", typeof(string))]
+        public static class Patch_UI_Text_SetText
+        {
+            static void Prefix(ref string value)
+            {
+                value = TranslateString(value);
+            }
+        }
+
+        // Patch TMP_Text.set_text — used by other UI elements (NavMod, CrewSim, etc.)
         [HarmonyPatch(typeof(TMPro.TMP_Text), "set_text", typeof(string))]
         public static class Patch_TMP_Text_SetText
         {
             static void Prefix(ref string value)
             {
-                if (string.IsNullOrEmpty(value)) return;
-                
-                // Exact match replacement
-                if (HudTranslations.TryGetValue(value, out string translated))
-                {
-                    value = translated;
-                    return;
-                }
-                
-                // Partial replacement for strings embedded in longer text
-                foreach (var kvp in HudTranslations)
-                {
-                    if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
-                    {
-                        value = value.Replace(kvp.Key, kvp.Value);
-                    }
-                }
+                value = TranslateString(value);
             }
         }
     }
-
 }
