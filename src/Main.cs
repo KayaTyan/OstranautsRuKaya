@@ -1396,6 +1396,7 @@ namespace OstranautsRuKaya
 
 
 
+            {"SELECT", "ВЫБ."},
         };
 
         internal static string TranslateString(string value)
