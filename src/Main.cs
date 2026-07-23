@@ -172,6 +172,8 @@ namespace OstranautsRuKaya
             if (tr.Complete != null) objective.strDisplayDescComplete = FormatTutorialText(tr.Complete);
         }
 
+        private int _scanFrameCounter = 0;
+
         private void Awake()
         {
             try
@@ -194,6 +196,45 @@ namespace OstranautsRuKaya
             {
                 Log?.LogError($"[Kaya] Awake failed: {ex}");
             }
+        }
+
+        // ─── Periodic scanner: runs EVERY frame from the plugin's own MonoBehaviour ───
+        // This is the ONLY reliable way to catch prefab-deserialized text (PLA, SIGNAL, ON, OFF etc.)
+        // because Unity deserialization bypasses C# set_text, and GUIOrbitDraw.Update only
+        // fires when the orbit screen is open.
+        private void Update()
+        {
+            try
+            {
+                _scanFrameCounter++;
+                if (_scanFrameCounter < 180) return; // every ~3 seconds at 60fps
+                _scanFrameCounter = 0;
+
+                // Scan UI.Text components
+                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
+                foreach (var t in texts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+
+                // Scan TMP_Text components (includes TextMeshPro and TextMeshProUGUI)
+                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
+                foreach (var t in tmpTexts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+            }
+            catch { }
         }
 
         private static void RegisterVerbsInDictVerbs()
@@ -1031,7 +1072,7 @@ namespace OstranautsRuKaya
             {"<MAIN MENU", "<ГЛАВ. МЕНЮ"},
             {"<MESSAGE LOG", "<ЖУРН. СООБЩ."},
             {"<PREVIOUS PAGE", "<ПРЕД. СТР."},
-            {"<REQUEST CLEARANCE", "<ЗАПР. ДОПУСК"},
+            {"<REQUEST CLEARANCE", "<ЗАПРОС"},
             {"<SHOW ON NAV MAP", "<ПОКАЗ. НА КАРТЕ"},
             {"<STATUS:", "<СТАТУС:"},
             {"<TARGET SELECT:", "<ВЫБОР ЦЕЛИ:"},
@@ -1042,7 +1083,7 @@ namespace OstranautsRuKaya
             {"AFT", "КОРМА"},
             {"ALL CLEAR: Closest approach to", "ВСЕ ЧИСТО: Ближайшее сближение с"},
             {"ARS 2000 - Automated Response Service", "ARS 2000 - Автоответчик"},
-            {"ATC CHANNEL:", "КАНАЛ ATC:"},
+            {"ATC CHANNEL:", "АТС КАНАЛ:"},
             {"ATC Regional Control -", "Региональный АТС -"},
             {"AUTO", "АВТО"},
             {"AUTOMATIC", "АВТОМАТИЧ."},
@@ -1081,7 +1122,7 @@ namespace OstranautsRuKaya
             {"Collect Pressure Suit and Helmet", "Взять скафандр и шлем"},
             {"Comms", "Связь"},
             {"Compartment", "Отсек"},
-            {"Connected with", "СОЕДИН. С"},
+            {"Connected with", "СОЕД. С"},
             {"Connecting..", "Подключение.."},
             {"Container", "Контейнер"},
             {"Continue To Your Ship", "Продолжить к своему кораблю"},
@@ -1405,15 +1446,22 @@ namespace OstranautsRuKaya
             {"M/S", "М/С"},
             {"NO CLEARANCE", "НЕТ ДОПУСКА"},
             {"CLEARANCE", "ДОПУСК"},
-            {"ATC Regional Control", "ATC Регион. контроль"},
+            {"ATC Regional Control", "АТС Рег. контр."},
             {"SENSORS:", "СЕНСОРЫ:"},
-    };
+
+            // ─── NavMod prefab labels (caught by periodic scanner only) ───
+            {"BRG -", "АЗИМУТ -"},
+     };
 
         internal static string TranslateString(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
+            // Exact match (trimmed for whitespace tolerance)
             if (HudTranslations.TryGetValue(value, out string translated))
                 return translated;
+            string trimmed = value.Trim();
+            if (trimmed != value && HudTranslations.TryGetValue(trimmed, out string trimmedT))
+                return trimmedT;
             // Partial replacement with WORD BOUNDARIES
             // Prevents "CLEAR" matching inside "CLEARANCE", "DOCK" inside "DOCKED" etc.
             foreach (var kvp in HudTranslations)
@@ -1468,43 +1516,8 @@ namespace OstranautsRuKaya
 
 
 
-    // ─── Periodic re-scan for dynamically loaded text ───
-    [HarmonyPatch(typeof(GUIOrbitDraw), "Update")]
-    public static class Patch_GUIOrbitDraw_Update_Scan
-    {
-        private static int _scanFrameCounter = 0;
-        static void Postfix()
-        {
-            try
-            {
-                _scanFrameCounter++;
-                if (_scanFrameCounter < 120) return; // every ~2 seconds
-                _scanFrameCounter = 0;
-
-                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
-                foreach (var t in texts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
-                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
-                foreach (var t in tmpTexts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
-            }
-            catch { }
-        }
-    }
+    // Periodic scanner moved to RuTranslation.Update() — see below.
+    // Was on GUIOrbitDraw.Update which only fires when orbit screen is open.
 
     // ─── Scan and translate all UI text after scene load ───
     [HarmonyPatch(typeof(GUIOrbitDraw), "Init")]
