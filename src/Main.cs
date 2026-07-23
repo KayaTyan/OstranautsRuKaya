@@ -187,8 +187,33 @@ namespace OstranautsRuKaya
                 try
                 {
                     var harmony = new Harmony("ru.kaya.ostranautsrukaya");
+                    
+                    // Log what PatchAll finds
+                    var allTypes = System.Reflection.Assembly.GetExecutingAssembly().GetTypes();
+                    int patchCount = 0;
+                    foreach (var t in allTypes)
+                    {
+                        var attrs = t.GetCustomAttributes(typeof(HarmonyPatch), false);
+                        if (attrs.Length > 0)
+                        {
+                            patchCount++;
+                            Log.LogInfo($"[Kaya] Patch class: {t.Name}");
+                        }
+                    }
+                    Log.LogInfo($"[Kaya] Found {patchCount} patch classes");
+                    
                     harmony.PatchAll();
                     Log.LogInfo("[Kaya] Harmony patches applied");
+                    
+                    // Verify specific patches
+                    var showMenuPatch = Harmony.GetPatchInfo(AccessTools.Method(typeof(Ostranauts.ShipGUIs.MFD.GUIMFDDisplay), "ShowMenu"));
+                    Log.LogInfo($"[Kaya] ShowMenu patch: {(showMenuPatch != null ? "ACTIVE" : "NOT FOUND")}");
+                    
+                    var setTextPatch = Harmony.GetPatchInfo(AccessTools.Method(typeof(UnityEngine.UI.Text), "set_text", new System.Type[] { typeof(string) }));
+                    Log.LogInfo($"[Kaya] UI.Text.set_text patch: {(setTextPatch != null ? "ACTIVE" : "NOT FOUND")}");
+                    
+                    var rebuildMenuPatch = Harmony.GetPatchInfo(AccessTools.Method(typeof(Ostranauts.ShipGUIs.MFD.MFDMainMenu), "RebuildMenu"));
+                    Log.LogInfo($"[Kaya] RebuildMenu patch: {(rebuildMenuPatch != null ? "ACTIVE" : "NOT FOUND")}");
                 }
                 catch (Exception ex)
                 {
