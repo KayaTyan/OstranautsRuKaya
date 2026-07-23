@@ -1430,6 +1430,42 @@ namespace OstranautsRuKaya
         }
     }
 
+
+    // ─── Scan and translate all UI text after scene load ───
+    [HarmonyPatch(typeof(GUIOrbitDraw), "Init")]
+    public static class Patch_GUIOrbitDraw_Init_Translate
+    {
+        static void Postfix()
+        {
+            try
+            {
+                // Find ALL Text components in scene and translate
+                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
+                foreach (var t in texts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+                // Find ALL TMP_Text components
+                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
+                foreach (var t in tmpTexts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+            }
+            catch { }
+        }
+    }
+
     // Safety net: UI.Text.set_text for non-MFD UI
     [HarmonyPatch(typeof(UnityEngine.UI.Text), "set_text", typeof(string))]
     public static class Patch_UI_Text_SetText
