@@ -1096,7 +1096,7 @@ namespace OstranautsRuKaya
             {"Are you sure you want to quit to desktop?", "Вы уверены, что хотите выйти в Windows?"},
             {"Aux Dock ID:", "Доп. ID стыковки:"},
             {"BACKUP POWER:", "РЕЗЕРВ ПИТАНИЯ:"},
-            {"BRG -", "АЗИМУТ -"},
+            {"BRG -", "АЗМ -"},
             {"Boarding", "Абордаж"},
             {"Body Temp", "Темп. тела"},
             {"Bribe Amount: $", "Размер взятки: $"},
