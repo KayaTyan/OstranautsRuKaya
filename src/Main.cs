@@ -534,7 +534,7 @@ namespace OstranautsRuKaya
                 }
                 if (right != null)
                 {
-                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "ВЫЗ. КОРАБЛЬ>");
+                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "СВЯЗЬ>");
                 }
             }
             catch { }
@@ -1031,7 +1031,7 @@ namespace OstranautsRuKaya
             {"<MAIN MENU", "<ГЛАВ. МЕНЮ"},
             {"<MESSAGE LOG", "<ЖУРН. СООБЩ."},
             {"<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА"},
-            {"<REQUEST CLEARANCE", "<ЗАПРОС. ДОПУСК"},
+            {"<REQUEST CLEARANCE", "<ЗАПР. ДОПУСК"},
             {"<SHOW ON NAV MAP", "<ПОКАЗ. НА КАРТЕ"},
             {"<STATUS:", "<СТАТУС:"},
             {"<TARGET SELECT:", "<ВЫБОР ЦЕЛИ:"},
@@ -1139,11 +1139,11 @@ namespace OstranautsRuKaya
             {"Flotilla", "Флотилия"},
             {"Flying to", "Лёт к"},
             {"Friendly:", "Союзники:"},
-            {"Fuel request was sent", "Запрос на топливо отправлен"},
+            {"Fuel request was sent", "Запр. на топливо отправлен"},
             {"Fuel transfer complete", "Передача топлива завершена"},
             {"Gain Clearance to Dock", "Получить допуск к стыковке"},
             {"Gained Docking Clearance.", "Допуск к стыковке получен."},
-            {"HAIL SHIP>", "ВЫЗ. КОРАБЛЬ>"},
+            {"HAIL SHIP>", "СВЯЗЬ>"},
             {"HOLD BUTTON FOR WEAPON MENU", "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ"},
             {"HULL", "КОРПУС"},
             {"Hail", "Вызов"},
@@ -1200,7 +1200,7 @@ namespace OstranautsRuKaya
             {"Refueling", "Заправка"},
             {"Remember to turn off match speed before moving the ship again.", "Не забудьте выключить синхронизацию скорости перед движением."},
             {"Repair", "Ремонт"},
-            {"Request Undocking Clearance", "Запросить допуск к расстыковке"},
+            {"Request Undocking Clearance", "Запр. допуск к расстыковке"},
             {"Responding ships:", "Отвечающие корабли:"},
             {"Restore Nav Station", "Восстановить навиг. станцию"},
             {"Roster", "Список экипажа"},
