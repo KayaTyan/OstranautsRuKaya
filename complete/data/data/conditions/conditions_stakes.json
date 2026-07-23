@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "IsSTKTemplate_Fail_Cooldown",
+    "strNameFriendly": "STKTemplate Перезарядка после сбоя",
+    "strColor": "Neutral",
+    "strDesc": "[us] попытался выполнить STKTemplate и пока не может повторить попытку.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKTemplate_Fail_Avoid",
+    "strNameFriendly": "STKTemplate Мягкий сбой",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал мягкий сбой в STKTemplate, чтобы избежать жесткого сбоя, и пока не может использовать его снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKTemplate_Chitchat_Trait_Used",
+    "strNameFriendly": "STKTemplate Особенность светской беседы использована",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал особенность светской беседы в STKTemplate и пока не может использовать ее снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  }
+]

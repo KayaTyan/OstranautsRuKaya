@@ -1,0 +1,85 @@
+[
+  {
+    "strName": "PLOT_Ceres_StartTrigger1_Isambard",
+    "strTitle": "[us-contractIs] охвачен ностальгией по прошлому, которое [us] никогда не переживал.",
+    "strDesc": "[us-contractIs] охвачен ностальгией по прошлому, которое [us] никогда не переживал.",
+    "strActionGroup": "Use",
+    "bIgnoreFeelings": true,
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "TIsVideotape",
+    "nLogging": 1,
+    "strColor": "Dialogue",
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "TIsNavStation": "OKLG_Flot",
+    "aSocialNew": [
+      "Plot_Ceres_Smiley_Make",
+      "Plot_Ceres_Isambard_Make"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_AV_Club_Trigger",
+    "strTitle": "[us] вошёл в лабиринт зеркал.",
+    "strDesc": "[us] вошёл в лабиринт зеркал.",
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "TIsVideotape",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Trigger",
+    "strTitle": "[us] встретил эксцентричного учёного и узнал больше о странной технологии, способной переломить ход Прокси-войны на Церере.",
+    "strDesc": "[us] встретил эксцентричного учёного и узнал больше о странной технологии, способной переломить ход Прокси-войны на Церере.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Trigger",
+    "strTitle": "[us] начал выбирать сторону и тайно вмешиваться в Прокси-войну на Церере.",
+    "strDesc": "[us] начал выбирать сторону и тайно вмешиваться в Прокси-войну на Церере.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_System_For_Whom_Trigger",
+    "strTitle": "[us] начал материальную поддержку и саботаж в рамках Прокси-войны на Церере.",
+    "strDesc": "[us] начал оказывать материальную поддержку и саботаж в рамках Прокси-войны на Церере.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed"
+  },
+  {
+    "strName": "PLOT_Ceres_Valkyrie_Trigger",
+    "strTitle": "[us] начал собирать странную технологию, способную переломить ход Прокси-войны на Церере.",
+    "strDesc": "[us] начал собирать странную технологию, способную переломить ход Прокси-войны на Церере.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
+    "strTitle": "[us] применил мощную технологию и должен решить, кому она принадлежит, чтобы изменить судьбу Цереры и всей Системы.",
+    "strDesc": "[us] применил мощную технологию и должен решить, кому она достанется, чтобы изменить судьбу Цереры и всей Системы.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "nLogging": 1
+  }
+]

@@ -1,0 +1,449 @@
+[
+  {
+    "strName": "ItmKioskCargo01BCER",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (BCER)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderBCERCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01BCRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (BCRS)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderBCRSCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01EJDR",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (EJDR)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderEJDRCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01HQCH",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (HQCH)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderHQCHCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01JATL",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (JATL)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderJATLCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01JFTS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (JFTS)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderJFTSCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01JPTN",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (JPTN)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderJPTNCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01MHNG",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (MHNG)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderMHNGCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01MLAB",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (MLAB)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderMLABCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01MSUZ",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (MSUZ)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderMSUZCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01MTRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (MTRS)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderMTRSCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01MVOL",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (MVOL)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderMVOLCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01OKLG",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (OKLG)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderOKLGCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01OFLT",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (OFLT)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderOFLTCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01SVIR",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (SVIR)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderSVIRCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01VCBR",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (VCBR)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderVCBRCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01VENC",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (VENC)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderVENCCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01VNCA",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (VNCA)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderVNCACargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskCargo01VORB",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Грузовой терминал (VORB)",
+    "strCOBase": "ItmKioskCargo01",
+    "strCondLoot": "CNDOLKioskCargo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "BulkTrade",
+      "Panel Right",
+      "BulkTraderInventory",
+      "Trade",
+      "BulkTrade",
+      "Trader",
+      "TraderVORBCargoKiosk"
+    ]
+  },
+  {
+    "strName": "ItmKioskSupplies01BCRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал снабжения (BCRS)",
+    "strCOBase": "ItmKioskSupplies01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderChargenSupplyKioskBCRS"
+    ]
+  },
+  {
+    "strName": "ItmKioskSupplies01BCER",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал снабжения (BCER)",
+    "strCOBase": "ItmKioskSupplies01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderChargenSupplyKioskBCER"
+    ]
+  },
+  {
+    "strName": "ItmFactionKiosk01BCER",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал фракции (GalFed)",
+    "strCOBase": "ItmKioskGovt01",
+    "strCondLoot": "CNDOLKioskGovtGalileanConfederacy",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "FactionTrade",
+      "Trade",
+      "FactionTrade",
+      "Trader",
+      "TraderFactionKioskBCER"
+    ]
+  },
+  {
+    "strName": "ItmFactionKiosk01BCRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал фракции (CCRE)",
+    "strCOBase": "ItmKioskGovt01",
+    "strCondLoot": "CNDOLKioskGovtCCRE",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "FactionTrade",
+      "Trade",
+      "FactionTrade",
+      "Trader",
+      "TraderFactionKioskBCRS"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskBCER",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Киоск мебели (BCER)",
+    "strCOBase": "ItmKioskFurnishings01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderFurnishingsKioskBCER"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskBCRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Киоск мебели (BCRS)",
+    "strCOBase": "ItmKioskFurnishings01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderFurnishingsKioskBCRS"
+    ]
+  },
+  {
+    "strName": "ItmKioskTestudo01BCER",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Киоск Testudo (BCER)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий ошеломляющий ассортимент разнообразных потребительских товаров, охватывающий весь спектр брендированных предложений, производимых вездесущей мегакорпорацией.",
+    "strImg": "ItmKioskTestudo01",
+    "strPortraitImg": "ItmKioskTestudo01",
+    "strImgNorm": "ItmKioskHealth01n",
+    "strCOBase": "ItmKioskSupplies01",
+    "strCondLoot": "CNDOLKioskTestudo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderBCERKioskTSDO"
+    ]
+  },
+  {
+    "strName": "ItmKioskTestudo01BCRS",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Киоск Testudo (BCRS)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий ошеломляющий ассортимент разнообразных потребительских товаров, охватывающий весь спектр брендированных предложений, производимых вездесущей мегакорпорацией.",
+    "strImg": "ItmKioskTestudo01",
+    "strPortraitImg": "ItmKioskTestudo01",
+    "strImgNorm": "ItmKioskHealth01n",
+    "strCOBase": "ItmKioskSupplies01",
+    "strCondLoot": "CNDOLKioskTestudo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderBCRSKioskTSDO"
+    ]
+  }
+]

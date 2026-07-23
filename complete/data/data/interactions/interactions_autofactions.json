@@ -1,0 +1,200 @@
+[
+  {
+    "strName": "AF_BeltPirates",
+    "strTitle": "Проверка фракции BeltPirates",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BeltPirates"
+  },
+  {
+    "strName": "AF_BCERLEO",
+    "strTitle": "Проверка фракции CCRE LEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCERLEO"
+  },
+  {
+    "strName": "AF_BCRSLEO",
+    "strTitle": "Проверка фракции GalileanConfederacy LEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCRSLEO"
+  },
+  {
+    "strName": "AF_OKLGCiv",
+    "strTitle": "Проверка фракции OKLGCiv",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCiv"
+  },
+  {
+    "strName": "AF_OKLGCorp",
+    "strTitle": "Проверка фракции OKLGCorp",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCorp"
+  },
+  {
+    "strName": "AF_OKLGCrim",
+    "strTitle": "Проверка фракции OKLGCrim",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCrim"
+  },
+  {
+    "strName": "AF_OKLGFlotilla",
+    "strTitle": "Проверка фракции OKLGFlotilla",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGFlotilla"
+  },
+  {
+    "strName": "AF_OKLGLEO",
+    "strTitle": "Проверка фракции OKLGLEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGLEO"
+  },
+  {
+    "strName": "AF_OKLGPirates",
+    "strTitle": "Проверка фракции OKLGPirates",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGPirates"
+  },
+  {
+    "strName": "AF_OKLGScav",
+    "strTitle": "Проверка фракции OKLGScav",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGScav"
+  },
+  {
+    "strName": "AF_VCBRCiv",
+    "strTitle": "Проверка фракции VCBRCiv",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VCBRCiv"
+  },
+  {
+    "strName": "AF_VCBRLEO",
+    "strTitle": "Проверка фракции VCBRLEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VCBRLEO"
+  },
+  {
+    "strName": "AF_VENCCiv",
+    "strTitle": "Проверка фракции VENCCiv",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VENCCiv"
+  },
+  {
+    "strName": "AF_VENCLEO",
+    "strTitle": "Проверка фракции VENCLEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VENCLEO"
+  },
+  {
+    "strName": "AF_VenusCrim",
+    "strTitle": "Проверка фракции VenusCrim",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VenusCrim"
+  },
+  {
+    "strName": "AF_VenusPirates",
+    "strTitle": "Проверка фракции Venus Pirates",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VenusPirates"
+  },
+  {
+    "strName": "AF_VNCACiv",
+    "strTitle": "Проверка фракции VNCACiv",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VNCACiv"
+  },
+  {
+    "strName": "AF_VNCALEO",
+    "strTitle": "Проверка фракции VNCALEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VNCALEO"
+  }
+]

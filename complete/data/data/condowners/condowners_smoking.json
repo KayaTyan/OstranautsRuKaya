@@ -1,0 +1,824 @@
+[
+  {
+    "strName": "ItmCigViceroyBox01",
+    "strNameShort": "Коробка сигарет",
+    "strNameFriendly": "Коробка сигарет Viceroy",
+    "strDesc": "Пачка сигарет марки Viceroy, 20 штук.",
+    "strItemDef": "ItmCigViceroyBox01Empty",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "Inventory",
+      "DrawCig",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsUnfiltered=1.0x1",
+      "IsContainer=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1",
+      "StatBasePrice=1.0x1.0",
+      "StatMass=1.0x0.025",
+      "StatDamageMax=1.0x2",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerPartsSmall",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "mapAltItemDefs": [
+      "IsSolid",
+      "ItmCigViceroyBox01"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigViceroyBox01Empty",
+    "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigViceroy01",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигареты Viceroy",
+    "strDesc": "Сигарета бренда Viceroy.\n\nБез фильтра и жесткая, предпочтительный бренд для тех, кто желает сырого вкуса после тяжелой смены.\n\n«Слаще кислорода».",
+    "strItemDef": "ItmCigViceroy01",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 20,
+    "aInteractions": [
+      "EquipItem",
+      "ACTLightCig",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsUnfiltered=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsNicotine=1.0x1",
+      "IsDrug=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x5.0",
+      "StatMass=1.0x0.005",
+      "StatDamageMax=1.0x1",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigViceroy01",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigViceroy01",
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigViceroy01Lit",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигарета Viceroy (зажжена)",
+    "strDesc": "Сигарета бренда Viceroy.\n\nБез фильтра и жесткая, предпочтительный бренд для тех, кто желает сырого вкуса после тяжелой смены.\n\n«Слаще кислорода».",
+    "strItemDef": "ItmCigViceroy01Lit",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "ACTSmokeCig",
+      "ACTSnuffCig",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsIgniter=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsUnfiltered=1.0x1",
+      "IsNicotine=1.0x1",
+      "IsDrug=1.0x1",
+      "IsLit=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.001",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.000001",
+      "StatHeatVol=1.0x0.1",
+      "StatSolidTemp=1.0x400.0",
+      "StatDamageMax=1.0x1.0",
+      "StatNicotineUsedMax=1.0x1.0",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands": [
+      "GasRespire2,Cigarette01,null",
+      "Heater,TIsAirtightNoHuman",
+      "Destructable,StatNicotineUsed,ACTCigToStub,StatNicotineUsedMax,1.0"
+    ],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigViceroy01Lit",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigViceroy01Lit",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "aTickers": [
+      "CigBurning"
+    ],
+    "strAudioEmitter": "",
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigViceroyBox02",
+    "strNameShort": "Коробка сигарет",
+    "strNameFriendly": "Коробка ментоловых сигарет Viceroy",
+    "strDesc": "Пачка сигарет бренда Viceroy со вкусом ментола, 20 штук, для более чистого горения.\n\nТезисный красный кролик украшает лицевую сторону в классической позе салюта, которую используют космонавты для сигнала о перерыве.\n\n«Слаще кислорода».",
+    "strItemDef": "ItmCigViceroyBox02Empty",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "Inventory",
+      "DrawCig",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsMenthol=1.0x1",
+      "IsContainer=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1",
+      "StatBasePrice=1.0x1.0",
+      "StatMass=1.0x0.025",
+      "StatDamageMax=1.0x2",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerPartsSmall",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "mapAltItemDefs": [
+      "IsSolid",
+      "ItmCigViceroyBox02"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigViceroyBox02Empty",
+    "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigViceroy02",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Ментоловая сигарета Viceroy",
+    "strDesc": "Сигарета бренда Viceroy со вкусом ментола, для более чистого горения.\n\nСлегка отфильтрованный и гигиенически замаскированный вкус предпочтительного бренда для тех, кто желает сырого вкуса после тяжелой смены.\n\n«Вдвое меньше сажи, дважды салют».",
+    "strItemDef": "ItmCigViceroy02",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 20,
+    "aInteractions": [
+      "EquipItem",
+      "ACTLightCig",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsMenthol=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsNicotine=1.0x1",
+      "IsDrug=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x7.0",
+      "StatMass=1.0x0.005",
+      "StatDamageMax=1.0x1",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigViceroy02",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigViceroy02",
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigViceroy02Lit",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Ментоловая сигарета Viceroy (зажжена)",
+    "strDesc": "Сигарета бренда Viceroy со вкусом ментола, для более чистого домашнего очага.\n\nСлегка отфильтрованный и гигиенически замаскированный вкус предпочтительного бренда для тех, кто желает сырого вкуса после тяжелой смены.\n\n«Слаще кислорода».",
+    "strItemDef": "ItmCigViceroy02Lit",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "ACTSmokeCig",
+      "ACTSnuffCig",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsIgniter=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsViceroy=1.0x1",
+      "IsMenthol=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsNicotine=1.0x1",
+      "IsDrug=1.0x1",
+      "IsLit=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.001",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.000001",
+      "StatHeatVol=1.0x0.1",
+      "StatSolidTemp=1.0x400.0",
+      "StatDamageMax=1.0x1.0",
+      "StatNicotineUsedMax=1.0x1.0",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [
+      "GasRespire2,Cigarette01,null",
+      "Destructable,StatNicotineUsed,ACTCigToStub,StatNicotineUsedMax,1.0"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "HeaterItemGeneric"
+    ],
+    "strPortraitImg": "ItmCigViceroy02Lit",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigViceroy02Lit",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "aTickers": [
+      "CigBurning"
+    ],
+    "strAudioEmitter": "",
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigDamaskRoseBox01",
+    "strNameShort": "Коробка сигарет",
+    "strNameFriendly": "Коробка сигарет «Дамасская роза»",
+    "strDesc": "Пачка сигарет Damask Rose, 10 штук, от The Green Energy Company, базирующейся в Rosebud на Tharsis Landing.\n\nЗнаменитый психоделический розово-аквамариновый цветочный дизайн ведущего продукта сорта сативы в системе украшает лицевую сторону.\n\n«Выкури розу».",
+    "strItemDef": "ItmCigDamaskRoseBox01Empty",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "Inventory",
+      "DrawCig",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsDamaskRose=1.0x1",
+      "IsGEC=1.0x1",
+      "IsContainer=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1",
+      "StatBasePrice=1.0x1.0",
+      "StatMass=1.0x0.025",
+      "StatDamageMax=1.0x2",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerPartsSmall",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
+    ],
+    "mapAltItemDefs": [
+      "IsSolid",
+      "ItmCigDamaskRoseBox01"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigDamaskRoseBox01Empty",
+    "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigDamaskRose01",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигарета «Дамасская роза»",
+    "strDesc": "Сигарета Damask Rose.\n\nВедущий бренд марихуаны за пределами мира благодаря своей истории, качеству и доступности. Чистый сорт сативы, выведенный для суровых условий выращивания.\n\n«Цветок Оазиса».",
+    "strItemDef": "ItmCigDamaskRose01",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 10,
+    "aInteractions": [
+      "EquipItem",
+      "ACTLightCig",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsDamaskRose=1.0x1",
+      "IsGEC=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsCannabis=1.0x1",
+      "IsDrug=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15.0",
+      "StatMass=1.0x0.005",
+      "StatDamageMax=1.0x1",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigDamaskRose01",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigDamaskRose01",
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigDamaskRose01Lit",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигарета «Дамасская роза» (зажжена)",
+    "strDesc": "Сигарета Damask Rose.\n\nВедущий бренд марихуаны за пределами мира благодаря своей истории, качеству и доступности. Чистый сорт сативы, выведенный для суровых условий выращивания.\n\n«Унесись прочь».",
+    "strItemDef": "ItmCigDamaskRose01Lit",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "ACTSmokeCig",
+      "ACTSnuffCig",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsIgniter=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsDamaskRose=1.0x1",
+      "IsGEC=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsCannabis=1.0x1",
+      "IsDrug=1.0x1",
+      "IsLit=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.001",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.000001",
+      "StatHeatVol=1.0x0.1",
+      "StatSolidTemp=1.0x400.0",
+      "StatDamageMax=1.0x1.0",
+      "StatCannabisUsedMax=1.0x1.0",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [
+      "GasRespire2,Cigarette01,null",
+      "Destructable,StatCannabisUsed,ACTCigToStub,StatCannabisUsedMax,1.0"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "HeaterItemGeneric"
+    ],
+    "strPortraitImg": "ItmCigDamaskRose01Lit",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigDamaskRose01Lit",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "aTickers": [
+      "CigCannabisBurning"
+    ],
+    "strAudioEmitter": "",
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigUnicornDreamBox01",
+    "strNameShort": "Коробка сигарет",
+    "strNameFriendly": "Коробка сигарет «Сон единорога»",
+    "strDesc": "Пачка сигарет Unicorn Dream на 10 штук от The Green Energy Company, базирующейся в Rosebud на Tharsis Landing.\n\nБолее приземленный вариант знаменитого цветочного дизайна Damask Rose украшает лицевую сторону, а более пышные листья указывают на содержание продукта из сорта индики.\n\n\"Мифический дрейф.\"",
+    "strItemDef": "ItmCigUnicornDreamBox01Empty",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "Inventory",
+      "DrawCig",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsUnicornDream=1.0x1",
+      "IsGEC=1.0x1",
+      "IsContainer=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1",
+      "StatBasePrice=1.0x1.0",
+      "StatMass=1.0x0.025",
+      "StatDamageMax=1.0x2",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerPartsSmall",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
+    ],
+    "mapAltItemDefs": [
+      "IsSolid",
+      "ItmCigUnicornDreamBox01"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigUnicornDreamBox01Empty",
+    "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigUnicornDream01",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигарета «Сон единорога»",
+    "strDesc": "Сигарета Unicorn Dream.\n\nСестринский сорт ведущего бренда марихуаны за пределами мира благодаря истории, качеству и доступности. Чистый сорт индики, выведенный для суровых условий выращивания.\n\n\"Лист мечты.\"",
+    "strItemDef": "ItmCigUnicornDream01",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 10,
+    "aInteractions": [
+      "EquipItem",
+      "ACTLightCig",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsUnicornDream=1.0x1",
+      "IsGEC=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsCannabis=1.0x1",
+      "IsDrug=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15.0",
+      "StatMass=1.0x0.005",
+      "StatDamageMax=1.0x1",
+      "IsCategoryIntoxicants=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigUnicornDream01",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigUnicornDream01",
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigUnicornDream01Lit",
+    "strNameShort": "Сигарета",
+    "strNameFriendly": "Сигарета «Сон единорога» (зажжена)",
+    "strDesc": "Сигарета Unicorn Dream.\n\nСестринский сорт ведущего бренда марихуаны за пределами мира благодаря истории, качеству и доступности. Чистый сорт индики, выведенный для суровых условий выращивания.\n\n\"Гонись за мечтой.\"",
+    "strItemDef": "ItmCigUnicornDream01Lit",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "ACTSmokeCig",
+      "ACTSnuffCig",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsIgniter=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsUnicornDream=1.0x1",
+      "IsGEC=1.0x1",
+      "IsCigarette=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsCannabis=1.0x1",
+      "IsDrug=1.0x1",
+      "IsLit=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.001",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.000001",
+      "StatHeatVol=1.0x0.1",
+      "StatSolidTemp=1.0x400.0",
+      "StatDamageMax=1.0x1.0",
+      "StatCannabisUsedMax=1.0x1.0",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands": [
+      "GasRespire2,Cigarette01,null",
+      "Destructable,StatCannabisUsed,ACTCigToStub,StatCannabisUsedMax,1.0"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "HeaterItemGeneric"
+    ],
+    "strPortraitImg": "ItmCigUnicornDream01Lit",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigUnicornDream01Lit",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "aTickers": [
+      "CigCannabisBurning"
+    ],
+    "strAudioEmitter": "",
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmCigStub",
+    "strNameShort": "Окурок",
+    "strNameFriendly": "Окурок",
+    "strDesc": "Сигаретный окурок. Пепел и пожелтевшая бумага.",
+    "strItemDef": "ItmCigStub",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 3,
+    "aInteractions": [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsBurnable=1.0x1.0",
+      "IsFlammable=1.0x1.0",
+      "IsIgniter=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsStub=1.0x1.0",
+      "IsPartsSmall=1.0x1",
+      "IsTrash=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.0002",
+      "StatDamageMax=1.0x1",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigaretteButts",
+    "mapSlotEffects": [
+      "head_in",
+      "head_inCigStub",
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "Plot_Whodunnit_VictimDNA",
+    "strNameFriendly": "Биологические образцы жертвы",
+    "strNameShort": "Образцы ДНК",
+    "strDesc": "Образцы волос, кожи и других биоматериалов с тела жертвы.",
+    "strItemDef": "ItmCigStub",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 3,
+    "aInteractions": [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsPartsSmall=1.0x1",
+      "IsTrash=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "Plot_Whodunnit_ClueFromVictim=1.0x1",
+      "StatBasePrice=1.0x0.1",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.0002",
+      "StatDamageMax=1.0x1",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmCigaretteButts",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmHygieneWipes01",
+    "strNameShort": "Набор для гигиены",
+    "strNameFriendly": "Набор для гигиены",
+    "strDesc": "Набор личной гигиены, стандартный расходный комплект с предметами для чистоты и ухода за собой в условиях невесомости.\n\nНаряду с влажными салфетками общего назначения, содержимое комплекта обычно включает мыло, принадлежности для бритья, дезодорант, а упаковка отчасти выполняет роль одноразового гребня/щетки для волос. В дорогие (Luxe) комплекты также могут входить зубная нить, бальзам для губ, крем для кожи, кусачки для ногтей, маска для сна и беруши.\n\nКосмонавты часто пополняют запасы из предпочитаемых или доступных брендов.",
+    "strItemDef": "ItmHygieneWipes01",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 10,
+    "aInteractions": [
+      "SeekHygiene",
+      "SeekHygieneLowNeed",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsAbsorbent=1.0x2.0",
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsSheet=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsHygieneItem=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1",
+      "StatBasePrice=1.0x80.0",
+      "StatMass=1.0x0.01",
+      "StatDamageMax=1.0x1.0",
+      "IsCategoryMedical=1.0x1"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultExtraFragile",
+      "Normal",
+      "WearAndTearDefault"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "ItmHygieneWipes01",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "strAudioEmitter": "ItmDrinkPouch01Sound"
+  }
+]

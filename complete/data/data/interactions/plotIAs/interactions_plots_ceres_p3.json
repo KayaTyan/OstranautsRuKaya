@@ -1,0 +1,352 @@
+[
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
+    "strTitle": "Взломать правительственные архивы",
+    "strDesc": "[us] взламывает [them] в поисках записей местного правительства, конкретно — данных о научных инженерных проектах с использованием золота.",
+    "fDuration": 0.005,
+    "bIgnoreFeelings": true,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
+    "CTTestThem": "TIsTerminal01Installed",
+    "strActionGroup": "Use",
+    "aInverse": [
+      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply"
+    ],
+    "ShipTestThem": "BCER"
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply",
+    "strDesc": "[them] использует терминал, чтобы найти многообещающие исследовательские меморандумы через доступ к местным властям: отчёты о прогрессе, отправленные между местными исследовательскими группами Мохаве и высокопоставленными дипломатами сети Титана. Верхушка крайне заинтересована в происходящем здесь. Но почему? ",
+    "bIgnoreFeelings": true,
+    "fDuration": 0.0005,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 1,
+    "strAnim": "Tablet",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword",
+    "strTitle": "Сбросить пароль Титана",
+    "strDesc": "[us] незаметно вставляет кодовое слово «helix» в разговор, чтобы посмотреть на реакцию [them].",
+    "fTargetPointRange": 2,
+    "strActionGroup": "Talk",
+    "nLogging": 1,
+    "bIgnoreFeelings": true,
+    "bSocial": true,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
+      "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Fail"
+    ],
+    "LootCondsUs": "",
+    "CTTestUs": "",
+    "CTTestThem": "TIsNotPlayerAwake",
+    "strThemType": "Other"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
+    "strDesc": "[us] замечает кодовое слово [them] и тонко отвечает своим кодовым словом.",
+    "LootCondsUs": "CONDPLOT_Ceres_Titan_Agent",
+    "fTargetPointRange": 2,
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "fForcedChance": 0.5,
+    "strAnim": "Talk",
+    "CTTestUs": "TIsGalConAgent"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Fail",
+    "strDesc": "[us] никак не реагирует на кодовое слово, незаметно брошенное [them].",
+    "fTargetPointRange": 2,
+    "fForcedChance": 0.5,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsThem": "CONDPLOT_Ceres_Titan_Codeword_Fail_Player"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword",
+    "strTitle": "Сбросить пароль Xinhua",
+    "strDesc": "[us] незаметно вставляет кодовое слово «nightshade» в разговор, чтобы проверить реакцию [them].",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "bIgnoreFeelings": true,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
+      "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail"
+    ],
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "nLogging": 1,
+    "fForcedChance": 1,
+    "CTTestThem": "TIsNotPlayerAwake"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail",
+    "strDesc": "[us] никак не реагирует на кодовое слово, незаметно брошенное [them].",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsThem": "CONDPLOT_Ceres_Xinhua_Codeword_Fail_Player"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
+    "strDesc": "[us] замечает кодовое слово [them] и тонко отвечает своим кодовым словом.",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Xinhua_Agent",
+    "CTTestUs": "TIsXinhuaAgent"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup",
+    "strTitle": "Проверить стаканчик из-под кофе",
+    "strDesc": "[us] заглядывает под брошенный стаканчик из-под кофе рядом с [them] и находит маленькую сложенную записку, приклеенную снизу.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Xinhua",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua",
+    "strTitle": "Прочитать инструкции по тайникам",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
+      "ENCFinish",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return"
+    ],
+    "strDesc": "Тайников много. Какое задание хотите взять?",
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
+    "strTitle": "Мокрое дело",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Принять",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Deny"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Принять",
+    "strTitle": "Мокрое дело Принять",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Wetwork_Xinhua_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Deny",
+    "strTitle": "Мокрое дело Deny",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Xinhua",
+    "strTitle": "Отравить агента",
+    "strDesc": "[us] незаметно вводит нейротоксин в тело [them].",
+    "CTTestThem": "CTPlot_Ceres_Dead_Drop_Wetwork_Can_Poison_Xinhua",
+    "LootCondsThem": "CONDPlot_Ceres_Poisoned_To_Death",
+    "LootCondsUs": "CONDPlot_Ceres_Wetwork_Success_Xinhua",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua",
+    "strActionGroup": "Use",
+    "strThemType": "Other"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
+    "strTitle": "Дебрифинг успешного мокрого дела",
+    "strDesc": "[us] записывает дебрифинг успешного мокрого дела.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Xinhua_Success",
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Xinhua_Success"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter",
+    "strTitle": "Проверить тайник",
+    "strDesc": "[us] проверяет местонахождение тайника Титана.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Titan",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan",
+    "strTitle": "Прочитать инструкции по тайникам",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+      "ENCFinish"
+    ],
+    "strDesc": "Тайников много. Какое задание хотите взять?",
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
+    "strTitle": "Мокрое дело",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Принять",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Deny"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Принять",
+    "strTitle": "Мокрое дело Принять",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Wetwork_Titan_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Titan"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Deny",
+    "strTitle": "Мокрое дело Deny",
+    "strDesc": "Это мокрое дело. Принять?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan",
+    "strTitle": "Отравить агента",
+    "strDesc": "[us] незаметно вводит нейротоксин в тело [them].",
+    "LootCondsThem": "CONDPlot_Ceres_Poisoned_To_Death",
+    "LootCondsUs": "CONDPlot_Ceres_Wetwork_Success_Titan",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan",
+    "CTTestThem": "CTPlot_Ceres_Dead_Drop_Wetwork_Can_Poison_Titan",
+    "strActionGroup": "Use",
+    "strThemType": "Other"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+    "strTitle": "Дебрифинг успешного мокрого дела",
+    "strDesc": "[us] записывает дебрифинг успешного мокрого дела.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Titan_Success",
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Titan_Success"
+  }
+]

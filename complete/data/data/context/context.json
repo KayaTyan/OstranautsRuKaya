@@ -1,0 +1,27 @@
+﻿[
+  {
+    "strName": "ACTFixerEntryUs",
+    "strTitle": "Решала",
+    "strMainText": "Convince The Fixer to give you access to the black market."
+  },
+  {
+    "strName": "ACTPortAuthorityEntryUs",
+    "strTitle": "Портовая администрация",
+    "strMainText": "Convince the clerk to let your docking fees slide this time."
+  },
+  {
+    "strName": "ACTPoliceShakedownThem",
+    "strTitle": "Полицейский рэкет",
+    "strMainText": "Convince the cops to let you go about your business, or at least minimize your fine."
+  },
+  {
+    "strName": "ACTSTKFollowThem",
+    "strTitle": "Отслеживание ставок",
+    "strMainText": "Convince them to follow you."
+  },
+  {
+    "strName": "ACTSTKTemplateThem",
+    "strTitle": "Просить об одолжении",
+    "strMainText": "Convince them to do a favor for you."
+  }
+]

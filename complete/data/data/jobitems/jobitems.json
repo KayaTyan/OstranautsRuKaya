@@ -1,0 +1,99 @@
+[
+  {
+    "strName": "BottleBismertnayaFull",
+    "strFriendlyName": "компьютер с продвинутым ИИ",
+    "strLootPickup": "ItmDrinkVodkaNew",
+    "aCTsDeliver": [
+      "TIsBismertnayaBottle=1.0x1",
+      "TIsBismertnayaVodka=1.0x14"
+    ]
+  },
+  {
+    "strName": "AIPowerItem",
+    "strFriendlyName": "взломанный узел Ubiq WISP",
+    "strLootPickup": "ItmAICargo01Loose",
+    "aCTsDeliver": [
+      "TIsAICargo01Uninstalled=1.0x1"
+    ]
+  },
+  {
+    "strName": "HackedUbiqWISP",
+    "strFriendlyName": "блок электрического щита стороннего производителя",
+    "strLootPickup": "ItmUbiqWISPNode01HackedNew",
+    "aCTsDeliver": [
+      "TIsUbiqWISPNode01Hacked=1.0x1"
+    ]
+  },
+  {
+    "strName": "ElectricalBox01LooseAftermarket",
+    "strFriendlyName": "левосторонний лазерный резак",
+    "strLootPickup": "ItmElectricalBox01Loose",
+    "aCTsDeliver": [
+      "TIsElectricalBox01Uninstalled=1.0x1"
+    ]
+  },
+  {
+    "strName": "LefthandLaserTorch",
+    "strFriendlyName": "прототип воздухозаборника RCS",
+    "strLootPickup": "ItmToolLaserTorch01",
+    "aCTsDeliver": [
+      "TIsToolLaserTorch=1.0x1"
+    ]
+  },
+  {
+    "strName": "PrototypeRCS",
+    "strFriendlyName": "проклятый фиолетовый комбинезон",
+    "strLootPickup": "ItmRCSDistro01Loose",
+    "aCTsDeliver": [
+      "TIsRCSDistro01Uninstalled=1.0x1"
+    ]
+  },
+  {
+    "strName": "PurpleJumpsuit",
+    "strFriendlyName": "прототип формулы Holden Patch",
+    "strLootPickup": "OutfitSuit07",
+    "aCTsDeliver": [
+      "TIsCursedJumpsuit=1.0x1"
+    ]
+  },
+  {
+    "strName": "PrototypeHoldenPatch",
+    "strFriendlyName": "прототип формулы Holden Patch",
+    "strLootPickup": "ItmHullPatch01x1",
+    "aCTsDeliver": [
+      "TIsHullPatch=1.0x1"
+    ]
+  },
+  {
+    "strName": "PartScreenSpecialOrder",
+    "strFriendlyName": "экран для замены по специальному заказу",
+    "strLootPickup": "ItmPartsScreen01",
+    "aCTsDeliver": [
+      "TIsScreen=1.0x1"
+    ]
+  },
+  {
+    "strName": "ScrapClothCleanBandages",
+    "strFriendlyName": "партия стерильных бинтов",
+    "strLootPickup": "ItmScrapClothCleanx10",
+    "aCTsDeliver": [
+      "TIsScrapClothClean=1.0x10"
+    ]
+  },
+  {
+    "strName": "Switch01LooseYoruba",
+    "strFriendlyName": "переключатель с маркировкой на языке йоруба",
+    "strLootPickup": "ItmSwitch01Loose",
+    "aCTsDeliver": [
+      "TIsSwitch01Uninstalled=1.0x1"
+    ]
+  },
+  {
+    "strName": "UsedSalvageLicense",
+    "strFriendlyName": "использованная лицензия мусорщика",
+    "strLootPickup": "ItmDocumentPermitOKLG01Used",
+    "aCTsDeliver": [
+      "TIsOKLGPermitUsed=1.0x1"
+    ]
+  }
+]

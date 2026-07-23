@@ -1,0 +1,16 @@
+# Build artifacts
+*.dll
+*.pdb
+
+# Keep DLL in BepInEx/plugins (pre-built)
+!BepInEx/plugins/*.dll
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
