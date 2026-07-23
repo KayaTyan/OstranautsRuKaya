@@ -1096,7 +1096,7 @@ namespace OstranautsRuKaya
             {"Are you sure you want to quit to desktop?", "Вы уверены, что хотите выйти в Windows?"},
             {"Aux Dock ID:", "Доп. ID стыковки:"},
             {"BACKUP POWER:", "РЕЗЕРВ ПИТАНИЯ:"},
-            {"BRG -", "ПЕЛЕНГ -"},
+            {"BRG -", "АЗИМУТ -"},
             {"Boarding", "Абордаж"},
             {"Body Temp", "Темп. тела"},
             {"Bribe Amount: $", "Размер взятки: $"},
@@ -1448,9 +1448,6 @@ namespace OstranautsRuKaya
             {"CLEARANCE", "ДОПУСК"},
             {"ATC Regional Control", "АТС Рег. контр."},
             {"SENSORS:", "СЕНСОРЫ:"},
-
-            // ─── NavMod prefab labels (caught by periodic scanner only) ───
-            {"BRG -", "АЗИМУТ -"},
      };
 
         internal static string TranslateString(string value)
