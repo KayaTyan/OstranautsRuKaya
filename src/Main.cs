@@ -1042,7 +1042,7 @@ namespace OstranautsRuKaya
             {"AFT", "КОРМА"},
             {"ALL CLEAR: Closest approach to", "ВСЕ ЧИСТО: Ближайшее сближение с"},
             {"ARS 2000 - Automated Response Service", "ARS 2000 - Автоответчик"},
-            {"ATC CHANNEL:", "КАНАЛ АТС:"},
+            {"ATC CHANNEL:", "КАНАЛ ATC:"},
             {"ATC Regional Control -", "Региональный АТС -"},
             {"AUTO", "АВТО"},
             {"AUTOMATIC", "АВТОМАТИЧ."},
@@ -1081,7 +1081,7 @@ namespace OstranautsRuKaya
             {"Collect Pressure Suit and Helmet", "Взять скафандр и шлем"},
             {"Comms", "Связь"},
             {"Compartment", "Отсек"},
-            {"Connected with", "Подключён к"},
+            {"Connected with", "СОЕДИН. С"},
             {"Connecting..", "Подключение.."},
             {"Container", "Контейнер"},
             {"Continue To Your Ship", "Продолжить к своему кораблю"},
@@ -1405,8 +1405,9 @@ namespace OstranautsRuKaya
             {"M/S", "М/С"},
             {"NO CLEARANCE", "НЕТ ДОПУСКА"},
             {"CLEARANCE", "ДОПУСК"},
-
-        };
+            {"ATC Regional Control", "ATC Регион. контроль"},
+            {"SENSORS:", "СЕНСОРЫ:"},
+    };
 
         internal static string TranslateString(string value)
         {
