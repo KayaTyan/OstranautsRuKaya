@@ -13,6 +13,9 @@ using Ostranauts.Core.Tutorials;
 using Ostranauts.Objectives;
 using Ostranauts.ShipGUIs.MFD;
 
+using Ostranauts.Ships.Commands;
+using Ostranauts.ShipGUIs.NavStation;
+using Ostranauts.Ships;
 namespace OstranautsRuKaya
 {
     [BepInPlugin("ru.kaya.ostranautsrukaya", "OstranautsRuKaya", "1.0.0")]
@@ -612,4 +615,986 @@ namespace OstranautsRuKaya
             }
         }
     }
+
+    // ─── Tutorial/Objective HUD patches ───
+
+    [HarmonyPatch(typeof(CollectEquipment), "get_ObjectiveName")]
+    public static class Patch_CollectEquipment_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Взять скафандр и шлем";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(CrowbarHallway3), "get_ObjectiveDescComplete")]
+    public static class Patch_CrowbarHallway3_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Любопыт. удовлетворено.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(CrowbarHallway4), "get_ObjectiveName")]
+    public static class Patch_CrowbarHallway4_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Исследовать дальше";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(CrowbarHallway5), "get_ObjectiveDescComplete")]
+    public static class Patch_CrowbarHallway5_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Гражданский долг выполнен.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(DeployLeo), "get_ObjectiveName")]
+    public static class Patch_DeployLeo_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Развернуть полицию";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(DismissNote), "get_ObjectiveName")]
+    public static class Patch_DismissNote_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Убрать записку";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(DismissNote), "get_ObjectiveDescComplete")]
+    public static class Patch_DismissNote_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Памятка убрана";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(DockWithDerelict), "get_ObjectiveName")]
+    public static class Patch_DockWithDerelict_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Стыковаться с брошенным кораблём";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(DockWithDerelict), "get_ObjectiveDescComplete")]
+    public static class Patch_DockWithDerelict_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Успешная стыковка.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(Dodge), "get_ObjectiveName")]
+    public static class Patch_Dodge_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Уклонение от угрозы";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(ExpandMTT), "get_ObjectiveName")]
+    public static class Patch_ExpandMTT_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Развернуть подсказку";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(ExploreTutorialDerelict), "get_ObjectiveName")]
+    public static class Patch_ExploreTutorialDerelict_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Исследовать брошенный корабль";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(FlyTo), "get_ObjectiveName")]
+    public static class Patch_FlyTo_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Расчёт координат цели";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(FlyToPath), "get_ObjectiveName")]
+    public static class Patch_FlyToPath_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Расчёт координат цели";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(GainClearance), "get_ObjectiveName")]
+    public static class Patch_GainClearance_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Получить допуск к стыковке";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(GainClearance), "get_ObjectiveDescComplete")]
+    public static class Patch_GainClearance_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Допуск к стыковке получен.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(HallwayConduit7), "get_ObjectiveName")]
+    public static class Patch_HallwayConduit7_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Обыскать стойку";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(HallwayConduit9), "get_ObjectiveName")]
+    public static class Patch_HallwayConduit9_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Продолжить к своему кораблю";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(HelmetAtmosphereUnsafe), "get_ObjectiveName")]
+    public static class Patch_HelmetAtmosphereUnsafe_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Атмосфера в шлеме небезопасна";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(MatchSpeed), "get_ObjectiveDescComplete")]
+    public static class Patch_MatchSpeed_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Синхр. скорости переключена.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(NavUseShow), "get_ObjectiveName")]
+    public static class Patch_NavUseShow_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Исп. навиг. станцию";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(NavWalk), "get_ObjectiveName")]
+    public static class Patch_NavWalk_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Посетить свой корабль";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(PayDockingFee), "get_ObjectiveName")]
+    public static class Patch_PayDockingFee_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Оплатить стык. сбор";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(PayDockingFee), "get_ObjectiveDescComplete")]
+    public static class Patch_PayDockingFee_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Стыковочные сборы оплачены.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(PrepareToExploreDerelict), "get_ObjectiveName")]
+    public static class Patch_PrepareToExploreDerelict_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Надеть скафандр";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(ReachBridgeTest), "get_ObjectiveName")]
+    public static class Patch_ReachBridgeTest_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Доступ к мостику";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(RefuelAtKiosk), "get_ObjectiveDescComplete")]
+    public static class Patch_RefuelAtKiosk_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Корабль заправлен.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(RequestClearance), "get_ObjectiveName")]
+    public static class Patch_RequestClearance_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Запросить допуск к расстыковке";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(RestoreNavStation), "get_ObjectiveName")]
+    public static class Patch_RestoreNavStation_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Восстановить навиг. станцию";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(RosterPermission), "get_ObjectiveName")]
+    public static class Patch_RosterPermission_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Изменить права экипажа";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(SelectCompartment), "get_ObjectiveName")]
+    public static class Patch_SelectCompartment_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Проверить атмосферу отсека";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(SellSalvageAtKiosk), "get_ObjectiveDescComplete")]
+    public static class Patch_SellSalvageAtKiosk_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Продажа утиля завершена.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(SwitchNav), "get_ObjectiveName")]
+    public static class Patch_SwitchNav_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Перейти к экрану навигации";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(SwitchNav), "get_ObjectiveDescComplete")]
+    public static class Patch_SwitchNav_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Переключено на экран навигации.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(TargetDerelict), "get_ObjectiveName")]
+    public static class Patch_TargetDerelict_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Цель: ближайший брошенный корабль";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(TargetOKLG), "get_ObjectiveName")]
+    public static class Patch_TargetOKLG_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Цель: станция K-LEG";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(ToggleOffMatchSpeed), "get_ObjectiveDescComplete")]
+    public static class Patch_ToggleOffMatchSpeed_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Синхр. скорости переключена.";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(TravelToDerelict), "get_ObjectiveName")]
+    public static class Patch_TravelToDerelict_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Двигаться до зоны стыковки";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(TutorialEnd), "get_ObjectiveName")]
+    public static class Patch_TutorialEnd_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Обучение завершено";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(TutorialStub), "get_ObjectiveName")]
+    public static class Patch_TutorialStub_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Заглушка обучения";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(UnpaidDockingFees), "get_ObjectiveName")]
+    public static class Patch_UnpaidDockingFees_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Неоплаченные сборы";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(UnpaidDockingFees), "get_ObjectiveDescComplete")]
+    public static class Patch_UnpaidDockingFees_ObjectiveDescComplete
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Стыковочные сборы оплачены!";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(UnpauseWorld), "get_ObjectiveName")]
+    public static class Patch_UnpauseWorld_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Снять с паузы";
+            return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(VisualisePower), "get_ObjectiveName")]
+    public static class Patch_VisualisePower_ObjectiveName
+    {
+        static bool Prefix(ref string __result)
+        {
+            __result = "Визуализация энергосети";
+            return false;
+        }
+    }
+    // ─── Additional MFD patches ───
+
+    // ─── MFD HUD Labels: Additional patches ───
+
+    // MFDWeaponSelect: translate HOLD BUTTON text and direction names
+    [HarmonyPatch(typeof(MFDWeaponSelect), "get_HoldButton")]
+    public static class Patch_MFDWeaponSelect_HoldButton
+    {
+        static void Postfix(ref string __result)
+        {
+            if (__result == "HOLD BUTTON FOR WEAPON MENU") __result = "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ";
+        }
+    }
+
+    // MFDWeaponSelect: patch _directionDict in constructor
+    [HarmonyPatch(typeof(MFDWeaponSelect), ".ctor")]
+    public static class Patch_MFDWeaponSelect_Ctor
+    {
+        static void Postfix(MFDWeaponSelect __instance)
+        {
+            try
+            {
+                var dictField = AccessTools.Field(typeof(MFDWeaponSelect), "_directionDict");
+                var dict = dictField?.GetValue(__instance) as Dictionary<int, string>;
+                if (dict != null)
+                {
+                    var keys = new List<int>(dict.Keys);
+                    foreach (var key in keys)
+                    {
+                        if (dict[key] == "FORWARD") dict[key] = "НОС";
+                        else if (dict[key] == "PORT") dict[key] = "ЛЕВЫЙ БОРТ";
+                        else if (dict[key] == "AFT") dict[key] = "КОРМА";
+                        else if (dict[key] == "STARBOARD") dict[key] = "ПРАВЫЙ БОРТ";
+                    }
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDWeaponDetails: RebuildMenu
+    [HarmonyPatch(typeof(MFDWeaponDetails), "RebuildMenu")]
+    public static class Patch_MFDWeaponDetails_RebuildMenu
+    {
+        static void Postfix(MFDWeaponDetails __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "<APPLIED", "<ПРИМЕНЕНО");
+                    MFDTranslate.ReplaceInList(left, "<APPLY TO ALL", "<ПРИМЕНИТЬ КО ВСЕМ");
+                    MFDTranslate.ReplaceInList(left, "<BACK", "<НАЗАД");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDMainMenuSensors: RebuildMenu
+    [HarmonyPatch(typeof(MFDMainMenuSensors), "RebuildMenu")]
+    public static class Patch_MFDMainMenuSensors_RebuildMenu
+    {
+        static void Postfix(MFDMainMenuSensors __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "LOCK", "ЗАХВАТ");
+                    MFDTranslate.ReplaceInList(left, "Sensors", "Датчики");
+                    MFDTranslate.ReplaceInList(left, "Signal:", "Сигнал:");
+                    MFDTranslate.ReplaceInList(left, "Weapons: ?", "Оружие: ?");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDSensors: get_Title
+    [HarmonyPatch(typeof(MFDSensors), "get_Title")]
+    public static class Patch_MFDSensors_Title
+    {
+        static void Postfix(ref string __result)
+        {
+            if (__result != null)
+            {
+                if (__result.Contains("ACTIVE SENSORS:")) 
+                    __result = __result.Replace("ACTIVE SENSORS:", "АКТИВ. СЕНСОРЫ:");
+                if (__result.Contains("PASSIVE SENSORS:")) 
+                    __result = __result.Replace("PASSIVE SENSORS:", "ПАССИВ. ДАТЧИКИ:");
+            }
+        }
+    }
+
+    // MFDStatus: RebuildMenu
+    [HarmonyPatch(typeof(MFDStatus), "RebuildMenu")]
+    public static class Patch_MFDStatus_RebuildMenu
+    {
+        static void Postfix(MFDStatus __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "CLEARED TO", "РАЗРЕШЕНО");
+                    MFDTranslate.ReplaceInList(left, "DOCK", "СТЫКОВКА");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDPage: RebuildMenu (navigation pages)
+    [HarmonyPatch(typeof(MFDPage), "RebuildMenu")]
+    public static class Patch_MFDPage_RebuildMenu
+    {
+        static void Postfix(MFDPage __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА");
+                    MFDTranslate.ReplaceInList(left, "<CYCLE PAGE", "<ЛИСТАТЬ СТРАНИЦУ");
+                    MFDTranslate.ReplaceInList(left, "<MAIN MENU", "<ГЛАВНОЕ МЕНЮ");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDShipSelect: RebuildMenu
+    [HarmonyPatch(typeof(MFDShipSelect), "RebuildMenu")]
+    public static class Patch_MFDShipSelect_RebuildMenu
+    {
+        static void Postfix(MFDShipSelect __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "TOGGLE MODES", "ПЕРЕКЛЮЧИТЬ РЕЖИМЫ");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDComms: additional labels (extends existing patch)
+    [HarmonyPatch(typeof(MFDComms), "RebuildMenu")]
+    public static class Patch_MFDComms_RebuildMenu_Extra
+    {
+        static void Postfix(MFDComms __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "<BACK", "<НАЗАД");
+                    MFDTranslate.ReplaceInList(left, "<DOCKING", "<СТЫКОВКА");
+                    MFDTranslate.ReplaceInList(left, "<SHOW ON NAV MAP", "<ПОКАЗАТЬ НА КАРТЕ");
+                    MFDTranslate.ReplaceInList(left, "CLEARANCE AVAILABLE", "ДОПУСК ДОСТУПЕН");
+                    MFDTranslate.ReplaceInList(left, "Port#", "Порт#");
+                    MFDTranslate.ReplaceInList(left, "Waiting for response", "Ожидание ответа");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // ─── ShipStatus patches ───
+
+    // ─── ShipStatus: replace static aNames[] labels ───
+    // ShipStatus builds a static string[] aNames with hardcoded labels
+    // We patch get_StatusLabel or the static method that returns labels
+    
+    [HarmonyPatch(typeof(ShipStatus))]
+    public static class Patch_ShipStatus_Static
+    {
+        static void Postfix()
+        {
+            try
+            {
+                var aNamesField = AccessTools.Field(typeof(ShipStatus), "aNames");
+                if (aNamesField != null)
+                {
+                    var names = aNamesField.GetValue(null) as string[];
+                    if (names != null)
+                    {
+                        for (int i = 0; i < names.Length; i++)
+                        {
+                            if (names[i] == "VESSEL RATING CODE:") names[i] = "КОД РЕЙТИНГА СУДНА:";
+                            if (names[i] == "VESSEL MASS:") names[i] = "МАССА СУДНА:";
+                            if (names[i] == "TRANSPONDER:") names[i] = "ТРАНСПОНДЕР:";
+                            if (names[i] == "TRANSPONDER ANTENNA:") names[i] = "АНТЕННА ТРАНСПОНДЕРА:";
+                            if (names[i] == "NAV STATION:") names[i] = "НАВИГ. СТАНЦИЯ:";
+                            if (names[i] == "REACTOR:") names[i] = "РЕАКТОР:";
+                            if (names[i] == "REACTOR HE3:") names[i] = "РЕАКТОР He3:";
+                            if (names[i] == "REACTOR D2O:") names[i] = "РЕАКТОР D2O:";
+                            if (names[i] == "RCS THRUSTERS:") names[i] = "RCS ДВИГАТЕЛИ:";
+                            if (names[i] == "RCS DISTRIBUTOR:") names[i] = "RCS РАСПРЕД.:";
+                            if (names[i] == "RCS REMASS:") names[i] = "RCS РЕАКЦ. МАССА:";
+                            if (names[i] == "BACKUP POWER:") names[i] = "РЕЗЕРВ ПИТАНИЯ:";
+                            if (names[i] == "LIFE SUPPORT WORKING O2 PUMPS:") names[i] = "ЖИЗН. ОБЕСП. РАБОТАЮЩ. НАСОСЫ O2:";
+                            if (names[i] == "LIFE SUPPORT O2 STORES:") names[i] = "ЖИЗН. ОБЕСП. ЗАПАС O2:";
+                            if (names[i] == "LIFE SUPPORT HEAT:") names[i] = "ЖИЗН. ОБЕСП. НАГРЕВ:";
+                            if (names[i] == "LIFE SUPPORT COOL:") names[i] = "ЖИЗН. ОБЕСП. ОХЛАЖД.:";
+                        }
+                    }
+                }
+            }
+            catch { }
+        }
+    }
+
+    // ─── Universal HUD String Replacement ───
+    // Wraps all HUD patches in a single class
+    public static class HUDTranslation
+    {
+        internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.Ordinal)
+        {
+            {"<APPLIED", "<ПРИМЕНЕНО"},
+            {"<APPLY TO ALL", "<ПРИМЕНИТЬ КО ВСЕМ"},
+            {"<BACK", "<НАЗАД"},
+            {"<CYCLE PAGE", "<ЛИСТАТЬ СТРАНИЦУ"},
+            {"<DOCK INFO", "<ИНФО О СТЫКОВКЕ"},
+            {"<DOCKING", "<СТЫКОВКА"},
+            {"<FIRING MODE:", "<РЕЖИМ ОГНЯ:"},
+            {"<GROUP:", "<ГРУППА:"},
+            {"<LOCAL CHANNEL", "<ЛОКАЛЬНЫЙ КАНАЛ"},
+            {"<MAIN MENU", "<ГЛАВНОЕ МЕНЮ"},
+            {"<MESSAGE LOG", "<ЖУРНАЛ СООБЩЕНИЙ"},
+            {"<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА"},
+            {"<REQUEST CLEARANCE", "<ЗАПРОСИТЬ ДОПУСК"},
+            {"<SHOW ON NAV MAP", "<ПОКАЗАТЬ НА КАРТЕ"},
+            {"<STATUS:", "<СТАТУС:"},
+            {"<TARGET SELECT:", "<ВЫБОР ЦЕЛИ:"},
+            {"<UNMOOR", "<ОТШВАРТОВАТЬ"},
+            {"<UNREAD MESSAGES", "<НЕПРОЧИТ. СООБЩ."},
+            {"ACTIVE", "АКТИВЕН"},
+            {"ACTIVE SENSORS:", "АКТИВ. СЕНСОРЫ:"},
+            {"AFT", "КОРМА"},
+            {"ALL CLEAR: Closest approach to", "ВСЕ ЧИСТО: Ближайшее сближение с"},
+            {"ARS 2000 - Automated Response Service", "ARS 2000 - Автоответчик"},
+            {"ATC CHANNEL:", "КАНАЛ АТС:"},
+            {"ATC Regional Control -", "Региональный АТС -"},
+            {"AUTO", "АВТО"},
+            {"AUTOMATIC", "АВТОМАТИЧ."},
+            {"Access The Bridge", "Доступ к мостику"},
+            {"Adjust the NAV Station Zoom", "Настроить зум навиг. станции"},
+            {"Age:", "Возраст:"},
+            {"Allowed items: all", "Разреш. предметы: все"},
+            {"Amount:", "Кол-во:"},
+            {"Anchoring docked ship", "Якорь стыкованного судна"},
+            {"Are you sure you want to quit to desktop?", "Вы уверены, что хотите выйти в Windows?"},
+            {"Aux Dock ID:", "Доп. ID стыковки:"},
+            {"BACKUP POWER:", "РЕЗЕРВ ПИТАНИЯ:"},
+            {"BRG -", "ПЕЛЕНГ -"},
+            {"Boarding", "Абордаж"},
+            {"Body Temp", "Темп. тела"},
+            {"Bribe Amount: $", "Размер взятки: $"},
+            {"CAUTION: Older saves may experience problems.", "ВНИМАНИЕ: Старые сейвы могут иметь проблемы."},
+            {"CITIZENSHIP VERIFIED", "ГРАЖДАНСТВО ПОДТВЕРЖДЕНО"},
+            {"CLEARANCE AVAILABLE", "ДОПУСК ДОСТУПЕН"},
+            {"CLEARED TO", "РАЗРЕШЕНО"},
+            {"CLOSE INVENTORY", "ЗАКРЫТЬ ИНВЕНТАРЬ"},
+            {"CONNECTED WITH -", "ПОДКЛЮЧЕНО К -"},
+            {"Calculating target coordinates", "Расчёт координат цели"},
+            {"Camera Controls", "Управление камерой"},
+            {"Camera Down", "Камера вниз"},
+            {"Camera Left", "Камера влево"},
+            {"Camera Right", "Камера вправо"},
+            {"Camera Target", "Камера: цель"},
+            {"Camera Up", "Камера вверх"},
+            {"Captain", "Капитан"},
+            {"Change Roster Permissions", "Изменить права экипажа"},
+            {"Cheat Sheet Dismissed", "Памятка убрана"},
+            {"Check Room Atmosphere", "Проверить атмосферу отсека"},
+            {"Civic duty performed.", "Гражданский долг выполнен."},
+            {"Clearance:", "Допуск:"},
+            {"Collect Pressure Suit and Helmet", "Взять скафандр и шлем"},
+            {"Comms", "Связь"},
+            {"Compartment", "Отсек"},
+            {"Connected with", "Подключён к"},
+            {"Connecting..", "Подключение.."},
+            {"Container", "Контейнер"},
+            {"Continue To Your Ship", "Продолжить к своему кораблю"},
+            {"Cooling", "Охлаждение"},
+            {"Course Vector", "Вектор курса"},
+            {"Create New Child Node", "Создать дочерний узел"},
+            {"Create a Zone", "Создать зону"},
+            {"Crew", "Экипаж"},
+            {"Crew Member Selected", "Выбран член экипажа"},
+            {"Criminal", "Преступник"},
+            {"Crippled", "Калека"},
+            {"Curiosity sated.", "Любопыт. удовлетворено."},
+            {"Current Preset:", "Текущий пресет:"},
+            {"Cycle Crew", "Переключить экипаж"},
+            {"Cycle to New Crew", "Перекл. на нового члена экипажа"},
+            {"DANGER:", "ОПАСНОСТЬ:"},
+            {"DANGER: Atmospheric Entry with", "ОПАСНОСТЬ: Атмосферный вход с"},
+            {"DANGER: Collision predicted with", "ОПАСНОСТЬ: Предсказано столкновение с"},
+            {"DELTA-V:", "ДЕЛЬТА-V:"},
+            {"DOCK", "СТЫКОВКА"},
+            {"DOCK INFO", "ИНФО О СТЫКОВКЕ"},
+            {"DOCKED WITH", "ПРИСТЫКОВАН С"},
+            {"DOCKED WITH:", "ПРИСТЫКОВАН С:"},
+            {"DOCKING MESSAGE -", "СТЫКОВ. СООБЩ. -"},
+            {"Danger", "Опасность"},
+            {"Dead", "Мёртв"},
+            {"Death Pay: $", "Выплата за гибель: $"},
+            {"Death Report", "Отчёт о гибели"},
+            {"Delete JSON Entry", "Удалить запись JSON"},
+            {"Deploying Hauler", "Развернуть буксир"},
+            {"Deploying Law Enforcement Officer", "Развернуть полицию"},
+            {"Designation:", "Обозначение:"},
+            {"Died", "Погиб"},
+            {"Dimensions:", "Размеры:"},
+            {"Dismiss Note", "Убрать записку"},
+            {"Distance to plotted destination:", "Дистанция до пункта назначения:"},
+            {"Dock with Derelict", "Стыковаться с брошенным кораблём"},
+            {"Docking", "Стыковка"},
+            {"Docking fees paid!", "Стыковочные сборы оплачены!"},
+            {"Docking fees paid.", "Стыковочные сборы оплачены."},
+            {"Docking procedure aborted: target airlock is not safe.", "Стыковка отменена: шлюз цели небезопасен."},
+            {"Dodging incoming", "Уклонение от угрозы"},
+            {"Duplicate Node", "Дублировать узел"},
+            {"Duties", "Обязанности"},
+            {"ETA", "расч. время"},
+            {"ETA -", "РВ -"},
+            {"Estimated value: $", "Оценочная стоимость: $"},
+            {"Expand Mega Tooltip", "Развернуть подсказку"},
+            {"Explore Derelict", "Исследовать брошенный корабль"},
+            {"FFWD", "УСКОР."},
+            {"FORWARD", "НОС"},
+            {"FUEL:", "ТОПЛИВО:"},
+            {"FUNDS VERIFIED", "СРЕДСТВА ПОДТВЕРЖДЕНЫ"},
+            {"Firefight", "Перестрелка"},
+            {"Flotilla", "Флотилия"},
+            {"Flying to", "Лёт к"},
+            {"Friendly:", "Союзники:"},
+            {"Fuel request was sent", "Запрос на топливо отправлен"},
+            {"Fuel transfer complete", "Передача топлива завершена"},
+            {"Gain Clearance to Dock", "Получить допуск к стыковке"},
+            {"Gained Docking Clearance.", "Допуск к стыковке получен."},
+            {"HAIL SHIP>", "ВЫЗВАТЬ КОРАБЛЬ>"},
+            {"HOLD BUTTON FOR WEAPON MENU", "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ"},
+            {"HULL", "КОРПУС"},
+            {"Hail", "Вызов"},
+            {"Hail Ship", "Вызвать корабль"},
+            {"Heat", "Нагрев"},
+            {"Heating", "Нагревается"},
+            {"Helmet Atmosphere Unsafe", "Атмосфера в шлеме небезопасна"},
+            {"Hold", "Удержание"},
+            {"Holding position", "Удерживание позиции"},
+            {"Homeport:", "Порт приписки:"},
+            {"INACTIVE", "НЕАКТИВЕН"},
+            {"Investigate Further", "Исследовать дальше"},
+            {"LIFE SUPPORT COOL:", "ЖИЗН. ОБЕСП. ОХЛАЖД.:"},
+            {"LIFE SUPPORT HEAT:", "ЖИЗН. ОБЕСП. НАГРЕВ:"},
+            {"LIFE SUPPORT O2 STORES:", "ЖИЗН. ОБЕСП. ЗАПАС O2:"},
+            {"LIFE SUPPORT WORKING O2 PUMPS:", "ЖИЗН. ОБЕСП. РАБОТАЮЩ. НАСОСЫ O2:"},
+            {"LOCK", "ЗАХВАТ"},
+            {"LOCKING", "ЗАХВАТ..."},
+            {"Launchers:", "Пусковые:"},
+            {"MAIN MENU", "ГЛАВНОЕ МЕНЮ"},
+            {"MAIN MENU>", "ГЛАВНОЕ МЕНЮ>"},
+            {"MOORED WITH", "ШВАРТОВАН С"},
+            {"NAV MODE:", "РЕЖИМ НАВИГ.:"},
+            {"NAV STATION:", "НАВИГ. СТАНЦИЯ:"},
+            {"Nav", "Навигация"},
+            {"OFFLINE", "ОФЛАЙН"},
+            {"ONLINE", "ОНЛАЙН"},
+            {"OPEN CHANNEL TO", "ОТКРЫТЬ КАНАЛ К"},
+            {"Orbit", "Орбита"},
+            {"PASSIVE SENSORS:", "ПАССИВ. ДАТЧИКИ:"},
+            {"PORT", "ЛЕВЫЙ БОРТ"},
+            {"Patrolling assigned sector", "Патрулирование сектора"},
+            {"Pay Docking Fee", "Оплатить стык. сбор"},
+            {"Pilot", "Пилот"},
+            {"Plot Manager Settings", "Настройки менеджера сюжетов"},
+            {"Point of Ref:", "Точка отсчёта:"},
+            {"Port ID:", "ID порта:"},
+            {"Port#", "Порт#"},
+            {"Power Overlay", "Слой питания"},
+            {"Primary Dock ID:", "Осн. ID стыковки:"},
+            {"Put on Pressure Suit", "Надеть скафандр"},
+            {"RATING CODE", "КОД РЕЙТИНГА"},
+            {"RCS Count:", "Кол-во RCS:"},
+            {"RCS DISTRIBUTOR:", "RCS РАСПРЕД.:"},
+            {"RCS REMASS:", "RCS РЕАКЦ. МАССА:"},
+            {"RCS THRUSTERS:", "RCS ДВИГАТЕЛИ:"},
+            {"REACTOR D2O:", "РЕАКТОР D2O:"},
+            {"REACTOR HE3:", "РЕАКТОР He3:"},
+            {"REACTOR:", "РЕАКТОР:"},
+            {"READY", "ГОТОВ"},
+            {"REG ID", "РЕГ ID"},
+            {"Radar", "Радар"},
+            {"Recieved Messages:", "Полученные сообщения:"},
+            {"Refueling", "Заправка"},
+            {"Remember to turn off match speed before moving the ship again.", "Не забудьте выключить синхронизацию скорости перед движением."},
+            {"Repair", "Ремонт"},
+            {"Request Undocking Clearance", "Запросить допуск к расстыковке"},
+            {"Responding ships:", "Отвечающие корабли:"},
+            {"Restore Nav Station", "Восстановить навиг. станцию"},
+            {"Roster", "Список экипажа"},
+            {"STARBOARD", "ПРАВЫЙ БОРТ"},
+            {"Salvage", "Утиль"},
+            {"Salvage sale complete.", "Продажа утиля завершена."},
+            {"Save Node Changes", "Сохранить изменения узла"},
+            {"Save Nodes", "Сохранить узлы"},
+            {"Search The Rack", "Обыскать стойку"},
+            {"Security Station", "Охранный пост"},
+            {"Sensor", "Датчик"},
+            {"Sensors", "Датчики"},
+            {"Ship", "Корабль"},
+            {"Ship destroyed", "Корабль уничтожен"},
+            {"Ship refueled", "Корабль заправлен"},
+            {"Ship refueled.", "Корабль заправлен."},
+            {"Ship successfully departed", "Корабль успешно убыл"},
+            {"Signal:", "Сигнал:"},
+            {"Station", "Станция"},
+            {"Station Keeping", "Удержание позиции"},
+            {"Status", "Статус"},
+            {"Successfully Docked.", "Успешная стыковка."},
+            {"Switch Control Panels (Bottom)", "Сменить панель управления (Низ)"},
+            {"Switch Control Panels (Left)", "Сменить панель управления (Лево)"},
+            {"Switch Control Panels (Right)", "Сменить панель управления (Право)"},
+            {"Switch Control Panels (Top)", "Сменить панель управления (Верх)"},
+            {"Switch to Nav Screen", "Перейти к экрану навигации"},
+            {"Switched to Nav Screen.", "Переключено на экран навигации."},
+            {"TOGGLE MODES", "ПЕРЕКЛЮЧИТЬ РЕЖИМЫ"},
+            {"TRANSPONDER ANTENNA:", "АНТЕННА ТРАНСПОНДЕРА:"},
+            {"TRANSPONDER:", "ТРАНСПОНДЕР:"},
+            {"Take Ship", "Занять корабль"},
+            {"Target K-Leg Station", "Цель: станция K-LEG"},
+            {"Target the closest Derelict", "Цель: ближайший брошенный корабль"},
+            {"Target:", "Цель:"},
+            {"Targeting", "Наведение"},
+            {"They See Us As:", "Они видят нас как:"},
+            {"Thrust Down", "Тяга вниз"},
+            {"Thrust Left", "Тяга влево"},
+            {"Thrust Right", "Тяга вправо"},
+            {"Thrust Up", "Тяга вверх"},
+            {"Toggle PDA Power Vizor", "Переключить энерго-визор КПК"},
+            {"Toggle Power UI", "Переключить энерго-интерфейс"},
+            {"Toggle station keeping", "Переключить удержание позиции"},
+            {"Toggle zone UI", "Переключить интерфейс зон"},
+            {"Toggled match speed.", "Синхр. скорости переключена."},
+            {"Torch Drive:", "Факельный движок:"},
+            {"Total Mass:", "Общая масса:"},
+            {"Tracking", "Слежение"},
+            {"Transit", "Транзит"},
+            {"Travel to Docking Range", "Двигаться до зоны стыковки"},
+            {"Trickle Charge", "Капельная зарядка"},
+            {"Turn CCW", "Пов. прот. часовой"},
+            {"Turn CW", "Пов. по часовой"},
+            {"Tutorial Complete", "Обучение завершено"},
+            {"Tutorial Stub", "Заглушка обучения"},
+            {"UNKNOWN_STRING", "НЕИЗВЕСТНО"},
+            {"Unconscious", "Без сознания"},
+            {"Undo Last", "Отменить посл."},
+            {"Undocking", "Отстыковка"},
+            {"Unlicensed", "Без лицензии"},
+            {"Unpaid Docking Fees", "Неоплаченные сборы"},
+            {"Unpause World", "Снять с паузы"},
+            {"Unpowered devices", "Обесточ. устройства"},
+            {"Use Nav Station", "Исп. навиг. станцию"},
+            {"Use the Nav Station", "Исп. навиг. станцию"},
+            {"VESSEL MASS:", "МАССА СУДНА:"},
+            {"VESSEL RATING CODE:", "КОД РЕЙТИНГА СУДНА:"},
+            {"VISIT STEAM", "ПОСЕТИТЬ STEAM"},
+            {"VREL -", "ОТН.СКОР. -"},
+            {"VREL:", "ОТН.СКОР.:"},
+            {"VX:", "БОК. СКОР:"},
+            {"Value:", "Значение:"},
+            {"Vessel Name:", "Имя судна:"},
+            {"Visit OKLG Commercial Port Authority", "Посетить порт. администрацию OKLG"},
+            {"Visit Your Ship", "Посетить свой корабль"},
+            {"Visualize Power Networks", "Визуализация энергосети"},
+            {"WARNING:", "ВНИМАНИЕ:"},
+            {"WARNING: Fusion reactor damage!", "ВНИМАНИЕ: Повреждение реактора!"},
+            {"WARNING: Massive X Impulse!", "ВНИМАНИЕ: Мощный X-импульс!"},
+            {"WARNING: Massive Y Impulse!", "ВНИМАНИЕ: Мощный Y-импульс!"},
+            {"Waiting for response", "Ожидание ответа"},
+            {"Walk through door.", "Пройти через дверь."},
+            {"Waypoint", "Путевая точка"},
+            {"We See Them As:", "Мы видим их как:"},
+            {"Weapons: ?", "Оружие: ?"},
+            {"Welcome back, Captain.", "С возвращением, Капитан."},
+            {"Welcome, Captain.", "Добро пожаловать, Капитан."},
+            {"Year:", "Год:"},
+            {"Your standing with", "Ваше отношение с"},
+            {"ZOOM RANGE:", "ДИАП. ЗУМА:"},
+            {"Zone Subtract", "Уменьшить зону"},
+            {"Zoom Camera In", "Приблизить камеру"},
+            {"Zoom Camera Out", "Отдалить камеру"},
+            {"public ATC channel", "публичный канал АТС"}
+        };
+
+        // Patch TMP_Text.set_text - catches all TextMeshPro text rendering
+        [HarmonyPatch(typeof(TMPro.TMP_Text), "set_text", typeof(string))]
+        public static class Patch_TMP_Text_SetText
+        {
+            static void Prefix(ref string value)
+            {
+                if (string.IsNullOrEmpty(value)) return;
+                
+                // Exact match replacement
+                if (HudTranslations.TryGetValue(value, out string translated))
+                {
+                    value = translated;
+                    return;
+                }
+                
+                // Partial replacement for strings embedded in longer text
+                foreach (var kvp in HudTranslations)
+                {
+                    if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
+                    {
+                        value = value.Replace(kvp.Key, kvp.Value);
+                    }
+                }
+            }
+        }
+    }
+
 }
