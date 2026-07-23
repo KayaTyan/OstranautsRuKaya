@@ -1059,9 +1059,6 @@ namespace OstranautsRuKaya
         }
     }
     // ─── Universal HUD string replacement ───
-    // ─── Universal HUD String Replacement ───
-    // Hooks BOTH UnityEngine.UI.Text (MFD) AND TMP_Text (other UI)
-
     public static class HUDTranslation
     {
         internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.Ordinal)
@@ -1348,43 +1345,89 @@ namespace OstranautsRuKaya
         internal static string TranslateString(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
-            
-            // Exact match replacement
             if (HudTranslations.TryGetValue(value, out string translated))
                 return translated;
-            
             // Partial replacement for strings embedded in longer text
-            // (e.g. "DOCKED WITH: USS Testudo" or text with color tags)
-            bool changed = false;
             foreach (var kvp in HudTranslations)
             {
                 if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
-                {
                     value = value.Replace(kvp.Key, kvp.Value);
-                    changed = true;
-                }
             }
             return value;
         }
 
-        // Patch UnityEngine.UI.Text.set_text — used by GUIMFDDisplay for MFD rendering
-        [HarmonyPatch(typeof(UnityEngine.UI.Text), "set_text", typeof(string))]
-        public static class Patch_UI_Text_SetText
+        internal static void TranslateList(List<string> list)
         {
-            static void Prefix(ref string value)
+            if (list == null) return;
+            for (int i = 0; i < list.Count; i++)
             {
-                value = TranslateString(value);
+                list[i] = TranslateString(list[i]);
             }
         }
+    }
 
-        // Patch TMP_Text.set_text — used by other UI elements (NavMod, CrewSim, etc.)
-        [HarmonyPatch(typeof(TMPro.TMP_Text), "set_text", typeof(string))]
-        public static class Patch_TMP_Text_SetText
+    // Patch MFDPage.get_Left — translate left panel items BEFORE GUIMFDDisplay renders them
+    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Left")]
+    public static class Patch_MFDPage_GetLeft
+    {
+        static void Postfix(ref List<string> __result)
         {
-            static void Prefix(ref string value)
-            {
-                value = TranslateString(value);
-            }
+            HUDTranslation.TranslateList(__result);
+        }
+    }
+
+    // Patch MFDPage.get_Right — translate right panel items
+    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Right")]
+    public static class Patch_MFDPage_GetRight
+    {
+        static void Postfix(ref List<string> __result)
+        {
+            HUDTranslation.TranslateList(__result);
+        }
+    }
+
+    // Patch MFDPage.get_Title — translate title (fallback for classes without explicit patch)
+    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Title")]
+    public static class Patch_MFDPage_GetTitle
+    {
+        static void Postfix(ref string __result)
+        {
+            if (!string.IsNullOrEmpty(__result))
+                __result = HUDTranslation.TranslateString(__result);
+        }
+    }
+
+    // Patch GUIMFDDisplay.Format — translate the final formatted string
+    // This catches everything that get_Left/get_Right might miss
+    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.GUIMFDDisplay), "Format")]
+    public static class Patch_GUIMFDDisplay_Format
+    {
+        static void Postfix(ref string __result)
+        {
+            if (!string.IsNullOrEmpty(__result))
+                __result = HUDTranslation.TranslateString(__result);
+        }
+    }
+
+    // Also keep the UnityEngine.UI.Text patch as a safety net
+    [HarmonyPatch(typeof(UnityEngine.UI.Text), "set_text", typeof(string))]
+    public static class Patch_UI_Text_SetText
+    {
+        static void Prefix(ref string value)
+        {
+            if (!string.IsNullOrEmpty(value))
+                value = HUDTranslation.TranslateString(value);
+        }
+    }
+
+    // Also keep TMP_Text patch
+    [HarmonyPatch(typeof(TMPro.TMP_Text), "set_text", typeof(string))]
+    public static class Patch_TMP_Text_SetText
+    {
+        static void Prefix(ref string value)
+        {
+            if (!string.IsNullOrEmpty(value))
+                value = HUDTranslation.TranslateString(value);
         }
     }
 }
