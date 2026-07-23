@@ -1212,16 +1212,16 @@ namespace OstranautsRuKaya
             {"Search The Rack", "Обыскать стойку"},
             {"Security Station", "Охранный пост"},
             {"Sensor", "Датчик"},
-            {"Sensors", "Датчики"},
-            {"Ship", "Корабль"},
+
+
             {"Ship destroyed", "Корабль уничтожен"},
             {"Ship refueled", "Корабль заправлен"},
             {"Ship refueled.", "Корабль заправлен."},
             {"Ship successfully departed", "Корабль успешно убыл"},
             {"Signal:", "Сигнал:"},
             {"Station", "Станция"},
-            {"Station Keeping", "Удержание позиции"},
-            {"Status", "Статус"},
+
+
             {"Successfully Docked.", "Успешная стыковка."},
             {"Switch Control Panels (Bottom)", "Сменить панель управления (Низ)"},
             {"Switch Control Panels (Left)", "Сменить панель управления (Лево)"},
@@ -1315,13 +1315,13 @@ namespace OstranautsRuKaya
             {"FOCUS", "ФОКУС"},
             {"FUEL", "ТОПЛИВО"},
             {"FWD", "ВПЕР"},
-            {"HIGH", "ВЫСОК."},
+
             {"IN", "ПРИБЛ"},
             {"INR", "ВНУТР"},
             {"KG", "КГ"},
             {"KWH", "КвтЧ"},
             {"LICENSED", "ЛИЦЕНЗ."},
-            {"LOW", "НИЗК."},
+
             {"MANEUVER DRIVE", "МАНЕВР. ПРИВОД"},
             {"MAP", "КАРТА"},
             {"MAP CONTROLS", "УПР. КАРТОЙ"},
