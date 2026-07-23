@@ -507,7 +507,7 @@ namespace OstranautsRuKaya
     {
         static void Postfix(ref string __result)
         {
-            if (__result == "MAIN MENU") __result = "ГЛАВНОЕ МЕНЮ";
+            if (__result == "MAIN MENU") __result = "ГЛАВ. МЕНЮ";
         }
     }
 
@@ -525,16 +525,16 @@ namespace OstranautsRuKaya
 
                 if (left != null)
                 {
-                    MFDTranslate.ReplaceInList(left, "<LOCAL CHANNEL", "<ЛОКАЛЬНЫЙ КАНАЛ");
-                    MFDTranslate.ReplaceInList(left, "<MESSAGE LOG", "<ЖУРНАЛ СООБЩЕНИЙ");
+                    MFDTranslate.ReplaceInList(left, "<LOCAL CHANNEL", "<ЛОК. КАНАЛ");
+                    MFDTranslate.ReplaceInList(left, "<MESSAGE LOG", "<ЖУРН. СООБЩ.");
                     MFDTranslate.ReplaceInList(left, "ATC CHANNEL: ", "КАНАЛ АТС: ");
                     MFDTranslate.ReplaceInList(left, "DOCKED WITH: ", "ПРИСТЫКОВАН К: ");
-                    MFDTranslate.ReplaceInList(left, "<DOCK INFO", "<ИНФО О СТЫКОВКЕ");
-                    MFDTranslate.ReplaceInList(left, "<UNREAD MESSAGES", "<НЕПРОЧИТАННЫЕ");
+                    MFDTranslate.ReplaceInList(left, "<DOCK INFO", "<ИНФ. О СТЫКОВКЕ");
+                    MFDTranslate.ReplaceInList(left, "<UNREAD MESSAGES", "<НЕПР. СООБЩ.");
                 }
                 if (right != null)
                 {
-                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "ВЫЗВАТЬ КОРАБЛЬ>");
+                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "ВЫЗ. КОРАБЛЬ>");
                 }
             }
             catch { }
@@ -555,11 +555,11 @@ namespace OstranautsRuKaya
                 {
                     MFDTranslate.ReplaceInList(left, "MOORED WITH ", "ШВАРТОВАН С ");
                     MFDTranslate.ReplaceInList(left, "DOCKED WITH ", "ПРИСТЫКОВАН С ");
-                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФО О СТЫКОВКЕ");
+                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФ. О СТЫКОВКЕ");
                     MFDTranslate.ReplaceInList(left, "REG ID", "РЕГ ID");
                     MFDTranslate.ReplaceInList(left, "RATING CODE", "КОД РЕЙТИНГА");
                     MFDTranslate.ReplaceInList(left, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛАВНОЕ МЕНЮ>");
+                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛАВ. МЕНЮ>");
                     MFDTranslate.ReplaceInList(left, "NO DOCKED VESSEL", "НЕТ ПРИСТЫКОВАННОГО СУДНА");
                 }
             }
@@ -588,7 +588,7 @@ namespace OstranautsRuKaya
                 if (__result != null)
                 {
                     MFDTranslate.ReplaceInList(__result, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛАВНОЕ МЕНЮ>");
+                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛАВ. МЕНЮ>");
                 }
             }
             catch { }
@@ -770,7 +770,7 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Синхр. скорости переключена.";
+            __result = "Синхр. скорости перекл.";
             return false;
         }
     }
@@ -910,7 +910,7 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Переключено на экран навигации.";
+            __result = "Перекл. на экран навигации.";
             return false;
         }
     }
@@ -940,7 +940,7 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Синхр. скорости переключена.";
+            __result = "Синхр. скорости перекл.";
             return false;
         }
     }
@@ -1020,23 +1020,23 @@ namespace OstranautsRuKaya
         internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.Ordinal)
         {
             {"<APPLIED", "<ПРИМЕНЕНО"},
-            {"<APPLY TO ALL", "<ПРИМЕНИТЬ КО ВСЕМ"},
+            {"<APPLY TO ALL", "<ПРИМ. КО ВСЕМ"},
             {"<BACK", "<НАЗАД"},
-            {"<CYCLE PAGE", "<ЛИСТАТЬ СТРАНИЦУ"},
-            {"<DOCK INFO", "<ИНФО О СТЫКОВКЕ"},
+            {"<CYCLE PAGE", "<ЛИСТ. СТРАНИЦУ"},
+            {"<DOCK INFO", "<ИНФ. О СТЫКОВКЕ"},
             {"<DOCKING", "<СТЫКОВКА"},
             {"<FIRING MODE:", "<РЕЖИМ ОГНЯ:"},
             {"<GROUP:", "<ГРУППА:"},
-            {"<LOCAL CHANNEL", "<ЛОКАЛЬНЫЙ КАНАЛ"},
-            {"<MAIN MENU", "<ГЛАВНОЕ МЕНЮ"},
-            {"<MESSAGE LOG", "<ЖУРНАЛ СООБЩЕНИЙ"},
+            {"<LOCAL CHANNEL", "<ЛОК. КАНАЛ"},
+            {"<MAIN MENU", "<ГЛАВ. МЕНЮ"},
+            {"<MESSAGE LOG", "<ЖУРН. СООБЩ."},
             {"<PREVIOUS PAGE", "<ПРЕД. СТРАНИЦА"},
-            {"<REQUEST CLEARANCE", "<ЗАПРОСИТЬ ДОПУСК"},
-            {"<SHOW ON NAV MAP", "<ПОКАЗАТЬ НА КАРТЕ"},
+            {"<REQUEST CLEARANCE", "<ЗАПРОС. ДОПУСК"},
+            {"<SHOW ON NAV MAP", "<ПОКАЗ. НА КАРТЕ"},
             {"<STATUS:", "<СТАТУС:"},
             {"<TARGET SELECT:", "<ВЫБОР ЦЕЛИ:"},
             {"<UNMOOR", "<ОТШВАРТОВАТЬ"},
-            {"<UNREAD MESSAGES", "<НЕПРОЧИТ. СООБЩ."},
+            {"<UNREAD MESSAGES", "<НЕПР. СООБЩ."},
             {"ACTIVE", "АКТИВЕН"},
             {"ACTIVE SENSORS:", "АКТИВ. СЕНСОРЫ:"},
             {"AFT", "КОРМА"},
@@ -1095,7 +1095,7 @@ namespace OstranautsRuKaya
             {"Crippled", "Калека"},
             {"Curiosity sated.", "Любопыт. удовлетворено."},
             {"Current Preset:", "Текущий пресет:"},
-            {"Cycle Crew", "Переключить экипаж"},
+            {"Cycle Crew", "Перекл. экипаж"},
             {"Cycle to New Crew", "Перекл. на нового члена экипажа"},
             {"DANGER:", "ОПАСНОСТЬ:"},
             {"DANGER: Atmospheric Entry with", "ОПАСНОСТЬ: Атмосферный вход с"},
@@ -1143,7 +1143,7 @@ namespace OstranautsRuKaya
             {"Fuel transfer complete", "Передача топлива завершена"},
             {"Gain Clearance to Dock", "Получить допуск к стыковке"},
             {"Gained Docking Clearance.", "Допуск к стыковке получен."},
-            {"HAIL SHIP>", "ВЫЗВАТЬ КОРАБЛЬ>"},
+            {"HAIL SHIP>", "ВЫЗ. КОРАБЛЬ>"},
             {"HOLD BUTTON FOR WEAPON MENU", "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ"},
             {"HULL", "КОРПУС"},
             {"Hail", "Вызов"},
@@ -1163,8 +1163,8 @@ namespace OstranautsRuKaya
             {"LOCK", "ЗАХВАТ"},
             {"LOCKING", "ЗАХВАТ..."},
             {"Launchers:", "Пусковые:"},
-            {"MAIN MENU", "ГЛАВНОЕ МЕНЮ"},
-            {"MAIN MENU>", "ГЛАВНОЕ МЕНЮ>"},
+            {"MAIN MENU", "ГЛАВ. МЕНЮ"},
+            {"MAIN MENU>", "ГЛАВ. МЕНЮ>"},
             {"MOORED WITH", "ШВАРТОВАН С"},
             {"NAV MODE:", "РЕЖИМ НАВИГ.:"},
             {"NAV STATION:", "НАВИГ. СТАНЦИЯ:"},
@@ -1228,8 +1228,8 @@ namespace OstranautsRuKaya
             {"Switch Control Panels (Right)", "Сменить панель управления (Право)"},
             {"Switch Control Panels (Top)", "Сменить панель управления (Верх)"},
             {"Switch to Nav Screen", "Перейти к экрану навигации"},
-            {"Switched to Nav Screen.", "Переключено на экран навигации."},
-            {"TOGGLE MODES", "ПЕРЕКЛЮЧИТЬ РЕЖИМЫ"},
+            {"Switched to Nav Screen.", "Перекл. на экран навигации."},
+            {"TOGGLE MODES", "ПЕРЕКЛ. РЕЖ."},
             {"TRANSPONDER ANTENNA:", "АНТЕННА ТРАНСПОНДЕРА:"},
             {"TRANSPONDER:", "ТРАНСПОНДЕР:"},
             {"Take Ship", "Занять корабль"},
@@ -1242,11 +1242,11 @@ namespace OstranautsRuKaya
             {"Thrust Left", "Тяга влево"},
             {"Thrust Right", "Тяга вправо"},
             {"Thrust Up", "Тяга вверх"},
-            {"Toggle PDA Power Vizor", "Переключить энерго-визор КПК"},
-            {"Toggle Power UI", "Переключить энерго-интерфейс"},
-            {"Toggle station keeping", "Переключить удержание позиции"},
-            {"Toggle zone UI", "Переключить интерфейс зон"},
-            {"Toggled match speed.", "Синхр. скорости переключена."},
+            {"Toggle PDA Power Vizor", "Перекл. энерго-визор КПК"},
+            {"Toggle Power UI", "Перекл. энерго-интерфейс"},
+            {"Toggle station keeping", "Перекл. удержание позиции"},
+            {"Toggle zone UI", "Перекл. интерфейс зон"},
+            {"Toggled match speed.", "Синхр. скорости перекл."},
             {"Torch Drive:", "Факельный движок:"},
             {"Total Mass:", "Общая масса:"},
             {"Tracking", "Слежение"},
