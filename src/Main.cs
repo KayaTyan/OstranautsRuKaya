@@ -1171,7 +1171,7 @@ namespace OstranautsRuKaya
             {"Nav", "Навигация"},
             {"OFFLINE", "ОФЛАЙН"},
             {"ONLINE", "ОНЛАЙН"},
-            {"OPEN CHANNEL TO", "ОТКРЫТЬ КАНАЛ К"},
+            {"OPEN CHANNEL TO", "ОТКР. КАНАЛ К"},
             {"Orbit", "Орбита"},
             {"PASSIVE SENSORS:", "ПАССИВ. ДАТЧИКИ:"},
             {"PORT", "ЛЕВЫЙ БОРТ"},
