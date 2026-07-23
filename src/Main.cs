@@ -639,15 +639,9 @@ namespace OstranautsRuKaya
         }
     }
 
-    [HarmonyPatch(typeof(DeployLeo), "get_ObjectiveName")]
-    public static class Patch_DeployLeo_ObjectiveName
-    {
-        static bool Prefix(ref string __result)
-        {
-            __result = "Развернуть полицию";
-            return false;
-        }
-    }
+    
+    // REMOVED: DeployLeo_ObjectiveName (method does not exist)
+
 
     [HarmonyPatch(typeof(DismissNote), "get_ObjectiveName")]
     public static class Patch_DismissNote_ObjectiveName
@@ -689,15 +683,9 @@ namespace OstranautsRuKaya
         }
     }
 
-    [HarmonyPatch(typeof(Dodge), "get_ObjectiveName")]
-    public static class Patch_Dodge_ObjectiveName
-    {
-        static bool Prefix(ref string __result)
-        {
-            __result = "Уклонение от угрозы";
-            return false;
-        }
-    }
+    
+    // REMOVED: Dodge_ObjectiveName (method does not exist)
+
 
     [HarmonyPatch(typeof(ExpandMTT), "get_ObjectiveName")]
     public static class Patch_ExpandMTT_ObjectiveName
@@ -719,25 +707,13 @@ namespace OstranautsRuKaya
         }
     }
 
-    [HarmonyPatch(typeof(FlyTo), "get_ObjectiveName")]
-    public static class Patch_FlyTo_ObjectiveName
-    {
-        static bool Prefix(ref string __result)
-        {
-            __result = "Расчёт координат цели";
-            return false;
-        }
-    }
+    
+    // REMOVED: FlyTo_ObjectiveName (method does not exist)
 
-    [HarmonyPatch(typeof(FlyToPath), "get_ObjectiveName")]
-    public static class Patch_FlyToPath_ObjectiveName
-    {
-        static bool Prefix(ref string __result)
-        {
-            __result = "Расчёт координат цели";
-            return false;
-        }
-    }
+
+    
+    // REMOVED: FlyToPath_ObjectiveName (method does not exist)
+
 
     [HarmonyPatch(typeof(GainClearance), "get_ObjectiveName")]
     public static class Patch_GainClearance_ObjectiveName
