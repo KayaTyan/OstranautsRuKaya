@@ -1366,50 +1366,35 @@ namespace OstranautsRuKaya
         }
     }
 
-    // Patch MFDPage.get_Left — translate left panel items BEFORE GUIMFDDisplay renders them
-    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Left")]
-    public static class Patch_MFDPage_GetLeft
+    // ─── MFD HUD: patch GUIMFDDisplay.ShowMenu ───
+    // ShowMenu receives MFDDTO with PUBLIC Title/Left/Right fields.
+    // We translate them in Prefix BEFORE ShowMenu reads them (ldfld)
+    // and passes to Format()/FormatShort()/set_text().
+    // This is the SINGLE entry point for ALL MFD rendering.
+    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.GUIMFDDisplay), "ShowMenu")]
+    public static class Patch_GUIMFDDisplay_ShowMenu
     {
-        static void Postfix(ref List<string> __result)
+        static void Prefix(ref string id, ref Ostranauts.Events.DTOs.MFDDTO mfdDto)
         {
-            HUDTranslation.TranslateList(__result);
+            if (mfdDto == null) return;
+            try
+            {
+                if (!string.IsNullOrEmpty(mfdDto.Title))
+                    mfdDto.Title = HUDTranslation.TranslateString(mfdDto.Title);
+
+                if (mfdDto.Left != null)
+                    for (int i = 0; i < mfdDto.Left.Count; i++)
+                        mfdDto.Left[i] = HUDTranslation.TranslateString(mfdDto.Left[i]);
+
+                if (mfdDto.Right != null)
+                    for (int i = 0; i < mfdDto.Right.Count; i++)
+                        mfdDto.Right[i] = HUDTranslation.TranslateString(mfdDto.Right[i]);
+            }
+            catch { }
         }
     }
 
-    // Patch MFDPage.get_Right — translate right panel items
-    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Right")]
-    public static class Patch_MFDPage_GetRight
-    {
-        static void Postfix(ref List<string> __result)
-        {
-            HUDTranslation.TranslateList(__result);
-        }
-    }
-
-    // Patch MFDPage.get_Title — translate title (fallback for classes without explicit patch)
-    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.MFDPage), "get_Title")]
-    public static class Patch_MFDPage_GetTitle
-    {
-        static void Postfix(ref string __result)
-        {
-            if (!string.IsNullOrEmpty(__result))
-                __result = HUDTranslation.TranslateString(__result);
-        }
-    }
-
-    // Patch GUIMFDDisplay.Format — translate the final formatted string
-    // This catches everything that get_Left/get_Right might miss
-    [HarmonyPatch(typeof(Ostranauts.ShipGUIs.MFD.GUIMFDDisplay), "Format")]
-    public static class Patch_GUIMFDDisplay_Format
-    {
-        static void Postfix(ref string __result)
-        {
-            if (!string.IsNullOrEmpty(__result))
-                __result = HUDTranslation.TranslateString(__result);
-        }
-    }
-
-    // Also keep the UnityEngine.UI.Text patch as a safety net
+    // Safety net: UI.Text.set_text for non-MFD UI
     [HarmonyPatch(typeof(UnityEngine.UI.Text), "set_text", typeof(string))]
     public static class Patch_UI_Text_SetText
     {
@@ -1420,7 +1405,7 @@ namespace OstranautsRuKaya
         }
     }
 
-    // Also keep TMP_Text patch
+    // Safety net: TMP_Text.set_text for NavMod/CrewSim/etc.
     [HarmonyPatch(typeof(TMPro.TMP_Text), "set_text", typeof(string))]
     public static class Patch_TMP_Text_SetText
     {
