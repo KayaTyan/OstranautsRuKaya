@@ -1017,7 +1017,7 @@ namespace OstranautsRuKaya
     // ─── Universal HUD string replacement ───
     public static class HUDTranslation
     {
-        internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.Ordinal)
+        internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase)
         {
             {"<APPLIED", "<ПРИМЕНЕНО"},
             {"<APPLY TO ALL", "<ПРИМ. КО ВСЕМ"},
@@ -1299,34 +1299,34 @@ namespace OstranautsRuKaya
             {"ALARM MUTE", "ТИХ. ТРЕВ."},
             {"ALIGNED", "ВЫРОВН."},
             {"ALT", "ВЫС"},
-            {"ANT FAULT", "АНТ. ОШИБКА"},
+            {"ANT FAULT", "АНТ. ОШИБ."},
             {"ATC", "АТС"},
             {"BARY", "БАР"},
             {"BRG", "ПЕЛ"},
-            {"CALL", "ВЫЗОВ"},
-            {"CLEAR", "СБРОС"},
+            {"CALL", "ИД"},
+            {"CLEAR", "СБРС"},
             {"CONTROLS", "УПРАВЛЕНИЕ"},
             {"DIAGNOSTICS", "ДИАГНОСТИКА"},
-            {"DISPLAY CONTROLS", "УПР. ЭКРАНОМ"},
-            {"DISTANCE", "ДИСТАНЦИЯ"},
+            {"DISPLAY CONTROLS", "НАСТРОЙКИ ДИСПЛЕЯ"},
+            {"DISTANCE", "ДИСТАНЦ."},
             {"DOCK SYS CLAMP", "ЗАХВ. СТЫК."},
             {"DREAM", "МЕЧТА"},
-            {"FFWD MAP", "ПРОГ. КАРТА"},
+            {"FFWD MAP", "КАРТА"},
             {"FOCUS", "ФОКУС"},
-            {"FUEL", "ТОПЛ"},
+            {"FUEL", "ТОПЛИВО"},
             {"FWD", "ВПЕР"},
             {"HIGH", "ВЫСОК."},
             {"IN", "ПРИБЛ"},
             {"INR", "ВНУТР"},
             {"KG", "КГ"},
-            {"KWH", "кВтч"},
+            {"KWH", "КвтЧ"},
             {"LICENSED", "ЛИЦЕНЗ."},
             {"LOW", "НИЗК."},
             {"MANEUVER DRIVE", "МАНЕВР. ПРИВОД"},
             {"MAP", "КАРТА"},
             {"MAP CONTROLS", "УПР. КАРТОЙ"},
             {"MARK", "ОТМ"},
-            {"MATCH SPEED", "СИНХР. СКОР."},
+            {"MATCH SPEED", "ВЫР. СКОР."},
             {"Mooring Control", "Швартовка"},
             {"NAME", "ИМЯ"},
             {"NAV MODE", "РЕЖИМ НАВИГ."},
@@ -1334,32 +1334,32 @@ namespace OstranautsRuKaya
             {"OFF", "ВЫКЛ"},
             {"ON", "ВКЛ"},
             {"OUT", "ОТДАЛ"},
-            {"PASSENGER SHUTTLE", "ПАСС. ШАТТЛ"},
+            {"PASSENGER SHUTTLE", "ПАССАЖ. ШАТЛ"},
             {"PB", "ПБ"},
-            {"PLA", "ПЛТ"},
-            {"POWER", "ПИТ"},
+            {"PLA", "ПЛН"},
+            {"POWER", "ЭЛЕКТР."},
             {"PRINT STATUS", "ПЕЧАТЬ СТАТУСА"},
             {"PROX WARN", "БЛИЗ. ПРЕДУПР."},
             {"QUICK ZOOM", "БЫСТР. ЗУМ"},
             {"RCS MANEUVERS", "МАНЕВРЫ RCS"},
-            {"RESET", "СБРОС"},
+            {"RESET", "СБРС"},
             {"REV", "НАЗ"},
-            {"RNG", "ДИСТ"},
+            {"RNG", "РАССТ."},
             {"ROTOR EFFICIENCY", "ЭФФ. РОТОРА"},
             {"ROTORS", "РОТОРЫ"},
             {"SENSORS", "ДАТЧИКИ"},
             {"SHIP", "КОР."},
             {"SHIP LABELS", "МЕТКИ КОР."},
             {"SHIP LOGS", "ЖУРН. КОРАБ."},
-            {"SHOW ZONES", "ЗОНЫ"},
-            {"STATION KEEPING", "УДЕРЖ. ПОЗИЦИИ"},
+            {"SHOW ZONES", "ПОК. ЗОНЫ"},
+            {"STATION KEEPING", "ДЕРЖ. СТАНЦ."},
             {"STATUS", "СТАТУС"},
             {"STN", "СТЦ"},
             {"TARGET", "ЦЕЛЬ"},
             {"TESTUDO", "ТЕСТУДО"},
             {"TETHER", "СВЯЗЬ"},
             {"THROTTLE", "ТЯГА"},
-            {"TIME / ZOOM", "ВРЕМЯ / ЗУМ"},
+            {"TIME / ZOOM", "ВРЕМЯ / ZOOM"},
             {"TRACK WARN", "СЛЕЖ. ПРЕДУПР."},
             {"TRACKING MODE", "РЕЖИМ СЛЕЖ."},
             {"TRANSLATION", "ДВИЖЕНИЕ"},
@@ -1367,13 +1367,25 @@ namespace OstranautsRuKaya
             {"TRG", "ЦЕЛЬ"},
             {"VCRS", "ВКРС"},
             {"VIZ", "ВИЗ"},
-            {"VREL", "ОСК"},
+            {"VREL", "ОТН.СК."},
             {"WARNINGS", "ПРЕДУПР."},
-            {"XPDR FAULT", "ТРАНСП. ОШИБКА"},
-            {"YAW", "РЫСКАНИЕ"},
+            {"XPDR FAULT", "ТРАНСП. ОШИБ."},
+            {"YAW", "РЫСК."},
             {"ZERO", "НУЛЬ"},
             {"ZOOM", "ЗУМ"},
             {"km", "км"},
+            {"EDIT", "РЕД."},
+            {"RESCUE", "SOS"},
+            {"OPT", "ОПТИК."},
+            {"Low", "Низк."},
+            {"High", "Высок."},
+            {"MAX", "МАКС"},
+            {"RESERVES", "РЕЗЕРВЫ"},
+            {"ALARM", "ОПОВЕЩ."},
+            {"MUTE", "ВЫКЛ"},
+            {"INVALID", "НЕВЕРН."},
+            {"VALID", "ВЕРН."},
+
 
 
         };
@@ -1430,6 +1442,45 @@ namespace OstranautsRuKaya
         }
     }
 
+
+
+    // ─── Periodic re-scan for dynamically loaded text ───
+    [HarmonyPatch(typeof(GUIOrbitDraw), "Update")]
+    public static class Patch_GUIOrbitDraw_Update_Scan
+    {
+        private static int _scanFrameCounter = 0;
+        static void Postfix()
+        {
+            try
+            {
+                _scanFrameCounter++;
+                if (_scanFrameCounter < 120) return; // every ~2 seconds
+                _scanFrameCounter = 0;
+
+                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
+                foreach (var t in texts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
+                foreach (var t in tmpTexts)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+            }
+            catch { }
+        }
+    }
 
     // ─── Scan and translate all UI text after scene load ───
     [HarmonyPatch(typeof(GUIOrbitDraw), "Init")]
