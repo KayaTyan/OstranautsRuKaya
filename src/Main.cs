@@ -549,7 +549,7 @@ namespace OstranautsRuKaya
         {
             try
             {
-                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var leftField = AccessTools.Field(typeof(MFDPage), "<Left>k__BackingField");
                 var left = leftField?.GetValue(__instance) as List<string>;
                 if (left != null)
                 {
