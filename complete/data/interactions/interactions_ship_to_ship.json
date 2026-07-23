@@ -1,7 +1,7 @@
 ﻿[
   {
     "strName": "SHIPUnDockAI",
-    "strTitle": "Запр. разр. отстыковк.",
+    "strTitle": "Отстык.",
     "strDesc": "[us-regID] готов к отправлению, запрашиваю разрешение на отстыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -20,7 +20,7 @@
   },
   {
     "strName": "SHIPUnDock",
-    "strTitle": "Запр. разр. отстыковк.",
+    "strTitle": "Отстык.",
     "strDesc": "[us-regID] готов к отправлению, запрашиваю разрешение на отстыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -1993,7 +1993,7 @@
   },
   {
     "strName": "SHIPDataRequestCrew",
-    "strTitle": "Запр. спис. экипаж.",
+    "strTitle": "Спис. экипаж.",
     "strDesc": "[us-regID] запрашивает список экипажа.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -2007,7 +2007,7 @@
   },
   {
     "strName": "SHIPDataRequestStatus",
-    "strTitle": "Инф. экипаж: [data]",
+    "strTitle": "Инф. экипаж",
     "strDesc": "[them-regID], доложите статус!",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -2060,8 +2060,8 @@
   },
   {
     "strName": "SHIPDataRequestMarket",
-    "strTitle": "Инф. рынок: [data]",
-    "strDesc": "Запр. инф. о рынке",
+    "strTitle": "Инф. рынок",
+    "strDesc": "Инф. о рынке",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [

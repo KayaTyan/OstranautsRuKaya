@@ -1296,6 +1296,7 @@ namespace OstranautsRuKaya
             {"Zoom Camera In", "Приблизить камеру"},
             {"Zoom Camera Out", "Отдалить камеру"},
             {"public ATC channel", "публичный канал АТС"},
+
         };
 
         internal static string TranslateString(string value)
