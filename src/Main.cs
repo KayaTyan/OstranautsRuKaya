@@ -555,7 +555,7 @@ namespace OstranautsRuKaya
                 {
                     MFDTranslate.ReplaceInList(left, "MOORED WITH ", "ШВАРТОВАН С ");
                     MFDTranslate.ReplaceInList(left, "DOCKED WITH ", "ПРИСТЫКОВАН С ");
-                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФ. О СТЫКОВКЕ");
+                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФО О СТЫКОВКЕ");
                     MFDTranslate.ReplaceInList(left, "REG ID", "РЕГ ID");
                     MFDTranslate.ReplaceInList(left, "RATING CODE", "КОД РЕЙТИНГА");
                     MFDTranslate.ReplaceInList(left, "RETURN TO", "ВЕРНУТЬСЯ В");
@@ -1295,7 +1295,7 @@ namespace OstranautsRuKaya
             {"Zone Subtract", "Уменьшить зону"},
             {"Zoom Camera In", "Приблизить камеру"},
             {"Zoom Camera Out", "Отдалить камеру"},
-            {"public ATC channel", "публичный канал АТС"}
+            {"public ATC channel", "публичный канал АТС"},
         };
 
         internal static string TranslateString(string value)
