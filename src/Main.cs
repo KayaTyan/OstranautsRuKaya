@@ -559,7 +559,7 @@ namespace OstranautsRuKaya
                     MFDTranslate.ReplaceInList(left, "REG ID", "РЕГ ID");
                     MFDTranslate.ReplaceInList(left, "RATING CODE", "КОД РЕЙТИНГА");
                     MFDTranslate.ReplaceInList(left, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛАВ. МЕНЮ>");
+                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛ. МЕНЮ>");
                     MFDTranslate.ReplaceInList(left, "NO DOCKED VESSEL", "НЕТ ПРИСТЫКОВАННОГО СУДНА");
                 }
             }
@@ -588,7 +588,7 @@ namespace OstranautsRuKaya
                 if (__result != null)
                 {
                     MFDTranslate.ReplaceInList(__result, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛАВ. МЕНЮ>");
+                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛ. МЕНЮ>");
                 }
             }
             catch { }
@@ -1164,7 +1164,7 @@ namespace OstranautsRuKaya
             {"LOCKING", "ЗАХВАТ..."},
             {"Launchers:", "Пусковые:"},
             {"MAIN MENU", "ГЛАВ. МЕНЮ"},
-            {"MAIN MENU>", "ГЛАВ. МЕНЮ>"},
+            {"MAIN MENU>", "ГЛ. МЕНЮ>"},
             {"MOORED WITH", "ШВАРТОВАН С"},
             {"NAV MODE:", "РЕЖИМ НАВИГ.:"},
             {"NAV STATION:", "НАВИГ. СТАНЦИЯ:"},
@@ -1229,7 +1229,7 @@ namespace OstranautsRuKaya
             {"Switch Control Panels (Top)", "Сменить панель управления (Верх)"},
             {"Switch to Nav Screen", "Перейти к экрану навигации"},
             {"Switched to Nav Screen.", "Перекл. на экран навигации."},
-            {"TOGGLE MODES", "ПЕРЕКЛ. РЕЖ."},
+            {"TOGGLE MODES", "<ПЕРЕК. РЕЖ."},
             {"TRANSPONDER ANTENNA:", "АНТЕННА ТРАНСПОНДЕРА:"},
             {"TRANSPONDER:", "ТРАНСПОНДЕР:"},
             {"Take Ship", "Занять корабль"},
@@ -1391,7 +1391,7 @@ namespace OstranautsRuKaya
             {"Mode", "Режим"},
             {"Derelicts", "Заброшенные"},
             {"RETURN TO", "ВЕРНУТЬСЯ В"},
-            {"NEXT PAGE>", "СЛЕД. СТР."},
+            {"NEXT PAGE>", "СЛЕД. СТР.>"},
 
 
 
