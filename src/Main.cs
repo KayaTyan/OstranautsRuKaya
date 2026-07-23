@@ -11,6 +11,7 @@ using System.Reflection;
 using System.Text;
 using Ostranauts.Core.Tutorials;
 using Ostranauts.Objectives;
+using Ostranauts.ShipGUIs.MFD;
 
 namespace OstranautsRuKaya
 {
@@ -484,6 +485,130 @@ namespace OstranautsRuKaya
             {
                 strMsg = strMsg.Replace(" are no longer ", " больше не ");
                 strMsg = strMsg.Replace(" are ", " ");
+            }
+        }
+    }
+
+    // ─── MFD HUD Labels Translation ───
+
+    public static class MFDTranslate
+    {
+        internal static void ReplaceInList(List<string> list, string oldText, string newText)
+        {
+            if (list == null) return;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Contains(oldText))
+                    list[i] = list[i].Replace(oldText, newText);
+            }
+        }
+    }
+
+    // MFDMainMenu: translates title and rebuilds left/right lists
+    [HarmonyPatch(typeof(MFDMainMenu), "get_Title")]
+    public static class Patch_MFDMainMenu_Title
+    {
+        static void Postfix(ref string __result)
+        {
+            if (__result == "MAIN MENU") __result = "ГЛАВНОЕ МЕНЮ";
+        }
+    }
+
+    [HarmonyPatch(typeof(MFDMainMenu), "RebuildMenu")]
+    public static class Patch_MFDMainMenu_RebuildMenu
+    {
+        static void Postfix(MFDMainMenu __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDMainMenu), "_left");
+                var rightField = AccessTools.Field(typeof(MFDMainMenu), "_right");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                var right = rightField?.GetValue(__instance) as List<string>;
+
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "<LOCAL CHANNEL", "<ЛОКАЛЬНЫЙ КАНАЛ");
+                    MFDTranslate.ReplaceInList(left, "<MESSAGE LOG", "<ЖУРНАЛ СООБЩЕНИЙ");
+                    MFDTranslate.ReplaceInList(left, "ATC CHANNEL: ", "КАНАЛ АТС: ");
+                    MFDTranslate.ReplaceInList(left, "DOCKED WITH: ", "ПРИСТЫКОВАН К: ");
+                    MFDTranslate.ReplaceInList(left, "<DOCK INFO", "<ИНФО О СТЫКОВКЕ");
+                    MFDTranslate.ReplaceInList(left, "<UNREAD MESSAGES", "<НЕПРОЧИТАННЫЕ");
+                }
+                if (right != null)
+                {
+                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "ВЫЗВАТЬ КОРАБЛЬ>");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDDockInfo: translates dock info labels
+    [HarmonyPatch(typeof(MFDDockInfo), "BuildMenu")]
+    public static class Patch_MFDDockInfo_BuildMenu
+    {
+        static void Postfix(MFDDockInfo __instance)
+        {
+            try
+            {
+                var leftField = AccessTools.Field(typeof(MFDPage), "_left");
+                var left = leftField?.GetValue(__instance) as List<string>;
+                if (left != null)
+                {
+                    MFDTranslate.ReplaceInList(left, "MOORED WITH ", "ШВАРТОВАН С ");
+                    MFDTranslate.ReplaceInList(left, "DOCKED WITH ", "ПРИСТЫКОВАН С ");
+                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФО О СТЫКОВКЕ");
+                    MFDTranslate.ReplaceInList(left, "REG ID", "РЕГ ID");
+                    MFDTranslate.ReplaceInList(left, "RATING CODE", "КОД РЕЙТИНГА");
+                    MFDTranslate.ReplaceInList(left, "RETURN TO", "ВЕРНУТЬСЯ В");
+                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛАВНОЕ МЕНЮ>");
+                    MFDTranslate.ReplaceInList(left, "NO DOCKED VESSEL", "НЕТ ПРИСТЫКОВАННОГО СУДНА");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDInbox: translates title
+    [HarmonyPatch(typeof(MFDInbox), "get_Title")]
+    public static class Patch_MFDInbox_Title
+    {
+        static void Postfix(ref string __result)
+        {
+            if (__result == "Recieved Messages:") __result = "Полученные сообщения:";
+        }
+    }
+
+    // MFDMessageLog: translates right panel labels
+    [HarmonyPatch(typeof(MFDMessageLog), "get_Right")]
+    public static class Patch_MFDMessageLog_Right
+    {
+        static void Postfix(ref List<string> __result)
+        {
+            try
+            {
+                if (__result != null)
+                {
+                    MFDTranslate.ReplaceInList(__result, "RETURN TO", "ВЕРНУТЬСЯ В");
+                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛАВНОЕ МЕНЮ>");
+                }
+            }
+            catch { }
+        }
+    }
+
+    // MFDComms: translates title and labels
+    [HarmonyPatch(typeof(MFDComms), "get_Title")]
+    public static class Patch_MFDComms_Title
+    {
+        static void Postfix(ref string __result)
+        {
+            if (__result != null)
+            {
+                if (__result.Contains("OPEN CHANNEL TO ")) 
+                    __result = __result.Replace("OPEN CHANNEL TO ", "ОТКРЫТ КАНАЛ К ");
+                if (__result == "Hail Ship") __result = "Вызвать корабль";
             }
         }
     }
