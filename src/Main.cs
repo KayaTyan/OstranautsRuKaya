@@ -213,7 +213,7 @@ namespace OstranautsRuKaya
                 if (_scanFrameCounter < 300) return; // every ~5 seconds at 60fps
                 _scanFrameCounter = 0;
 
-                // Scan UI.Text components
+                // ── Method 1: FindObjectsOfType for active components ──
                 var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
                 foreach (var t in texts)
                 {
@@ -225,7 +225,6 @@ namespace OstranautsRuKaya
                     }
                 }
 
-                // Scan TMP_Text components (includes TextMeshPro and TextMeshProUGUI)
                 var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
                 foreach (var t in tmpTexts)
                 {
@@ -237,41 +236,34 @@ namespace OstranautsRuKaya
                     }
                 }
 
-                // ─── DEBUG: Dump untranslated text every scan cycle ───
-                _dumpCounter++;
-                if (_dumpCounter >= 1)
+                // ── Method 2: Traverse ALL root objects including INACTIVE children ──
+                // NavMod panels may be inactive until player interacts with NavStation.
+                // GetComponentsInChildren(true) includes inactive children.
+                var rootObjects = UnityEngine.SceneManagement.SceneManager
+                    .GetActiveScene().GetRootGameObjects();
+                foreach (var root in rootObjects)
                 {
-                    _dumpCounter = 0;
-                    Log?.LogInfo("[Kaya] ====== UNTRANSLATED SCAN ======");
-                    foreach (var t in texts)
+                    if (root == null) continue;
+                    // Get ALL TMP_Text including inactive
+                    var inactiveTmp = root.GetComponentsInChildren<TMPro.TMP_Text>(true);
+                    foreach (var t in inactiveTmp)
                     {
                         if (t != null && !string.IsNullOrEmpty(t.text))
                         {
-                            string orig = t.text;
-                            string translated = HUDTranslation.TranslateString(orig);
-                            if (translated == orig && orig.Length < 60 && System.Text.RegularExpressions.Regex.IsMatch(orig, @"^[A-Za-z0-9 :;/\-\.]+$"))
-                            {
-                                string hex = "";
-                                foreach (char c in orig)
-                                    hex += string.Format("[{0:X2}]", (int)c);
-                                Log?.LogInfo($"[Kaya] UNTRANSLATED UI.Text '{orig}' len={orig.Length} hex={hex} parent={t.transform.parent?.name}");
-                            }
+                            string translated = HUDTranslation.TranslateString(t.text);
+                            if (translated != t.text)
+                                t.text = translated;
                         }
                     }
-                    foreach (var t in tmpTexts)
+                    // Get ALL UI.Text including inactive
+                    var inactiveText = root.GetComponentsInChildren<UnityEngine.UI.Text>(true);
+                    foreach (var t in inactiveText)
                     {
                         if (t != null && !string.IsNullOrEmpty(t.text))
                         {
-                            string orig = t.text;
-                            string translated = HUDTranslation.TranslateString(orig);
-                            if (translated == orig && orig.Length < 60 && System.Text.RegularExpressions.Regex.IsMatch(orig, @"^[A-Za-z0-9 :;/\-\.]+$"))
-                            {
-                                string hex = "";
-                                foreach (char c in orig)
-                                    hex += string.Format("[{0:X2}]", (int)c);
-                                string typeName = t.GetType().Name;
-                                Log?.LogInfo($"[Kaya] UNTRANSLATED {typeName} '{orig}' len={orig.Length} hex={hex} parent={t.transform.parent?.name}");
-                            }
+                            string translated = HUDTranslation.TranslateString(t.text);
+                            if (translated != t.text)
+                                t.text = translated;
                         }
                     }
                 }
