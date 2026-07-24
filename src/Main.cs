@@ -1158,11 +1158,11 @@ namespace OstranautsRuKaya
     // ─── Translation data (loaded from translations.json) ───
     public static class TranslationData
     {
-        internal static Dictionary<string, string> Hud = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
-        internal static Dictionary<string, string> Objectives = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
-        internal static Dictionary<string, string> Titles = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
-        internal static Dictionary<string, string> ReplacementsMfd = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
-        internal static Dictionary<string, string> ReplacementsGrammar = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+        internal static Dictionary<string, string> Hud = new Dictionary<string, string>(System.StringComparer.Ordinal);
+        internal static Dictionary<string, string> Objectives = new Dictionary<string, string>(System.StringComparer.Ordinal);
+        internal static Dictionary<string, string> Titles = new Dictionary<string, string>(System.StringComparer.Ordinal);
+        internal static Dictionary<string, string> ReplacementsMfd = new Dictionary<string, string>(System.StringComparer.Ordinal);
+        internal static Dictionary<string, string> ReplacementsGrammar = new Dictionary<string, string>(System.StringComparer.Ordinal);
 
         internal static void LoadFromJson(string path)
         {
