@@ -1513,7 +1513,7 @@ namespace OstranautsRuKaya
             // Prevents "CLEAR" matching inside "CLEARANCE", "DOCK" inside "DOCKED" etc.
             foreach (var kvp in HudTranslations)
             {
-                if (kvp.Key.Length >= 4 && value.Contains(kvp.Key))
+                if (kvp.Key.Length >= 2 && kvp.Value.Length > 0 && value.Contains(kvp.Key))
                 {
                     // Use regex with word boundaries to avoid breaking compound words
                     string pattern = @"\b" + System.Text.RegularExpressions.Regex.Escape(kvp.Key) + @"\b";
