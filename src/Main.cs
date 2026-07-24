@@ -121,6 +121,12 @@ namespace OstranautsRuKaya
             }
         }
 
+        private static void LoadTranslations()
+        {
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? ".", "translations.json");
+            TranslationData.LoadFromJson(path);
+        }
+
         internal static string FormatTutorialText(string text)
         {
             if (string.IsNullOrEmpty(text)) return text;
@@ -181,6 +187,7 @@ namespace OstranautsRuKaya
                 Log = Logger;
                 Log.LogInfo("[Kaya] Plugin starting...");
 
+                LoadTranslations();
                 LoadConjugations();
                 LoadTutorialTranslations();
                 ReplaceGrammarDictionaries();
@@ -555,8 +562,8 @@ namespace OstranautsRuKaya
         {
             if (!string.IsNullOrEmpty(strMsg))
             {
-                strMsg = strMsg.Replace(" are no longer ", " больше не ");
-                strMsg = strMsg.Replace(" are ", " ");
+                foreach (var kvp in TranslationData.ReplacementsGrammar)
+                    strMsg = strMsg.Replace(kvp.Key, kvp.Value);
             }
         }
     }
@@ -582,7 +589,7 @@ namespace OstranautsRuKaya
     {
         static void Postfix(ref string __result)
         {
-            if (__result == "MAIN MENU") __result = "ГЛАВ. МЕНЮ";
+            __result = HUDTranslation.TranslateString(__result);
         }
     }
 
@@ -599,18 +606,9 @@ namespace OstranautsRuKaya
                 var right = rightField?.GetValue(__instance) as List<string>;
 
                 if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "<LOCAL CHANNEL", "<ЛОК. КАНАЛ");
-                    MFDTranslate.ReplaceInList(left, "<MESSAGE LOG", "<ЖУРН. СООБЩ.");
-                    MFDTranslate.ReplaceInList(left, "ATC CHANNEL: ", "АТС КАНАЛ: ");
-                    MFDTranslate.ReplaceInList(left, "DOCKED WITH: ", "ПРИСТЫКОВАН К: ");
-                    MFDTranslate.ReplaceInList(left, "<DOCK INFO", "<ИНФ. О СТЫКОВКЕ");
-                    MFDTranslate.ReplaceInList(left, "<UNREAD MESSAGES", "<НЕПР. СООБЩ.");
-                }
+                    HUDTranslation.ApplyMfdReplacements(left);
                 if (right != null)
-                {
-                    MFDTranslate.ReplaceInList(right, "HAIL SHIP>", "СВЯЗЬ>");
-                }
+                    HUDTranslation.ApplyMfdReplacements(right);
             }
             catch { }
         }
@@ -627,16 +625,7 @@ namespace OstranautsRuKaya
                 var leftField = AccessTools.Field(typeof(MFDPage), "<Left>k__BackingField");
                 var left = leftField?.GetValue(__instance) as List<string>;
                 if (left != null)
-                {
-                    MFDTranslate.ReplaceInList(left, "MOORED WITH ", "ШВАРТОВАН С ");
-                    MFDTranslate.ReplaceInList(left, "DOCKED WITH ", "ПРИСТЫКОВАН С ");
-                    MFDTranslate.ReplaceInList(left, "DOCK INFO", "ИНФО О СТЫКОВКЕ");
-                    MFDTranslate.ReplaceInList(left, "REG ID", "РЕГ ID");
-                    MFDTranslate.ReplaceInList(left, "RATING CODE", "КОД РЕЙТИНГА");
-                    MFDTranslate.ReplaceInList(left, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(left, "MAIN MENU>", "ГЛ. МЕНЮ>");
-                    MFDTranslate.ReplaceInList(left, "NO DOCKED VESSEL", "НЕТ ПРИСТЫКОВАННОГО СУДНА");
-                }
+                    HUDTranslation.ApplyMfdReplacements(left);
             }
             catch { }
         }
@@ -648,7 +637,7 @@ namespace OstranautsRuKaya
     {
         static void Postfix(ref string __result)
         {
-            if (__result == "Recieved Messages:") __result = "Полученные сообщения:";
+            __result = HUDTranslation.TranslateString(__result);
         }
     }
 
@@ -661,10 +650,7 @@ namespace OstranautsRuKaya
             try
             {
                 if (__result != null)
-                {
-                    MFDTranslate.ReplaceInList(__result, "RETURN TO", "ВЕРНУТЬСЯ В");
-                    MFDTranslate.ReplaceInList(__result, "MAIN MENU>", "ГЛ. МЕНЮ>");
-                }
+                    HUDTranslation.ApplyMfdReplacements(__result);
             }
             catch { }
         }
@@ -679,7 +665,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Взять скафандр и шлем";
+            string key = "CollectEquipment.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -689,7 +677,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Любопыт. удовлетворено.";
+            string key = "CrowbarHallway3.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -699,7 +689,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Исследовать дальше";
+            string key = "CrowbarHallway4.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -709,7 +701,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Гражданский долг выполнен.";
+            string key = "CrowbarHallway5.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -723,7 +717,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Убрать записку";
+            string key = "DismissNote.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -733,7 +729,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Памятка убрана";
+            string key = "DismissNote.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -743,7 +741,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Стыковаться с брошенным кораблём";
+            string key = "DockWithDerelict.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -753,7 +753,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Успешная стыковка.";
+            string key = "DockWithDerelict.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -767,7 +769,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Развернуть подсказку";
+            string key = "ExpandMTT.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -777,7 +781,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Исследовать брошенный корабль";
+            string key = "ExploreTutorialDerelict.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -795,7 +801,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Получить допуск к стыковке";
+            string key = "GainClearance.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -805,7 +813,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Допуск к стыковке получен.";
+            string key = "GainClearance.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -815,7 +825,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Обыскать стойку";
+            string key = "HallwayConduit7.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -825,7 +837,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Продолжить к своему кораблю";
+            string key = "HallwayConduit9.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -835,7 +849,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Атмосфера в шлеме небезопасна";
+            string key = "HelmetAtmosphereUnsafe.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -845,7 +861,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Синхр. скорости перекл.";
+            string key = "MatchSpeed.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -855,7 +873,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Исп. навиг. станцию";
+            string key = "NavUseShow.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -865,7 +885,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Посетить свой корабль";
+            string key = "NavWalk.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -875,7 +897,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Оплатить стык. сбор";
+            string key = "PayDockingFee.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -885,7 +909,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Стыковочные сборы оплачены.";
+            string key = "PayDockingFee.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -895,7 +921,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Надеть скафандр";
+            string key = "PrepareToExploreDerelict.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -905,7 +933,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Доступ к мостику";
+            string key = "ReachBridgeTest.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -915,7 +945,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Корабль заправлен.";
+            string key = "RefuelAtKiosk.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -925,7 +957,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Запросить допуск к расстыковке";
+            string key = "RequestClearance.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -935,7 +969,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Восстановить навиг. станцию";
+            string key = "RestoreNavStation.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -945,7 +981,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Изменить права экипажа";
+            string key = "RosterPermission.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -955,7 +993,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Проверить атмосферу отсека";
+            string key = "SelectCompartment.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -965,7 +1005,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Продажа утиля завершена.";
+            string key = "SellSalvageAtKiosk.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -975,7 +1017,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Перейти к экрану навигации";
+            string key = "SwitchNav.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -985,7 +1029,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Перекл. на экран навигации.";
+            string key = "SwitchNav.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -995,7 +1041,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Цель: ближайший брошенный корабль";
+            string key = "TargetDerelict.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1005,7 +1053,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Цель: станция K-LEG";
+            string key = "TargetOKLG.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1015,7 +1065,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Синхр. скорости перекл.";
+            string key = "ToggleOffMatchSpeed.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1025,7 +1077,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Двигаться до зоны стыковки";
+            string key = "TravelToDerelict.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1035,7 +1089,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Обучение завершено";
+            string key = "TutorialEnd.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1045,7 +1101,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Заглушка обучения";
+            string key = "TutorialStub.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1055,7 +1113,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Неоплаченные сборы";
+            string key = "UnpaidDockingFees.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1065,7 +1125,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Стыковочные сборы оплачены!";
+            string key = "UnpaidDockingFees.ObjectiveDescComplete";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1075,7 +1137,9 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Снять с паузы";
+            string key = "UnpauseWorld.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
@@ -1085,433 +1149,78 @@ namespace OstranautsRuKaya
     {
         static bool Prefix(ref string __result)
         {
-            __result = "Визуализация энергосети";
+            string key = "VisualisePower.ObjectiveName";
+            if (TranslationData.Objectives.TryGetValue(key, out string ru))
+                __result = ru;
             return false;
         }
     }
+    // ─── Translation data (loaded from translations.json) ───
+    public static class TranslationData
+    {
+        internal static Dictionary<string, string> Hud = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+        internal static Dictionary<string, string> Objectives = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+        internal static Dictionary<string, string> Titles = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+        internal static Dictionary<string, string> ReplacementsMfd = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+        internal static Dictionary<string, string> ReplacementsGrammar = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase);
+
+        internal static void LoadFromJson(string path)
+        {
+            try
+            {
+                if (!System.IO.File.Exists(path))
+                {
+                    RuTranslation.Log?.LogError($"[Kaya] translations.json not found at {path}");
+                    return;
+                }
+                string json = System.IO.File.ReadAllText(path, Encoding.UTF8);
+                var root = JsonMapper.ToObject(json);
+
+                Hud.Clear();
+                Objectives.Clear();
+                Titles.Clear();
+                ReplacementsMfd.Clear();
+                ReplacementsGrammar.Clear();
+
+                LoadSection(root, "hud", Hud);
+                LoadSection(root, "objectives", Objectives);
+                LoadSection(root, "titles", Titles);
+                LoadSection(root, "replacements_mfd", ReplacementsMfd);
+                LoadSection(root, "replacements_grammar", ReplacementsGrammar);
+
+                int total = Hud.Count + Objectives.Count + Titles.Count + ReplacementsMfd.Count + ReplacementsGrammar.Count;
+                RuTranslation.Log?.LogInfo($"[Kaya] Loaded {total} translations ({Hud.Count} hud, {Objectives.Count} objectives, {Titles.Count} titles, {ReplacementsMfd.Count} mfd-repl, {ReplacementsGrammar.Count} grammar-repl)");
+            }
+            catch (System.Exception ex)
+            {
+                RuTranslation.Log?.LogError($"[Kaya] Failed to load translations.json: {ex}");
+            }
+        }
+
+        private static void LoadSection(JsonData root, string key, Dictionary<string, string> dict)
+        {
+            if (!root.Keys.Contains(key)) return;
+            var section = (JsonData)root[key];
+            foreach (string k in section.Keys)
+                dict[k] = (string)section[k];
+        }
+    }
+
     // ─── Universal HUD string replacement ───
     public static class HUDTranslation
     {
-        internal static readonly Dictionary<string, string> HudTranslations = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase)
-        {
-            {"<APPLIED", "<ПРИМЕНЕНО"},
-            {"<APPLY TO ALL", "<ПРИМ. КО ВСЕМ"},
-            {"<BACK", "<НАЗАД"},
-            {"<CYCLE PAGE", "<ЛИСТ. СТРАНИЦУ"},
-            {"<DOCK INFO", "<ИНФ. О СТЫКОВКЕ"},
-            {"<DOCKING", "<СТЫКОВКА"},
-            {"<FIRING MODE:", "<РЕЖИМ ОГНЯ:"},
-            {"<GROUP:", "<ГРУППА:"},
-            {"<LOCAL CHANNEL", "<ЛОК. КАНАЛ"},
-            {"<MAIN MENU", "<ГЛАВ. МЕНЮ"},
-            {"<MESSAGE LOG", "<ЖУРН. СООБЩ."},
-            {"<PREVIOUS PAGE", "<ПРЕД. СТР."},
-            {"<REQUEST CLEARANCE", "<ЗАПРОС"},
-            {"<SHOW ON NAV MAP", "<ПОКАЗ. НА КАРТЕ"},
-            {"<STATUS:", "<СТАТУС:"},
-            {"<TARGET SELECT:", "<ВЫБОР ЦЕЛИ:"},
-            {"<UNMOOR", "<ОТШВАРТОВАТЬ"},
-            {"<UNREAD MESSAGES", "<НЕПР. СООБЩ."},
-            {"ACTIVE", "АКТИВЕН"},
-            {"ACTIVE SENSORS:", "АКТИВ. СЕНСОРЫ:"},
-            {"AFT", "КОРМА"},
-            {"ALL CLEAR: Closest approach to", "ВСЕ ЧИСТО: Ближайшее сближение с"},
-            {"ARS 2000 - Automated Response Service", "ARS 2000 - Автоответчик"},
-            {"ATC CHANNEL:", "АТС КАНАЛ:"},
-            {"ATC Regional Control -", "Региональный АТС -"},
-            {"AUTO", "АВТО"},
-            {"AUTOMATIC", "АВТОМАТИЧ."},
-            {"Access The Bridge", "Доступ к мостику"},
-            {"Adjust the NAV Station Zoom", "Настроить зум навиг. станции"},
-            {"Age:", "Возраст:"},
-            {"Allowed items: all", "Разреш. предметы: все"},
-            {"Amount:", "Кол-во:"},
-            {"Anchoring docked ship", "Якорь стыкованного судна"},
-            {"Are you sure you want to quit to desktop?", "Вы уверены, что хотите выйти в Windows?"},
-            {"Aux Dock ID:", "Доп. ID стыковки:"},
-            {"BACKUP POWER:", "РЕЗЕРВ ПИТАНИЯ:"},
-            {"BRG -", "АЗМ -"},
-            {"Boarding", "Абордаж"},
-            {"Body Temp", "Темп. тела"},
-            {"Bribe Amount: $", "Размер взятки: $"},
-            {"CAUTION: Older saves may experience problems.", "ВНИМАНИЕ: Старые сейвы могут иметь проблемы."},
-            {"CITIZENSHIP VERIFIED", "ГРАЖДАНСТВО ПОДТВЕРЖДЕНО"},
-            {"CLEARANCE AVAILABLE", "ДОПУСК ДОСТУПЕН"},
-            {"CLEARED TO", "РАЗРЕШЕНО"},
-            {"CLOSE INVENTORY", "ЗАКРЫТЬ ИНВЕНТАРЬ"},
-            {"CONNECTED WITH -", "ПОДКЛЮЧЕНО К -"},
-            {"Calculating target coordinates", "Расчёт координат цели"},
-            {"Camera Controls", "Управление камерой"},
-            {"Camera Down", "Камера вниз"},
-            {"Camera Left", "Камера влево"},
-            {"Camera Right", "Камера вправо"},
-            {"Camera Target", "Камера: цель"},
-            {"Camera Up", "Камера вверх"},
-            {"Captain", "Капитан"},
-            {"Change Roster Permissions", "Изменить права экипажа"},
-            {"Cheat Sheet Dismissed", "Памятка убрана"},
-            {"Check Room Atmosphere", "Проверить атмосферу отсека"},
-            {"Civic duty performed.", "Гражданский долг выполнен."},
-            {"Clearance:", "Допуск:"},
-            {"Collect Pressure Suit and Helmet", "Взять скафандр и шлем"},
-            {"Comms", "Связь"},
-            {"Compartment", "Отсек"},
-            {"Connected with", "СОЕД. С"},
-            {"Connecting..", "Подключение.."},
-            {"Container", "Контейнер"},
-            {"Continue To Your Ship", "Продолжить к своему кораблю"},
-            {"Cooling", "Охлаждение"},
-            {"Course Vector", "Вектор курса"},
-            {"Create New Child Node", "Создать дочерний узел"},
-            {"Create a Zone", "Создать зону"},
-            {"Crew", "Экипаж"},
-            {"Crew Member Selected", "Выбран член экипажа"},
-            {"Criminal", "Преступник"},
-            {"Crippled", "Калека"},
-            {"Curiosity sated.", "Любопыт. удовлетворено."},
-            {"Current Preset:", "Текущий пресет:"},
-            {"Cycle Crew", "Перекл. экипаж"},
-            {"Cycle to New Crew", "Перекл. на нового члена экипажа"},
-            {"DANGER:", "ОПАСНОСТЬ:"},
-            {"DANGER: Atmospheric Entry with", "ОПАСНОСТЬ: Атмосферный вход с"},
-            {"DANGER: Collision predicted with", "ОПАСНОСТЬ: Предсказано столкновение с"},
-            {"DELTA-V:", "ДЕЛЬТА-V:"},
-            {"DOCK", "СТЫКОВКА"},
-            {"DOCK INFO", "ИНФО О СТЫКОВКЕ"},
-            {"DOCKED WITH", "СОСТЫКОВАН С"},
-            {"DOCKED WITH:", "ПРИСТЫКОВАН С:"},
-            {"DOCKING MESSAGE -", "СТЫКОВ. СООБЩ. -"},
-            {"Danger", "Опасность"},
-            {"Dead", "Мёртв"},
-            {"Death Pay: $", "Выплата за гибель: $"},
-            {"Death Report", "Отчёт о гибели"},
-            {"Delete JSON Entry", "Удалить запись JSON"},
-            {"Deploying Hauler", "Развернуть буксир"},
-            {"Deploying Law Enforcement Officer", "Развернуть полицию"},
-            {"Designation:", "Обозначение:"},
-            {"Died", "Погиб"},
-            {"Dimensions:", "Размеры:"},
-            {"Dismiss Note", "Убрать записку"},
-            {"Distance to plotted destination:", "Дистанция до пункта назначения:"},
-            {"Dock with Derelict", "Стыковаться с брошенным кораблём"},
-            {"Docking", "Стыковка"},
-            {"Docking fees paid!", "Стыковочные сборы оплачены!"},
-            {"Docking fees paid.", "Стыковочные сборы оплачены."},
-            {"Docking procedure aborted: target airlock is not safe.", "Стыковка отменена: шлюз цели небезопасен."},
-            {"Dodging incoming", "Уклонение от угрозы"},
-            {"Duplicate Node", "Дублировать узел"},
-            {"Duties", "Обязанности"},
-            {"ETA", "расч. время"},
-            {"ETA -", "РВ -"},
-            {"Estimated value: $", "Оценочная стоимость: $"},
-            {"Expand Mega Tooltip", "Развернуть подсказку"},
-            {"Explore Derelict", "Исследовать брошенный корабль"},
-            {"FFWD", "УСКОР."},
-            {"FORWARD", "НОС"},
-            {"FUEL:", "ТОПЛИВО:"},
-            {"FUNDS VERIFIED", "СРЕДСТВА ПОДТВЕРЖДЕНЫ"},
-            {"Firefight", "Перестрелка"},
-            {"Flotilla", "Флотилия"},
-            {"Flying to", "Лёт к"},
-            {"Friendly:", "Союзники:"},
-            {"Fuel request was sent", "Запр. на топливо отправлен"},
-            {"Fuel transfer complete", "Передача топлива завершена"},
-            {"Gain Clearance to Dock", "Получить допуск к стыковке"},
-            {"Gained Docking Clearance.", "Допуск к стыковке получен."},
-            {"HAIL SHIP>", "СВЯЗЬ>"},
-            {"HOLD BUTTON FOR WEAPON MENU", "УДЕРЖИВАТЬ ДЛЯ МЕНЮ ОРУЖИЯ"},
-            {"HULL", "КОРПУС"},
-            {"Hail", "Вызов"},
-            {"Hail Ship", "Вызвать корабль"},
-            {"Heat", "Нагрев"},
-            {"Heating", "Нагревается"},
-            {"Helmet Atmosphere Unsafe", "Атмосфера в шлеме небезопасна"},
-            {"Hold", "Удержание"},
-            {"Holding position", "Удерживание позиции"},
-            {"Homeport:", "Порт приписки:"},
-            {"INACTIVE", "НЕАКТИВЕН"},
-            {"Investigate Further", "Исследовать дальше"},
-            {"LIFE SUPPORT COOL:", "ЖИЗН. ОБЕСП. ОХЛАЖД.:"},
-            {"LIFE SUPPORT HEAT:", "ЖИЗН. ОБЕСП. НАГРЕВ:"},
-            {"LIFE SUPPORT O2 STORES:", "ЖИЗН. ОБЕСП. ЗАПАС O2:"},
-            {"LIFE SUPPORT WORKING O2 PUMPS:", "ЖИЗН. ОБЕСП. РАБОТАЮЩ. НАСОСЫ O2:"},
-            {"LOCK", "ЗАХВАТ"},
-            {"LOCKING", "ЗАХВАТ..."},
-            {"Launchers:", "Пусковые:"},
-            {"MAIN MENU", "ГЛАВ. МЕНЮ"},
-            {"MAIN MENU>", "ГЛ. МЕНЮ>"},
-            {"MOORED WITH", "ШВАРТОВАН С"},
-            {"NAV MODE:", "РЕЖИМ НАВИГ.:"},
-            {"NAV STATION:", "НАВИГ. СТАНЦИЯ:"},
-            {"Nav", "Навигация"},
-            {"OFFLINE", "ОФЛАЙН"},
-            {"ONLINE", "ОНЛАЙН"},
-            {"OPEN CHANNEL TO", "ОТКР. КАНАЛ К"},
-            {"Orbit", "Орбита"},
-            {"PASSIVE SENSORS:", "ПАССИВ. ДАТЧИКИ:"},
-            {"PORT", "ЛЕВЫЙ БОРТ"},
-            {"Patrolling assigned sector", "Патрулирование сектора"},
-            {"Pay Docking Fee", "Оплатить стык. сбор"},
-            {"Pilot", "Пилот"},
-            {"Plot Manager Settings", "Настройки менеджера сюжетов"},
-            {"Point of Ref:", "Точка отсчёта:"},
-            {"Port ID:", "ID порта:"},
-            {"Port#", "Порт#"},
-            {"Power Overlay", "Слой питания"},
-            {"Primary Dock ID:", "Осн. ID стыковки:"},
-            {"Put on Pressure Suit", "Надеть скафандр"},
-            {"RATING CODE", "КОД РЕЙТИНГА"},
-            {"RCS Count:", "Кол-во RCS:"},
-            {"RCS DISTRIBUTOR:", "RCS РАСПРЕД.:"},
-            {"RCS REMASS:", "RCS РЕАКЦ. МАССА:"},
-            {"RCS THRUSTERS:", "RCS ДВИГАТЕЛИ:"},
-            {"REACTOR D2O:", "РЕАКТОР D2O:"},
-            {"REACTOR HE3:", "РЕАКТОР He3:"},
-            {"REACTOR:", "РЕАКТОР:"},
-            {"READY", "ГОТОВ"},
-            {"REG ID", "РЕГ ID"},
-            {"Radar", "Радар"},
-            {"Recieved Messages:", "Полученные сообщения:"},
-            {"Refueling", "Заправка"},
-            {"Remember to turn off match speed before moving the ship again.", "Не забудьте выключить синхронизацию скорости перед движением."},
-            {"Repair", "Ремонт"},
-            {"Request Undocking Clearance", "Запр. допуск к расстыковке"},
-            {"Responding ships:", "Отвечающие корабли:"},
-            {"Restore Nav Station", "Восстановить навиг. станцию"},
-            {"Roster", "Список экипажа"},
-            {"STARBOARD", "ПРАВЫЙ БОРТ"},
-            {"Salvage", "Утиль"},
-            {"Salvage sale complete.", "Продажа утиля завершена."},
-            {"Save Node Changes", "Сохранить изменения узла"},
-            {"Save Nodes", "Сохранить узлы"},
-            {"Search The Rack", "Обыскать стойку"},
-            {"Security Station", "Охранный пост"},
-            {"Sensor", "Датчик"},
-
-
-            {"Ship destroyed", "Корабль уничтожен"},
-            {"Ship refueled", "Корабль заправлен"},
-            {"Ship refueled.", "Корабль заправлен."},
-            {"Ship successfully departed", "Корабль успешно убыл"},
-            {"Signal:", "СИГНАЛ:"},
-            {"Station", "Станция"},
-
-
-            {"Successfully Docked.", "Успешная стыковка."},
-            {"Switch Control Panels (Bottom)", "Сменить панель управления (Низ)"},
-            {"Switch Control Panels (Left)", "Сменить панель управления (Лево)"},
-            {"Switch Control Panels (Right)", "Сменить панель управления (Право)"},
-            {"Switch Control Panels (Top)", "Сменить панель управления (Верх)"},
-            {"Switch to Nav Screen", "Перейти к экрану навигации"},
-            {"Switched to Nav Screen.", "Перекл. на экран навигации."},
-            {"TOGGLE MODES", "<ПЕРЕК. РЕЖ."},
-            {"TRANSPONDER ANTENNA:", "АНТЕННА ТРАНСПОНДЕРА:"},
-            {"TRANSPONDER:", "ТРАНСПОНДЕР:"},
-            {"Take Ship", "Занять корабль"},
-            {"Target K-Leg Station", "Цель: станция K-LEG"},
-            {"Target the closest Derelict", "Цель: ближайший брошенный корабль"},
-            {"Target:", "Цель:"},
-            {"Targeting", "Наведение"},
-            {"They See Us As:", "Они видят нас как:"},
-            {"Thrust Down", "Тяга вниз"},
-            {"Thrust Left", "Тяга влево"},
-            {"Thrust Right", "Тяга вправо"},
-            {"Thrust Up", "Тяга вверх"},
-            {"Toggle PDA Power Vizor", "Перекл. энерго-визор КПК"},
-            {"Toggle Power UI", "Перекл. энерго-интерфейс"},
-            {"Toggle station keeping", "Перекл. удержание позиции"},
-            {"Toggle zone UI", "Перекл. интерфейс зон"},
-            {"Toggled match speed.", "Синхр. скорости перекл."},
-            {"Torch Drive:", "Факельный движок:"},
-            {"Total Mass:", "Общая масса:"},
-            {"Tracking", "Слежение"},
-            {"Transit", "Транзит"},
-            {"Travel to Docking Range", "Двигаться до зоны стыковки"},
-            {"Trickle Charge", "Капельная зарядка"},
-            {"Turn CCW", "Пов. прот. часовой"},
-            {"Turn CW", "Пов. по часовой"},
-            {"Tutorial Complete", "Обучение завершено"},
-            {"Tutorial Stub", "Заглушка обучения"},
-            {"UNKNOWN_STRING", "НЕИЗВЕСТНО"},
-            {"Unconscious", "Без сознания"},
-            {"Undo Last", "Отменить посл."},
-            {"Undocking", "Отстыковка"},
-            {"Unlicensed", "Без лицензии"},
-            {"Unpaid Docking Fees", "Неоплаченные сборы"},
-            {"Unpause World", "Снять с паузы"},
-            {"Unpowered devices", "Обесточ. устройства"},
-            {"Use Nav Station", "Исп. навиг. станцию"},
-            {"Use the Nav Station", "Исп. навиг. станцию"},
-            {"VESSEL MASS:", "МАССА СУДНА:"},
-            {"VESSEL RATING CODE:", "КОД РЕЙТИНГА СУДНА:"},
-            {"VISIT STEAM", "ПОСЕТИТЬ STEAM"},
-            {"VREL -", "ОТН.СКОР. -"},
-            {"VREL:", "ОТН.СКОР.:"},
-            {"VX:", "БОК. СКОР:"},
-            {"Value:", "Значение:"},
-            {"Vessel Name:", "Имя судна:"},
-            {"Visit OKLG Commercial Port Authority", "Посетить порт. администрацию OKLG"},
-            {"Visit Your Ship", "Посетить свой корабль"},
-            {"Visualize Power Networks", "Визуализация энергосети"},
-            {"WARNING:", "ВНИМАНИЕ:"},
-            {"WARNING: Fusion reactor damage!", "ВНИМАНИЕ: Повреждение реактора!"},
-            {"WARNING: Massive X Impulse!", "ВНИМАНИЕ: Мощный X-импульс!"},
-            {"WARNING: Massive Y Impulse!", "ВНИМАНИЕ: Мощный Y-импульс!"},
-            {"Waiting for response", "Ожидание ответа"},
-            {"Walk through door.", "Пройти через дверь."},
-            {"Waypoint", "Путевая точка"},
-            {"We See Them As:", "Мы видим их как:"},
-            {"Weapons: ?", "Оружие: ?"},
-            {"Welcome back, Captain.", "С возвращением, Капитан."},
-            {"Welcome, Captain.", "Добро пожаловать, Капитан."},
-            {"Year:", "Год:"},
-            {"Your standing with", "Ваше отношение с"},
-            {"ZOOM RANGE:", "ДИАП. ЗУМА:"},
-            {"Zone Subtract", "Уменьшить зону"},
-            {"Zoom Camera In", "Приблизить камеру"},
-            {"Zoom Camera Out", "Отдалить камеру"},
-            {"public ATC channel", "публичный канал АТС"},
-            {"ALARM MUTE", "ТИХ. ТРЕВ."},
-            {"ALIGNED", "ВЫРОВН."},
-            {"ALT", "ВЫС"},
-            {"ANT FAULT", "АНТ. НЕИСПР."},
-            {"ATC", "АТС"},
-            {"BARY", "БАР"},
-            {"BRG", "АЗМ"},
-            {"CALL", "ИД"},
-            {"CLEAR", "СБРС"},
-            {"CONTROLS", "УПРАВЛЕНИЕ"},
-            {"DIAGNOSTICS", "ДИАГНОСТИКА"},
-            {"DISPLAY CONTROLS", "НАСТРОЙКИ ДИСПЛЕЯ"},
-            {"DISTANCE", "ДИСТАНЦ."},
-            {"DOCK SYS CLAMP", "ЗАХВ. СТЫК."},
-            {"DREAM", "МЕЧТА"},
-            {"FFWD MAP", "КАРТА"},
-            {"FOCUS", "ФОКУС"},
-            {"FUEL", "ТОПЛИВО"},
-            {"FWD", "ВПЕР"},
-
-            {"IN", "ПРИБЛ"},
-            {"INR", "ВНУТР"},
-            {"KG", "КГ"},
-            {"KWH", "КВтЧ"},
-            {"LICENSED", "ЛИЦЕНЗ."},
-
-            {"MANEUVER DRIVE", "МАНЕВР. ПРИВОД"},
-            {"MAP", "КАРТА"},
-            {"MAP CONTROLS", "УПР. КАРТОЙ"},
-            {"MARK", "ОТМ"},
-            {"MATCH SPEED", "ВЫР. СКОР."},
-            {"Mooring Control", "Швартовка"},
-            {"NAME", "ИМЯ"},
-            {"NAV MODE", "РЕЖИМ НАВИГ."},
-            {"NO WAKE ZONES", "ЗОНЫ ОГР."},
-            {"OFF", "ВЫКЛ"},
-            {"ON", "ВКЛ"},
-            {"OUT", "ОТДАЛ"},
-            {"PASSENGER SHUTTLE", "ПАССАЖ. ШАТЛ"},
-            {"PB", "ПБ"},
-            {"PLA", "ПЛН"},
-            {"POWER", "ЭНЕРГИЯ"},
-            {"PRINT STATUS", "СТАТУС"},
-            {"PROX WARN", "БЛИЗ. ПРЕДУПР."},
-            {"QUICK ZOOM", "БЫСТР. ЗУМ"},
-            {"RCS MANEUVERS", "МАНЕВРЫ RCS"},
-            {"RESET", "СБРС"},
-            {"REV", "НАЗ"},
-            {"RNG", "РСТ."},
-            {"ROTOR EFFICIENCY", "ЭФФ. РОТОРА"},
-            {"ROTORS", "РОТОРЫ"},
-            {"SENSORS", "СЕНСОРЫ"},
-            {"SHIP", "КОР."},
-            {"SHIP LABELS", "МЕТКИ КОР."},
-            {"SHIP LOGS", "ЛОГИ"},
-            {"SHOW ZONES", "ПОК. ЗОНЫ"},
-            {"STATION KEEPING", "УДЕРЖ. СТАНЦ."},
-            {"STATUS", "СТАТУС"},
-            {"STN", "СТЦ"},
-            {"TARGET", "ЦЕЛЬ"},
-            {"TESTUDO", "ТЕСТУДО"},
-            {"TETHER", "СВЯЗЬ"},
-            {"THROTTLE", "ТЯГА"},
-            {"TIME / ZOOM", "ВРЕМЯ / ZOOM"},
-            {"TRACK WARN", "СЛЕЖ. ПРЕДУПР."},
-            {"TRACKING MODE", "РЕЖИМ СЛЕЖ."},
-            {"TRANSLATION", "ДВИЖЕНИЕ"},
-            {"TRANSPONDER/IFF", "ТРАНСП./IFF"},
-            {"TRG", "ЦЕЛЬ"},
-            {"VCRS", "ВКРС"},
-            {"VIZ", "ВИЗ"},
-            {"VREL", "ОТН.СК."},
-            {"WARNINGS", "ПРЕДУПР."},
-            {"XPDR FAULT", "ТРАНСП. НЕИСПР."},
-            {"YAW", "РЫСК."},
-            {"ZERO", "НУЛЬ"},
-            {"ZOOM", "ЗУМ"},
-            {"km", "км"},
-            {"EDIT", "РЕД."},
-            {"RESCUE", "SOS"},
-            {"OPT", "ОПТИК."},
-            {"Low", "Низк."},
-            {"High", "Высок."},
-            {"MAX", "МАКС"},
-            {"RESERVES", "РЕЗЕРВЫ"},
-            {"ALARM", "ОПОВ."},
-            {"MUTE", "ВЫКЛ"},
-            {"INVALID", "НЕВЕРН."},
-            {"VALID", "ВЕРН."},
-            {"CLAMP ALIGN", "ВЫРАВН. ЗАЖИМ."},
-            {"CLAMPS", "ЗАЖИМЫ"},
-            {"No Target Selected", "Цель не выбрана"},
-            {"Mode", "Режим"},
-            {"Derelicts", "Заброшенные"},
-            {"RETURN TO", " "},
-            {"NEXT PAGE>", "СЛЕД. СТР.>"},
-
-
-
-
-            {"SELECT", "ВЫБ."},
-            {"TARGET DATA", "ДАННЫЕ ЦЕЛИ"},
-            {"COMMS CONTROL", "КОММУНИКАЦИЯ"},
-            {"Showing Logs", "Отображение логов"},
-            {"LOG ENTRIES FOUND", "ЛОГИ НАЙДЕНЫ"},
-            {"DISPLAYING", "ОТОБРАЖЕНИЕ"},
-            {"M/S", "М/С"},
-            {"NO CLEARANCE", "НЕТ ДОПУСКА"},
-            {"CLEARANCE", "ДОПУСК"},
-            {"ATC Regional Control", "АТС Рег. контр."},
-            {"SENSORS:", "СЕНСОРЫ:"},
-
-            // ─── NavMod prefab labels (stored with \n instead of space!) ───
-            {"MATCH\nSPEED", "ВЫР.\nСКОР."},
-            {"STATION\nKEEPING", "УДЕРЖ.\nСТАНЦ."},
-            {"XPDR\nFAULT", "ТРАНСП.\nНЕИСПР."},
-            {"ANT\nFAULT", "АНТ.\nНЕИСПР."},
-            {"PRINT\nSTATUS", "ОТБР.\nСТАТУС"},
-            {"PLA\n", "ПЛН\n"},
-            {"Power\n", "ЭНЕРГИЯ\n"},
-            {"SIGNAL", "СИГНАЛ"},
-            {"BRG: 0.0\nVCRS: 2Km/s", "АЗМ: 0.0\nVCRS: 2км/с"},
-            {"Sensors:\nOptical\nEM\nIR\nRadar\n", "Сенсоры:\nОптика\nЭМ\nИК\nРадар\n"},
-
-            // ─── Additional NavMod prefab labels ───
-            {"SHIP\nLOGS", "ОТБР.\nЛОГИ"},
-            {"On\n", "ВКЛ\n"},
-     };
-
         internal static string TranslateString(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
             // Exact match (trimmed for whitespace tolerance)
-            if (HudTranslations.TryGetValue(value, out string translated))
+            if (TranslationData.Hud.TryGetValue(value, out string translated))
                 return translated;
             string trimmed = value.Trim();
-            if (trimmed != value && HudTranslations.TryGetValue(trimmed, out string trimmedT))
+            if (trimmed != value && TranslationData.Hud.TryGetValue(trimmed, out string trimmedT))
                 return trimmedT;
             // Partial replacement with WORD BOUNDARIES
             // Prevents "CLEAR" matching inside "CLEARANCE", "DOCK" inside "DOCKED" etc.
-            foreach (var kvp in HudTranslations)
+            foreach (var kvp in TranslationData.Hud)
             {
                 if (kvp.Key.Length >= 2 && kvp.Value.Length > 0 && value.Contains(kvp.Key))
                 {
@@ -1527,8 +1236,19 @@ namespace OstranautsRuKaya
         {
             if (list == null) return;
             for (int i = 0; i < list.Count; i++)
-            {
                 list[i] = TranslateString(list[i]);
+        }
+
+        internal static void ApplyMfdReplacements(List<string> list)
+        {
+            if (list == null) return;
+            foreach (var kvp in TranslationData.ReplacementsMfd)
+            {
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (list[i].Contains(kvp.Key))
+                        list[i] = list[i].Replace(kvp.Key, kvp.Value);
+                }
             }
         }
     }
