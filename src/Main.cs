@@ -1482,6 +1482,18 @@ namespace OstranautsRuKaya
             {"CLEARANCE", "ДОПУСК"},
             {"ATC Regional Control", "АТС Рег. контр."},
             {"SENSORS:", "СЕНСОРЫ:"},
+
+            // ─── NavMod prefab labels (stored with \n instead of space!) ───
+            {"MATCH\nSPEED", "ВЫР.\nСКОР."},
+            {"STATION\nKEEPING", "УДЕРЖ.\nСТАНЦ."},
+            {"XPDR\nFAULT", "ТРАНСП.\nНЕИСПР."},
+            {"ANT\nFAULT", "АНТ.\nНЕИСПР."},
+            {"PRINT\nSTATUS", "ПЕЧАТЬ\nСТАТУС"},
+            {"PLA\n", "ПЛН\n"},
+            {"Power\n", "Эл-во\n"},
+            {"SIGNAL", "СИГНАЛ"},
+            {"BRG: 0.0\nVCRS: 2Km/s", "АЗМ: 0.0\nVCRS: 2км/с"},
+            {"Sensors:\nOptical\nEM\nIR\nRadar\n", "Сенсоры:\nОптика\nЭМ\nИК\nРадар\n"},
      };
 
         internal static string TranslateString(string value)
