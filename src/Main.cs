@@ -208,6 +208,191 @@ namespace OstranautsRuKaya
         private bool _dumpedOnce = false;
         private int _dumpCounter = 0;
 
+        // ─── Sentence post-processing ───
+        // Called after GrammarUtils.GenerateDescription to fix:
+        // 1. 3rd person verbs → 2nd person (Ты собирается → Ты собираешься)
+        // 2. Wrap bare item names in «» guillemets
+        internal static string PostProcessSentence(string input)
+        {
+            if (string.IsNullOrEmpty(input) || input.Length < 5) return input;
+            string result = input;
+
+            // ── Fix 1: 3rd person verb endings after "Ты " → 2nd person ──
+            // Pattern: "Ты <word ending in -ет/-ёт/-ает/-яет/-ает>"
+            // Only applies when sentence starts with "Ты " (player is subject)
+            if (result.StartsWith("Ты ") || result.StartsWith("ты "))
+            {
+                result = FixSecondPersonVerbs(result);
+            }
+
+            // ── Fix 2: Wrap item/object names in «» ──
+            // When [them] resolves to a non-pronoun entity name (e.g. "стойка"),
+            // the name appears bare in the sentence. Wrap it in guillemets.
+            result = WrapItemNames(result);
+
+            return result;
+        }
+
+        private static string FixSecondPersonVerbs(string text)
+        {
+            // Russian 3rd→2nd person verb conversion rules
+            // Only convert the FIRST verb after "Ты "
+            // Common patterns:
+            //   -ет → -ешь (собирает→собираешь, устанавливает→устанавливаешь)
+            //   -ёт → -ёшь (даёт→даёшь, пьёт→пьёшь)
+            //   -ает → -аешь (собирается→собираешься, разбирается→разбираешься)
+            //   -яет → -яешь (краснеет→краснеешь — actually -еет→-еешь)
+            //   -ет. → -ешь.
+            //   -ет, → -ешь,
+            //   -ет  → -ешь  (space after)
+            //   -ется → -ешься (reflexive)
+            //   -ётся → -ёшься
+
+            // We look for the first verb word after "Ты " and apply transformation
+            // The verb is the word immediately after "Ты " or "Ты не "
+            string[] parts = text.Split(new char[]{ ' ' }, 4);
+            if (parts.Length < 2) return text;
+
+            // Find the verb word index
+            int verbIdx = 1; // right after "Ты"
+            if (parts.Length > 2 && parts[1] == "не")
+            {
+                verbIdx = 2; // "Ты не <verb>"
+            }
+
+            if (verbIdx >= parts.Length) return text;
+            string verb = parts[verbIdx];
+
+            // Don't transform if it's not a verb (no Russian verb ending)
+            string transformed = Conjug3to2(verb);
+            if (transformed == verb) return text; // no change
+
+            parts[verbIdx] = transformed;
+            return string.Join(" ", parts);
+        }
+
+        private static string Conjug3to2(string verb)
+        {
+            // Strip trailing punctuation for processing, preserve it
+            string suffix = "";
+            string core = verb;
+            while (core.Length > 0 && ".,;:!?".IndexOf(core[core.Length-1]) >= 0)
+            {
+                suffix = core[core.Length-1] + suffix;
+                core = core.Substring(0, core.Length-1);
+            }
+
+            // Russian 3sg→2sg conversion:
+            // The universal rule: 3sg ends in -т, 2sg ends in -шь
+            // Reflexive: -тся → -шься, non-reflexive: -т → -шь
+
+            if (core.EndsWith("тся") && core.Length > 4)
+                return core.Substring(0, core.Length - 3) + "шься" + suffix;
+            if (core.EndsWith("ться") && core.Length > 5)
+                return core.Substring(0, core.Length - 4) + "шься" + suffix;
+            if (core.EndsWith("т") && core.Length >= 3)
+                return core.Substring(0, core.Length - 1) + "шь" + suffix;
+
+            // No known ending — don't convert
+            return verb;
+        }
+
+        private static string WrapItemNames(string text)
+        {
+            // Wrap bare item names in «» guillemets.
+            // Strategy: only wrap when the sentence is a player-action template
+            // (starts with "Ты " and contains a known action verb).
+            // We wrap the last Russian lowercase word that is NOT a common noun/adjective.
+
+            // Skip if already has guillemets
+            if (text.Contains("«") || text.Contains("»")) return text;
+
+            // Only wrap for player-action sentences (start with "Ты ")
+            if (!text.StartsWith("Ты ") && !text.StartsWith("ты "))
+                return text;
+
+            // Common words that should NOT be wrapped (nouns, adjectives, etc.)
+            var skipWords = new System.Collections.Generic.HashSet<string>(System.StringComparer.Ordinal)
+            {
+                // pronouns
+                "ты", "я", "он", "она", "они", "оно", "мы", "вы",
+                // prepositions/conjunctions
+                "и", "в", "на", "с", "к", "у", "о", "от", "до", "за", "по", "из", "для",
+                "не", "ни", "но", "а", "или", "что", "как", "так", "это",
+                // common nouns that appear in UI, not items
+                "станция", "станции", "станцию", "станция.",
+                "панель", "панели", "панелью",
+                "корабль", "корабля", "кораблю",
+                "детали", "деталь",
+                "помощью", "набором",
+                "себя", "меня", "тебя",
+                // verbs (already conjugated, shouldn't be wrapped)
+                "устанавливаешь", "устанавливаешься", "демонтируешь",
+                "собираешься", "берешься", "проверяешь",
+                "садишься", "садишься.", "сидишь",
+                "открываешь", "закрываешь", "вскрываешь",
+                "изучаешь", "разбираешь", "латаешь",
+                "достаешь", "помогаешь", "используешь",
+                "восстанавливаешь", "обслуживаешь",
+                "продолжаешь", "прекращаешь", "начинаешь",
+                "получаешь", "решаешь", "принимаешь",
+                // adjectives
+                "навигационная", "навигационной", "навигационную",
+                "управления", "своего", "свою", "своим",
+                // misc
+                "быть", "есть", "нет", "предмет", "предмета",
+            };
+
+            var words = text.Split(' ');
+            if (words.Length < 3) return text;
+
+            // Find the last word that could be an item name
+            int wrapIdx = -1;
+
+            for (int i = words.Length - 1; i >= 1; i--)
+            {
+                string w = words[i].Trim(' ', '.', ',', ';', ':', '!', '?');
+                if (string.IsNullOrEmpty(w)) continue;
+                string wLower = w.ToLowerInvariant();
+                if (skipWords.Contains(wLower)) continue;
+                // Must be Russian (Cyrillic)
+                if (!IsRussianWord(w)) continue;
+                // Must be 3+ chars
+                if (w.Length < 3) continue;
+                // Must be lowercase (item names from strNameFriendly are typically lowercase)
+                if (char.IsUpper(w[0])) continue;
+
+                wrapIdx = i;
+                break;
+            }
+
+            if (wrapIdx < 0) return text;
+
+            // Rebuild with guillemets, preserving trailing punctuation
+            string word = words[wrapIdx];
+            string trailingPunct = "";
+            string core = word;
+            while (core.Length > 0 && ".,;:!?".IndexOf(core[core.Length-1]) >= 0)
+            {
+                trailingPunct = core[core.Length-1] + trailingPunct;
+                core = core.Substring(0, core.Length-1);
+            }
+
+            words[wrapIdx] = "«" + core + "»" + trailingPunct;
+            return string.Join(" ", words);
+        }
+
+        private static bool IsRussianWord(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return false;
+            foreach (char c in s)
+            {
+                if (!((c >= 'а' && c <= 'я') || (c >= 'А' && c <= 'Я') || c == 'ё' || c == 'Ё'))
+                    return false;
+            }
+            return true;
+        }
+
         // ─── Periodic scanner: runs EVERY frame from the plugin's own MonoBehaviour ───
         // This is the ONLY reliable way to catch prefab-deserialized text (PLA, SIGNAL, ON, OFF etc.)
         // because Unity deserialization bypasses C# set_text, and GUIOrbitDraw.Update only
@@ -448,6 +633,18 @@ namespace OstranautsRuKaya
             {
                 return true;
             }
+        }
+    }
+
+    // ─── Post-processing: fix 3rd person → 2nd person + wrap item names in «» ───
+
+    [HarmonyPatch(typeof(GrammarUtils), "GenerateDescription", typeof(Interaction), typeof(bool))]
+    public static class Patch_GrammarUtils_GenerateDescription_Postfix
+    {
+        static void Postfix(ref string __result)
+        {
+            if (string.IsNullOrEmpty(__result)) return;
+            __result = RuTranslation.PostProcessSentence(__result);
         }
     }
 
