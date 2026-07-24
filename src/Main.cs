@@ -341,6 +341,8 @@ namespace OstranautsRuKaya
                 "управления", "своего", "свою", "своим",
                 // misc
                 "быть", "есть", "нет", "предмет", "предмета",
+                // common words that WrapItemNames was wrongly wrapping
+                "доступ", "доступ.", "доступ,",
             };
 
             var words = text.Split(' ');
@@ -761,6 +763,7 @@ namespace OstranautsRuKaya
             {
                 foreach (var kvp in TranslationData.ReplacementsGrammar)
                     strMsg = strMsg.Replace(kvp.Key, kvp.Value);
+                strMsg = RuTranslation.PostProcessSentence(strMsg);
             }
         }
     }

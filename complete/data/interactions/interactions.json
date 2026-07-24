@@ -7506,7 +7506,7 @@
   {
     "strName": "GUIAtmoScrubber",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -7553,7 +7553,7 @@
   {
     "strName": "GUIAtmoScrubber02",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -9579,7 +9579,7 @@
   {
     "strName": "GUIAirPump",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -9626,7 +9626,7 @@
   {
     "strName": "GUIAlarm",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к настройкам обхода, переключателям и тумблерам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -9766,7 +9766,7 @@
   {
     "strName": "GUIBreaker",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -10171,7 +10171,7 @@
   {
     "strName": "GUICooler",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -10218,7 +10218,7 @@
   {
     "strName": "GUIHeater",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к ручкам управления, переключателям и сигнальным каналам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -10265,7 +10265,7 @@
   {
     "strName": "GUIHeavyLiftRotor",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к настройкам обхода, переключателям и тумблерам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -10914,7 +10914,7 @@
   {
     "strName": "GUISensor",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к настройкам обхода, переключателям и тумблерам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -10961,7 +10961,7 @@
   {
     "strName": "GUIStabilizer",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к настройкам обхода, переключателям и тумблерам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -11144,7 +11144,7 @@
   {
     "strName": "GUIReactor",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Открывает доступ к циферблатам, переключателям и настройкам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -12135,7 +12135,7 @@
   {
     "strName": "GUITransponder",
     "strTitle": "Панель управления",
-    "strDesc": "[us] получает доступ к панель [them].",
+    "strDesc": "[us] получает доступ к панели [them].",
     "strTooltip": "Получает доступ к настройкам обхода, переключателям и тумблерам панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
