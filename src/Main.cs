@@ -602,7 +602,7 @@ namespace OstranautsRuKaya
                 {
                     MFDTranslate.ReplaceInList(left, "<LOCAL CHANNEL", "<ЛОК. КАНАЛ");
                     MFDTranslate.ReplaceInList(left, "<MESSAGE LOG", "<ЖУРН. СООБЩ.");
-                    MFDTranslate.ReplaceInList(left, "ATC CHANNEL: ", "КАНАЛ АТС: ");
+                    MFDTranslate.ReplaceInList(left, "ATC CHANNEL: ", "АТС КАНАЛ: ");
                     MFDTranslate.ReplaceInList(left, "DOCKED WITH: ", "ПРИСТЫКОВАН К: ");
                     MFDTranslate.ReplaceInList(left, "<DOCK INFO", "<ИНФ. О СТЫКОВКЕ");
                     MFDTranslate.ReplaceInList(left, "<UNREAD MESSAGES", "<НЕПР. СООБЩ.");
@@ -1293,7 +1293,7 @@ namespace OstranautsRuKaya
             {"Ship refueled", "Корабль заправлен"},
             {"Ship refueled.", "Корабль заправлен."},
             {"Ship successfully departed", "Корабль успешно убыл"},
-            {"Signal:", "Сигнал:"},
+            {"Signal:", "СИГНАЛ:"},
             {"Station", "Станция"},
 
 
@@ -1377,7 +1377,7 @@ namespace OstranautsRuKaya
             {"ANT FAULT", "АНТ. НЕИСПР."},
             {"ATC", "АТС"},
             {"BARY", "БАР"},
-            {"BRG", "ПЕЛ"},
+            {"BRG", "АЗМ"},
             {"CALL", "ИД"},
             {"CLEAR", "СБРС"},
             {"CONTROLS", "УПРАВЛЕНИЕ"},
@@ -1412,7 +1412,7 @@ namespace OstranautsRuKaya
             {"PASSENGER SHUTTLE", "ПАССАЖ. ШАТЛ"},
             {"PB", "ПБ"},
             {"PLA", "ПЛН"},
-            {"POWER", "ЭЛ-ВО"},
+            {"POWER", "ЭНЕРГИЯ"},
             {"PRINT STATUS", "СТАТУС"},
             {"PROX WARN", "БЛИЗ. ПРЕДУПР."},
             {"QUICK ZOOM", "БЫСТР. ЗУМ"},
@@ -1422,7 +1422,7 @@ namespace OstranautsRuKaya
             {"RNG", "РСТ."},
             {"ROTOR EFFICIENCY", "ЭФФ. РОТОРА"},
             {"ROTORS", "РОТОРЫ"},
-            {"SENSORS", "ДАТЧИКИ"},
+            {"SENSORS", "СЕНСОРЫ"},
             {"SHIP", "КОР."},
             {"SHIP LABELS", "МЕТКИ КОР."},
             {"SHIP LOGS", "ЛОГИ"},
@@ -1488,12 +1488,16 @@ namespace OstranautsRuKaya
             {"STATION\nKEEPING", "УДЕРЖ.\nСТАНЦ."},
             {"XPDR\nFAULT", "ТРАНСП.\nНЕИСПР."},
             {"ANT\nFAULT", "АНТ.\nНЕИСПР."},
-            {"PRINT\nSTATUS", "ПЕЧАТЬ\nСТАТУС"},
+            {"PRINT\nSTATUS", "ОТБР.\nСТАТУС"},
             {"PLA\n", "ПЛН\n"},
-            {"Power\n", "Эл-во\n"},
+            {"Power\n", "ЭНЕРГИЯ\n"},
             {"SIGNAL", "СИГНАЛ"},
             {"BRG: 0.0\nVCRS: 2Km/s", "АЗМ: 0.0\nVCRS: 2км/с"},
             {"Sensors:\nOptical\nEM\nIR\nRadar\n", "Сенсоры:\nОптика\nЭМ\nИК\nРадар\n"},
+
+            // ─── Additional NavMod prefab labels ───
+            {"SHIP\nLOGS", "ОТБР.\nЛОГИ"},
+            {"On\n", "ВКЛ\n"},
      };
 
         internal static string TranslateString(string value)
