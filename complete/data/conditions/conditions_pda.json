@@ -254,7 +254,7 @@
   },
   {
     "strName": "PDAGradient01",
-    "strNameFriendly": "(КПК) Градиент: №1 «_____»",
+    "strNameFriendly": "(КПК) Градиент: #1 «_____»",
     "strColor": "Neutral",
     "strDesc": "Включает использование визуального фильтра _____.",
     "nDisplaySelf": 2,
@@ -265,7 +265,7 @@
   },
   {
     "strName": "PDAGradient02",
-    "strNameFriendly": "(КПК) Градиент: №2 «Монохром»",
+    "strNameFriendly": "(КПК) Градиент: #2 «Монохром»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать черно-белый визуальный фильтр.",
     "nDisplaySelf": 2,
@@ -276,7 +276,7 @@
   },
   {
     "strName": "PDAGradient03",
-    "strNameFriendly": "(КПК) Градиент: №3 «Триколор»",
+    "strNameFriendly": "(КПК) Градиент: #3 «Триколор»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать сине-бело-красный визуальный фильтр.",
     "nDisplaySelf": 2,
@@ -287,7 +287,7 @@
   },
   {
     "strName": "PDAGradient04",
-    "strNameFriendly": "(КПК) Градиент: №4 «Радуга»",
+    "strNameFriendly": "(КПК) Градиент: #4 «Радуга»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать радужный визуальный фильтр.",
     "nDisplaySelf": 2,
@@ -298,7 +298,7 @@
   },
   {
     "strName": "PDAGradient05",
-    "strNameFriendly": "(КПК) Градиент: №5 «Старый красный»",
+    "strNameFriendly": "(КПК) Градиент: #5 «Старый красный»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать бело-красный визуальный фильтр.",
     "nDisplaySelf": 2,
@@ -309,7 +309,7 @@
   },
   {
     "strName": "PDAGradient06",
-    "strNameFriendly": "(КПК) Градиент: №6 «Непрозрачность»",
+    "strNameFriendly": "(КПК) Градиент: #6 «Непрозрачность»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать визуальный фильтр непрозрачности.",
     "nDisplaySelf": 2,
@@ -320,7 +320,7 @@
   },
   {
     "strName": "PDAGradient07",
-    "strNameFriendly": "(КПК) Градиент: №7 «Золотой»",
+    "strNameFriendly": "(КПК) Градиент: #7 «Золотой»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать черно-желтый визуальный фильтр.",
     "nDisplaySelf": 2,
@@ -331,7 +331,7 @@
   },
   {
     "strName": "PDAGradient08",
-    "strNameFriendly": "(КПК) Градиент: №8 «Инверсная радуга»",
+    "strNameFriendly": "(КПК) Градиент: #8 «Инверсная радуга»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать визуальный фильтр полного спектра.",
     "nDisplaySelf": 2,
@@ -342,7 +342,7 @@
   },
   {
     "strName": "PDAGradient09",
-    "strNameFriendly": "(КПК) Градиент: №9 «Тепловая карта»",
+    "strNameFriendly": "(КПК) Градиент: #9 «Тепловая карта»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать визуальный фильтр тепловой карты.",
     "nDisplaySelf": 2,
@@ -353,7 +353,7 @@
   },
   {
     "strName": "PDAGradient10",
-    "strNameFriendly": "(КПК) Градиент: №10 «h4cK3d»",
+    "strNameFriendly": "(КПК) Градиент: #10 «h4cK3d»",
     "strColor": "Neutral",
     "strDesc": "Позволяет использовать визуальный фильтр с имитацией сбоев.",
     "nDisplaySelf": 2,
