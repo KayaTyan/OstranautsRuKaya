@@ -999,8 +999,8 @@
       "IsTemperate",
       "IsGlutton",
       "Drunk",
-      "DrunкПаssingOut",
-      "DrunкПаssedOut"
+      "DrunkPassingOut",
+      "DrunkPassedOut"
     ],
     "aTriggers": [
       "TIsHumanAwake"
@@ -1014,7 +1014,7 @@
     "fCount": 1.0,
     "aReqs": [
       "Drunk",
-      "DrunкПаssingOut"
+      "DrunkPassingOut"
     ],
     "aForbids": [],
     "aTriggers": [],
@@ -1047,8 +1047,8 @@
     "aForbids": [
       "IsGlutton",
       "Drunk",
-      "DrunкПаssingOut",
-      "DrunкПаssedOut"
+      "DrunkPassingOut",
+      "DrunkPassedOut"
     ],
     "aTriggers": [
       "TIsHumanAwake"
@@ -1063,8 +1063,8 @@
     "aReqs": [
       "Tipsy",
       "Drunk",
-      "DrunкПаssingOut",
-      "DrunкПаssedOut",
+      "DrunkPassingOut",
+      "DrunkPassedOut",
       "Cannabis2",
       "Cannabis3",
       "CannabisIndica2",
@@ -1083,8 +1083,8 @@
     "aReqs": [
       "Tipsy",
       "Drunk",
-      "DrunкПаssingOut",
-      "DrunкПаssedOut"
+      "DrunkPassingOut",
+      "DrunkPassedOut"
     ],
     "aForbids": [],
     "aTriggers": [],
@@ -1579,6 +1579,7 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
+      "IsTempDraftedLong",
       "IsTempDrafted",
       "InSocialCombat",
       "IsRobot"
@@ -1601,6 +1602,7 @@
       "Unconscious",
       "IsDead",
       "IsTempDrafted",
+      "IsTempDraftedLong",
       "InSocialCombat"
     ],
     "aTriggers": [
@@ -1618,6 +1620,7 @@
       "Unconscious",
       "IsDead",
       "IsTempDrafted",
+      "IsTempDraftedLong",
       "InSocialCombat"
     ],
     "aTriggers": [
@@ -1647,6 +1650,7 @@
       "Unconscious",
       "IsDead",
       "IsTempDrafted",
+      "IsTempDraftedLong",
       "InSocialCombat"
     ],
     "aTriggers": [
@@ -1710,7 +1714,8 @@
     "aForbids": [
       "Unconscious",
       "IsDead",
-      "IsTempDrafted"
+      "IsTempDrafted",
+      "IsTempDraftedLong"
     ],
     "aTriggers": [],
     "bAND": true
@@ -1834,6 +1839,7 @@
       "Unconscious",
       "IsDead",
       "IsTempDrafted",
+      "IsTempDraftedLong",
       "IsSubdued"
     ],
     "aTriggers": [],
@@ -13721,7 +13727,8 @@
     "aReqs": [
       "IsDead",
       "Unconscious",
-      "IsSubdued"
+      "IsSubdued",
+      "IsReportingCrimeImmune"
     ],
     "aForbids": [],
     "aTriggers": [],
@@ -17022,7 +17029,9 @@
       "IsEmbassyKiosk",
       "IsBCER"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "DeadUniverse"
+    ],
     "aTriggers": [],
     "bAND": true
   },
@@ -17035,7 +17044,9 @@
       "IsEmbassyKiosk",
       "IsBCRS"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "DeadUniverse"
+    ],
     "aTriggers": [],
     "bAND": true
   },
@@ -17048,7 +17059,9 @@
       "IsEmbassyKiosk",
       "IsOKLG"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "DeadUniverse"
+    ],
     "aTriggers": [],
     "bAND": true
   },
@@ -17061,7 +17074,9 @@
       "IsEmbassyKiosk",
       "IsVENC"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "DeadUniverse"
+    ],
     "aTriggers": [],
     "bAND": true
   },
@@ -17074,7 +17089,9 @@
       "IsEmbassyKiosk",
       "IsVNCA"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "DeadUniverse"
+    ],
     "aTriggers": [],
     "bAND": true
   },
@@ -17097,7 +17114,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockOKLG"
+      "IsENCFirstDockOKLG",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17111,7 +17129,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockFlotilla"
+      "IsENCFirstDockFlotilla",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17125,7 +17144,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockBCER"
+      "IsENCFirstDockBCER",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17139,7 +17159,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockBCRS"
+      "IsENCFirstDockBCRS",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17153,7 +17174,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockBWVN"
+      "IsENCFirstDockBWVN",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17167,7 +17189,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockEJDR"
+      "IsENCFirstDockEJDR",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17181,7 +17204,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockERTH"
+      "IsENCFirstDockERTH",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17195,7 +17219,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockHQCH"
+      "IsENCFirstDockHQCH",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17209,7 +17234,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockJATL"
+      "IsENCFirstDockJATL",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17223,7 +17249,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockJFTS"
+      "IsENCFirstDockJFTS",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17237,7 +17264,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockJPTN"
+      "IsENCFirstDockJPTN",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17251,7 +17279,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockMHNG"
+      "IsENCFirstDockMHNG",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17265,7 +17294,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockMLAB"
+      "IsENCFirstDockMLAB",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17279,7 +17309,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockMSUZ"
+      "IsENCFirstDockMSUZ",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17293,7 +17324,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockMTRS"
+      "IsENCFirstDockMTRS",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17307,7 +17339,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockMVOL"
+      "IsENCFirstDockMVOL",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17321,7 +17354,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockSVIR"
+      "IsENCFirstDockSVIR",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17335,7 +17369,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockVCBR"
+      "IsENCFirstDockVCBR",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17349,7 +17384,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockNewCal"
+      "IsENCFirstDockNewCal",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17363,7 +17399,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockVENC"
+      "IsENCFirstDockVENC",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17377,7 +17414,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "IsENCFirstDockVORB"
+      "IsENCFirstDockVORB",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -17391,7 +17429,8 @@
     "fCount": 1.0,
     "aReqs": [],
     "aForbids": [
-      "CanNavigateVLA01Dock"
+      "CanNavigateVLA01Dock",
+      "DeadUniverse"
     ],
     "aTriggers": [
       "TIsPlayerNotChargen"
@@ -26913,7 +26952,8 @@
     "aForbids": [
       "IsPowerStorage",
       "IsPowered",
-      "IsDamaged"
+      "IsDamaged",
+      "IsWorkLamp01"
     ],
     "aTriggers": [],
     "bAND": true
@@ -37634,7 +37674,8 @@
     "aForbids": [
       "Unconscious",
       "IsDead",
-      "IsTempDrafted"
+      "IsTempDrafted",
+      "IsTempDraftedLong"
     ],
     "aTriggers": [],
     "bAND": true
@@ -37711,7 +37752,8 @@
       "Recovering",
       "Stunned",
       "IsDead",
-      "IsTempDrafted"
+      "IsTempDrafted",
+      "IsTempDraftedLong"
     ],
     "aTriggers": [],
     "bAND": true
@@ -37732,7 +37774,8 @@
       "Recovering",
       "Stunned",
       "IsDead",
-      "IsTempDrafted"
+      "IsTempDrafted",
+      "IsTempDraftedLong"
     ],
     "aTriggers": [],
     "bAND": true
@@ -48735,7 +48778,8 @@
       "IsShipWeaponMissileLauncher",
       "IsAmmoMissile01",
       "IsAmmoMissile02",
-      "IsAmmoMissile03"
+      "IsAmmoMissile03",
+      "IsNotForSale"
     ],
     "bAND": false
   },
@@ -48753,7 +48797,9 @@
       "IsAmmo58",
       "IsAmmoHullsafe"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "IsNotForSale"
+    ],
     "bAND": false
   },
   {
@@ -48769,7 +48815,9 @@
       "IsAmmo58",
       "IsAmmoHullsafe"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "IsNotForSale"
+    ],
     "bAND": false
   },
   {
@@ -48785,7 +48833,9 @@
       "IsAmmo58",
       "IsAmmoHullsafe"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "IsNotForSale"
+    ],
     "bAND": false
   },
   {
@@ -48801,7 +48851,9 @@
       "IsAmmo58",
       "IsAmmoHullsafe"
     ],
-    "aForbids": [],
+    "aForbids": [
+      "IsNotForSale"
+    ],
     "bAND": false
   },
   {

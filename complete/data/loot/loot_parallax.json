@@ -24,7 +24,7 @@
       "PlxDebrisSm03=0.35x1|PlxDebrisSm04=0.35x1|blank=1.0x1",
       "PlxDebrisSm03=0.35x1|PlxDebrisSm04=0.35x1|blank=1.0x1",
       "PlxDebris05=1.0x1",
-      "PlxDebrisMed04=0.5x1|(объекты в луте) PlxDebrisMed05=0.5x1"
+      "PlxDebrisMed04=0.5x1|PlxDebrisMed05=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -72,7 +72,7 @@
       "PlxDebrisSm03=0.35x1|PlxDebrisSm04=0.35x1|blank=1.0x1",
       "PlxDebris05=1.0x1",
       "PlxDebris05=1.0x1",
-      "PlxDebrisMed04=0.5x1|(объекты в луте) PlxDebrisMed05=0.5x1"
+      "PlxDebrisMed04=0.5x1|PlxDebrisMed05=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -80,9 +80,7 @@
   {
     "strName": "TXTParallaxMercuryAtmosphere",
     "aCOs": [
-      "PlxAtmosphereMercury_Transparent01=1.0x1",
-      "PlxCloud02=0.35x1|PlxCloud03=0.35x1|blank=1.0x1",
-      "PlxEarthDebris01=1.0x1"
+      "Plx_Rock_lit=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -105,7 +103,7 @@
       "PlxVenusCloud01=0.35x1|PlxVenusCloud03=0.35x1|blank=1.0x1",
       "PlxVenusCloud01=1.0x1",
       "PlxVenusCloud02=1.0x1",
-      "PlxVenusCloud03=0.5x1|(объекты в луте) PlxVenusCloud02=0.5x1"
+      "PlxVenusCloud03=0.5x1|PlxVenusCloud02=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -122,14 +120,16 @@
   {
     "strName": "TXTParallaxEarthAtmosphere",
     "aCOs": [
-      "PlxAtmosphereEarth_Transparent01=1.0x1",
-      "PlxEarthCloud03=0.35x1|PlxEarthCloud02=0.35x1|blank=1.0x1",
+      "VenusAtmosphere_Transparent01=1.0x1",
+      "PlxVenusCloud03=0.35x1|PlxVenusCloud02=0.35x1|blank=1.0x1",
+      "PlxVenusCloud01=0.35x1|PlxVenusCloud02=0.35x1|PlxVenusCloud03=1.0x1",
+      "PlxVenusCloud01=0.35x1|PlxVenusCloud03=0.35x1|blank=1.0x1",
+      "PlxVenusCloud01=1.0x1",
+      "PlxVenusCloud02=1.0x1",
+      "PlxVenusCloud03=0.5x1|PlxVenusCloud02=0.5x1",
       "PlxDebrisSm03=0.35x1|PlxDebrisSm04=0.35x1|blank=1.0x1",
       "PlxDebris05=1.0x1",
-      "PlxDebris05=1.0x1",
-      "PlxDebrisMed04=0.5x1|(объекты в луте) PlxDebrisMed05=0.5x1",
-      "PlxEarthDebris01=1.0x1",
-      "PlxEarthDebris01=0.5x1|(объекты в луте) blank=0.5x1"
+      "PlxDebrisMed04=0.5x1|PlxDebrisMed05=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -155,13 +155,7 @@
   {
     "strName": "TXTParallaxJupiterAtmosphere",
     "aCOs": [
-      "PlxAtmosphereJupiter_Transparent01=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|PlxCloud03=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud01=1.0x1",
-      "PlxCloud02=1.0x1",
-      "PlxCloud03=0.5x1|(объекты в луте) PlxCloud01=0.5x1"
+      "Plx_Jupiter_lit=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -219,13 +213,7 @@
   {
     "strName": "TXTParallaxSaturnAtmosphere",
     "aCOs": [
-      "PlxAtmosphereSaturn_Transparent01=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|PlxCloud03=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud01=1.0x1",
-      "PlxCloud02=1.0x1",
-      "PlxCloud03=0.5x1|(объекты в луте) PlxCloud01=0.5x1"
+      "Plx_Saturn_lit=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -251,13 +239,7 @@
   {
     "strName": "TXTParallaxUranusAtmosphere",
     "aCOs": [
-      "PlxAtmosphereUranus_Transparent01=1.0x1",
-      "PlxCloud01=0.35x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxNeptuneCloud01=0.35x1|PlxNeptuneCloud02=0.35x1|PlxNeptuneCloud03=1.0x1",
-      "PlxCloud01=0.35x1|PlxCloud03=0.35x1|blank=1.0x1",
-      "PlxCloud01=0.5x1|(объекты в луте) PlxNeptuneCloud01=0.5x1",
-      "PlxCloud02=0.5x1|(объекты в луте) PlxNeptuneCloud02=0.5x1",
-      "PlxCloud03=0.25x1|PlxCloud02=0.25x1|PlxNeptuneCloud03=0.25x1|PlxNeptuneCloud02=0.25x1"
+      "Plx_Uranus_lit=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -274,13 +256,7 @@
   {
     "strName": "TXTParallaxNeptuneAtmosphere",
     "aCOs": [
-      "PlxAtmosphereNeptune_Transparent01=1.0x1",
-      "PlxCloud01=0.35x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxNeptuneCloud01=0.35x1|PlxNeptuneCloud02=0.35x1|PlxNeptuneCloud03=1.0x1",
-      "PlxCloud01=0.35x1|PlxCloud03=0.35x1|blank=1.0x1",
-      "PlxCloud01=0.5x1|(объекты в луте) PlxNeptuneCloud01=0.5x1",
-      "PlxCloud02=0.5x1|(объекты в луте) PlxNeptuneCloud02=0.5x1",
-      "PlxCloud03=0.25x1|PlxCloud02=0.25x1|PlxNeptuneCloud03=0.25x1|PlxNeptuneCloud02=0.25x1"
+      "Plx_Neptune_lit=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"

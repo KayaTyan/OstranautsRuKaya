@@ -1,13 +1,13 @@
 [
   {
     "strName": "Heavy Tug 01",
-    "strRegID": "O-BPV",
+    "strRegID": "V-F7K",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 114.1602,
+    "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-O-BPV",
+      "strID": "CO-V-F7K",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "O-BPV",
+      "strCondID": "V-F7K",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -28,10 +28,11 @@
         "B-P6Q",
         "O-GZXS",
         "V-MLU",
-        "O-BPV"
+        "O-BPV",
+        "V-F7K"
       ],
-      "strFriendlyName": "CO-O-BPV",
-      "strRegIDLast": "O-BPV",
+      "strFriendlyName": "CO-V-F7K",
+      "strRegIDLast": "V-F7K",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -9918,24 +9919,24 @@
         "fX": -16.0,
         "fY": -29.0,
         "fRotation": 0.0,
-        "strID": "e341184d-d18a-4275-8e8c-d7acb987c6ac",
+        "strID": "5d29f19c-097c-4759-bbb6-af2f78c95e0a",
         "strSlotParentID": "18e2e9e2-349e-4c30-93dc-a56193dda08a"
       },
       {
-        "strName": "DataTXTMeat04",
+        "strName": "DataVIDFilm03",
         "fX": -16.0,
         "fY": -29.0,
         "fRotation": 0.0,
-        "strID": "41587094-0d6f-458b-9f2a-8b9929cd67be",
-        "strParentID": "e341184d-d18a-4275-8e8c-d7acb987c6ac"
+        "strID": "425518a9-c16f-428c-8e58-6b1515cda2dd",
+        "strParentID": "5d29f19c-097c-4759-bbb6-af2f78c95e0a"
       },
       {
-        "strName": "DataIMGCryptid02",
+        "strName": "DataBINPersonalAddressesFortSimpson",
         "fX": -16.0,
         "fY": -29.0,
         "fRotation": 0.0,
-        "strID": "47850634-58a2-402c-b1b4-5be26e7ba99a",
-        "strParentID": "e341184d-d18a-4275-8e8c-d7acb987c6ac"
+        "strID": "3ce8ae50-96fc-4103-b205-778a39e3acae",
+        "strParentID": "5d29f19c-097c-4759-bbb6-af2f78c95e0a"
       },
       {
         "strName": "ItmStationNav",
@@ -15463,62 +15464,6 @@
         ]
       },
       {
-        "strName": "ItmDrinkPouch01",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "c7e2f015-ce64-4e63-846b-fc63e2b31b24",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmToolCrowbar01",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "70bcd9fd-e89a-48ca-8cc8-e75f6e2b9819",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmComponentMotor01",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "c66c7d6e-ed26-4d05-bbac-c0237c7bad7b",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmHeatSink01",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "2e6978ae-23ee-4629-ba0c-7e88dc2a3d3a",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmHeatSink01",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "ace3e6e9-6a1f-475d-88d7-e23761cabac4",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmAmmoHullsafe",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "b63bff5f-d28a-4c92-8380-747032134a5c",
-        "strParentID": "3791e678-4f5d-493d-8cb4-c8bfed9f809d"
-      },
-      {
-        "strName": "ItmAmmoHullsafe",
-        "fX": -28.5,
-        "fY": -31.5,
-        "fRotation": 0.0,
-        "strID": "cdb6458c-7855-445a-9625-1644d57a065f",
-        "strParentID": "b63bff5f-d28a-4c92-8380-747032134a5c"
-      },
-      {
         "strName": "ItmCrate01Lock",
         "fX": -28.5,
         "fY": -31.5,
@@ -15833,49 +15778,49 @@
         "fX": -34.0,
         "fY": -22.0,
         "fRotation": 0.0,
-        "strID": "61390b2e-d319-4e42-94af-3e498e83f4f5"
+        "strID": "043853f9-2c4b-4758-bf8d-0412c3ed09a2"
       },
       {
         "strName": "Compartment",
         "fX": -11.0,
         "fY": -24.0,
         "fRotation": 0.0,
-        "strID": "cd7f3dfb-20c2-4779-936b-6022ff76e117"
+        "strID": "bdc4b9cb-db5a-45d8-bb01-22dc5e740f1b"
       },
       {
         "strName": "Compartment",
         "fX": -7.0,
         "fY": -26.0,
         "fRotation": 0.0,
-        "strID": "14d8eb5e-6ef3-4933-b809-4eeb13d6abd3"
+        "strID": "e8fa2cbf-19e2-49b9-90d3-3199656351db"
       },
       {
         "strName": "Compartment",
         "fX": -17.0,
         "fY": -28.0,
         "fRotation": 0.0,
-        "strID": "541ee79b-763f-40f2-bcb0-4e89e02d6c6d"
+        "strID": "44e134ed-885b-40fe-a498-bac610212ce5"
       },
       {
         "strName": "Compartment",
         "fX": 3.0,
         "fY": -29.0,
         "fRotation": 0.0,
-        "strID": "5cd38fbd-95ff-4cfd-a1f4-cdb67c2d99bd"
+        "strID": "0171cb7e-31c6-4449-ab8a-3213a815e36c"
       },
       {
         "strName": "Compartment",
         "fX": -5.0,
         "fY": -30.0,
         "fRotation": 0.0,
-        "strID": "da5d8f55-18a9-4007-97bb-f919e725a456"
+        "strID": "59abdda0-d07a-4c57-bcd8-30db525e30c3"
       },
       {
         "strName": "Compartment",
         "fX": -12.0,
         "fY": -48.0,
         "fRotation": 0.0,
-        "strID": "5913704b-ffa0-4a46-b483-814e316ba36d"
+        "strID": "d76aa7d4-fee8-4b8a-baa4-e62fb194b735"
       }
     ],
     "aShallowPSpecs": [
@@ -16002,12 +15947,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": 0.746007646958706,
-      "vPosy": 1.08908788234457,
+      "vPosx": -1.22571180862342e-07,
+      "vPosy": -1.78815523968264e-07,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": 0.00688349625579115,
-      "vVelY": 0.0100491355593701,
+      "vVelX": -7.35427063256617e-07,
+      "vVelY": -1.07289311183488e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -16022,70 +15967,13 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498967.1292,
-        65627498965.1182,
-        65627498963.099,
-        65627498961.0856,
-        65627498959.0788,
-        65627498957.0783,
-        65627498955.0763,
-        65627498953.0691,
-        65627498951.0639,
-        65627498949.0582,
-        65627498947.0561,
-        65627498945.0533,
-        65627498943.0456,
-        65627498941.0344,
-        65627498939.018,
-        65627498936.9941,
-        65627498934.9756,
-        65627498932.9049,
-        65627498930.8875,
-        65627498928.8802
+        65627498854.4122
       ],
       "aPathRecentX": [
-        0.738003407381757,
-        0.72416114034371,
-        0.710261850546159,
-        0.696402820856958,
-        0.682589225704549,
-        0.668818586306225,
-        0.655038228138459,
-        0.641221399798275,
-        0.627419214072235,
-        0.613612659352172,
-        0.599831519879715,
-        0.586045386505608,
-        0.572225419202744,
-        0.558381292339605,
-        0.544501354727147,
-        0.530569909297272,
-        0.516675927975997,
-        0.502422238871089,
-        0.488535465956883,
-        0.474718603215489
+        -1.22571180862342e-07
       ],
       "aPathRecentY": [
-        1.07740258673759,
-        1.05719442321933,
-        1.03690301284237,
-        1.01667037772603,
-        0.996504071957786,
-        0.976400476791807,
-        0.956282693308155,
-        0.936111667446951,
-        0.915962018166632,
-        0.895805990643113,
-        0.875687066541891,
-        0.855560851902144,
-        0.835385243506091,
-        0.815174364850966,
-        0.794911206502352,
-        0.774572852494386,
-        0.754289191899761,
-        0.733480398124964,
-        0.713207260999388,
-        0.693036184916262
+        -1.78815523968264e-07
       ],
       "vAccLift": {
         "x": 0.0,
@@ -16103,12 +15991,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 920,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "61390b2e-d319-4e42-94af-3e498e83f4f5",
+        "strID": "043853f9-2c4b-4758-bf8d-0412c3ed09a2",
         "bVoid": true,
         "aTiles": [
           0,
@@ -16815,7 +16707,7 @@
         "roomValue": 9788.0
       },
       {
-        "strID": "cd7f3dfb-20c2-4779-936b-6022ff76e117",
+        "strID": "bdc4b9cb-db5a-45d8-bb01-22dc5e740f1b",
         "bVoid": false,
         "aTiles": [
           123,
@@ -16834,7 +16726,7 @@
         "roomValue": 63577.5
       },
       {
-        "strID": "14d8eb5e-6ef3-4933-b809-4eeb13d6abd3",
+        "strID": "e8fa2cbf-19e2-49b9-90d3-3199656351db",
         "bVoid": false,
         "aTiles": [
           227,
@@ -16924,7 +16816,7 @@
         "roomValue": 6836.0
       },
       {
-        "strID": "541ee79b-763f-40f2-bcb0-4e89e02d6c6d",
+        "strID": "44e134ed-885b-40fe-a498-bac610212ce5",
         "bVoid": false,
         "aTiles": [
           317,
@@ -17178,10 +17070,10 @@
           455
         ],
         "roomSpec": "BridgeArea",
-        "roomValue": 251429.617984421
+        "roomValue": 242089.77020144
       },
       {
-        "strID": "5cd38fbd-95ff-4cfd-a1f4-cdb67c2d99bd",
+        "strID": "0171cb7e-31c6-4449-ab8a-3213a815e36c",
         "bVoid": false,
         "aTiles": [
           387,
@@ -17425,10 +17317,10 @@
           726
         ],
         "roomSpec": "Reactor",
-        "roomValue": 353159.059846286
+        "roomValue": 326918.693030648
       },
       {
-        "strID": "da5d8f55-18a9-4007-97bb-f919e725a456",
+        "strID": "59abdda0-d07a-4c57-bcd8-30db525e30c3",
         "bVoid": false,
         "aTiles": [
           429,
@@ -17448,7 +17340,7 @@
         "roomValue": 5615.0
       },
       {
-        "strID": "5913704b-ffa0-4a46-b483-814e316ba36d",
+        "strID": "d76aa7d4-fee8-4b8a-baa4-e62fb194b735",
         "bVoid": false,
         "aTiles": [
           1322,
@@ -17490,7 +17382,7 @@
     "designation": "Тяжёлый буксир",
     "publicName": "$TEMPLATE",
     "dimensions": "16.00m x 9.92m",
-    "fShallowMass": 22556.019,
+    "fShallowMass": 22548.5,
     "fShallowRCSRemass": 2247.7391892,
     "fShallowRCSRemassMax": 2248.09408414576,
     "fShallowFusionRemain": 23557.868089872,

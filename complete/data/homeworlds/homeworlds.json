@@ -4,8 +4,8 @@
     "strATCCode": "BCER",
     "strColonyName": "Port Mojave, Ceres",
     "nFoundingYear": 2029,
-    "aCondsCitizen"          : [
-			"IsStrataGalConfedCitizen",
+    "aCondsCitizen": [
+      "IsStrataGalConfedCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -22,8 +22,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataGalConfedPermRes",
+    "aCondsResident": [
+      "IsStrataGalConfedPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -40,8 +40,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataGalConfedIllegal",
+    "aCondsIllegal": [
+      "IsStrataGalConfedIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -63,44 +63,44 @@
     "strATCCode": "BCRS",
     "strColonyName": "Quanzhan/Ring Station, Ceres",
     "nFoundingYear": 2029,
-    "aCondsCitizen"          : [
-			"IsStrataCCRECitizen",
+    "aCondsCitizen": [
+      "IsStrataCCRECitizen",
       "IsStrataCitizen",
-      "IsHomeCCRE", 
+      "IsHomeCCRE",
       "IsHomeRingStation",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsMetabSlow", 
-      "IsHypovolemic2", 
-      "StatSkillsLeft", 
-      "AllowEnglish", 
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "StatSkillsLeft",
+      "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-      "IsStrataCCREResident", 
-      "IsHomeCCRE", 
+    "aCondsResident": [
+      "IsStrataCCREResident",
+      "IsHomeCCRE",
       "IsHomeRingStation",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsMetabSlow", 
-      "IsHypovolemic2", 
-      "StatSkillsLeft", 
-      "AllowEnglish", 
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "StatSkillsLeft",
+      "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-      "IsStrataCCREIllegal", 
-      "IsHomeCCRE", 
+    "aCondsIllegal": [
+      "IsStrataCCREIllegal",
+      "IsHomeCCRE",
       "IsHomeRingStation",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsMetabSlow", 
-      "IsHypovolemic2",  
-      "StatSkillsLeft", 
-      "AllowEnglish", 
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "StatSkillsLeft",
+      "AllowEnglish",
       "AllowMandarin"
     ]
   },
@@ -109,8 +109,8 @@
     "strATCCode": "EJDR",
     "strColonyName": "Jade Rabbit, Luna",
     "nFoundingYear": 2022,
-    "aCondsCitizen"          : [
-			"IsStrataChineseCitizen",
+    "aCondsCitizen": [
+      "IsStrataChineseCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -125,8 +125,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataLunaSquatter",
+    "aCondsIllegal": [
+      "IsStrataLunaSquatter",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -145,7 +145,7 @@
     "strATCCode": "ERTH",
     "strColonyName": "Detroit, Earth",
     "nFoundingYear": 1701,
-    "aCondsCitizen"          : [
+    "aCondsCitizen": [
       "IsStrataCitizen",
       "IsFeeble",
       "IsFragile",
@@ -157,7 +157,7 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsResident"          : [
+    "aCondsResident": [
       "IsFeeble",
       "IsFragile",
       "IsUnfit",
@@ -168,7 +168,7 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
+    "aCondsIllegal": [
       "IsFeeble",
       "IsFragile",
       "IsUnfit",
@@ -185,8 +185,8 @@
     "strATCCode": "HQCH",
     "strColonyName": "Qincheng Station, Mercury",
     "nFoundingYear": 2039,
-    "aCondsResident"          : [
-			"IsStrataProkofievPermRes",
+    "aCondsResident": [
+      "IsStrataProkofievPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -208,8 +208,8 @@
     "strATCCode": "JATL",
     "strColonyName": "Atlantis, Europa",
     "nFoundingYear": 2035,
-    "aCondsCitizen"          : [
-			"IsStrataAtlantisCitizen",
+    "aCondsCitizen": [
+      "IsStrataAtlantisCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -223,8 +223,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsResident"          : [
-			"IsStrataAtlantisPermRes",
+    "aCondsResident": [
+      "IsStrataAtlantisPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -238,8 +238,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataAtlantisIllegal",
+    "aCondsIllegal": [
+      "IsStrataAtlantisIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -258,8 +258,8 @@
     "strATCCode": "JFTS",
     "strColonyName": "Fort Simpson, Ganymede",
     "nFoundingYear": 2035,
-    "aCondsCitizen"          : [
-			"IsStrataGalConfedCitizen",
+    "aCondsCitizen": [
+      "IsStrataGalConfedCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -274,8 +274,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataGalConfedPermRes",
+    "aCondsResident": [
+      "IsStrataGalConfedPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -290,8 +290,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataGalConfedIllegal",
+    "aCondsIllegal": [
+      "IsStrataGalConfedIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -311,8 +311,8 @@
     "strATCCode": "JPTN",
     "strColonyName": "Porto Nuevo, Europa",
     "nFoundingYear": 2035,
-    "aCondsCitizen"          : [
-			"IsStrataGalConfedCitizen",
+    "aCondsCitizen": [
+      "IsStrataGalConfedCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -327,8 +327,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsResident"          : [
-			"IsStrataGalConfedPermRes",
+    "aCondsResident": [
+      "IsStrataGalConfedPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -343,8 +343,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataGalConfedIllegal",
+    "aCondsIllegal": [
+      "IsStrataGalConfedIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -359,14 +359,13 @@
       "AllowEnglish"
     ]
   },
-
   {
     "strName": "MHNG",
     "strATCCode": "MHNG",
     "strColonyName": "Hangzhou Orbital, Mars",
     "nFoundingYear": 2045,
-    "aCondsCitizen"          : [
-			"IsStrataHangzhouCitizen",
+    "aCondsCitizen": [
+      "IsStrataHangzhouCitizen",
       "IsStrataCitizen",
       "IsHomeworldMars",
       "IsHomeHangzhou",
@@ -374,16 +373,16 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataHangzhouE2B",
+    "aCondsResident": [
+      "IsStrataHangzhouE2B",
       "IsHomeworldMars",
       "IsHomeHangzhou",
       "StatSkillsLeft",
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataHangzhouIllegal",
+    "aCondsIllegal": [
+      "IsStrataHangzhouIllegal",
       "IsHomeworldMars",
       "IsHomeHangzhou",
       "StatSkillsLeft",
@@ -396,8 +395,8 @@
     "strATCCode": "MLAB",
     "strColonyName": "The Labyrinth, Mars",
     "nFoundingYear": 2033,
-    "aCondsCitizen"          : [
-			"IsStrataXinhuaCitizen",
+    "aCondsCitizen": [
+      "IsStrataXinhuaCitizen",
       "IsStrataCitizen",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -410,8 +409,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataXinhuaPermRes",
+    "aCondsResident": [
+      "IsStrataXinhuaPermRes",
       "IsStrataPermRes",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -424,8 +423,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataXinhuaIllegal",
+    "aCondsIllegal": [
+      "IsStrataXinhuaIllegal",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
@@ -437,13 +436,14 @@
       "AllowEnglish",
       "AllowMandarin"
     ]
-  },  {
+  },
+  {
     "strName": "MSUZ",
     "strATCCode": "MSUZ",
     "strColonyName": "Suzhou Orbital, Mars",
     "nFoundingYear": 2045,
-    "aCondsCitizen"          : [
-			"IsStrataSuzhouCitizen",
+    "aCondsCitizen": [
+      "IsStrataSuzhouCitizen",
       "IsStrataCitizen",
       "IsHomeworldMars",
       "IsHomeSuzhou",
@@ -451,16 +451,16 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataSuzhouE2B",
+    "aCondsResident": [
+      "IsStrataSuzhouE2B",
       "IsHomeworldMars",
       "IsHomeSuzhou",
       "StatSkillsLeft",
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataSuzhouIllegal",
+    "aCondsIllegal": [
+      "IsStrataSuzhouIllegal",
       "IsHomeworldMars",
       "IsHomeSuzhou",
       "StatSkillsLeft",
@@ -473,8 +473,8 @@
     "strATCCode": "MTRS",
     "strColonyName": "Tharsis Landing, Mars",
     "nFoundingYear": 2029,
-    "aCondsCitizen"          : [
-			"IsStrataXinhuaCitizen",
+    "aCondsCitizen": [
+      "IsStrataXinhuaCitizen",
       "IsStrataCitizen",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
@@ -486,8 +486,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataXinhuaPermRes",
+    "aCondsResident": [
+      "IsStrataXinhuaPermRes",
       "IsStrataPermRes",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
@@ -499,8 +499,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataXinhuaIllegal",
+    "aCondsIllegal": [
+      "IsStrataXinhuaIllegal",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
       "IsMetabSlow",
@@ -517,8 +517,8 @@
     "strATCCode": "MVOL",
     "strColonyName": "Voltaire, Deimos",
     "nFoundingYear": 2033,
-    "aCondsCitizen"          : [
-			"IsStrataVoltaireCitizen",
+    "aCondsCitizen": [
+      "IsStrataVoltaireCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -535,8 +535,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataVoltairePermRes",
+    "aCondsResident": [
+      "IsStrataVoltairePermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -553,8 +553,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataVoltaireIllegal",
+    "aCondsIllegal": [
+      "IsStrataVoltaireIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -576,26 +576,24 @@
     "strATCCode": "OKLG",
     "strColonyName": "The Flotilla",
     "nFoundingYear": 2048,
-    "aCondsCitizen"          : [
-    ],
-    "aCondsResident"          : [
-    ],
-    "aCondsIllegal"          : [
-      "IsStrataKLegIllegal", 
-      "IsHomeFlotilla", 
+    "aCondsCitizen": [],
+    "aCondsResident": [],
+    "aCondsIllegal": [
+      "IsStrataKLegIllegal",
+      "IsHomeFlotilla",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsFeeble", 
-      "IsFragile", 
-      "IsMetabSlow", 
-      "IsHypovolemic2", 
-      "IsImmunoSuppressed", 
-      "IsInsomniac", 
+      "IsFeeble",
+      "IsFragile",
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "IsImmunoSuppressed",
+      "IsInsomniac",
       "IsUnfit",
       "IsVisualImpaired",
-      "StatSkillsLeft", 
+      "StatSkillsLeft",
       "AllowEnglish"
     ]
   },
@@ -604,42 +602,41 @@
     "strATCCode": "OKLG",
     "strColonyName": "Nnamdi Azikiwe Station/K-Leg, 1036-Ganymed",
     "nFoundingYear": 2032,
-    "aCondsCitizen"          : [
-    ],
-    "aCondsResident"          : [
-      "IsStrataKLegPermRes", 
-      "IsHomeKLeg", 
+    "aCondsCitizen": [],
+    "aCondsResident": [
+      "IsStrataKLegPermRes",
+      "IsHomeKLeg",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsFeeble", 
-      "IsFragile", 
-      "IsMetabSlow", 
-      "IsHypovolemic2", 
-      "IsImmunoSuppressed", 
-      "IsInsomniac", 
+      "IsFeeble",
+      "IsFragile",
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "IsImmunoSuppressed",
+      "IsInsomniac",
       "IsUnfit",
       "IsVisualImpaired",
-      "StatSkillsLeft", 
+      "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
-      "IsStrataKLegIllegal", 
-      "IsHomeKLeg", 
+    "aCondsIllegal": [
+      "IsStrataKLegIllegal",
+      "IsHomeKLeg",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
       "IsLifeRadExposure",
-      "IsFeeble", 
-      "IsFragile", 
-      "IsMetabSlow", 
-      "IsHypovolemic2", 
-      "IsImmunoSuppressed", 
-      "IsInsomniac", 
+      "IsFeeble",
+      "IsFragile",
+      "IsMetabSlow",
+      "IsHypovolemic2",
+      "IsImmunoSuppressed",
+      "IsInsomniac",
       "IsUnfit",
       "IsVisualImpaired",
-      "StatSkillsLeft", 
+      "StatSkillsLeft",
       "AllowEnglish"
     ]
   },
@@ -648,7 +645,7 @@
     "strATCCode": "OXXX",
     "strColonyName": "Vessel, Low-g",
     "nFoundingYear": 2029,
-    "aCondsCitizen"          : [
+    "aCondsCitizen": [
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -663,7 +660,7 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
+    "aCondsResident": [
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -678,7 +675,7 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
+    "aCondsIllegal": [
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -699,7 +696,7 @@
     "strATCCode": "OYYY",
     "strColonyName": "Vessel",
     "nFoundingYear": 2029,
-    "aCondsCitizen"          : [
+    "aCondsCitizen": [
       "IsImmunoSuppressed",
       "IsInsomniac",
       "IsHomeVessel",
@@ -707,7 +704,7 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
+    "aCondsResident": [
       "IsImmunoSuppressed",
       "IsInsomniac",
       "IsHomeVessel",
@@ -715,7 +712,7 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
+    "aCondsIllegal": [
       "IsImmunoSuppressed",
       "IsInsomniac",
       "IsHomeVessel",
@@ -729,8 +726,8 @@
     "strATCCode": "SVIR",
     "strColonyName": "Virginia, Titan",
     "nFoundingYear": 2031,
-    "aCondsCitizen"          : [
-			"IsStrataUSCitizen",
+    "aCondsCitizen": [
+      "IsStrataUSCitizen",
       "IsStrataCitizen",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -745,8 +742,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsResident"          : [
-			"IsStrataUSPermRes",
+    "aCondsResident": [
+      "IsStrataUSPermRes",
       "IsStrataPermRes",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
@@ -760,8 +757,8 @@
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataUSIllegal",
+    "aCondsIllegal": [
+      "IsStrataUSIllegal",
       "IsLifeMicroG",
       "IsLifeLackCircadian",
       "IsLifeLackSunlight",
@@ -779,17 +776,17 @@
     "strName": "VCBR",
     "strATCCode": "VCBR",
     "strColonyName": "Cloudbreak, Venus",
-    "nFoundingYear": 2054,
-    "aCondsResident"          : [
-			"IsStrataCloudbreakPermRes",
+    "nFoundingYear": 2040,
+    "aCondsResident": [
+      "IsStrataCloudbreakPermRes",
       "IsStrataPermRes",
       "IsHomeCloudbreak",
       "IsHomeworldVenus",
       "StatSkillsLeft",
       "AllowEnglish"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataCloudbreakIllegal",
+    "aCondsIllegal": [
+      "IsStrataCloudbreakIllegal",
       "IsHomeworldVenus",
       "IsHomeCloudbreak",
       "StatSkillsLeft",
@@ -801,8 +798,8 @@
     "strATCCode": "VENC",
     "strColonyName": "Encantado, Venus",
     "nFoundingYear": 2044,
-    "aCondsCitizen"          : [
-			"IsStrataEncantadoCitizen",
+    "aCondsCitizen": [
+      "IsStrataEncantadoCitizen",
       "IsStrataCitizen",
       "IsHomeEncantado",
       "StatSkillsLeft",
@@ -810,8 +807,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataEncantadoPermRes",
+    "aCondsResident": [
+      "IsStrataEncantadoPermRes",
       "IsStrataPermRes",
       "IsHomeworldVenus",
       "IsHomeEncantado",
@@ -819,8 +816,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataEncantadoIllegal",
+    "aCondsIllegal": [
+      "IsStrataEncantadoIllegal",
       "IsHomeEncantado",
       "StatSkillsLeft",
       "IsHomeworldVenus",
@@ -833,8 +830,8 @@
     "strATCCode": "VNCA",
     "strColonyName": "Newcal, Venus",
     "nFoundingYear": 2049,
-    "aCondsCitizen"          : [
-			"IsStrataNewcalCitizen",
+    "aCondsCitizen": [
+      "IsStrataNewcalCitizen",
       "IsStrataCitizen",
       "IsHomeworldVenus",
       "IsHomeNewcal",
@@ -842,8 +839,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsResident"          : [
-			"IsStrataNewcalPermRes",
+    "aCondsResident": [
+      "IsStrataNewcalPermRes",
       "IsStrataPermRes",
       "IsHomeworldVenus",
       "IsHomeNewcal",
@@ -851,8 +848,8 @@
       "AllowEnglish",
       "AllowMandarin"
     ],
-    "aCondsIllegal"          : [
-			"IsStrataNewcalIllegal",
+    "aCondsIllegal": [
+      "IsStrataNewcalIllegal",
       "IsHomeNewcal",
       "StatSkillsLeft",
       "IsHomeworldVenus",

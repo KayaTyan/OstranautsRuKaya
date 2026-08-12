@@ -1,13 +1,13 @@
 [
   {
     "strName": "SalvageCustom",
-    "strRegID": "B-31M",
+    "strRegID": "E-PAC",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 108.9924,
+    "fTimeEngaged": 0.1352806,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-B-UNZJ",
+      "strID": "CO-E-PAC",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "B-UNZJ",
+      "strCondID": "E-PAC",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -27,10 +27,11 @@
         "B-UNZJ",
         "E-1SM8",
         "B-3G5Y",
-        "B-31M"
+        "B-31M",
+        "E-PAC"
       ],
-      "strFriendlyName": "CO-B-UNZJ",
-      "strRegIDLast": "B-31M",
+      "strFriendlyName": "CO-E-PAC",
+      "strRegIDLast": "E-PAC",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -477,24 +478,24 @@
         "fX": 1.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "4106421b-7dbb-456a-b63f-087aa3f359c7",
+        "strID": "844f32a6-e506-47f3-b0c4-6a872e4cc78b",
         "strSlotParentID": "547d9728-f50a-4975-bc46-4467c012f0bf"
       },
       {
-        "strName": "DataBINCryptoMed",
+        "strName": "DataSNDSilversmythAlbum",
         "fX": 1.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "7aab36c2-4017-4476-a2be-fde155b14953",
-        "strParentID": "4106421b-7dbb-456a-b63f-087aa3f359c7"
+        "strID": "6aea7e5d-d950-4a4c-bd38-279f9f921a9d",
+        "strParentID": "844f32a6-e506-47f3-b0c4-6a872e4cc78b"
       },
       {
-        "strName": "DataBINPersonalAddressesFortSimpson",
+        "strName": "DataSNDSilversmythAlbum",
         "fX": 1.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "b1490ad6-882a-4747-9629-4f8c798d4562",
-        "strParentID": "4106421b-7dbb-456a-b63f-087aa3f359c7"
+        "strID": "34977c38-e478-424d-9d72-349f3d2db26d",
+        "strParentID": "844f32a6-e506-47f3-b0c4-6a872e4cc78b"
       },
       {
         "strName": "ItmStationNav",
@@ -562,7 +563,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -930,7 +935,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "B-31M"
+              "E-PAC"
             ]
           },
           {
@@ -1101,7 +1106,7 @@
         "fX": -4.0,
         "fY": 6.0,
         "fRotation": 0.0,
-        "strID": "879cf9ef-8669-4b0a-84a5-4af7426694e9"
+        "strID": "e9236d60-8dcb-4389-85c9-4c19d630875f"
       }
     ],
     "aShallowPSpecs": [
@@ -1232,12 +1237,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -0.0198344242407198,
-      "vPosy": -0.0289364393496958,
+      "vPosx": -2.01884045409669e-08,
+      "vPosy": -2.9452272048299e-08,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -0.000191356652866815,
-      "vVelY": -0.000279170214259445,
+      "vVelX": -2.98467085130261e-07,
+      "vVelY": -4.35424888127305e-07,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -1252,70 +1257,13 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498961.4711,
-        65627498959.4612,
-        65627498957.4564,
-        65627498955.4457,
-        65627498953.4298,
-        65627498951.423,
-        65627498949.4211,
-        65627498947.4121,
-        65627498945.3933,
-        65627498943.2403,
-        65627498941.2188,
-        65627498939.2002,
-        65627498937.1866,
-        65627498935.179,
-        65627498933.175,
-        65627498931.1568,
-        65627498929.1372,
-        65627498927.1288,
-        65627498925.0148,
-        65627498923.0062
+        65627498854.2176
       ],
       "aPathRecentX": [
-        -0.0195254498905484,
-        -0.0191408262501812,
-        -0.0187571896644205,
-        -0.0183724402764256,
-        -0.0179866741822858,
-        -0.0176026564466303,
-        -0.0172195937753438,
-        -0.016835154847254,
-        -0.0164488418951864,
-        -0.0160368524958825,
-        -0.0156500160893496,
-        -0.0152637467468599,
-        -0.0148784156383871,
-        -0.0144942515855021,
-        -0.0141107754033789,
-        -0.0137245852034358,
-        -0.0133381214975164,
-        -0.0129538019631608,
-        -0.0125492674286284,
-        -0.01216490966148
+        -2.01884045409669e-08
       ],
       "aPathRecentY": [
-        -0.0284856766809002,
-        -0.0279245492652506,
-        -0.0273648618635321,
-        -0.0268035509946726,
-        -0.0262407568532534,
-        -0.0256805133919666,
-        -0.0251216632740549,
-        -0.0245608053351403,
-        -0.0239972133827091,
-        -0.0233961620622917,
-        -0.0228318064421593,
-        -0.02226827811174,
-        -0.0217061185708956,
-        -0.0211456616474078,
-        -0.0205862082585509,
-        -0.0200227953891902,
-        -0.01945898350197,
-        -0.0188982997465704,
-        -0.0183081243281109,
-        -0.0177473847948912
+        -2.9452272048299e-08
       ],
       "vAccLift": {
         "x": 0.0,
@@ -1333,12 +1281,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 120,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "879cf9ef-8669-4b0a-84a5-4af7426694e9",
+        "strID": "e9236d60-8dcb-4389-85c9-4c19d630875f",
         "bVoid": true,
         "aTiles": [
           0,
@@ -1476,7 +1428,7 @@
           126
         ],
         "roomSpec": "Blank",
-        "roomValue": 136278.455078125
+        "roomValue": 134742.5
       }
     ],
     "DMGStatus": 0,
@@ -1515,7 +1467,7 @@
       "c6e34cb8-9b41-4eaa-ba69-12e63f4695c9"
     ],
     "bFusionTorch": false,
-    "strXPDR": "B-31M",
+    "strXPDR": "E-PAC",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

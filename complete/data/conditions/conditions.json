@@ -1347,12 +1347,12 @@
     "nDisplaySelf": 0,
     "nDisplayOther": 0,
     "aNext": [
-      "TUpDrunкПаssingOut",
-      "TUpDrunкПаssedOut"
+      "TUpDrunkPassingOut",
+      "TUpDrunkPassedOut"
     ],
     "fDuration": 0.02,
     "aPer": [
-      "CONDDrunкПаssingOutPer"
+      "CONDDrunkPassingOutPer"
     ],
     "fClampMax": 1.0,
     "bInvert": true
@@ -1368,7 +1368,7 @@
     "bFatal": false,
     "bKO": true,
     "aNext": [
-      "TUpDrunкПаssedOut",
+      "TUpDrunkPassedOut",
       "TUpAlcoholPoisoning"
     ],
     "fDuration": 0.015,
@@ -1612,7 +1612,7 @@
   {
     "strName": "GreetedByEnemy",
     "strNameFriendly": "Приветствие от врага",
-    "strColor": "Good",
+    "strColor": "Bad",
     "strDesc": "[us] [has] был недавно поприветствован врагом.",
     "nDisplaySelf": 2,
     "nDisplayOther": 2,
@@ -1898,7 +1898,7 @@
     "aNext": [
       "TUpNanoFirstAid2"
     ],
-    "fDuration": 4.0,
+    "fDuration": 3.0,
     "aPer": [
       "CONDNanoFirstAidPer"
     ],

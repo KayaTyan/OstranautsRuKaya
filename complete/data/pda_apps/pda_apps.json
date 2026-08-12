@@ -92,7 +92,7 @@
   {
     "strName": "tasks",
     "strFriendlyName": "ЗАМЕТКИ",
-    "strIcon": "pda_apps/IcoPDANotes",
+    "strIcon": "pda_apps/IcoPDARoster",
     "bHidden": false
   },
   {

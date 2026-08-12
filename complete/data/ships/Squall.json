@@ -1,13 +1,13 @@
 [
   {
     "strName": "Squall",
-    "strRegID": "H-3UA",
+    "strRegID": "B-ENC",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 184.8347,
+    "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-J-XGL",
+      "strID": "CO-B-ENC",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "J-XGL",
+      "strCondID": "B-ENC",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -27,10 +27,11 @@
         "E-650",
         "O-U5H6",
         "O-CDQS",
-        "H-3UA"
+        "H-3UA",
+        "B-ENC"
       ],
-      "strFriendlyName": "CO-J-XGL",
-      "strRegIDLast": "H-3UA",
+      "strFriendlyName": "CO-B-ENC",
+      "strRegIDLast": "B-ENC",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -688,24 +689,24 @@
         "fX": 6.0,
         "fY": -1.0,
         "fRotation": 0.0,
-        "strID": "256cd1ff-9a05-4a30-9de6-bfab29a8aa56",
+        "strID": "56c73c62-c7f6-4caa-8eb4-f0d89e06f956",
         "strSlotParentID": "4bc3d6ef-8222-46f9-af2a-bbd9a6407295"
       },
       {
-        "strName": "DataSNDGhostStory03",
+        "strName": "DataBINCryptoMed",
         "fX": 6.0,
         "fY": -1.0,
         "fRotation": 0.0,
-        "strID": "d03d06e7-dae9-415f-81b7-e547cfb13c1d",
-        "strParentID": "256cd1ff-9a05-4a30-9de6-bfab29a8aa56"
+        "strID": "708d8b82-98d6-442a-80a4-ce5fe2a5d460",
+        "strParentID": "56c73c62-c7f6-4caa-8eb4-f0d89e06f956"
       },
       {
-        "strName": "DataIMGXinhua02",
+        "strName": "DataTXTFanfic03",
         "fX": 6.0,
         "fY": -1.0,
         "fRotation": 0.0,
-        "strID": "33034f80-c177-404f-ad24-da09a9029c0d",
-        "strParentID": "256cd1ff-9a05-4a30-9de6-bfab29a8aa56"
+        "strID": "d0afa5ea-40fc-49a7-a1fd-dd74425a006b",
+        "strParentID": "56c73c62-c7f6-4caa-8eb4-f0d89e06f956"
       },
       {
         "strName": "ItmStationNav",
@@ -773,7 +774,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -2530,7 +2535,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "H-3UA"
+              "B-ENC"
             ]
           },
           {
@@ -5065,49 +5070,49 @@
         "fX": -14.0,
         "fY": 13.0,
         "fRotation": 0.0,
-        "strID": "ebf02856-584a-4ec0-b4f7-06970eac27bf"
+        "strID": "78e93351-9ced-4105-b3e7-18c247d635f9"
       },
       {
         "strName": "Compartment",
         "fX": -1.0,
         "fY": 8.0,
         "fRotation": 0.0,
-        "strID": "19870554-1386-4860-86ab-13df4fb7412a"
+        "strID": "9b913b38-e6ec-4769-ab1d-6f9b9aa0d99f"
       },
       {
         "strName": "Compartment",
         "fX": -8.0,
         "fY": 3.0,
         "fRotation": 0.0,
-        "strID": "038a8e0c-8c50-4c7b-81f4-dad1be171bd1"
+        "strID": "ddf8561b-2e28-4dc4-b4f2-b05cf351a876"
       },
       {
         "strName": "Compartment",
         "fX": -1.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "1c02b0f1-40a6-43cd-8c05-c5ab3c766d3e"
+        "strID": "5e44b27e-1990-4bc9-b2d5-fb05bb66f6dc"
       },
       {
         "strName": "Compartment",
         "fX": -10.0,
         "fY": 0.0,
         "fRotation": 0.0,
-        "strID": "8499273a-a0a2-4bee-8365-173479ccb61b"
+        "strID": "445dfa04-01ae-40cb-b9ea-4cfc2eb85074"
       },
       {
         "strName": "Compartment",
         "fX": -8.0,
         "fY": -7.0,
         "fRotation": 0.0,
-        "strID": "c2190ca4-59cc-4a48-81c7-2082e70cd4b3"
+        "strID": "616bbda3-7492-4519-8224-18468aacc535"
       },
       {
         "strName": "Compartment",
         "fX": -1.0,
         "fY": -8.0,
         "fRotation": 0.0,
-        "strID": "8065bd59-0ff8-4979-bb4c-46a77ea7f595"
+        "strID": "35399af7-87b5-4e44-b545-a2b12f19db68"
       }
     ],
     "aShallowPSpecs": [
@@ -5198,12 +5203,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -0.0154920871950319,
-      "vPosy": -0.0226013970780472,
+      "vPosx": -1.2257116823047e-07,
+      "vPosy": -1.78815523968264e-07,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -8.60990560025648e-05,
-      "vVelY": -0.000125609871542046,
+      "vVelX": -7.3542698746539e-07,
+      "vVelY": -1.07289311183488e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -5218,70 +5223,13 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627499037.9703,
-        65627499035.9665,
-        65627499033.9579,
-        65627499031.9512,
-        65627499029.9451,
-        65627499027.9371,
-        65627499025.9139,
-        65627499023.8939,
-        65627499021.8808,
-        65627499019.8764,
-        65627499017.8661,
-        65627499015.8465,
-        65627499013.8288,
-        65627499011.8232,
-        65627499009.8042,
-        65627499007.7962,
-        65627499005.7935,
-        65627499003.7823,
-        65627499001.7143,
-        65627498999.7113
+        65627498854.4218
       ],
       "aPathRecentX": [
-        -0.015407366760203,
-        -0.0152348352833302,
-        -0.0150618938940153,
-        -0.014889122320438,
-        -0.014716398773936,
-        -0.014543510119694,
-        -0.0143693154072982,
-        -0.0141953977172931,
-        -0.0140220686290493,
-        -0.0138494904703351,
-        -0.0136764031841292,
-        -0.013502517667896,
-        -0.0133287994570459,
-        -0.0131561177784072,
-        -0.0129822796787948,
-        -0.0128093931939734,
-        -0.0126369562961107,
-        -0.0124637883659027,
-        -0.0122857391850219,
-        -0.0121132822434409
+        -1.2257116823047e-07
       ],
       "aPathRecentY": [
-        -0.0224777984762747,
-        -0.0222260923873449,
-        -0.02197378827735,
-        -0.0217217319114532,
-        -0.0214697456122337,
-        -0.0212175184374113,
-        -0.0209633858549744,
-        -0.0207096574203706,
-        -0.0204567876965944,
-        -0.0202050135035491,
-        -0.0199524965446501,
-        -0.0196988150483469,
-        -0.019445377633787,
-        -0.0191934524155738,
-        -0.0189398400953561,
-        -0.0186876160855012,
-        -0.0184360479778448,
-        -0.0181834133674504,
-        -0.0179236575027887,
-        -0.0176720601533616
+        -1.78815523968264e-07
       ],
       "vAccLift": {
         "x": 0.0,
@@ -5299,12 +5247,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 440,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "ebf02856-584a-4ec0-b4f7-06970eac27bf",
+        "strID": "78e93351-9ced-4105-b3e7-18c247d635f9",
         "bVoid": true,
         "aTiles": [
           0,
@@ -5775,7 +5727,7 @@
         "roomValue": 116951.0
       },
       {
-        "strID": "19870554-1386-4860-86ab-13df4fb7412a",
+        "strID": "9b913b38-e6ec-4769-ab1d-6f9b9aa0d99f",
         "bVoid": true,
         "aTiles": [
           143,
@@ -5802,7 +5754,7 @@
         "roomValue": 56774.0
       },
       {
-        "strID": "038a8e0c-8c50-4c7b-81f4-dad1be171bd1",
+        "strID": "ddf8561b-2e28-4dc4-b4f2-b05cf351a876",
         "bVoid": true,
         "aTiles": [
           266,
@@ -5814,7 +5766,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "1c02b0f1-40a6-43cd-8c05-c5ab3c766d3e",
+        "strID": "5e44b27e-1990-4bc9-b2d5-fb05bb66f6dc",
         "bVoid": false,
         "aTiles": [
           299,
@@ -5930,10 +5882,10 @@
           395
         ],
         "roomSpec": "BridgeArea",
-        "roomValue": 109769.279231722
+        "roomValue": 105775.796120167
       },
       {
-        "strID": "8499273a-a0a2-4bee-8365-173479ccb61b",
+        "strID": "445dfa04-01ae-40cb-b9ea-4cfc2eb85074",
         "bVoid": false,
         "aTiles": [
           342,
@@ -5950,10 +5902,10 @@
           391
         ],
         "roomSpec": "Airlock",
-        "roomValue": 128076.815185547
+        "roomValue": 119604.0
       },
       {
-        "strID": "c2190ca4-59cc-4a48-81c7-2082e70cd4b3",
+        "strID": "616bbda3-7492-4519-8224-18468aacc535",
         "bVoid": true,
         "aTiles": [
           526,
@@ -5965,7 +5917,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "8065bd59-0ff8-4979-bb4c-46a77ea7f595",
+        "strID": "35399af7-87b5-4e44-b545-a2b12f19db68",
         "bVoid": true,
         "aTiles": [
           559,
@@ -6028,7 +5980,7 @@
       "dd74511b-85da-494f-b398-b66977799bee"
     ],
     "bFusionTorch": false,
-    "strXPDR": "H-3UA",
+    "strXPDR": "B-ENC",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

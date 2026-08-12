@@ -1,13 +1,13 @@
 [
   {
     "strName": "Whistler Hot-Rod",
-    "strRegID": "M-SR2",
+    "strRegID": "H-ARP",
     "nCurrentWaypoint": -1,
     "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-V-QQQ",
+      "strID": "CO-H-ARP",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "V-QQQ",
+      "strCondID": "H-ARP",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -26,10 +26,11 @@
       "aMyShips": [
         "V-QQQ",
         "E-UTF2",
-        "M-SR2"
+        "M-SR2",
+        "H-ARP"
       ],
-      "strFriendlyName": "CO-V-QQQ",
-      "strRegIDLast": "M-SR2",
+      "strFriendlyName": "CO-H-ARP",
+      "strRegIDLast": "H-ARP",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -153,24 +154,24 @@
         "fX": -5.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "f5b2d668-65bf-485d-8329-600b7bf8da93",
+        "strID": "94caeee7-d554-443a-aa1e-37081d99ed54",
         "strSlotParentID": "3c114d36-0a80-4bb2-8858-040b1e8cca61"
       },
       {
-        "strName": "DataBINPersonalAddressesNewcal",
+        "strName": "DataBINRobotCracker",
         "fX": -5.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "be0d9067-32ca-405c-9b82-5675a2ce8a89",
-        "strParentID": "f5b2d668-65bf-485d-8329-600b7bf8da93"
+        "strID": "c1170911-89d1-4cd5-877d-18cc1f4c10b5",
+        "strParentID": "94caeee7-d554-443a-aa1e-37081d99ed54"
       },
       {
-        "strName": "DataBINPersonalAddressesJadeRabbit",
+        "strName": "DataBINPersonalAddressesProkofiev",
         "fX": -5.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "2fa51364-a08f-435e-9bf3-9b9084bd80ec",
-        "strParentID": "f5b2d668-65bf-485d-8329-600b7bf8da93"
+        "strID": "805f13f2-c3c0-4c61-9ba4-d9dd7e15190f",
+        "strParentID": "94caeee7-d554-443a-aa1e-37081d99ed54"
       },
       {
         "strName": "ItmStationNav",
@@ -238,7 +239,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -3474,7 +3479,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "M-SR2"
+              "H-ARP"
             ]
           },
           {
@@ -3969,14 +3974,14 @@
         "fX": -12.0,
         "fY": 26.0,
         "fRotation": 0.0,
-        "strID": "f7cc9bac-78aa-425e-9302-a2b45ddcec70"
+        "strID": "8181e06c-58cb-4801-9601-009d807306e9"
       },
       {
         "strName": "Compartment",
         "fX": -6.0,
         "fY": 13.0,
         "fRotation": 0.0,
-        "strID": "1f6e9b45-f14b-4a8a-952f-3fe625a349e1"
+        "strID": "7ce9f2fc-395d-4dea-8673-d488937a67cb"
       }
     ],
     "aShallowPSpecs": [
@@ -4167,7 +4172,7 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498854.4112
+        65627498854.4149
       ],
       "aPathRecentX": [
         -1.22571180862342e-07
@@ -4191,12 +4196,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 200,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "f7cc9bac-78aa-425e-9302-a2b45ddcec70",
+        "strID": "8181e06c-58cb-4801-9601-009d807306e9",
         "bVoid": true,
         "aTiles": [
           0,
@@ -4541,7 +4550,7 @@
         "roomValue": 13786.0
       },
       {
-        "strID": "1f6e9b45-f14b-4a8a-952f-3fe625a349e1",
+        "strID": "7ce9f2fc-395d-4dea-8673-d488937a67cb",
         "bVoid": false,
         "aTiles": [
           201,
@@ -4648,7 +4657,7 @@
       "f43bc915-c58e-4bcf-a2ef-b0115a4d89f9"
     ],
     "bFusionTorch": false,
-    "strXPDR": "M-SR2",
+    "strXPDR": "H-ARP",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

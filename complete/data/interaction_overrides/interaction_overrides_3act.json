@@ -5,7 +5,7 @@
     "strFind": "TEMP3ActBEG",
     "strReplace": "TEMP3ActMID",
     "aOverrideValues": [
-      "strTitle|Цель TEMP3ActMID",
+      "strTitle|TEMP3ActMID Target",
       "strDesc|[us] TEMP3ActMIDs [them] for [3rd]."
     ]
   },
@@ -15,7 +15,7 @@
     "strFind": "TEMP3ActBEG",
     "strReplace": "TEMP3ActMID",
     "aOverrideValues": [
-      "strTitle|Сдать TEMP3ActMID",
+      "strTitle|Turn In TEMP3ActMID",
       "strDesc|[us] turns in TEMP3ActMID [them] for [3rd]."
     ]
   },
@@ -25,7 +25,7 @@
     "strFind": "TEMP3ActBEG",
     "strReplace": "TEMP3ActEND",
     "aOverrideValues": [
-      "strTitle|Цель TEMP3ActEND",
+      "strTitle|TEMP3ActEND Target",
       "strDesc|[us] TEMP3ActENDs [them] for [3rd]."
     ]
   },
@@ -35,7 +35,7 @@
     "strFind": "TEMP3ActBEG",
     "strReplace": "TEMP3ActEND",
     "aOverrideValues": [
-      "strTitle|Сдать TEMP3ActEND",
+      "strTitle|Turn In TEMP3ActEND",
       "strDesc|[us] turns in TEMP3ActEND [them] for [3rd]."
     ]
   }

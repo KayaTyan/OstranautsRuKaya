@@ -1891,7 +1891,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyCitizen",
     "aCOs": [
-      "IsAttractedMono=0.7x1|(aCOs в луте) IsAttractedPoly=0.3x1"
+      "IsAttractedMono=0.7x1|IsAttractedPoly=0.3x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1899,7 +1899,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsTitanCitizen",
     "aCOs": [
-      "IsAttractedMono=0.5x1|(объекты в луте) IsAttractedPoly=0.5x1"
+      "IsAttractedMono=0.5x1|IsAttractedPoly=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1907,7 +1907,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsVenusCitizen",
     "aCOs": [
-      "IsAttractedMono=0.35x1|(объекты в луте) IsAttractedPoly=0.65x1"
+      "IsAttractedMono=0.35x1|IsAttractedPoly=0.65x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1915,7 +1915,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsXinhuaCitizen",
     "aCOs": [
-      "IsAttractedMono=0.9x1|(объекты в луте) IsAttractedPoly=0.1x1"
+      "IsAttractedMono=0.9x1|IsAttractedPoly=0.1x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1923,7 +1923,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsEJDRCitizen",
     "aCOs": [
-      "IsAttractedMono=0.95x1|(объекты в луте) IsAttractedPoly=0.05x1"
+      "IsAttractedMono=0.95x1|IsAttractedPoly=0.05x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1931,7 +1931,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsVesselCitizen",
     "aCOs": [
-      "IsAttractedMono=0.05x1|(объекты в луте) IsAttractedPoly=0.95x1"
+      "IsAttractedMono=0.05x1|IsAttractedPoly=0.95x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1939,7 +1939,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPoly",
     "aCOs": [
-      "IsAttractedMono=0.5x1|(объекты в луте) IsAttractedPoly=0.5x1"
+      "IsAttractedMono=0.5x1|IsAttractedPoly=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1947,7 +1947,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsTitan",
     "aCOs": [
-      "IsAttractedMono=0.3x1|(объекты в луте) IsAttractedPoly=0.7x1"
+      "IsAttractedMono=0.3x1|IsAttractedPoly=0.7x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1955,7 +1955,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsVenus",
     "aCOs": [
-      "IsAttractedMono=0.15x1|(объекты в луте) IsAttractedPoly=0.85x1"
+      "IsAttractedMono=0.15x1|IsAttractedPoly=0.85x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1963,7 +1963,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsXinhua",
     "aCOs": [
-      "IsAttractedMono=0.7x1|(aCOs в луте) IsAttractedPoly=0.3x1"
+      "IsAttractedMono=0.7x1|IsAttractedPoly=0.3x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1971,7 +1971,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsEJDR",
     "aCOs": [
-      "IsAttractedMono=0.85x1|(объекты в луте) IsAttractedPoly=0.15x1"
+      "IsAttractedMono=0.85x1|IsAttractedPoly=0.15x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -1979,7 +1979,7 @@
   {
     "strName": "CONDGainRomanticAttractionMonoPolyAsVessel",
     "aCOs": [
-      "IsAttractedMono=0.15x1|(объекты в луте) IsAttractedPoly=0.85x1"
+      "IsAttractedMono=0.15x1|IsAttractedPoly=0.85x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -5695,7 +5695,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_Z1a",
     "aCOs": [
-      "IsPatient=0.5x1|(объекты в луте) IsCraven=0.5x1",
+      "IsPatient=0.5x1|IsCraven=0.5x1",
       "SkillStealth=0.75x1"
     ],
     "aLoots": [],
@@ -5729,7 +5729,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_Z2a",
     "aCOs": [
-      "IsCruel=0.75x1|(объекты в луте) IsVengeful=0.25x1",
+      "IsCruel=0.75x1|IsVengeful=0.25x1",
       "SkillMeleeUnarmed=0.25x1"
     ],
     "aLoots": [],
@@ -5746,7 +5746,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_Z2b",
     "aCOs": [
-      "IsForgiving=0.75x1|(объекты в луте) IsOptimist=0.25x1",
+      "IsForgiving=0.75x1|IsOptimist=0.25x1",
       "SkillPersuade=0.25x1"
     ],
     "aLoots": [],
@@ -5831,7 +5831,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_M1a",
     "aCOs": [
-      "IsComedian=0.5x1|(объекты в луте) IsObservant=0.5x1"
+      "IsComedian=0.5x1|IsObservant=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -5848,7 +5848,7 @@
     "strName": "CONDENCPlot_Meat_GoatBoss_M1c",
     "aCOs": [
       "SkillScienceBiology=1.0x1",
-      "IsHumorless=0.5x1|(объекты в луте) IsComplacent=0.5x1"
+      "IsHumorless=0.5x1|IsComplacent=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -5857,7 +5857,7 @@
     "strName": "CONDENCPlot_Meat_GoatBoss_M1d",
     "aCOs": [
       "IsDiligent=1.0x1",
-      "IsPessimist=0.5x1|(объекты в луте) IsApathetic=0.5x1"
+      "IsPessimist=0.5x1|IsApathetic=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -5865,7 +5865,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_M2a",
     "aCOs": [
-      "IsGenius=0.75x1|(объекты в луте) IsHonest=0.25x1",
+      "IsGenius=0.75x1|IsHonest=0.25x1",
       "SkillPersuade=0.25x1"
     ],
     "aLoots": [],
@@ -5882,7 +5882,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_M2c",
     "aCOs": [
-      "IsTrusting=0.5x1|(объекты в луте) IsOptimist=0.5x1"
+      "IsTrusting=0.5x1|IsOptimist=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -5925,7 +5925,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_M3d",
     "aCOs": [
-      "IsGenius=0.5x1|(aCOs в добыче) IsArrogant=0.5x1",
+      "IsGenius=0.5x1|IsArrogant=0.5x1",
       "SkillScienceResearch=1.0x1"
     ],
     "aLoots": [],
@@ -5996,7 +5996,7 @@
     "strName": "CONDENCPlot_Meat_GoatBoss_C2d",
     "aCOs": [
       "IsDiligent=1.0x1",
-      "IsCruel=0.5x1|(aCOs в добыче) IsFinicky=0.5x1"
+      "IsCruel=0.5x1|IsFinicky=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6004,7 +6004,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_C3a",
     "aCOs": [
-      "IsFollower=0.5x1|(aCOs в добыче) IsHumble=0.5x1",
+      "IsFollower=0.5x1|IsHumble=0.5x1",
       "SkillPersuade=0.5x1"
     ],
     "aLoots": [],
@@ -6013,7 +6013,7 @@
   {
     "strName": "CONDENCPlot_Meat_GoatBoss_C3b",
     "aCOs": [
-      "IsLoyal=0.5x1|(aCOs в добыче) IsHonest=0.5x1"
+      "IsLoyal=0.5x1|IsHonest=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6022,7 +6022,7 @@
     "strName": "CONDENCPlot_Meat_GoatBoss_C3c",
     "aCOs": [
       "IsArrogant=1.0x1",
-      "IsStrong=0.5x1|(aCOs в добыче) IsCoordinated=0.5x1"
+      "IsStrong=0.5x1|IsCoordinated=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6031,7 +6031,7 @@
     "strName": "CONDENCPlot_Meat_GoatBoss_C3d",
     "aCOs": [
       "IsLeader=1.0x1",
-      "IsSelfless=0.5x1|(aCOs в добыче) IsCharismatic=0.5x1"
+      "IsSelfless=0.5x1|IsCharismatic=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6219,7 +6219,7 @@
     "strName": "CNDOLLiquidBloodMeat",
     "aCOs": [
       "IsPlot_Meat_Significant=1.0x1.0",
-      "StatBasePrice=1.0x66.6"
+      "StatBasePrice=1.0x50.6"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6251,7 +6251,7 @@
   {
     "strName": "ItmPlanterMeatHarvest",
     "aCOs": [
-      "ItmMeat01Loose=0.6x1|(aCOs в добыче) LiquidBloodMeat=0.4x1",
+      "ItmMeat01Loose=0.6x1|LiquidBloodMeat=0.4x1",
       "LiquidBloodMeat=0.1x1"
     ],
     "aLoots": [],
@@ -6462,7 +6462,8 @@
   {
     "strName": "CONDPLOT_Merga_Suspect_Journalist",
     "aCOs": [
-      "IsJournalist=1.0x1"
+      "IsJournalist=1.0x1",
+      "IsNotTrafficAI=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6470,7 +6471,8 @@
   {
     "strName": "CONDPLOT_Merga_Suspect_Superfan",
     "aCOs": [
-      "IsSuperfan=1.0x1"
+      "IsSuperfan=1.0x1",
+      "IsNotTrafficAI=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6480,7 +6482,8 @@
     "aCOs": [
       "IsRacingIcon=1.0x1",
       "SkillOpsSpaceship=1.0x1",
-      "StatPiloting=1.0x0.6"
+      "StatPiloting=1.0x0.6",
+      "IsNotTrafficAI=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -6488,7 +6491,8 @@
   {
     "strName": "CONDPLOT_Merga_Suspect_Mogul",
     "aCOs": [
-      "IsMogul=1.0x1"
+      "IsMogul=1.0x1",
+      "IsNotTrafficAI=1.0x1"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -8917,7 +8921,9 @@
     "strType": "condition",
     "strName": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Xinhua_Success",
     "aCOs": [
-      "-Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua=1.0x1"
+      "-Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua=1.0x1",
+      "ValkyrieReqB=1.0x1",
+      "-Plot_Ceres_Wetwork_Success_Xinhua=1.0x1"
     ]
   },
   {
@@ -8938,7 +8944,8 @@
     "strType": "condition",
     "strName": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Titan_Success",
     "aCOs": [
-      "-Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan=1.0x1"
+      "-Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan=1.0x1",
+      "ValkyrieReqB=1.0x1"
     ]
   },
   {

@@ -11092,7 +11092,7 @@
   {
     "strName": "CONDDrunkPassingOut",
     "aCOs": [
-      "DrunкПаssingOut=1.0x1",
+      "DrunkPassingOut=1.0x1",
       "StatSleepComfort=1.0x10"
     ],
     "aLoots": [],
@@ -15988,7 +15988,8 @@
     "strName": "CNDOLKioskEmbassyBCER",
     "aCOs": [
       "-IsVENC=1.0x1.0",
-      "IsBCER=1.0x1.0"
+      "IsBCER=1.0x1.0",
+      "IsJFTS=1.0x1.0"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -16036,7 +16037,9 @@
   },
   {
     "strName": "CNDOLKioskBCRSMed01",
-    "aCOs": [],
+    "aCOs": [
+      "IsBCRS=1.0x1.0"
+    ],
     "aLoots": [],
     "strType": "condition"
   },
@@ -19746,29 +19749,29 @@
       "IsAgliophobic=0.0675x1.0|IsMasochist=0.0675x1.0",
       "IsAmbitious=0.0675x1.0|IsComplacent=0.0675x1.0",
       "IsApathetic=0.0675x1.0|IsFinicky=0.0675x1.0",
-      "IsArrogant=0.0675x1.0|(aCOs в добыче) IsHumble=0.0675x1.0",
-      "IsBrave=0.0675x1.0|(aCOs в добыче) IsCraven=0.0675x1.0",
-      "IsCharismatic=0.0675x1.0|(aCOs в добыче) IsRepulsive=0.0675x1.0",
-      "IsChaste=0.0675x1.0|(aCOs в добыче) IsLustful=0.0675x1.0",
-      "IsComedian=0.0675x1.0|(aCOs в добыче) IsHumorless=0.0675x1.0",
-      "IsCruel=0.0675x1.0|(aCOs в добыче) IsKind=0.0675x1.0",
-      "IsDiligent=0.0675x1.0|(aCOs в добыче) IsQuitter=0.0675x1.0",
-      "IsFollower=0.0675x1.0|(aCOs в добыче) IsLeader=0.0675x1.0",
-      "IsForgiving=0.0675x1.0|(aCOs в добыче) IsVengeful=0.0675x1.0",
-      "IsGenius=0.0675x1.0|(aCOs в добыче) IsObtuse=0.0675x1.0",
-      "IsGlutton=0.0675x1.0|(aCOs в добыче) IsTemperate=0.0675x1.0",
-      "IsGregarious=0.0675x1.0|(aCOs в добыче) IsShy=0.0675x1.0",
-      "IsHonest=0.0675x1.0|(aCOs в добыче) IsLiar=0.0675x1.0",
-      "IsImpatient=0.0675x1.0|(aCOs в добыче) IsPatient=0.0675x1.0",
-      "IsLoyal=0.0675x1.0|(aCOs в добыче) IsTreacherous=0.0675x1.0",
-      "IsOblivious=0.0675x1.0|(aCOs в добыче) IsObservant=0.0675x1.0",
-      "IsOptimist=0.0675x1.0|(aCOs в добыче) IsPessimist=0.0675x1.0",
-      "IsPushover=0.0675x1.0|(aCOs в добыче) IsStubborn=0.0675x1.0",
-      "IsSelfish=0.0675x1.0|(aCOs в добыче) IsSelfless=0.0675x1.0",
-      "IsTidy=0.0675x1.0|(aCOs в добыче) IsSlovenly=0.0675x1.0",
-      "IsTrusting=0.0675x1.0|(aCOs в добыче) IsSuspicious=0.0675x1.0",
-      "IsBeautiful=0.0675x1.0|(aCOs в добыче) IsUgly=0.0675x1.0",
-      "IsClumsy=0.0675x1.0|(aCOs в добыче) IsCoordinated=0.0675x1.0"
+      "IsArrogant=0.0675x1.0|IsHumble=0.0675x1.0",
+      "IsBrave=0.0675x1.0|IsCraven=0.0675x1.0",
+      "IsCharismatic=0.0675x1.0|IsRepulsive=0.0675x1.0",
+      "IsChaste=0.0675x1.0|IsLustful=0.0675x1.0",
+      "IsComedian=0.0675x1.0|IsHumorless=0.0675x1.0",
+      "IsCruel=0.0675x1.0|IsKind=0.0675x1.0",
+      "IsDiligent=0.0675x1.0|IsQuitter=0.0675x1.0",
+      "IsFollower=0.0675x1.0|IsLeader=0.0675x1.0",
+      "IsForgiving=0.0675x1.0|IsVengeful=0.0675x1.0",
+      "IsGenius=0.0675x1.0|IsObtuse=0.0675x1.0",
+      "IsGlutton=0.0675x1.0|IsTemperate=0.0675x1.0",
+      "IsGregarious=0.0675x1.0|IsShy=0.0675x1.0",
+      "IsHonest=0.0675x1.0|IsLiar=0.0675x1.0",
+      "IsImpatient=0.0675x1.0|IsPatient=0.0675x1.0",
+      "IsLoyal=0.0675x1.0|IsTreacherous=0.0675x1.0",
+      "IsOblivious=0.0675x1.0|IsObservant=0.0675x1.0",
+      "IsOptimist=0.0675x1.0|IsPessimist=0.0675x1.0",
+      "IsPushover=0.0675x1.0|IsStubborn=0.0675x1.0",
+      "IsSelfish=0.0675x1.0|IsSelfless=0.0675x1.0",
+      "IsTidy=0.0675x1.0|IsSlovenly=0.0675x1.0",
+      "IsTrusting=0.0675x1.0|IsSuspicious=0.0675x1.0",
+      "IsBeautiful=0.0675x1.0|IsUgly=0.0675x1.0",
+      "IsClumsy=0.0675x1.0|IsCoordinated=0.0675x1.0"
     ],
     "aLoots": [
       "CONDNPCSmoking=1.0x1",
@@ -19790,7 +19793,7 @@
     "strName": "CONDRandomChronicCondition",
     "aCOs": [],
     "aLoots": [
-      "CONDRandomChronicIllness=0.4x1|(aLoots в добыче) CONDRandomChronicScar=0.6x1"
+      "CONDRandomChronicIllness=0.4x1|CONDRandomChronicScar=0.6x1"
     ],
     "strType": "condition"
   },
@@ -19822,7 +19825,7 @@
     "strName": "CONDRandomChronicConditionAll",
     "aCOs": [],
     "aLoots": [
-      "CONDRandomChronicIllnessAll=0.3x1|(aLoots в добыче) CONDRandomChronicScarAll=0.7x1"
+      "CONDRandomChronicIllnessAll=0.3x1|CONDRandomChronicScarAll=0.7x1"
     ],
     "strType": "condition"
   },
@@ -23920,7 +23923,7 @@
       "Diarrhea=1.0x1",
       "Dizzy=1.0x1",
       "Drunk=1.0x1",
-      "DrunкПаssedOut=1.0x1",
+      "DrunkPassedOut=1.0x1",
       "Ebullism=1.0x1",
       "FracturedBone=1.0x1",
       "FracturedRib=1.0x1",
@@ -23985,6 +23988,7 @@
       "GreetedByEnemy=1.0x1",
       "Kissed=1.0x1",
       "NanoFirstAid=1.0x1",
+      "NanoFirstAidAdv=1.0x1",
       "Nausea=1.0x1",
       "OssifexStim=1.0x1",
       "OssifexStim2=1.0x1",
@@ -25314,8 +25318,8 @@
       "TDnIntimacy=1.0x3",
       "TUpContact=1.0x1",
       "TUpEsteem=1.0x1",
-      "TDnContact=0.5x0.5-3|(aCOs в добыче) TUpContact=0.5x0.5-3",
-      "TDnMeaning=0.5x0.5-3|(aCOs в добыче) TUpMeaning=0.5x0.5-3"
+      "TDnContact=0.5x0.5-3|TUpContact=0.5x0.5-3",
+      "TDnMeaning=0.5x0.5-3|TUpMeaning=0.5x0.5-3"
     ],
     "aLoots": [],
     "strType": "trigger"
@@ -25336,8 +25340,8 @@
       "TDnSelfRespect=1.0x1",
       "TUpMeaning=1.0x1",
       "TUpFamily=1.0x1",
-      "TDnAltruism=0.5x0.5-3|(aCOs в добыче) TUpAltruism=0.5x0.5-3",
-      "TDnSecurity=0.5x0.5-3|(aCOs в добыче) TUpSecurity=0.5x0.5-3"
+      "TDnAltruism=0.5x0.5-3|TUpAltruism=0.5x0.5-3",
+      "TDnSecurity=0.5x0.5-3|TUpSecurity=0.5x0.5-3"
     ],
     "aLoots": [],
     "strType": "trigger"
@@ -27520,10 +27524,10 @@
       "StatHygiene=1.0x80",
       "SkillMeleeUnarmed=0.7x1|IsQuitter=0.1x1|IsFollower=0.1x1",
       "IsCraven=0.2x1|IsBrave=0.2x1|IsSuspicious=0.2x1|IsPushover=0.1x1",
-      "IsApathetic=0.2x1|(aCOs в добыче) TraitChronicScarActivism=0.15x1",
-      "SkillStealth=0.2x1|(aCOs в добыче) TraitChronicScarBrandThief=0.15x1",
-      "IsObservant=0.2x1|(aCOs в добыче) TraitChronicScarIndustrial=0.15x1",
-      "IsPatient=0.2x1|(aCOs в добыче) IsImpatient=0.2x1",
+      "IsApathetic=0.2x1|TraitChronicScarActivism=0.15x1",
+      "SkillStealth=0.2x1|TraitChronicScarBrandThief=0.15x1",
+      "IsObservant=0.2x1|TraitChronicScarIndustrial=0.15x1",
+      "IsPatient=0.2x1|IsImpatient=0.2x1",
       "IsTreacherous=0.1x1|IsSelfish=0.1x1|IsVengeful=0.1x1|IsAgliophobic=0.1x1"
     ],
     "aLoots": [
@@ -27604,7 +27608,7 @@
       "CareerPrisonerPast=1.0x1",
       "TraitChronicScarCuffs=0.7x1",
       "IsCraven=0.2x1|IsBrave=0.2x1|IsSuspicious=0.2x1|IsPushover=0.1x1|IsTough=0.1x1",
-      "IsPatient=0.2x1|(aCOs в добыче) IsImpatient=0.2x1",
+      "IsPatient=0.2x1|IsImpatient=0.2x1",
       "StatHygiene=1.0x80"
     ],
     "aLoots": [
@@ -27631,7 +27635,7 @@
       "CareerPrisonerPast=1.0x1",
       "TraitChronicScarCuffs=0.7x1",
       "IsCraven=0.2x1|IsBrave=0.2x1|IsSuspicious=0.2x1|IsPushover=0.1x1|IsTough=0.1x1",
-      "IsPatient=0.2x1|(aCOs в добыче) IsImpatient=0.2x1",
+      "IsPatient=0.2x1|IsImpatient=0.2x1",
       "StatHygiene=1.0x80"
     ],
     "aLoots": [
@@ -27659,7 +27663,7 @@
       "CareerPrisonerPast=1.0x1",
       "TraitChronicScarCuffs=0.7x1",
       "IsCraven=0.2x1|IsBrave=0.2x1|IsSuspicious=0.2x1|IsPushover=0.1x1|IsTough=0.1x1",
-      "IsPatient=0.2x1|(aCOs в добыче) IsImpatient=0.2x1",
+      "IsPatient=0.2x1|IsImpatient=0.2x1",
       "StatHygiene=1.0x80"
     ],
     "aLoots": [
@@ -28339,7 +28343,9 @@
       "StatAchievement=1.0x1",
       "-StatAltruism=1.0x1",
       "StatAutonomy=1.0x1",
-      "-StatMeaning=1.0x1"
+      "StatContact=1.0x10",
+      "-StatMeaning=1.0x1",
+      "-StatPrivacy=1.0x10"
     ],
     "aLoots": [],
     "strType": "condition"
@@ -28798,6 +28804,8 @@
     "aCOs": [
       "OKLG=1.0x1",
       "VORB=1.0x1",
+      "MTRS=1.0x1",
+      "EJDR_GEO=1.0x1",
       "BCRS=1.0x1",
       "BCER=1.0x1"
     ],
@@ -28849,10 +28857,11 @@
   {
     "strName": "ItmBoxAntiNausea01New",
     "aCOs": [
-      "ItmBoxAntiNausea01=1.0x1",
+      "ItmBoxAntiNausea01=1.0x1"
+    ],
+    "aLoots": [
       "ItmPillAntiNausea01=1.0x16"
     ],
-    "aLoots": [],
     "bSuppress": true,
     "bNested": true,
     "strType": "item"
@@ -28872,10 +28881,11 @@
   {
     "strName": "ItmPillBottle01New",
     "aCOs": [
-      "ItmPillBottle01=1.0x1",
+      "ItmPillBottle01=1.0x1"
+    ],
+    "aLoots": [
       "ItmPillPainkillerMinor01=1.0x16"
     ],
-    "aLoots": [],
     "bSuppress": true,
     "bNested": true,
     "strType": "item"
@@ -28895,10 +28905,11 @@
   {
     "strName": "ItmPillBottle02New",
     "aCOs": [
-      "ItmPillBottle02=1.0x1",
+      "ItmPillBottle02=1.0x1"
+    ],
+    "aLoots": [
       "ItmPillPainkiller01=1.0x16"
     ],
-    "aLoots": [],
     "bSuppress": true,
     "bNested": true,
     "strType": "item"
@@ -28918,10 +28929,11 @@
   {
     "strName": "ItmPillBottle03New",
     "aCOs": [
-      "ItmPillBottle03=1.0x1",
+      "ItmPillBottle03=1.0x1"
+    ],
+    "aLoots": [
       "ItmPillAntibiotic01=1.0x16"
     ],
-    "aLoots": [],
     "bSuppress": true,
     "bNested": true,
     "strType": "item"
@@ -29228,7 +29240,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmCrewSlots=1.0x1",
-      "ItmRandomContainerUnlocked=0.25x1|(aLoots в добыче) ItmRandomBag=0.45x1",
+      "ItmRandomContainerUnlocked=0.25x1|ItmRandomBag=0.45x1",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmRandomOutfit=1.0x1",
       "ItmRandomFood=0.75x1-2",
@@ -29260,7 +29272,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmCrewSlots=1.0x1",
-      "ItmRandomEVASuitFullMatch=0.7x1|(aLoots в добыче) ItmRandomEVASuitFull=0.3x1",
+      "ItmRandomEVASuitFullMatch=0.7x1|ItmRandomEVASuitFull=0.3x1",
       "ItmRandomContainerUnlocked=1.0x1-2",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmRandomFood=0.75x1-2",
@@ -29861,7 +29873,7 @@
   {
     "strName": "ItmMeatEyeDestroyed",
     "aCOs": [
-      "ItmMeat01EyeLoose=0.75x1|(aCOs в добыче) LiquidBlood=0.25x1",
+      "ItmMeat01EyeLoose=0.75x1|LiquidBlood=0.25x1",
       "LiquidBlood=0.25x1"
     ],
     "aLoots": [],
@@ -29870,7 +29882,7 @@
   {
     "strName": "ItmMeatHoofDestroyed",
     "aCOs": [
-      "ItmMeat01HoofLoose=0.75x1|(aCOs в добыче) LiquidBlood=0.25x1",
+      "ItmMeat01HoofLoose=0.75x1|LiquidBlood=0.25x1",
       "LiquidBlood=0.25x1"
     ],
     "aLoots": [],
@@ -29879,7 +29891,7 @@
   {
     "strName": "ItmMeatHornDestroyed",
     "aCOs": [
-      "ItmMeat01HornLoose=0.75x1|(aCOs в добыче) LiquidBlood=0.25x1",
+      "ItmMeat01HornLoose=0.75x1|LiquidBlood=0.25x1",
       "LiquidBlood=0.25x1"
     ],
     "aLoots": [],
@@ -30395,7 +30407,7 @@
     "strName": "ItmRandomSpaceSuitLoot",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomSpaceSuitDmg=0.7x1|(aLoots в добыче) ItmRandomSpaceSuit=0.3x1"
+      "ItmRandomSpaceSuitDmg=0.7x1|ItmRandomSpaceSuit=0.3x1"
     ],
     "strType": "item"
   },
@@ -30403,7 +30415,7 @@
     "strName": "ItmRandomSpaceHelmetLoot",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomSpaceHelmetDmg=0.7x1|(aLoots в добыче) ItmRandomSpaceHelmet=0.3x1"
+      "ItmRandomSpaceHelmetDmg=0.7x1|ItmRandomSpaceHelmet=0.3x1"
     ],
     "strType": "item"
   },
@@ -30467,7 +30479,7 @@
     "strName": "ItmLootSpawnProvisions",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomProvisions=0.8x1|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomProvisions=0.8x1|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30475,7 +30487,7 @@
     "strName": "ItmLootSpawnPersonal",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomCrewLootPersonal=0.85x1|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomCrewLootPersonal=0.85x1|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30483,7 +30495,7 @@
     "strName": "ItmLootSpawnCrewRec",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomCrewLootRec=0.8x1|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomCrewLootRec=0.8x1|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30500,7 +30512,7 @@
     "strName": "ItmLootSpawnMedical",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomMedical=0.8x1|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomMedical=0.8x1|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30588,7 +30600,7 @@
     "strName": "ItmLootSpawnEngineering",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomEngineeringLoot=0.8x1|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomEngineeringLoot=0.8x1|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30604,7 +30616,7 @@
     "strName": "ItmLootSpawnBulkCargo",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomCrateLockedContents=0.4x1-2|(aLoots в добыче) ItmScrapTrash=0.1x1-2",
+      "ItmRandomCrateLockedContents=0.4x1-2|ItmScrapTrash=0.1x1-2",
       "ItmRandomShip=0.4x1-4"
     ],
     "strType": "item"
@@ -30613,7 +30625,7 @@
     "strName": "ItmLootSpawnRandomFloor",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomFloor=0.8x1-10|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomFloor=0.8x1-10|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30621,7 +30633,7 @@
     "strName": "ItmLootSpawnRandomWall",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomWall=0.8x1-5|(aLoots в добыче) ItmScrapTrash=0.1x1-2"
+      "ItmRandomWall=0.8x1-5|ItmScrapTrash=0.1x1-2"
     ],
     "strType": "item"
   },
@@ -30654,13 +30666,13 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomClothesNonEVA=0.3x1|ItmRandomClothesSingleLoots=0.3x1|ItmRandomClothesTShirt=0.2x1|ItmRandomToothbrush=0.1x1",
-      "ItmWristPDA01LockedUsed=0.2x1|(aLoots в добыче) ItmRandomMiscItem=0.4x1",
+      "ItmWristPDA01LockedUsed=0.2x1|ItmRandomMiscItem=0.4x1",
       "ItmRandomAmmo=0.1x1",
-      "ItmRandomWeaponMelee=0.2x1|(добыча из aLoots) ItmRandomWeaponRangedUsed=0.05x1",
+      "ItmRandomWeaponMelee=0.2x1|ItmRandomWeaponRangedUsed=0.05x1",
       "ItmCigBoxUsed=0.4x1-3",
       "ItmRandomSpaceHelmetLoot=0.15x1",
       "ItmRandomMedicalItemUsed=0.05x1-2",
-      "ItmRandomDrinkUsed=0.3x1-2|(добыча из aLoots) ItmRandomDrinkNew=0.1x1",
+      "ItmRandomDrinkUsed=0.3x1-2|ItmRandomDrinkNew=0.1x1",
       "ItmRandomFood=0.15x1-2"
     ],
     "strType": "item"
@@ -30673,10 +30685,10 @@
       "ItmRandomCrateLockedItem=0.7x1|ItmRandomMiscItem=0.15x1|ItmRandomDrinkUsed=0.15x1",
       "ItmRandomCrateLockedItem=0.7x1|ItmRandomMiscItem=0.15x1|ItmRandomDrinkUsed=0.15x1",
       "ItmRandomCrateLockedItem=0.7x1|ItmRandomMiscItem=0.15x1|ItmRandomDrinkUsed=0.15x1",
-      "ItmRandomWeaponMelee=0.2x1|(добыча из aLoots) ItmDrinkBottle01Dmg=0.03x1",
-      "ItmRandomClothesSingleLoots=0.2x1|(добыча из aLoots) ItmRandomClothesTShirt=0.25x1",
+      "ItmRandomWeaponMelee=0.2x1|ItmDrinkBottle01Dmg=0.03x1",
+      "ItmRandomClothesSingleLoots=0.2x1|ItmRandomClothesTShirt=0.25x1",
       "ItmHygieneWipes01=0.15x1-8",
-      "ItmRandomFood=0.1x1-3|(добыча из aLoots) ItmRandomTrenchersOriginal=0.5x1-3",
+      "ItmRandomFood=0.1x1-3|ItmRandomTrenchersOriginal=0.5x1-3",
       "ItmCigBoxUsed=0.4x1-3",
       "ItmRandomDrinkUsed=0.5x1-2"
     ],
@@ -30687,7 +30699,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomMedicalItemUsed=1.0x1",
-      "ItmRandomMedicalItem=0.7x1|(добыча из aLoots) ItmRandomToothbrush=0.1x1",
+      "ItmRandomMedicalItem=0.7x1|ItmRandomToothbrush=0.1x1",
       "ItmHygieneWipes01=0.15x1-8",
       "ItmRandomMedicalItemUsed=0.8x1-3",
       "ItmCigBoxUsed=0.1x1",
@@ -30745,7 +30757,7 @@
     "strName": "ItmRandomWeapon",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomWeaponMelee=0.7x1|(добыча из aLoots) ItmRandomWeaponRanged=0.3x1"
+      "ItmRandomWeaponMelee=0.7x1|ItmRandomWeaponRanged=0.3x1"
     ],
     "strType": "item"
   },
@@ -30865,7 +30877,7 @@
   {
     "strName": "ItmWeaponPistol02Contents",
     "aCOs": [
-      "ItmAmmo9mm=0.25x17|(добыча из aCOs) ItmAmmoHullsafe=0.75x17"
+      "ItmAmmo9mm=0.25x17|ItmAmmoHullsafe=0.75x17"
     ],
     "aLoots": [],
     "strType": "item"
@@ -30897,7 +30909,7 @@
   {
     "strName": "ItmWeaponPistolEnergy01Contents",
     "aCOs": [
-      "ItmAmmo9mm=0.25x17|(добыча из aCOs) ItmAmmoHullsafe=0.75x17"
+      "ItmAmmo9mm=0.25x17|ItmAmmoHullsafe=0.75x17"
     ],
     "aLoots": [],
     "strType": "item"
@@ -30929,7 +30941,7 @@
   {
     "strName": "ItmWeaponRifle02Contents",
     "aCOs": [
-      "ItmAmmo556=0.25x30|(добыча из aCOs) ItmAmmo556HG=0.75x30"
+      "ItmAmmo556=0.25x30|ItmAmmo556HG=0.75x30"
     ],
     "aLoots": [],
     "strType": "item"
@@ -30962,7 +30974,7 @@
   {
     "strName": "ItmWeaponShotgun02Contents",
     "aCOs": [
-      "ItmAmmo12Gauge=0.25x12|(добыча из aCOs) ItmAmmo12GaugeHG=0.75x12"
+      "ItmAmmo12Gauge=0.25x12|ItmAmmo12GaugeHG=0.75x12"
     ],
     "aLoots": [],
     "strType": "item"
@@ -31325,16 +31337,14 @@
       "OutfitHelmet04=0.05x1",
       "OutfitSuit07=0.15x1",
       "ItmRCSDistro01Loose=0.2x1",
-      "ItmBattery04=0.2x1",
       "ItmChargerBattery04OffLoose=0.2x1",
       "ItmStationNavLoose=0.2x1",
       "ItmChargerBattEVAOffLoose=0.2x1",
-      "DataBINPDACracker=0.2x1|(добыча из aCOs) DataBINRobotCracker=0.2x1"
+      "DataBINPDACracker=0.2x1|DataBINRobotCracker=0.2x1"
     ],
     "aLoots": [
       "OutfitEVA01Full=0.2x1|OutfitEVA05Full=0.11x1|OutfitEVA07Full=0.03x1|OutfitEVA08Full=0.03x1|OutfitEVA09Full=0.03x1",
-      "OutfitEVA03Full=0.045x1|(добыча из aLoots) OutfitEVA06Full=0.005x1",
-      "ItmToolLaserTorch01Used=0.2x1",
+      "OutfitEVA03Full=0.045x1|OutfitEVA06Full=0.005x1",
       "ItmWeaponPistolEnergy01=1.0x1-2",
       "ItmAmmoHullsafe=1.0x20-40",
       "ItmWeaponShiv01=1.0x1-2",
@@ -31465,9 +31475,9 @@
     ],
     "aLoots": [
       "ItmToolDrillMining01New=1.0x1",
-      "ItmCigDamaskRoseBox01New=0.5x1|(добыча из aLoots) ItmCigUnicornDreamBox01New=0.5x1",
+      "ItmCigDamaskRoseBox01New=0.5x1|ItmCigUnicornDreamBox01New=0.5x1",
       "ItmDrinkPouchWaterNew=1x1",
-      "ItmDrinkVodkaNew=0.4x1|(добыча из aLoots) ItmDrinkRiceWineNew=0.6x1",
+      "ItmDrinkVodkaNew=0.4x1|ItmDrinkRiceWineNew=0.6x1",
       "ItmTrencherNachoFiesta=1x1-3",
       "ItmMineralStone01=1.0x1-3"
     ],
@@ -31518,8 +31528,8 @@
       "OutfitEVA03Full=1.0x1",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmWeaponPistolEnergy01New=1.0x1",
-      "ItmWeaponNightstick01=1.0x1",
       "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
       "ItmToolWorkLamp01New=0.5x1",
       "ItmRandomTrenchers02=0.75x1-2",
       "ItmDrinkPouchNew=1x1"
@@ -31553,8 +31563,8 @@
       "OutfitEVA03Full=1.0x1",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmWeaponPistolEnergy01New=1.0x1",
-      "ItmWeaponNightstick01=1.0x1",
       "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
       "ItmToolWorkLamp01New=0.5x1",
       "ItmRandomTrenchers02=0.75x1-2",
       "ItmDrinkPouchNew=1x1"
@@ -31577,7 +31587,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmWristPDA01LockedUsed=1.0x1",
-      "ItmMaintenanceTechStarterBox=0.5x1|(добыча из aLoots) ItmMaintenanceTechStarterBag=0.5x1"
+      "ItmMaintenanceTechStarterBox=0.5x1|ItmMaintenanceTechStarterBag=0.5x1"
     ],
     "bSuppress": true,
     "bNested": true,
@@ -31650,7 +31660,7 @@
       "ItmTV01Loose=1.0x6",
       "ItmSignNeon01Loose=1.0x6",
       "ItmLitWall1x0OffLoose=1.0x40",
-      "ItmLitWall1x0OffLooseCustom=1.0x50",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
       "ItmVent01Loose=1.0x6",
       "ItmVent02Loose=1.0x6",
       "ItmHatch01Loose=1.0x6",
@@ -31709,6 +31719,7 @@
       "ItmChair01Loose=1.0x21",
       "ItmChair02Loose=1.0x21",
       "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster09Loose=1.0x5",
       "ItmElectricalBox01Loose=1.0x21",
       "ItmTerminal01Loose=1.0x12",
       "ItmJukebox01Loose=1.0x6",
@@ -31725,6 +31736,8 @@
       "ItmLitCeiling1x1WhiteOffLooseCustom=1.0x20",
       "ItmVent01Loose=1.0x6",
       "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmDoor01ClosedLoose=1.0x6",
       "ItmHatch01Loose=1.0x6",
       "ItmDoor01ClosedLoose=1.0x6",
       "ItmDockSys03ClosedLoose=1.0x1",
@@ -31751,6 +31764,9 @@
       "ItmFusionABLWall01Loose=1.0x5",
       "ItmRandomDecorItem=1.0x5",
       "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
       "ItmFloorTSDOC_08Loose=1.0x21",
       "ItmFloorTSDOC_08aLoose=1.0x21",
       "ItmFloorTSDOC_08bLoose=1.0x21",
@@ -31781,6 +31797,8 @@
       "ItmChair01Loose=1.0x21",
       "ItmChair02Loose=1.0x21",
       "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster12Loose=1.0x5",
+      "ItmDecorPoster02Loose=1.0x5",
       "ItmElectricalBox01Loose=1.0x21",
       "ItmTerminal01Loose=1.0x12",
       "ItmJukebox01Loose=1.0x6",
@@ -31797,6 +31815,7 @@
       "ItmLitCeiling1x1WhiteOffLooseCustom=1.0x20",
       "ItmVent01Loose=1.0x6",
       "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
       "ItmHatch01Loose=1.0x6",
       "ItmDoor04ClosedLoose=1.0x6",
       "ItmDockSys03ClosedLoose=1.0x1",
@@ -31823,6 +31842,9 @@
       "ItmFusionABLWall01Loose=1.0x5",
       "ItmRandomDecorItem=1.0x5",
       "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
       "ItmWallMSHG01Loose=1.0x10-21",
       "ItmWallMSHG02Loose=1.0x10-21",
       "ItmWallMSHG03Loose=1.0x10-21",
@@ -32031,7 +32053,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmScavEVASuitFull=1.0x1",
-      "ItmRandomBag=0.5x1|(добыча из aLoots) ItmRandomContainerUnlocked=0.5x1",
+      "ItmRandomBag=0.5x1|ItmRandomContainerUnlocked=0.5x1",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmRandomTool=1.0x1-2",
       "ItmDocumentPermitOKLGUsed=0.15x1",
@@ -32058,7 +32080,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomSpacesuitFull=1.0x1",
-      "ItmRandomBag=0.5x1|(добыча из aLoots) ItmRandomContainerUnlocked=0.5x1",
+      "ItmRandomBag=0.5x1|ItmRandomContainerUnlocked=0.5x1",
       "ItmWristPDA01LockedUsed=1.0x1",
       "ItmRandomTool=1.0x1-2",
       "ItmDocumentPermitOKLGUsed=0.15x1",
@@ -32118,8 +32140,8 @@
       "ItmCigBoxDrugNew=1x1-3",
       "ItmRandomDrinkLiquor=1.0x1-2",
       "ItmDocumentPermitOKLG01=1.0x1",
-      "ItmStationNavDmgLoose=0.5x1|(добыча из aLoots) ItmRCSCluster01DmgLoose=0.5x1-3",
-      "ItmArcadeGame01DmgLoose=0.65x1|(добыча из aLoots) ItmArcadeGame01Loose=0.35x1",
+      "ItmStationNavDmgLoose=0.5x1|ItmRCSCluster01DmgLoose=0.5x1-3",
+      "ItmArcadeGame01DmgLoose=0.65x1|ItmArcadeGame01Loose=0.35x1",
       "ItmWeaponShiv01=1x1",
       "ItmRandomWeaponMelee=1x1-3",
       "ItmRandomWeapon=0.1x1",
@@ -32195,8 +32217,8 @@
       "ItmCigDamaskRoseBox01Used=1x1",
       "ItmCigUnicornDreamBox01Used=1x1",
       "ItmDrinkCoffeePouchNew=1x2-4",
-      "ItmDrinkVodkaNew=0.4x1|(добыча из aLoots) ItmDrinkRiceWineNew=0.6x1",
-      "ItmDrinkVodkaNew=0.4x1|(добыча из aLoots) ItmDrinkRiceWineNew=0.6x1",
+      "ItmDrinkVodkaNew=0.4x1|ItmDrinkRiceWineNew=0.6x1",
+      "ItmDrinkVodkaNew=0.4x1|ItmDrinkRiceWineNew=0.6x1",
       "ItmTrencherNachoFiesta=1x5-14",
       "ItmCanisterO2Small=1.0x3-5",
       "ItmRTAO2Loose=1.0x2-3",
@@ -32530,14 +32552,14 @@
   {
     "strName": "ItmNavStationModsRandomAtmo",
     "aLoots": [
-      "ItmNavStationModsRandomPod=0.9x1|(добыча из aLoots) ItmNavStationModsRandomAtmoSub=0.1x1"
+      "ItmNavStationModsRandomPod=0.9x1|ItmNavStationModsRandomAtmoSub=0.1x1"
     ],
     "strType": "item"
   },
   {
     "strName": "ItmNavStationModsRandomTorch",
     "aLoots": [
-      "ItmNavStationModsRandomPod=0.8x1|(добыча из aLoots) ItmNavStationModsRandomTorchSub=0.2x1"
+      "ItmNavStationModsRandomPod=0.8x1|ItmNavStationModsRandomTorchSub=0.2x1"
     ],
     "strType": "item"
   },
@@ -32551,7 +32573,7 @@
   {
     "strName": "ItmNavStationModsRandomPodCombat",
     "aLoots": [
-      "ItmNavStationModsRandomPod=0.9x1|(добыча из aLoots) ItmNavStationModsRandomCombatSub=0.1x1"
+      "ItmNavStationModsRandomPod=0.9x1|ItmNavStationModsRandomCombatSub=0.1x1"
     ],
     "strType": "item"
   },
@@ -32579,7 +32601,7 @@
   {
     "strName": "ItmNavStationModsRandomTorchSub",
     "aCOs": [
-      "ItmNavModCoursePlot=0.5x1|(добыча из aCOs) ItmNavModTorchDrive=0.5x1"
+      "ItmNavModCoursePlot=0.5x1|ItmNavModTorchDrive=0.5x1"
     ],
     "strType": "item"
   },
@@ -32747,7 +32769,7 @@
   {
     "strName": "ItmPSUsed",
     "aCOs": [
-      "OutfitPS01=0.49x1|(добыча из aCOs) OutfitPS02=0.01x1",
+      "OutfitPS01=0.49x1|OutfitPS02=0.01x1",
       "OutfitHelmet02=0.5x1"
     ],
     "aLoots": [],
@@ -32758,7 +32780,7 @@
     "strName": "ItmRandomAirlock",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomAirlockItems=0.8x1|(добыча из aLoots) ItmRandomAirlockLoots=0.2x1"
+      "ItmRandomAirlockItems=0.8x1|ItmRandomAirlockLoots=0.2x1"
     ],
     "strType": "item"
   },
@@ -32909,7 +32931,7 @@
   {
     "strName": "ItmRandomDerelictConduit",
     "aCOs": [
-      "ItmConduit01=0.93x1|(добыча из aCOs) ItmConduit04=0.07x1"
+      "ItmConduit01=0.93x1|ItmConduit04=0.07x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -32958,7 +32980,7 @@
     "strName": "ItmRandomDrinkLiquor",
     "aCOs": [],
     "aLoots": [
-      "ItmDrinkVodkaNew=0.6x1|(добыча из aLoots) ItmDrinkRiceWineNew=0.4x1"
+      "ItmDrinkVodkaNew=0.6x1|ItmDrinkRiceWineNew=0.4x1"
     ],
     "strType": "item"
   },
@@ -32979,7 +33001,7 @@
   {
     "strName": "ItmRandomLiquidLiquor",
     "aCOs": [
-      "LiquidRiceWine=0.1x1|(добыча из aCOs) LiquidVodka=0.1x1"
+      "LiquidRiceWine=0.1x1|LiquidVodka=0.1x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -32996,7 +33018,7 @@
     "strName": "ItmRandomTrenchers",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomTrenchersOriginal=0.7x1|(добыча из aLoots) ItmRandomTrenchers02=0.3x1"
+      "ItmRandomTrenchersOriginal=0.7x1|ItmRandomTrenchers02=0.3x1"
     ],
     "strType": "item"
   },
@@ -33020,7 +33042,7 @@
     "strName": "ItmRandomOutfit",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomClothesNonEVA=0.95x1|(добыча из aLoots) ItmRandomSpacesuitFull=0.05x1"
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
     ],
     "strType": "item"
   },
@@ -33029,7 +33051,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomClothesLeggings=0.9x1",
-      "ItmRandomClothesNonEVA=0.95x1|(добыча из aLoots) ItmRandomSpacesuitFull=0.05x1"
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
     ],
     "strType": "item"
   },
@@ -33038,7 +33060,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomClothesLeggings=0.9x1",
-      "ItmRandomClothesNonEVA=0.95x1|(добыча из aLoots) ItmRandomSpacesuitFull=0.05x1"
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
     ],
     "strType": "item"
   },
@@ -33054,7 +33076,7 @@
     "strName": "ItmRandomClothesNonEVA",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomClothesMultiPieceAndShoes=0.50x1|(добыча из aLoots) ItmRandomClothesOnePieceAndShoes=0.50x1"
+      "ItmRandomClothesMultiPieceAndShoes=0.50x1|ItmRandomClothesOnePieceAndShoes=0.50x1"
     ],
     "strType": "item"
   },
@@ -33063,7 +33085,7 @@
     "aCOs": [],
     "aLoots": [
       "ItmRandomClothesOnePieceOutfit=1.0x1",
-      "OutfitTShirt01=0.1x1|(добыча из aLoots) ItmRandomClothesTShirt=0.7x1",
+      "OutfitTShirt01=0.1x1|ItmRandomClothesTShirt=0.7x1",
       "ItmRandomClothesJacket=0.1x1"
     ],
     "strType": "item"
@@ -33188,7 +33210,7 @@
     "strName": "ItmRandomShoeSingle",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomShoeSingleR=0.4x1|(добыча из aLoots) ItmRandomShoeSingleL=0.6x1"
+      "ItmRandomShoeSingleR=0.4x1|ItmRandomShoeSingleL=0.6x1"
     ],
     "strType": "item"
   },
@@ -33352,7 +33374,7 @@
     "strName": "ItmRandomFloorVenus",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomFloorPartsAERO=0.5x1|(добыча из aLoots) ItmRandomFloorPartsCAYL=0.5x1"
+      "ItmRandomFloorPartsAERO=0.5x1|ItmRandomFloorPartsCAYL=0.5x1"
     ],
     "strType": "item"
   },
@@ -33392,14 +33414,14 @@
     "strName": "ItmRandomMedicalItem",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomMedicalItemSingles=0.5x1|(добыча из aLoots) ItmRandomMedicalItemLoots=0.5x1"
+      "ItmRandomMedicalItemSingles=0.5x1|ItmRandomMedicalItemLoots=0.5x1"
     ],
     "strType": "item"
   },
   {
     "strName": "ItmRandomMedicalItemSingles",
     "aCOs": [
-      "ItmScrapClothClean=0.5x1-9|(добыча из aCOs) ItmSplint01=0.5x1"
+      "ItmScrapClothClean=0.5x1-9|ItmSplint01=0.5x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -33416,7 +33438,7 @@
     "strName": "ItmRandomMedicalItemUsed",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomMedicalItemUsedSingles=0.5x1|(добыча из aLoots) ItmRandomMedicalItemUsedLoots=0.5x1"
+      "ItmRandomMedicalItemUsedSingles=0.5x1|ItmRandomMedicalItemUsedLoots=0.5x1"
     ],
     "strType": "item"
   },
@@ -33455,7 +33477,7 @@
   {
     "strName": "ItmRandomBag",
     "aCOs": [
-      "ItmBackpack02=0.7x1|(добыча из aCOs) ItmBackpack03=0.3x1"
+      "ItmBackpack02=0.7x1|ItmBackpack03=0.3x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -33503,7 +33525,7 @@
   {
     "strName": "ItmRandomStorageBin3x1Loose",
     "aCOs": [
-      "ItmStorageBin3x101Loose=0.5x1|(добыча из aCOs) ItmStorageBin3x102Loose=0.5x1"
+      "ItmStorageBin3x101Loose=0.5x1|ItmStorageBin3x102Loose=0.5x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -33536,7 +33558,7 @@
     "strName": "ItmRandomTool",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomToolSingles=0.85x1|(добыча из aLoots) ItmRandomToolLoots=0.15x1"
+      "ItmRandomToolSingles=0.85x1|ItmRandomToolLoots=0.15x1"
     ],
     "strType": "item"
   },
@@ -33552,7 +33574,7 @@
     "strName": "ItmRandomToolLoots",
     "aCOs": [],
     "aLoots": [
-      "ItmToolGrinder02New=0.15x1|ItmToolSolderingIron01New=0.15x1|ItmToolDrill01New=0.15x1|ItmToolWelder01New=0.15x1|ItmToolLaserTorch01New=0.05x1|ItmChargerBattDrill01OffLoose=0.05x1|ItmChargerBattWelder01OffLoose=0.05x1|ItmChargerBattery04OffLoose=0.05x1|ItmToolWorkLamp01Used=0.1x1|ItmWristPDA01LockedUsed=0.1x1"
+      "ItmToolGrinder02New=0.15x1|ItmToolSolderingIron01New=0.15x1|ItmToolDrill01New=0.17x1|ItmToolWelder01New=0.178x1|ItmToolLaserTorch01=0.001x1|ItmBattery04=0.001x1|ItmChargerBattDrill01OffLoose=0.07x1|ItmChargerBattWelder01OffLoose=0.075x1|ItmChargerBattery04OffLoose=0.005x1|ItmToolWorkLamp01Used=0.1x1|ItmWristPDA01LockedUsed=0.1x1"
     ],
     "strType": "item"
   },
@@ -33600,14 +33622,14 @@
     "strName": "ItmEvidenceLockerMurderWeapon",
     "aCOs": [],
     "aLoots": [
-      "ItmEvidenceLockerMurderWeaponCOs=0.44x1|(добыча из aLoots) ItmEvidenceLockerMurderWeaponLoots=0.56x1"
+      "ItmEvidenceLockerMurderWeaponCOs=0.44x1|ItmEvidenceLockerMurderWeaponLoots=0.56x1"
     ],
     "strType": "item"
   },
   {
     "strName": "ItmEvidenceLockerMurderWeaponCOs",
     "aCOs": [
-      "ItmToolScrewDriver01=0.5x1|(aCOs в луте) ItmToolCrowbar01=0.5x1"
+      "ItmToolScrewDriver01=0.5x1|ItmToolCrowbar01=0.5x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -33616,7 +33638,7 @@
     "strName": "ItmEvidenceLockerMurderWeaponLoots",
     "aCOs": [],
     "aLoots": [
-      "ItmToolGrinder02Used=0.25x1|ItmToolSolderingIron01Used=0.2x1|ItmToolDrill01Used=0.25x1|ItmToolWelder01Used=0.2x1|ItmToolLaserTorch01Used=0.1x1"
+      "ItmToolGrinder02Used=0.35x1|ItmToolSolderingIron01Used=0.2x1|ItmToolDrill01Used=0.25x1|ItmToolWelder01Used=0.2x1"
     ],
     "strType": "item"
   },
@@ -33663,7 +33685,7 @@
   {
     "strName": "ItmRandomWallPartsRYOB01",
     "aCOs": [
-      "ItmWallRYOB01Loose=0.5x1|(aCOs в луте) ItmWallRYOB02Loose=0.5x1"
+      "ItmWallRYOB01Loose=0.5x1|ItmWallRYOB02Loose=0.5x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -33831,6 +33853,7 @@
     "strName": "ItmSupplyKioskBCERInv",
     "aCOs": [],
     "aLoots": [
+      "OutfitTShirtBrand06=1.0x5",
       "ItmToolDrillMining01New=1.0x3",
       "ItmToolDrillMining02New=1.0x3",
       "ItmExplosiveCharge01=1.0x20-25",
@@ -33924,6 +33947,10 @@
     "strName": "ItmSupplyKioskBCRSInv",
     "aCOs": [],
     "aLoots": [
+      "OutfitTShirt04=1.0x10",
+      "OutfitTShirtBrand07=1.0x10",
+      "OutfitTShirtBrand07b=1.0x10",
+      "OutfitTShirtBrand08b=1.0x10",
       "ItmToolDrillMining01New=1.0x3",
       "ItmToolDrillMining02New=1.0x3",
       "ItmExplosiveCharge01=1.0x20-25",
@@ -34023,8 +34050,7 @@
       "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
       "OutfitTShirtBrand03=1.0x5",
       "OutfitTShirtBrand03b=1.0x5",
-      "OutfitTShirtBrand07=1.0x5",
-      "OutfitTShirtBrand07b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
       "ItmChair03Loose=1.0x5-15",
       "ItmWallTSDO01Loose=1.0x5-15",
       "ItmWallTSDO44Loose=1.0x5-15",
@@ -34201,88 +34227,90 @@
     "strName": "ItmSupplyKioskInv",
     "aCOs": [],
     "aLoots": [
+      "OutfitSuit02=1.0x5",
+      "OutfitTShirt05=1.0x5",
+      "ItmShirtHoodie01=1.0x5",
+      "OutfitTShirtBrand11=1.0x3",
       "ItmBackpack02=0.5x1",
-      "ItmCrate01=0.5x2",
+      "ItmCrate01=0.5x1-2",
       "ItmToolBox01=0.5x1-2",
-      "ItmToolBox02=1.0x2-4",
+      "ItmToolBox02=1.0x1-2",
       "ItmDolly01=1.0x1",
-      "ItmToolWorkLamp01New=1.0x2-4",
-      "ItmToolCrowbar01=1.0x3",
-      "ItmToolScrewDriver01=1.0x3",
-      "ItmToolHacksaw01=1.0x3",
-      "ItmToolSolderingIron01New=1.0x3",
-      "ItmToolDrill01New=1.0x3",
-      "ItmToolGrinder02New=1.0x3",
-      "ItmToolLaserTorch01New=1.0x1-2",
-      "ItmToolWelder01New=1.0x3",
+      "ItmToolWorkLamp01New=1.0x1-2",
+      "ItmToolCrowbar01=1.0x1",
+      "ItmToolScrewDriver01=1.0x1",
+      "ItmToolHacksaw01=1.0x1",
+      "ItmToolSolderingIron01New=1.0x1",
+      "ItmToolDrill01New=1.0x1",
+      "ItmToolGrinder02New=1.0x1",
+      "ItmToolWelder01New=1.0x1",
       "ItmChargerBattDrill01OffLoose=1.0x1-2",
       "ItmChargerBattWelder01OffLoose=1.0x1-2",
       "ItmChargerBattery04OffLoose=1.0x1",
-      "ItmBatteryDrill01=1.0x3",
-      "ItmBatteryWelder01=1.0x3",
-      "ItmBattery04=1.0x2",
-      "ItmBatteryDisp01=1.0x10-20",
-      "ItmBattery03=1.0x3-5",
-      "ItmBattery02cLoose=1.0x6",
+      "ItmBatteryDrill01=1.0x1-2",
+      "ItmBatteryWelder01=1.0x1-2",
+      "ItmBatteryDisp01=1.0x3-8",
+      "ItmBattery03=1.0x1-3",
+      "ItmBattery02cLoose=1.0x3",
       "ItmWristPDA01=1.0x1-2",
-      "ItmDataCard01=1.0x1-3",
-      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmDataCard01=1.0x1-2",
+      "ItmRandomPDACartStock=1.0x1-2",
       "ItmWeaponPocketKnife01=1.0x1-2",
-      "ItmOxygenCandle01=1.0x15",
-      "ItmCanisterO2Small=1.0x3-5",
-      "ItmAlarmSmokeOffLoose=1.0x1-5",
-      "ItmFilterCO202=1.0x3-5",
+      "ItmOxygenCandle01=1.0x10",
+      "ItmCanisterO2Small=1.0x2-4",
+      "ItmAlarmSmokeOffLoose=1.0x1-3",
+      "ItmFilterCO202=1.0x2-4",
       "OutfitEVA01Full=1.0x1",
       "OutfitHelmet03=1.0x1",
       "OutfitHelmet02=1.0x1",
-      "OutfitPS01=1.0x1-5",
+      "OutfitPS01=1.0x1-2",
       "OutfitPS02=0.05x1",
-      "ItmFilterCO201=1.0x5-10",
-      "ItmRTAO2Loose=1.0x2-3",
-      "ItmRTAN2Loose=1.0x2-3",
+      "ItmFilterCO201=1.0x2-5",
+      "ItmRTAO2Loose=1.0x2",
+      "ItmRTAN2Loose=1.0x2",
       "ItmRTACO2Loose=1.0x1-2",
       "ItmAirPump03OffLoose=1.0x1",
-      "ItmCargoWeb01Loose=1.0x5-10",
-      "ItmRandomTrenchersOriginal=1.0x15",
-      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmCargoWeb01Loose=1.0x3-6",
+      "ItmRandomTrenchersOriginal=1.0x10",
+      "ItmDrinkPouchWaterNew=1.0x8-14",
       "ItmRandomDrinkNew=0.25x1",
       "ItmRandomDrinkNew=0.25x1",
       "ItmRandomDrinkNew=0.25x1",
       "ItmRandomDrinkNew=0.25x1",
       "ItmRandomDrinkLiquor=1.0x1-2",
       "ItmDrinkFlask01WaterNew=1.0x4-6",
-      "ItmDrinkFlask02WaterNew=1.0x4-10",
-      "ItmCigViceroyBox01New=1.0x10-20",
-      "ItmCigBoxNew=1.0x12-15",
-      "ItmScrapClothClean=1.0x4-8",
-      "ItmHygieneWipes01=1.0x5-15",
-      "ItmRandomToothbrush=0.1x3",
-      "ItmHullPatch01=1.0x15",
-      "ItmSealTemp01Loose=1.0x15",
+      "ItmDrinkFlask02WaterNew=1.0x4-8",
+      "ItmCigViceroyBox01New=1.0x2-5",
+      "ItmCigBoxNew=1.0x2-4",
+      "ItmScrapClothClean=1.0x3-6",
+      "ItmHygieneWipes01=1.0x4-10",
+      "ItmRandomToothbrush=0.1x2",
+      "ItmHullPatch01=1.0x8-12",
+      "ItmSealTemp01Loose=1.0x8-12",
       "ItmToolFireEx01=1.0x1",
-      "ItmFusionABLWall01Loose=1.0x3",
-      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmFusionABLWall01Loose=1.0x2-3",
+      "ItmRandomClothesSingleTraders=1.0x2-4",
       "ItmBookEnvManual01=0.5x1-2",
       "ItmBookFusionManual01=0.5x1-2",
       "ItmBookPolarisNavManual01=0.5x1-2",
-      "ItmDocumentOgiso01Loose=1.0x10-25",
-      "ItmNavModMap=1.0x1-2",
-      "ItmNavModTargetData=1.0x1-2",
-      "ItmNavModControls=1.0x1-2",
-      "ItmNavModControlToggle=0.5x1-2",
-      "ItmNavModDiagnostics=0.5x1-2",
-      "ItmNavModEngineMode=0.5x1-2",
-      "ItmNavModWarnings=1.0x1-2",
-      "ItmNavModTransponder=1.0x1-2",
-      "ItmNavModTimeZoom=0.5x1-2",
-      "ItmNavModCoursePlot=0.5x1-2",
-      "ItmNavModTorchDrive=0.5x1-2",
-      "ItmNavModFlightDynamics=0.5x1-2",
-      "ItmNavModDisplayControls=0.5x1-2",
-      "ItmNavModReserves=0.5x1-2",
-      "ItmNavModSensorsMFD=0.5x1-2",
-      "ItmNavModDuhrt=0.5x1-2",
-      "ItmNavModMooringControl=0.5x1-2"
+      "ItmDocumentOgiso01Loose=1.0x1-3",
+      "ItmNavModMap=1.0x1",
+      "ItmNavModTargetData=1.0x1",
+      "ItmNavModControls=1.0x1",
+      "ItmNavModControlToggle=0.5x1",
+      "ItmNavModDiagnostics=0.5x1",
+      "ItmNavModEngineMode=0.5x1",
+      "ItmNavModWarnings=1.0x1",
+      "ItmNavModTransponder=1.0x1",
+      "ItmNavModTimeZoom=0.5x1",
+      "ItmNavModCoursePlot=0.5x1",
+      "ItmNavModTorchDrive=0.5x1",
+      "ItmNavModFlightDynamics=0.2x1",
+      "ItmNavModDisplayControls=0.5x1",
+      "ItmNavModReserves=1x1",
+      "ItmNavModSensorsMFD=0.5x1",
+      "ItmNavModDuhrt=0.3x1",
+      "ItmNavModMooringControl=0.5x1"
     ],
     "strType": "item"
   },
@@ -34708,7 +34736,7 @@
       "ItmDataCard01=1.0x1"
     ],
     "aLoots": [
-      "DataBINRobotOS02=0.75x1|(aLoots в луте) DataBINRobotOS01=0.25x1"
+      "DataBINRobotOS02=0.75x1|DataBINRobotOS01=0.25x1"
     ],
     "bSuppress": true,
     "bNested": true,
@@ -34885,7 +34913,7 @@
   {
     "strName": "ItmTransponder01LooseChance",
     "aCOs": [
-      "ItmTransponder01DmgLoose=0.8x1|(aCOs в луте) ItmTransponder01Loose=0.2x1"
+      "ItmTransponder01DmgLoose=0.8x1|ItmTransponder01Loose=0.2x1"
     ],
     "aLoots": [],
     "strType": "item"
@@ -39773,8 +39801,7 @@
   {
     "strName": "CTENCMemoryDumb",
     "aCOs": [
-      "TUpSelfRespect=1.0x48",
-      "TUpMeaning=1.0x24",
+      "TUpSelfRespect=1.0x24",
       "TUpClobberCooldown=1.0x1"
     ],
     "aLoots": [],
@@ -39783,8 +39810,7 @@
   {
     "strName": "CTENCMemoryLove",
     "aCOs": [
-      "TUpIntimacy=1.0x48",
-      "TDnMeaning=1.0x24",
+      "TUpIntimacy=1.0x24",
       "TUpClobberCooldown=1.0x1"
     ],
     "aLoots": [],
@@ -39793,7 +39819,7 @@
   {
     "strName": "CTENCMemoryFoliage",
     "aCOs": [
-      "TUpMeaning=1.0x48",
+      "TUpMeaning=1.0x24",
       "TUpClobberCooldown=1.0x1"
     ],
     "aLoots": [],
@@ -42693,7 +42719,7 @@
     "strName": "HW_BCER_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_BCER=0.75x1|(aLoots в луте) HW_Belt=0.25x1"
+      "HW_BCER=0.75x1|HW_Belt=0.25x1"
     ],
     "strType": "text"
   },
@@ -42709,7 +42735,7 @@
     "strName": "HW_BCRS_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_BCRS=0.6x1|(aLoots в луте) HW_Belt=0.4x1"
+      "HW_BCRS=0.6x1|HW_Belt=0.4x1"
     ],
     "strType": "text"
   },
@@ -42749,7 +42775,7 @@
     "strName": "HW_HQCH_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_HQCH=0.75x1|(aLoots в луте) HW_Mars=0.25x1"
+      "HW_HQCH=0.75x1|HW_Mars=0.25x1"
     ],
     "strType": "text"
   },
@@ -42781,7 +42807,7 @@
     "strName": "HW_JFTS_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_JFTS=0.6x1|(aLoots в луте) HW_Jupiter=0.4x1"
+      "HW_JFTS=0.6x1|HW_Jupiter=0.4x1"
     ],
     "strType": "text"
   },
@@ -42797,7 +42823,7 @@
     "strName": "HW_JPTN_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_JPTN=0.4x1|(aLoots в луте) HW_Jupiter=0.6x1"
+      "HW_JPTN=0.4x1|HW_Jupiter=0.6x1"
     ],
     "strType": "text"
   },
@@ -42821,7 +42847,7 @@
     "strName": "HW_MLAB_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_MLAB=0.75x1|(aLoots в луте) HW_Mars=0.25x1"
+      "HW_MLAB=0.75x1|HW_Mars=0.25x1"
     ],
     "strType": "text"
   },
@@ -42845,7 +42871,7 @@
     "strName": "HW_MTRS_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_MTRS=0.6x1|(aLoots в луте) HW_Mars=0.4x1"
+      "HW_MTRS=0.6x1|HW_Mars=0.4x1"
     ],
     "strType": "text"
   },
@@ -42861,7 +42887,7 @@
     "strName": "HW_MVOL_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_MVOL=0.75x1|(aLoots в луте) HW_Mars=0.25x1"
+      "HW_MVOL=0.75x1|HW_Mars=0.25x1"
     ],
     "strType": "text"
   },
@@ -42877,7 +42903,7 @@
     "strName": "HW_OFLT_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_OFLT=0.75x1|(aLoots в луте) HW_OKLGRegion=0.25x1"
+      "HW_OFLT=0.75x1|HW_OKLGRegion=0.25x1"
     ],
     "strType": "text"
   },
@@ -42893,7 +42919,7 @@
     "strName": "HW_OKLG_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_OKLG=0.6x1|(aLoots в луте) HW_OKLGRegion=0.4x1"
+      "HW_OKLG=0.6x1|HW_OKLGRegion=0.4x1"
     ],
     "strType": "text"
   },
@@ -42925,7 +42951,7 @@
     "strName": "HW_SVIR_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_SVIR=0.6x1|(aLoots в луте) HW_Saturn=0.4x1"
+      "HW_SVIR=0.6x1|HW_Saturn=0.4x1"
     ],
     "strType": "text"
   },
@@ -42941,7 +42967,7 @@
     "strName": "HW_VCBR_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_VCBR=0.75x1|(aLoots в луте) HW_Venus=0.25x1"
+      "HW_VCBR=0.75x1|HW_Venus=0.25x1"
     ],
     "strType": "text"
   },
@@ -42957,7 +42983,7 @@
     "strName": "HW_VENC_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_VENC=0.6x1|(aLoots в луте) HW_Venus=0.4x1"
+      "HW_VENC=0.6x1|HW_Venus=0.4x1"
     ],
     "strType": "text"
   },
@@ -42973,7 +42999,7 @@
     "strName": "HW_VNCA_Plus",
     "aCOs": [],
     "aLoots": [
-      "HW_VNCA=0.6x1|(aLoots в луте) HW_Venus=0.4x1"
+      "HW_VNCA=0.6x1|HW_Venus=0.4x1"
     ],
     "strType": "text"
   },
@@ -43011,17 +43037,17 @@
   },
   {
     "strName": "HW_OKLGRegion",
-    "aCOs": [],
-    "aLoots": [
-      "HW_OKLG=0.5x1|HW_OFLT=0.2x1|HW_OXXX=0.1x1|HW_ANY=0.2x1"
+    "aCOs": [
+      "BCRS=0.05x1|EJDR=0.02x1|ERTH=0.00003x1|HQCH=0.00007x1|JATL=0.0005x1|JPTN=0.0002x1|MHNG=0.029x1|MTRS=0.1x1|OFLT=0.1x1|OKLG=0.4x1|OXXX=0.05x1|OYYY=0.05x1|VCBR=0.0002x1|VENC=0.1x1|VNCA=0.1x1"
     ],
+    "aLoots": [],
     "strType": "text"
   },
   {
     "strName": "HW_Jupiter",
     "aCOs": [],
     "aLoots": [
-      "HW_JFTS=0.4x1|HW_BCRS=0.25x1|HW_JATL=0.05x1|HW_OXXX=0.1x1|HW_JPTN=0.1x1|HW_ANY=0.1x1"
+      "HW_JFTS=0.4x1|HW_BCER=0.25x1|HW_JATL=0.05x1|HW_OXXX=0.1x1|HW_JPTN=0.1x1|HW_ANY=0.1x1"
     ],
     "strType": "text"
   },
@@ -43029,7 +43055,7 @@
     "strName": "HW_Atlantis",
     "aCOs": [],
     "aLoots": [
-      "HW_JATL=0.6x1|HW_JFTS=0.2x1|HW_BCRS=0.05x1|HW_JPTN=0.05x1|HW_ANY=0.1x1"
+      "HW_JATL=0.85x1|HW_JPTN=0.05x1|HW_ANY=0.1x1"
     ],
     "strType": "text"
   },
@@ -43044,7 +43070,7 @@
   {
     "strName": "PSpecOKLGCopsRobbers",
     "aCOs": [
-      "OKLGLEO=0.35x1|(aCOs в луте) CGEncCriminalContact=0.65x1"
+      "OKLGLEO=0.35x1|CGEncCriminalContact=0.65x1"
     ],
     "aLoots": [],
     "strType": "pspec"
@@ -43054,8 +43080,8 @@
     "aCOs": [
       "OKLGLEO=1.0x1-2",
       "OKLGLEO=0.3x1",
-      "OKLGBoneyardCriminal=0.5x1|(aCOs в луте) OKLGBoneyardPirate=0.5x1",
-      "OKLGBoneyardCriminal=0.15x1|(aCOs в луте) OKLGBoneyardPirate=0.15x1"
+      "OKLGBoneyardCriminal=0.5x1|OKLGBoneyardPirate=0.5x1",
+      "OKLGBoneyardCriminal=0.15x1|OKLGBoneyardPirate=0.15x1"
     ],
     "aLoots": [],
     "strType": "pspec"
@@ -43096,12 +43122,12 @@
     "strName": "PSpecRandomNPCBoneyardDead",
     "aCOs": [
       "RandomAdultDeadMessy=1x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.05x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.03x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.03x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.02x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.02x1",
-      "RandomAdultDeadMessy=0.1x1|(aCOs в луте) RandomAdultDead=0.02x1"
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.05x1",
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.03x1",
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.03x1",
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.02x1",
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.02x1",
+      "RandomAdultDeadMessy=0.1x1|RandomAdultDead=0.02x1"
     ],
     "aLoots": [],
     "strType": "pspec"
@@ -43177,7 +43203,7 @@
   {
     "strName": "PSpecVenusRobotSpawn",
     "aCOs": [
-      "Robot01=0.15x0-3|(aCOs в луте) Robot02=0.33x0-1"
+      "Robot01=0.15x0-3|Robot02=0.33x0-1"
     ],
     "aLoots": [],
     "strType": "pspec"
@@ -43194,8 +43220,8 @@
   {
     "strName": "PSpecVenusRobotSpawnVLA02",
     "aCOs": [
-      "Robot02=0.8x1|(aCOs в луте) Robot01=0.2x1",
-      "Robot02=0.33x1-2|(aCOs в луте) Robot01=0.33x1-2"
+      "Robot02=0.8x1|Robot01=0.2x1",
+      "Robot02=0.33x1-2|Robot01=0.33x1-2"
     ],
     "aLoots": [],
     "strType": "pspec"
@@ -43253,7 +43279,8 @@
       "CGAssignAttraction=1.0x1",
       "NPCAssignFundsStrata=1.0x1",
       "NPCAssignFundsCareer=1.0x1",
-      "PSPAIRechargeAdd=1.0x1"
+      "PSPAIRechargeAdd=1.0x1",
+      "PSPAIReplaceO2BottleAdd=1.0x1"
     ],
     "aLoots": [],
     "strType": "interaction"
@@ -43282,7 +43309,7 @@
   {
     "strName": "CGEncRichSchmuckExAddAttractions",
     "aCOs": [
-      "IsAttractedMono=0.7x1|(aCOs в луте) IsAttractedPoly=0.3x1"
+      "IsAttractedMono=0.7x1|IsAttractedPoly=0.3x1"
     ],
     "aLoots": [
       "CONDGainRomanticAttractionAll=1.0x1"
@@ -43432,7 +43459,8 @@
       "PSPAIUnwearSuitAdd=1.0x1",
       "PSPAIFirefightAdd=1.0x1",
       "PSPAIStandUp=1.0x1",
-      "PSPAIRechargeAdd=1.0x1"
+      "PSPAIRechargeAdd=1.0x1",
+      "PSPAIReplaceO2BottleAdd=1.0x1"
     ],
     "aLoots": [],
     "strType": "interaction"
@@ -43738,7 +43766,7 @@
   {
     "strName": "RandomCombatShip",
     "aCOs": [
-      "CombatPod_Can=0.5x1|(aCOs в луте) CombatPod_Mis=0.5x1"
+      "CombatPod_Can=0.5x1|CombatPod_Mis=0.5x1"
     ],
     "aLoots": [],
     "strType": "ship"
@@ -43746,7 +43774,7 @@
   {
     "strName": "RandomCivilianShip",
     "aLoots": [
-      "RandomCivilianShipCCRE=0.5x1|(aLoots в луте) RandomCivilianShipGalileanConfederacy=0.5x1"
+      "RandomCivilianShipCCRE=0.5x1|RandomCivilianShipGalileanConfederacy=0.5x1"
     ],
     "strType": "ship"
   },
@@ -43777,7 +43805,7 @@
   {
     "strName": "RandomNavyShipCCRE",
     "aCOs": [
-      "Vector3 Xinhua Refit=0.75x1|(aCOs в луте) Модернизированный Pequod Xinhua=0.25x1"
+      "Vector3 Xinhua Refit=0.65x1|Pequod Xinhua Refit=0.25x1|Pugongying=0.1x1"
     ],
     "aLoots": [],
     "strType": "ship"
@@ -43793,7 +43821,7 @@
   {
     "strName": "RandomNavyShipGalileanConfederacy",
     "aCOs": [
-      "Vector3 Titan Refit=0.75x1|(aCOs в луте) Модернизированный Pequod Titan=0.25x1"
+      "Vector3 Titan Refit=0.65x1|Pequod Titan Refit=0.25x1|Baleen=0.1x1"
     ],
     "aLoots": [],
     "strType": "ship"
@@ -43885,7 +43913,7 @@
   {
     "strName": "RandomPoliceShip",
     "aCOs": [
-      "Vector2=0.11x1|(aCOs в луте) Vector3=0.89x1"
+      "Vector2=0.11x1|Vector3=0.89x1"
     ],
     "aLoots": [],
     "strType": "ship"
@@ -44456,7 +44484,6 @@
     "aCOs": [
       "SOCBlank=1.0x1",
       "SocialCombatExit=1.0x1",
-      "SocialCombatExitSilent=1.0x1",
       "WaitReply=1.0x1"
     ],
     "aLoots": [],
@@ -44754,7 +44781,7 @@
   {
     "strName": "TXTJOBMVPPowerItemSetupClient01Txt1",
     "aCOs": [
-      "JOB_POWERITEM_TXT1_01=0.5x1|(aCOs в луте) JOB_POWERITEM_TXT1_02=0.5x1"
+      "JOB_POWERITEM_TXT1_01=0.5x1|JOB_POWERITEM_TXT1_02=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44762,7 +44789,7 @@
   {
     "strName": "TXTJobKioskOriginBCERShortHopRegIDs",
     "aCOs": [
-      "BCER=0.5x1|(aCOs в луте) BCER_ROOF=0.5x1"
+      "BCER=0.5x1|BCER_ROOF=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44826,7 +44853,7 @@
   {
     "strName": "TXTJobKioskOriginVENCShortHopRegIDs",
     "aCOs": [
-      "VENC=0.5x1|(aCOs в луте) VENC_SVL=0.5x1"
+      "VENC=0.5x1|VENC_SVL=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44834,7 +44861,7 @@
   {
     "strName": "TXTJobKioskOriginVNCAShortHopRegIDs",
     "aCOs": [
-      "VNCA=0.5x1|(aCOs в луте) VNCA_SD=0.5x1"
+      "VNCA=0.5x1|VNCA_SD=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44842,7 +44869,7 @@
   {
     "strName": "TXTJobKioskOriginVORBShortHopRegIDs",
     "aCOs": [
-      "VORB=0.5x1|(aCOs в луте) VORB_HAB=0.5x1"
+      "VORB=0.5x1|VORB_HAB=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44858,7 +44885,13 @@
   {
     "strName": "TXTOKLGSpawnStations",
     "aCOs": [
-      "OKLG=0.4x1|OKLG_FLOT=0.3x1|OKLG_ATC=0.1x1|OKLG_SEC=0.1x1|OKLG_NAV1=0.03x1|OKLG_NAV2=0.03x1|OKLG_NAV3=0.04x1"
+      "OKLG=1x1",
+      "OKLG_FLOT=1x1",
+      "OKLG_ATC=1x1",
+      "OKLG_SEC=1x1",
+      "OKLG_NAV1=1x1",
+      "OKLG_NAV2=1x1",
+      "OKLG_NAV3=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44895,7 +44928,11 @@
   {
     "strName": "TXTVNCASpawnStations",
     "aCOs": [
-      "VNCA=0.3x1|VCBR=0.2x1|VLA01=0.1x1|VENC=0.2x1|VORB=0.2x1"
+      "VNCA=1x1",
+      "VCBR=1x1",
+      "VLA01=1x1",
+      "VENC=1x1",
+      "VORB=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44903,7 +44940,10 @@
   {
     "strName": "TXTSVIRSpawnStations",
     "aCOs": [
-      "SVIR=0.1x1|LowOrbit1=0.4x1|LowOrbit2=0.4x1|PlayerStartsHere=0.1x1"
+      "SVIR=1x1",
+      "LowOrbit1=1x1",
+      "LowOrbit2=1x1",
+      "PlayerStartsHere=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44911,7 +44951,9 @@
   {
     "strName": "TXTBCERSpawnStations",
     "aCOs": [
-      "BCER=0.45x1|BCRS=0.45x1|COHO=0.1x1"
+      "BCER=1x1",
+      "BCRS=1x1",
+      "COHO=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -44997,8 +45039,8 @@
     "strName": "TXTPortraitAFemale",
     "aCOs": [
       "pbaseEyesA01=0.091x1|pbaseEyesA02=0.091x1|pbaseEyesA03=0.091x1|pbaseEyesA04=0.091x1|pbaseEyesA05=0.091x1|pbaseEyesA06=0.091x1|pbaseEyesA07=0.091x1|pbaseEyesA08=0.091x1|pbaseEyesA09=0.091x1|pbaseEyesA10=0.091x1|pbaseEyesA11=0.091x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadA01=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadA01=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsA01=0.167x1|pbaseLipsA02=0.167x1|pbaseLipsA03=0.167x1|pbaseLipsA04=0.167x1|pbaseLipsA05=0.167x1|pbaseLipsA06=0.167x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckA01=0.5x1|pbaseNeckA03=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseA01=0.091x1|pbaseNoseA02=0.091x1|pbaseNoseA03=0.091x1|pbaseNoseA04=0.091x1|pbaseNoseA05=0.091x1|pbaseNoseA06=0.091x1|pbaseNoseA07=0.091x1|pbaseNoseA08=0.091x1|pbaseNoseA09=0.091x1|pbaseNoseA10=0.091x1|pbaseNoseA11=0.091x1|pbaseNoseMissing=1.0x1",
@@ -45006,7 +45048,7 @@
       "pbaseScarA01=0.4x1|pbaseScarA02=0.05x1|pbaseScarA03=0.05x1|pbaseScarA04=0.05x1|pbaseScarA05=0.05x1|pbaseScarA06=0.05x1|pbaseScarB02=0.05x1|pbaseScarB03=0.05x1|pbaseScarB04=0.05x1|pbaseScarB05=0.05x1|pbaseScarB06=0.05x1|pbaseScarB07=0.05x1|pbaseScarB08=0.05x1|pbaseScarMissing=1.0x1",
       "pbaseTeethA01=0.33x1|pbaseTeethB01=0.33x1|pbaseTeethC01=0.34x1|pbaseTeethMissing=1.0x1",
       "pbaseHairA01=0.015x1|pbaseHairA02=0.015x1|pbaseHairA03=0.015x1|pbaseHairA04=0.015x1|pbaseHairA05=0.015x1|pbaseHairA06=0.015x1|pbaseHairA07=0.015x1|pbaseHairA08=0.015x1|pbaseHairA09=0.015x1|pbaseHairA10=0.015x1|pbaseHairA11=0.015x1|pbaseHairA12=0.015x1|pbaseHairA13=0.015x1|pbaseHairA14=0.015x1|pbaseHairA15=0.015x1|pbaseHairD01=0.015x1|pbaseHairD03=0.015x1|pbaseHairD04=0.015x1|pbaseHairB01=0.015x1|pbaseHairB02=0.015x1|pbaseHairB03=0.015x1|pbaseHairD05=0.015x1|pbaseHairB04=0.015x1|pbaseHairB05=0.015x1|pbaseHairB06=0.015x1|pbaseHairB07=0.015x1|pbaseHairB08=0.015x1|pbaseHairB09=0.015x1|pbaseHairB10=0.015x1|pbaseHairB11=0.015x1|pbaseHairB12=0.015x1|pbaseHairB13=0.015x1|pbaseHairB14=0.015x1|pbaseHairB15=0.015x1|pbaseHairC06=0.015x1|pbaseHairC02=0.015x1|pbaseHairC11=0.015x1|pbaseHairC10=0.015x1|pbaseHairC14=0.015x1|pbaseHairC01=0.015x1|pbaseHairC03=0.015x1|pbaseHairC08=0.015x1|pbaseHairC13=0.015x1|pbaseHairC04=0.015x1|pbaseHairC05=0.015x1|pbaseHairC07=0.015x1|pbaseHairC09=0.015x1|pbaseHairC12=0.015x1|pbaseHairG01=0.015x1|pbaseHairG02=0.015x1|pbaseHairG03=0.015x1|pbaseHairG04=0.015x1|pbaseHairG05=0.015x1|pbaseHairG06=0.015x1|pbaseHairG07=0.015x1|pbaseHairG08=0.015x1|pbaseHairG09=0.015x1|pbaseHairG10=0.015x1|pbaseHairG11=0.015x1|pbaseHairG12=0.015x1|pbaseHairG13=0.015x1|pbaseHairG14=0.015x1|pbaseHairG15=0.015x1|pbaseScarA01=0.055x1|pbaseHairMissing=1.0x1",
-      "pbaseBeardA01=1.0x1|(aCOs в луте) pbaseBeardMissing=1.0x1"
+      "pbaseBeardA01=1.0x1|pbaseBeardMissing=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45015,8 +45057,8 @@
     "strName": "TXTPortraitAMale",
     "aCOs": [
       "pbaseEyesA01=0.17x1|pbaseEyesA03=0.17x1|pbaseEyesA05=0.17x1|pbaseEyesA09=0.16x1|pbaseEyesA10=0.16x1|pbaseEyesA11=0.17x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadA02=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadA02=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsA02=0.33x1|pbaseLipsA05=0.33x1|pbaseLipsA06=0.34x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckA01=0.5x1|pbaseNeckA02=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseA01=0.091x1|pbaseNoseA02=0.091x1|pbaseNoseA03=0.091x1|pbaseNoseA04=0.091x1|pbaseNoseA05=0.091x1|pbaseNoseA06=0.091x1|pbaseNoseA07=0.091x1|pbaseNoseA08=0.091x1|pbaseNoseA09=0.091x1|pbaseNoseA10=0.091x1|pbaseNoseA11=0.091x1|pbaseNoseMissing=1.0x1",
@@ -45033,7 +45075,7 @@
     "strName": "TXTPortraitANonbinary",
     "aCOs": [
       "pbaseEyesA01=0.091x1|pbaseEyesA02=0.091x1|pbaseEyesA03=0.091x1|pbaseEyesA04=0.091x1|pbaseEyesA05=0.091x1|pbaseEyesA06=0.091x1|pbaseEyesA07=0.091x1|pbaseEyesA08=0.091x1|pbaseEyesA09=0.091x1|pbaseEyesA10=0.091x1|pbaseEyesA11=0.091x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
       "pbaseHeadA01=0.5x1|pbaseHeadA02=0.5x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsA01=0.167x1|pbaseLipsA02=0.167x1|pbaseLipsA03=0.167x1|pbaseLipsA04=0.167x1|pbaseLipsA05=0.167x1|pbaseLipsA06=0.167x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckA01=0.4x1|pbaseNeckA02=0.3x1|pbaseNeckA03=0.3x1|pbaseNeckMissing=1.0x1",
@@ -45051,8 +45093,8 @@
     "strName": "TXTPortraitBFemale",
     "aCOs": [
       "pbaseEyesB01=0.091x1|pbaseEyesB02=0.091x1|pbaseEyesB03=0.091x1|pbaseEyesB04=0.091x1|pbaseEyesB05=0.091x1|pbaseEyesB06=0.091x1|pbaseEyesB07=0.091x1|pbaseEyesB08=0.091x1|pbaseEyesB09=0.091x1|pbaseEyesB10=0.091x1|pbaseEyesB11=0.091x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadB01=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadB01=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsB01=0.091x1|pbaseLipsB02=0.091x1|pbaseLipsB03=0.091x1|pbaseLipsB04=0.091x1|pbaseLipsB05=0.091x1|pbaseLipsB06=0.091x1|pbaseLipsB07=0.091x1|pbaseLipsB08=0.091x1|pbaseLipsB09=0.091x1|pbaseLipsB10=0.091x1|pbaseLipsB11=0.091x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckB01=0.5x1|pbaseNeckB03=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseB01=0.084x1|pbaseNoseB02=0.084x1|pbaseNoseB03=0.084x1|pbaseNoseB04=0.084x1|pbaseNoseB05=0.084x1|pbaseNoseB06=0.084x1|pbaseNoseB07=0.084x1|pbaseNoseB08=0.084x1|pbaseNoseB09=0.084x1|pbaseNoseB10=0.084x1|pbaseNoseB11=0.084x1|pbaseNoseB12=0.084x1|pbaseNoseMissing=1.0x1",
@@ -45060,7 +45102,7 @@
       "pbaseScarA01=0.4x1|pbaseScarA02=0.05x1|pbaseScarA03=0.05x1|pbaseScarA04=0.05x1|pbaseScarA05=0.05x1|pbaseScarA06=0.05x1|pbaseScarB02=0.05x1|pbaseScarB03=0.05x1|pbaseScarB04=0.05x1|pbaseScarB05=0.05x1|pbaseScarB06=0.05x1|pbaseScarB07=0.05x1|pbaseScarB08=0.05x1|pbaseScarMissing=1.0x1",
       "pbaseTeethA01=0.33x1|pbaseTeethB01=0.33x1|pbaseTeethC01=0.34x1|pbaseTeethMissing=1.0x1",
       "pbaseHairA01=0.015x1|pbaseHairA02=0.015x1|pbaseHairA03=0.015x1|pbaseHairA04=0.015x1|pbaseHairA05=0.015x1|pbaseHairA06=0.015x1|pbaseHairA07=0.015x1|pbaseHairA08=0.015x1|pbaseHairA09=0.015x1|pbaseHairA10=0.015x1|pbaseHairA11=0.015x1|pbaseHairA12=0.015x1|pbaseHairA13=0.015x1|pbaseHairA14=0.015x1|pbaseHairA15=0.015x1|pbaseHairD01=0.015x1|pbaseHairD03=0.015x1|pbaseHairD04=0.015x1|pbaseHairB01=0.015x1|pbaseHairB02=0.015x1|pbaseHairB03=0.015x1|pbaseHairD05=0.015x1|pbaseHairB04=0.015x1|pbaseHairB05=0.015x1|pbaseHairB06=0.015x1|pbaseHairB07=0.015x1|pbaseHairB08=0.015x1|pbaseHairB09=0.015x1|pbaseHairB10=0.015x1|pbaseHairB11=0.015x1|pbaseHairB12=0.015x1|pbaseHairB13=0.015x1|pbaseHairB14=0.015x1|pbaseHairB15=0.015x1|pbaseHairC06=0.015x1|pbaseHairC02=0.015x1|pbaseHairC11=0.015x1|pbaseHairC10=0.015x1|pbaseHairC14=0.015x1|pbaseHairC01=0.015x1|pbaseHairC03=0.015x1|pbaseHairC08=0.015x1|pbaseHairC13=0.015x1|pbaseHairC04=0.015x1|pbaseHairC05=0.015x1|pbaseHairC07=0.015x1|pbaseHairC09=0.015x1|pbaseHairC12=0.015x1|pbaseHairG01=0.015x1|pbaseHairG02=0.015x1|pbaseHairG03=0.015x1|pbaseHairG04=0.015x1|pbaseHairG05=0.015x1|pbaseHairG06=0.015x1|pbaseHairG07=0.015x1|pbaseHairG08=0.015x1|pbaseHairG09=0.015x1|pbaseHairG10=0.015x1|pbaseHairG11=0.015x1|pbaseHairG12=0.015x1|pbaseHairG13=0.015x1|pbaseHairG14=0.015x1|pbaseHairG15=0.015x1|pbaseScarA01=0.055x1|pbaseHairMissing=1.0x1",
-      "pbaseBeardA01=1.0x1|(aCOs в луте) pbaseBeardMissing=1.0x1"
+      "pbaseBeardA01=1.0x1|pbaseBeardMissing=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45069,8 +45111,8 @@
     "strName": "TXTPortraitBMale",
     "aCOs": [
       "pbaseEyesB01=0.167x1|pbaseEyesB02=0.167x1|pbaseEyesB03=0.167x1|pbaseEyesB09=0.167x1|pbaseEyesB10=0.167x1|pbaseEyesB11=0.167x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadB02=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadB02=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsB01=0.25x1|pbaseLipsB02=0.25x1|pbaseLipsB06=0.25x1|pbaseLipsB07=0.25x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckB01=0.5x1|pbaseNeckB02=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseB01=0.084x1|pbaseNoseB02=0.084x1|pbaseNoseB03=0.084x1|pbaseNoseB04=0.084x1|pbaseNoseB05=0.084x1|pbaseNoseB06=0.084x1|pbaseNoseB07=0.084x1|pbaseNoseB08=0.084x1|pbaseNoseB09=0.084x1|pbaseNoseB10=0.084x1|pbaseNoseB11=0.084x1|pbaseNoseB12=0.084x1|pbaseNoseMissing=1.0x1",
@@ -45087,7 +45129,7 @@
     "strName": "TXTPortraitBNonbinary",
     "aCOs": [
       "pbaseEyesB01=0.091x1|pbaseEyesB02=0.091x1|pbaseEyesB03=0.091x1|pbaseEyesB04=0.091x1|pbaseEyesB05=0.091x1|pbaseEyesB06=0.091x1|pbaseEyesB07=0.091x1|pbaseEyesB08=0.091x1|pbaseEyesB09=0.091x1|pbaseEyesB10=0.091x1|pbaseEyesB11=0.091x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
       "pbaseHeadB01=0.5x1|pbaseHeadB02=0.5x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsB01=0.091x1|pbaseLipsB02=0.091x1|pbaseLipsB03=0.091x1|pbaseLipsB04=0.091x1|pbaseLipsB05=0.091x1|pbaseLipsB06=0.091x1|pbaseLipsB07=0.091x1|pbaseLipsB08=0.091x1|pbaseLipsB09=0.091x1|pbaseLipsB10=0.091x1|pbaseLipsB11=0.091x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckB01=0.4x1|pbaseNeckB02=0.3x1|pbaseNeckB03=0.3x1|pbaseNeckMissing=1.0x1",
@@ -45105,8 +45147,8 @@
     "strName": "TXTPortraitCFemale",
     "aCOs": [
       "pbaseEyesC03=0.112x1|pbaseEyesC04=0.112x1|pbaseEyesC05=0.112x1|pbaseEyesC06=0.112x1|pbaseEyesC07=0.112x1|pbaseEyesC08=0.112x1|pbaseEyesC09=0.112x1|pbaseEyesC10=0.112x1|pbaseEyesC11=0.112x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadC01=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadC01=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsC01=0.2x1|pbaseLipsC02=0.2x1|pbaseLipsC03=0.2x1|pbaseLipsC04=0.2x1|pbaseLipsC05=0.2x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckC01=0.5x1|pbaseNeckC03=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseC01=0.1x1|pbaseNoseC02=0.1x1|pbaseNoseC03=0.1x1|pbaseNoseC04=0.1x1|pbaseNoseC05=0.1x1|pbaseNoseC06=0.1x1|pbaseNoseC07=0.1x1|pbaseNoseC08=0.1x1|pbaseNoseC09=0.1x1|pbaseNoseC10=0.1x1|pbaseNoseMissing=1.0x1",
@@ -45114,7 +45156,7 @@
       "pbaseScarA01=0.4x1|pbaseScarA02=0.05x1|pbaseScarA03=0.05x1|pbaseScarA04=0.05x1|pbaseScarA05=0.05x1|pbaseScarA06=0.05x1|pbaseScarB02=0.05x1|pbaseScarB03=0.05x1|pbaseScarB04=0.05x1|pbaseScarB05=0.05x1|pbaseScarB06=0.05x1|pbaseScarB07=0.05x1|pbaseScarB08=0.05x1|pbaseScarMissing=1.0x1",
       "pbaseTeethA01=0.33x1|pbaseTeethB01=0.33x1|pbaseTeethC01=0.34x1|pbaseTeethMissing=1.0x1",
       "pbaseHairA01=0.015x1|pbaseHairA02=0.015x1|pbaseHairA03=0.015x1|pbaseHairA04=0.015x1|pbaseHairA05=0.015x1|pbaseHairA06=0.015x1|pbaseHairA07=0.015x1|pbaseHairA08=0.015x1|pbaseHairA09=0.015x1|pbaseHairA10=0.015x1|pbaseHairA11=0.015x1|pbaseHairA12=0.015x1|pbaseHairA13=0.015x1|pbaseHairA14=0.015x1|pbaseHairA15=0.015x1|pbaseHairD01=0.015x1|pbaseHairD03=0.015x1|pbaseHairD04=0.015x1|pbaseHairB01=0.015x1|pbaseHairB02=0.015x1|pbaseHairB03=0.015x1|pbaseHairD05=0.015x1|pbaseHairB04=0.015x1|pbaseHairB05=0.015x1|pbaseHairB06=0.015x1|pbaseHairB07=0.015x1|pbaseHairB08=0.015x1|pbaseHairB09=0.015x1|pbaseHairB10=0.015x1|pbaseHairB11=0.015x1|pbaseHairB12=0.015x1|pbaseHairB13=0.015x1|pbaseHairB14=0.015x1|pbaseHairB15=0.015x1|pbaseHairC06=0.015x1|pbaseHairC02=0.015x1|pbaseHairC11=0.015x1|pbaseHairC10=0.015x1|pbaseHairC14=0.015x1|pbaseHairC01=0.015x1|pbaseHairC03=0.015x1|pbaseHairC08=0.015x1|pbaseHairC13=0.015x1|pbaseHairC04=0.015x1|pbaseHairC05=0.015x1|pbaseHairC07=0.015x1|pbaseHairC09=0.015x1|pbaseHairC12=0.015x1|pbaseHairG01=0.015x1|pbaseHairG02=0.015x1|pbaseHairG03=0.015x1|pbaseHairG04=0.015x1|pbaseHairG05=0.015x1|pbaseHairG06=0.015x1|pbaseHairG07=0.015x1|pbaseHairG08=0.015x1|pbaseHairG09=0.015x1|pbaseHairG10=0.015x1|pbaseHairG11=0.015x1|pbaseHairG12=0.015x1|pbaseHairG13=0.015x1|pbaseHairG14=0.015x1|pbaseHairG15=0.015x1|pbaseScarA01=0.055x1|pbaseHairMissing=1.0x1",
-      "pbaseBeardA01=1.0x1|(aCOs в луте) pbaseBeardMissing=1.0x1"
+      "pbaseBeardA01=1.0x1|pbaseBeardMissing=1.0x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45123,8 +45165,8 @@
     "strName": "TXTPortraitCMale",
     "aCOs": [
       "pbaseEyesC01=0.2x1|pbaseEyesC02=0.2x1|pbaseEyesC09=0.2x1|pbaseEyesC10=0.2x1|pbaseEyesC11=0.2x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
-      "pbaseHeadC02=1.0x1|(aCOs в луте) pbaseHeadMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
+      "pbaseHeadC02=1.0x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsC01=0.33x1|pbaseLipsC02=0.33x1|pbaseLipsC03=0.34x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckC01=0.5x1|pbaseNeckC02=0.5x1|pbaseNeckMissing=1.0x1",
       "pbaseNoseC01=0.1x1|pbaseNoseC02=0.1x1|pbaseNoseC03=0.1x1|pbaseNoseC04=0.1x1|pbaseNoseC05=0.1x1|pbaseNoseC06=0.1x1|pbaseNoseC07=0.1x1|pbaseNoseC08=0.1x1|pbaseNoseC09=0.1x1|pbaseNoseC10=0.1x1|pbaseNoseMissing=1.0x1",
@@ -45141,7 +45183,7 @@
     "strName": "TXTPortraitCNonbinary",
     "aCOs": [
       "pbaseEyesC01=0.091x1|pbaseEyesC02=0.091x1|pbaseEyesC03=0.091x1|pbaseEyesC04=0.091x1|pbaseEyesC05=0.091x1|pbaseEyesC06=0.091x1|pbaseEyesC07=0.091x1|pbaseEyesC08=0.091x1|pbaseEyesC09=0.091x1|pbaseEyesC10=0.091x1|pbaseEyesC11=0.091x1|pbaseEyesMissing=1.0x1",
-      "pbaseGlassesA01=0.51x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.035x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.035x1|pbaseGlassesMissing=1.0x1",
+      "pbaseGlassesA01=0.58x1|pbaseGlassesA02=0.035x1|pbaseGlassesA03=0.035x1|pbaseGlassesA04=0.035x1|pbaseGlassesA05=0.035x1|pbaseGlassesA06=0.035x1|pbaseGlassesB02=0.035x1|pbaseGlassesB03=0.035x1|pbaseGlassesB04=0.035x1|pbaseGlassesB05=0.035x1|pbaseGlassesB06=0.001x1|pbaseGlassesC02=0.035x1|pbaseGlassesC03=0.035x1|pbaseGlassesC04=0.035x1|pbaseGlassesC05=0.001x1|pbaseGlassesMissing=1.0x1",
       "pbaseHeadC01=0.5x1|pbaseHeadC02=0.5x1|pbaseHeadMissing=1.0x1",
       "pbaseLipsC01=0.2x1|pbaseLipsC02=0.2x1|pbaseLipsC03=0.2x1|pbaseLipsC04=0.2x1|pbaseLipsC05=0.2x1|pbaseLipsMissing=1.0x1",
       "pbaseNeckC01=0.4x1|pbaseNeckC02=0.3x1|pbaseNeckC03=0.3x1|pbaseNeckMissing=1.0x1",
@@ -45207,7 +45249,7 @@
   {
     "strName": "TXTRandomCreakCanAudio",
     "aCOs": [
-      "CanCreakSm01=0.5x1|(aCOs в луте) CanCreakSm02=0.5x1"
+      "CanCreakSm01=0.5x1|CanCreakSm02=0.5x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45291,7 +45333,7 @@
   {
     "strName": "TXTShipOriginB",
     "aCOs": [
-      "Calico City=0.5x1|(aCOs в луте) Кольцевая станция=0.5x1"
+      "Calico City=0.5x1|Ring Station=0.5x1"
     ],
     "strType": "text"
   },
@@ -45305,7 +45347,7 @@
   {
     "strName": "TXTShipOriginJ",
     "aCOs": [
-      "Atlantis=0.2x1|(aCOs в луте) Fort Simpson=1.0x1"
+      "Atlantis=0.2x1|Fort Simpson=1.0x1"
     ],
     "strType": "text"
   },
@@ -45341,7 +45383,7 @@
     "strName": "DataFuelNeeded",
     "aCOs": [
       "GetRCSMinimumFuelAmount=1x1",
-      "+ кг RCS =1x1"
+      "+ kg RCS =1x1"
     ],
     "strType": "data"
   },
@@ -45351,7 +45393,7 @@
       "GetRCSRemain=1x1",
       "+ / =1x1",
       "GetRCSMax=1x1",
-      "+ кг RCS =1x1"
+      "+ kg RCS =1x1"
     ],
     "strType": "data"
   },
@@ -45527,7 +45569,8 @@
       "SHIPDerelictHailsPlayer=1x1",
       "SHIPForceDock=1x1",
       "SHIPForceUnDock=1x1",
-      "SHIPStealFuel=1x1"
+      "SHIPStealFuel=1x1",
+      "SHIPBlockadeComing=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45660,7 +45703,8 @@
       "ACTCombatPullDown=1x1",
       "ACTCombatLegTrip=1x1",
       "ACTSurrenderDemand=1x1",
-      "ACTSurrenderOffer=1x1"
+      "ACTSurrenderOffer=1x1",
+      "ACTBountyArrestDemand=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -45668,7 +45712,7 @@
   {
     "strName": "TXTTriggerCategories",
     "aCOs": [
-      "TriggerTutorialDoor=1x1|TriggerTutorialBridge=1x1|TriggerEnterShip=1x1|TriggerFirstReturnOKLG=1x1|TriggerFirstDockFlotilla=1x1|TriggerFirstDockNewCal=1x1|TriggerFirstDockVLA01=1x1|TriggerPOI=1x1"
+      "TriggerTutorialDoor=1x1|TriggerTutorialBridge=1x1|TriggerEnterShip=1x1|TriggerFirstReturnOKLG=1x1|TriggerFirstDockFlotilla=1x1|TriggerFirstDockNewCal=1x1|TriggerFirstDockVLA01=1x1|TriggerPOI=1x1|TriggerCeresP4XinhuaIntro=1x1|TriggerCeresP4TitanIntro=1x1"
     ],
     "aLoots": [],
     "strType": "text"
@@ -46092,7 +46136,7 @@
     "strName": "ItmCigBoxDrugNew",
     "aCOs": [],
     "aLoots": [
-      "ItmCigDamaskRoseBox01New=0.6x1|(добыча в луте) ItmCigUnicornDreamBox01New=0.4x1"
+      "ItmCigDamaskRoseBox01New=0.6x1|ItmCigUnicornDreamBox01New=0.4x1"
     ],
     "strType": "item"
   },
@@ -46100,7 +46144,7 @@
     "strName": "ItmCigBoxDrugUsed",
     "aCOs": [],
     "aLoots": [
-      "ItmCigDamaskRoseBox01Used=0.6x1|(добыча в луте) ItmCigUnicornDreamBox01Used=0.4x1"
+      "ItmCigDamaskRoseBox01Used=0.6x1|ItmCigUnicornDreamBox01Used=0.4x1"
     ],
     "strType": "item"
   },

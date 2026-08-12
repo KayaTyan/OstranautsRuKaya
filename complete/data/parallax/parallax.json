@@ -110,10 +110,10 @@
     "strName": "MercuryAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 2,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 2,
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
     "strLootSpriteList": "TXTParallaxMercuryAtmosphere"
   },
   {
@@ -177,10 +177,16 @@
     "fDistortion": 2,
     "fRateX": 0.0005,
     "fRateY": 0.0005,
-    "nLayers": 7,
+    "nLayers": 10,
     "strLootSpriteList": "TXTParallaxEarthAtmosphere",
     "aSunLights": [
       "SunVenusYellow",
+      "SunVenusYellow02",
+      "SunVenusYellow03",
+      "SunVenusYellow04",
+      "SunVenusYellow05",
+      "SunVenusYellow06",
+      "SunVenusYellow07",
       "SunVenusBlue01",
       "SunVenusBlue02",
       "SunVenusBlue03"
@@ -206,11 +212,11 @@
     "strName": "MarsAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 2,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 3,
-    "strLootSpriteList": "TXTParallaxMarsAtmosphere"
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
+    "strLootSpriteList": "TXTParallaxMarsSurface"
   },
   {
     "strName": "MarsGrav",
@@ -232,10 +238,10 @@
     "strName": "JupiterAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 2.5,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 7,
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
     "strLootSpriteList": "TXTParallaxJupiterAtmosphere"
   },
   {
@@ -313,10 +319,10 @@
     "strName": "SaturnAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 2.5,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 7,
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
     "strLootSpriteList": "TXTParallaxSaturnAtmosphere"
   },
   {
@@ -355,10 +361,10 @@
     "strName": "UranusAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 3,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 7,
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
     "strLootSpriteList": "TXTParallaxUranusAtmosphere"
   },
   {
@@ -381,10 +387,10 @@
     "strName": "NeptuneAtmosphere",
     "strPattern": "RoundRobin",
     "fLayerScaleFactor": 1,
-    "fDistortion": 3,
-    "fRateX": 0.0005,
-    "fRateY": 0.0005,
-    "nLayers": 7,
+    "fDistortion": 0,
+    "fRateX": 0.0,
+    "fRateY": 0.0,
+    "nLayers": 1,
     "strLootSpriteList": "TXTParallaxNeptuneAtmosphere"
   },
   {

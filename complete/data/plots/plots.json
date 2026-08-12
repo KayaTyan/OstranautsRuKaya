@@ -16,8 +16,8 @@
     ],
     "aPhaseTitles": [
       "STARTING",
-      "[contact] хочет фотографию [target].",
-      "Вернитесь к [contact] с фотографией [target]."
+      "[contact] wants a photo of [target].",
+      "Return to [contact] with the photo of [target]."
     ],
     "aIADos": [
       [],
@@ -36,10 +36,10 @@
     "strCancelBeat": "MedHeist_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "К [protag] обратится [contact] с выгодным, но опасным планом.",
-      "Выберите: убедить или отговорить [contact] от кражи партии ценного лекарства от гиповолемии.",
-      "Подождите, чтобы узнать, чем увенчается план [contact].",
-      "Узнайте, чем закончилась медицинская кража [contact]."
+      "[protag] will be approached by [contact] with a lucrative, dangerous plan.",
+      "Choose to persuade or dissuade [contact] from stealing a shipment of valuable hypovolemia medicine.",
+      "Wait to see what comes of [contact]'s plan.",
+      "Discover the outcome of [contact]'s medical heist."
     ],
     "aPhases": [
       [
@@ -92,10 +92,10 @@
     "strCancelBeat": "Messenger_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], которому нужна помощь с проблемой по работе.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и поговорите с ними о проблеме [contact] по работе.",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who could use help with a career issue.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and talk with them about [contact]'s career issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -148,10 +148,10 @@
     "aPhaseTitles": [
       "STARTING",
       "STARTING",
-      "Найдите [contact], которому нужна помощь с серьёзной проблемой по работе.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и убедите их решить проблему [contact] по работе.",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who could use help with a high-stakes career issue.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and convince them to resolve [contact]'s career issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -215,10 +215,10 @@
     "strCancelBeat": "MessengerFamily_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], который ищет помощи с семейной проблемой.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и поговорите с ними о семейной проблеме [contact].",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who seeks assistance with a family issue.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and talk with them about [contact]'s family issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -270,10 +270,10 @@
     "strCancelBeat": "MessengerCorp_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], у которого возникли проблемы с корпорацией.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и поговорите с ними о проблеме [contact] с корпорацией.",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who is having an issue with a corporation.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and talk with them about [contact]'s corporation issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -325,10 +325,10 @@
     "strCancelBeat": "MessengerLegal_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], который хочет поговорить о юридической проблеме.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и поговорите с ними о юридической проблеме [contact].",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who wants to talk about a legal issue.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and talk with them about [contact]'s legal issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -380,10 +380,10 @@
     "strCancelBeat": "MessengerRomantic_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], который хочет поговорить о помощи с проблемой в личной жизни.",
-      "[contact] ищет помощи в поиске партнёра для отношений.",
-      "Найдите кого-нибудь по вкусу [contact], кто согласится попробовать отношения.",
-      "Вернитесь к [contact], чтобы доложить о поиске партнёра."
+      "Find [contact] who wants to talk about getting help with a romantic issue.",
+      "[contact] seeks help with finding a romantic partner.",
+      "Find someone to [contact]'s taste willing to try a romantic relationship.",
+      "Return [contact] to debrief about finding a romantic partner."
     ],
     "aPhases": [
       [
@@ -439,10 +439,10 @@
     "strCancelBeat": "MessengerTechnical_Cancel",
     "aPhaseTitles": [
       "STARTING",
-      "Найдите [contact], которому нужна помощь с технической проблемой.",
-      "[contact] ищет помощи через разговор с [target].",
-      "Найдите [target] и поговорите с ними о технической проблеме [contact].",
-      "Вернитесь к [contact], чтобы доложить о разговоре с [target]."
+      "Find [contact] who could use a hand with a technical issue.",
+      "[contact] seeks help by talking with [target].",
+      "Find [target] and talk with them about [contact]'s technical issue.",
+      "Return [contact] to debrief about talking with [target]."
     ],
     "aPhases": [
       [
@@ -519,8 +519,8 @@
     "strCancelBeat": "AyoCorpSnitchCancel",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, чего хочет Портовая администрация.",
-      "Портовая администрация хочет, чтобы вы подбросили жучок [target]."
+      "Find out what the Port Authority wants.",
+      "The Port Authority wants you to plant a bug on [target]."
     ],
     "aPhases": [
       [
@@ -548,8 +548,8 @@
     "strNameFriendly": "Подставлен",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, что нужно [contact].",
-      "[contact] хочет, чтобы вы сняли с него ложное обвинение, поговорив с [target]."
+      "Find out what [contact] needs.",
+      "[contact] wants you to clear their false accusation by talking with [target]."
     ],
     "aPhases": [
       [
@@ -577,8 +577,8 @@
     "strNameFriendly": "Обвинение во враждебном поглощении",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, что нужно [contact].",
-      "[contact] хочет, чтобы вы сняли с него ложное обвинение, поговорив с [target]."
+      "Find out what [contact] needs.",
+      "[contact] wants you to clear their false accusation by talking with [target]."
     ],
     "aPhases": [
       [
@@ -606,8 +606,8 @@
     "strNameFriendly": "Проблемы со службой внутренней безопасности",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, что нужно [contact].",
-      "[contact] хочет, чтобы вы сняли с него ложное обвинение, поговорив с [target]."
+      "Find out what [contact] needs.",
+      "[contact] wants you to clear their false accusation by talking with [target]."
     ],
     "aPhases": [
       [
@@ -635,11 +635,11 @@
     "strNameFriendly": "Страховое мошенничество",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, что нужно [contact].",
-      "[contact] хочет, чтобы вы очистили его имя, навестив [target].",
-      "[target] хочет, чтобы вы подробнее изучили его обвинение против [contact].",
-      "[target] приглашает вас найти [deadbody] на его корабле.",
-      "Навестите [target], чтобы доложить о том, что вы узнали о [deadbody]."
+      "Find out what [contact] needs.",
+      "[contact] wants you to clear their name by visiting [target].",
+      "[target] wants you to look further into their accusation of [contact].",
+      "[target] invites you to find [deadbody] on their ship.",
+      "Visit [target] to debrief about what you found out about [deadbody]."
     ],
     "aPhases": [
       [
@@ -683,8 +683,8 @@
     "strNameFriendly": "Замешан в рэкете",
     "aPhaseTitles": [
       "STARTING",
-      "Узнайте, что нужно [contact].",
-      "[contact] хочет, чтобы вы сняли с него ложное обвинение, поговорив с [target]."
+      "Find out what [contact] needs.",
+      "[contact] wants you to clear their false accusation by talking with [target]."
     ],
     "aPhases": [
       [
@@ -812,9 +812,9 @@
     "strNameFriendly": "Побочная беседа при побеге",
     "strCancelBeat": "ChoiceFanBreakoutTeamCleanup",
     "aPhaseTitles": [
-      "Посмотрите, чего хочет [target].",
-      "[target] хочет поболтать о Breakout.",
-      "Поболтайте с [target] о вашей любимой команде по Breakout."
+      "See what [target] wants.",
+      "[target] wants to banter about Breakout.",
+      "Banter with [target] about your favorite Breakout team."
     ],
     "aPhases": [
       [
@@ -852,9 +852,9 @@
     "strNameFriendly": "Побочная беседа за курением",
     "strCancelBeat": "ChoiceFanSmokesCleanup",
     "aPhaseTitles": [
-      "Посмотрите, чего хочет [target].",
-      "[target] хочет поболтать о сигаретах.",
-      "Поболтайте с [target] о вашем любимом бренде сигарет."
+      "See what [target] wants.",
+      "[target] wants to banter about smokes.",
+      "Banter with [target] about your favorite brand of smokes."
     ],
     "aPhases": [
       [
@@ -891,7 +891,7 @@
     "strCancelBeat": "ChoicePanhandlingEnd",
     "aPhaseTitles": [
       "STARTING",
-      "[target] нужны деньги."
+      "[target] wants some spare cash."
     ],
     "aPhases": [
       [
@@ -942,11 +942,11 @@
     "strCancelBeat": "OKLGCritterEnd",
     "aPhaseTitles": [
       "STARTING",
-      "Что заставляет эту вентиляцию греметь?",
-      "Неужели в этой грязной вентиляции кто-то живёт?",
-      "Как успокоить или заслужить доверие того, кто живёт в вентиляции?",
-      "Кажется, оно начало вам доверять. Что это?",
-      "Создание, живущее в вентиляции, теперь, похоже, иногда не против компании."
+      "What is making that vent rattle?",
+      "Has something been living in that dirty vent?",
+      "How can you calm or earn the trust of whatever is living in the vent?",
+      "It seems like it trusts you. What is it?",
+      "The critter living in the vent seems to enjoy company now and then."
     ],
     "aPhases": [
       [
@@ -1010,10 +1010,10 @@
     "strCancelBeat": "OKLGEmbassy_End",
     "aPhaseTitles": [
       "STARTING",
-      "Дождаться рассказа о посольствах",
-      "Посетить посольство (попробуйте OKLG Commercial)",
-      "Получить визу постоянного резидента",
-      "Убраться с этой скалы, увидеть миры, получить свой собственный кусок собственности."
+      "Wait to be told about embassies",
+      "Visit an Embassy (Try OKLG Commercial)",
+      "Obtain Permanent Resident Visa",
+      "Get off this rock, see the worlds, own your own piece of property."
     ],
     "aPhases": [
       [
@@ -1323,11 +1323,11 @@
       "STARTING",
       "STARTING",
       "STARTING",
-      "Что за чертовщина с этими загадочными смертями?",
-      "Встретьтесь с детективом Миддлмист в венерианском лаунже.",
-      "Навестите подозреваемых. Проверьте алиби. Кто виноват в деле Миддлмист?",
-      "Что теперь? Доставьте свои находки детективу.",
-      "Что вообще происходит на самом деле?"
+      "Why is everyone so suddenly fixated on TV news about a missing person?",
+      "Meet [lead_detective] investigating Middlemist at Sol Vermhelo Lounge on VENC",
+      "Interrogate suspects, test alibis, and find hard evidence. Collaborate with [lead_detective] as you go",
+      "Confront your prime suspect in the Middlemist murder",
+      "What happened to Josephus Tanner?"
     ],
     "aIADos": [
       [],
@@ -1473,9 +1473,9 @@
     "strNameFriendly": "Золотая лихорадка",
     "strCancelBeat": "ProspectorFetchGold_End",
     "aPhaseTitles": [
-      "Узнайте, чего хочет [contact].",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет золотую руду, шахтный лазер, PDC и радар."
+      "Find out what [contact] wants.",
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks gold ore, a mining laser, a PDC, and a radar."
     ],
     "aPhases": [
       [
@@ -1508,9 +1508,9 @@
     "strNameFriendly": "Золотая лихорадка",
     "strCancelBeat": "ProspectorBCRSFetchGold_End",
     "aPhaseTitles": [
-      "Узнайте, чего хочет [contact].",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет золотую руду."
+      "Find out what [contact] wants.",
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks gold ore."
     ],
     "aPhases": [
       [
@@ -1538,9 +1538,9 @@
     "strNameFriendly": "Золотая лихорадка",
     "strCancelBeat": "ProspectorBCERFetchGold_End",
     "aPhaseTitles": [
-      "Узнайте, чего хочет [contact].",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет золотую руду."
+      "Find out what [contact] wants.",
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks gold ore."
     ],
     "aPhases": [
       [
@@ -1568,9 +1568,9 @@
     "strNameFriendly": "Сбор утиля",
     "strCancelBeat": "ScavFetch_End",
     "aPhaseTitles": [
-      "Узнайте, чего хочет [contact].",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет 20 единиц углеродного лома."
+      "Find out what [contact] wants.",
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks 20 scrap carbon."
     ],
     "aPhases": [
       [
@@ -1599,8 +1599,8 @@
     "strCancelBeat": "ScavFetch02_End",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет 4 исправных регулятора воздухозаборника Kang RCS."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks 4 undamaged Kang RCS Intake Regulator."
     ],
     "aPhases": [
       [
@@ -1629,8 +1629,8 @@
     "strCancelBeat": "ScavFetch_End03",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] ищет 1 исправный регулятор воздухозаборника Miura «Hydra» RCS."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] seeks 1 undamaged Miura 'Hydra' RCS Intake Regulator."
     ],
     "aPhases": [
       [
@@ -1658,9 +1658,9 @@
     "strNameFriendly": "Восстановление запчастей аэростата",
     "strCancelBeat": "VLAFetch_End",
     "aPhaseTitles": [
-      "Узнайте, чего хочет [contact].",
-      "Навестите [contact], чтобы узнать о выгодной работе.",
-      "[contact] предлагает 20 000$ за 20 единиц пластика Caylon из VLA."
+      "Find out what [contact] wants.",
+      "Visit [contact] to see what lucrative work they are offering.",
+      "[contact] offers $20,000 for 20 scrap plastic Caylon from VLA."
     ],
     "aPhases": [
       [
@@ -1689,8 +1689,8 @@
     "strCancelBeat": "VLAFetch02_End",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] предлагает 10 000$ за 1 исправную наклонную аэродинамическую стену."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] offers $10,000 for 1 undamaged Aerodynamic Slant Wall."
     ],
     "aPhases": [
       [
@@ -1719,8 +1719,8 @@
     "strCancelBeat": "VLAFetch03_End",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] предлагает 100 000$ за 1 исправный активный стабилизатор."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] offers $100,000 for 1 undamaged Active Stabilizer."
     ],
     "aPhases": [
       [
@@ -1749,8 +1749,8 @@
     "strCancelBeat": "VLAFetch04_End",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] предлагает 75 000$ за 1 исправный ротор тяжёлого подъёмника."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] offers $75,000 for 1 undamaged Heavy Lift Rotor."
     ],
     "aPhases": [
       [
@@ -1779,8 +1779,8 @@
     "strCancelBeat": "VLAFetch05_End",
     "aPhaseTitles": [
       "STARTING",
-      "Навестите [contact], чтобы узнать, что им нужно.",
-      "[contact] предлагает 15 000$ за файл данных ОС дрона."
+      "Visit [contact] to see what they are seeking.",
+      "[contact] offers $15,000 for a Drone OS datafile."
     ],
     "aPhases": [
       [
@@ -1809,8 +1809,8 @@
     "strCancelBeat": "Beat_Whodunnit_EndCase_End",
     "aPhaseTitles": [
       "STARTING",
-      "Взять на себя расследование или сообщить о смерти.",
-      "Переносите материалы дела для поиска улик, сообщайте о смерти заинтересованным лицам. Закройте дело, чтобы начать новое расследование."
+      "Committed to investigate or report a death.",
+      "Carry casefile to seek clues, report death to interested parties. Close casefile to start another investigation."
     ],
     "aPhases": [
       [
@@ -1929,31 +1929,27 @@
     "strNameFriendly": "Инцидент на Церере",
     "aPhases": [
       [
-        "Beat_Ceres_Start_Character_Add_Isambard"
+        "CeresStartPhaseAVClub"
       ],
       [
-        "Beat_Ceres_The_AV_Club"
+        "CeresEnterPhaseScholar"
       ],
       [
-        "Beat_Ceres_The_Scholar"
+        "CeresEnterPhaseClandestine"
       ],
       [
-        "Beat_Ceres_Clandestine_Interventions"
+        "CeresEnterPhaseValkyrie"
       ],
       [
-        "Beat_Ceres_Valkyrie"
-      ],
-      [
-        "Beat_Ceres_Our_Strange_Denouement"
+        "CeresEnterDenouement"
       ]
     ],
     "aPhaseTitles": [
       "STARTING",
-      "Вы видели плёнку?",
-      "Наладить связи в конфликте на Ceres",
-      "Докажите свою преданность и ценность",
-      "Совершите странное пересечение границы",
-      "Час настал. Сделайте свой выбор."
+      "Take Me Home Tonight! Cult Classic!",
+      "Entering the wilderness of mirrors",
+      "Prove your loyalty and worth",
+      "Make a strange border crossing at 'The Mouth'"
     ],
     "aIADos": [
       [],
@@ -1966,20 +1962,27 @@
         "AVClub_The_Return,[protag]"
       ],
       [
-        "Scholar_Isambard_Contact,[protag]",
         "Plot_Scholar_Flat_Enter,[protag]",
         "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE,[protag]",
-        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS,[protag]"
+        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS,[protag]",
+        "Plot_Scholar_Flat_Enter1,[protag]",
+        "PLOT_Ceres_The_Scholar_Discuss_Tradecraft,[protag]"
       ],
       [
         "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave,[protag]",
+        "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Titan_Codeword,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Xinhua,[protag]",
-        "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan,[protag]"
-      ]
+        "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan,[protag]",
+        "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+        "PLOT_Ceres_Ask_Prove_BCER",
+        "PLOT_Ceres_Ask_Prove_BCRS"
+      ],
+      []
     ]
   },
   {

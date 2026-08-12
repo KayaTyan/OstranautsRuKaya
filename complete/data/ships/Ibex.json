@@ -1,13 +1,13 @@
 [
   {
     "strName": "Ibex",
-    "strRegID": "O-XDFC",
+    "strRegID": "H-C6J",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 40.96211,
+    "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-O-XDFC",
+      "strID": "CO-H-C6J",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "O-XDFC",
+      "strCondID": "H-C6J",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -27,10 +27,11 @@
         "B-RF8",
         "V-4GAM",
         "E-B24C",
-        "O-XDFC"
+        "O-XDFC",
+        "H-C6J"
       ],
-      "strFriendlyName": "CO-O-XDFC",
-      "strRegIDLast": "O-XDFC",
+      "strFriendlyName": "CO-H-C6J",
+      "strRegIDLast": "H-C6J",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -6068,124 +6069,83 @@
         "strID": "b8c88750-bc44-4789-b998-0b836955b15f"
       },
       {
-        "strName": "ItmBackpack02",
+        "strName": "ItmCigViceroyBox02",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "0c4c8db2-a14f-4a09-a5c2-75442de1f001",
+        "strID": "009c3db2-7c91-4a82-9bf3-c4affe73b4a7",
         "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
       },
       {
-        "strName": "PocketPouchSmall01",
+        "strName": "OutfitPS01Dmg",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "286a024d-0211-4824-8d24-1bb99605c928",
-        "strSlotParentID": "0c4c8db2-a14f-4a09-a5c2-75442de1f001"
-      },
-      {
-        "strName": "PocketPouchSmall01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "cdbc67fa-205a-4d82-a003-0952244958c9",
-        "strSlotParentID": "0c4c8db2-a14f-4a09-a5c2-75442de1f001"
-      },
-      {
-        "strName": "PocketPouchSmall01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "7f2c6176-ff45-4acf-8689-5c317be73bd2",
-        "strSlotParentID": "0c4c8db2-a14f-4a09-a5c2-75442de1f001"
-      },
-      {
-        "strName": "PocketPouchSmall01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "f86af730-92e9-44d4-9442-2ac738f062af",
-        "strSlotParentID": "0c4c8db2-a14f-4a09-a5c2-75442de1f001"
-      },
-      {
-        "strName": "ItmSplint01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "b6b757c5-7666-44b3-bb5a-51c9200110e4",
+        "strID": "46bbbb53-f7f4-4c47-9a27-622be6b1e520",
         "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
       },
       {
-        "strName": "OutfitCargoPants03",
+        "strName": "PocketClipPoint01",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "ec1bdbed-a39f-4a18-a157-ca69970107da",
+        "strID": "704281b9-3106-4f38-8226-73a22be0c50d",
+        "strSlotParentID": "46bbbb53-f7f4-4c47-9a27-622be6b1e520"
+      },
+      {
+        "strName": "ItmWeaponPistolEnergy01",
+        "fX": -4.5,
+        "fY": -18.5,
+        "fRotation": 0.0,
+        "strID": "cc4a96ca-88d0-4dbb-bed0-017b8fc6e1c5",
         "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
       },
       {
-        "strName": "PocketHip01",
+        "strName": "OutfitTShirtBrand18b",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "c41f56e1-437d-4a74-8267-42477e01e208",
-        "strSlotParentID": "ec1bdbed-a39f-4a18-a157-ca69970107da"
-      },
-      {
-        "strName": "PocketHip01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "42a27869-5e1f-49e9-aa35-545d383b7e4f",
-        "strSlotParentID": "ec1bdbed-a39f-4a18-a157-ca69970107da"
-      },
-      {
-        "strName": "PocketCargo01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "cbcb310d-6539-48db-97e0-6bb9f615a515",
-        "strSlotParentID": "ec1bdbed-a39f-4a18-a157-ca69970107da"
-      },
-      {
-        "strName": "PocketCargo01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "1f2d3965-3f2f-4cf2-895f-4be76d6eb903",
-        "strSlotParentID": "ec1bdbed-a39f-4a18-a157-ca69970107da"
-      },
-      {
-        "strName": "ItmPartsScreen01",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "ca65253f-b000-49df-a087-b8f3a7f22415",
+        "strID": "8ffc4943-351d-4395-8174-5df0a4f3c904",
         "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
       },
       {
-        "strName": "ItmComponentMotor01",
+        "strName": "ItmToolSolderingIron01",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "cc7c8cd1-fa0c-4461-b1a3-f65c21060222",
+        "strID": "baf7ffb8-9595-4cba-9ad5-c2fcb3cf3855",
         "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
       },
       {
-        "strName": "ItmComponentMotor01",
+        "strName": "ItmBatteryDrill01",
         "fX": -4.5,
         "fY": -18.5,
         "fRotation": 0.0,
-        "strID": "721b0997-96ab-4249-9308-96e03ad724d5",
-        "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
-      },
-      {
-        "strName": "ItmConduit04Loose",
-        "fX": -4.5,
-        "fY": -18.5,
-        "fRotation": 0.0,
-        "strID": "d4b62da7-db3e-41e0-a198-5f8b887bc36c",
-        "strParentID": "606e3825-7299-4796-8bb6-dfa843bf4e50"
+        "strID": "c04560c5-c8db-49e6-8e11-69e115115679",
+        "strParentID": "baf7ffb8-9595-4cba-9ad5-c2fcb3cf3855",
+        "aGPMSettings": [
+          {
+            "strName": "Panel A",
+            "dictGUIPropMap": [
+              "strGUIPrefab",
+              "GUIBattery",
+              "strFriendlyName",
+              "Battery",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strSubPoint",
+              "ignore",
+              "strCondMonitor01",
+              "IsReadyHeat"
+            ]
+          }
+        ]
       },
       {
         "strName": "ItmCrate01Lock",
@@ -9440,24 +9400,24 @@
         "fX": -3.0,
         "fY": -8.0,
         "fRotation": 0.0,
-        "strID": "72fa9b7b-055c-458c-a6af-565643f45cab",
+        "strID": "9d6d9183-170b-4350-826f-628c5fa70f00",
         "strSlotParentID": "38a13d20-5846-4ea5-8581-1b4373a94286"
       },
       {
-        "strName": "DataSNDAttack02",
+        "strName": "DataBINPersonalAddressesJadeRabbit",
         "fX": -3.0,
         "fY": -8.0,
         "fRotation": 0.0,
-        "strID": "f66efee7-d3ef-4834-98bf-ae4f9684f8d5",
-        "strParentID": "72fa9b7b-055c-458c-a6af-565643f45cab"
+        "strID": "1a54a3e8-dacc-45ba-82cc-ef9e418e9c30",
+        "strParentID": "9d6d9183-170b-4350-826f-628c5fa70f00"
       },
       {
-        "strName": "DataVIDRoboKetchup",
+        "strName": "DataVIDVlog10",
         "fX": -3.0,
         "fY": -8.0,
         "fRotation": 0.0,
-        "strID": "bf085255-50ae-407b-a43e-58c7e21fa77b",
-        "strParentID": "72fa9b7b-055c-458c-a6af-565643f45cab"
+        "strID": "851a3ec0-f7a4-45c2-a26e-ee0663e4afef",
+        "strParentID": "9d6d9183-170b-4350-826f-628c5fa70f00"
       },
       {
         "strName": "ItmStationNav",
@@ -9628,32 +9588,24 @@
         "fX": -5.0,
         "fY": -3.0,
         "fRotation": 0.0,
-        "strID": "27944243-a47d-4af6-80c8-de4b49363107",
+        "strID": "f24c3782-927d-4137-b7fa-3900e2ff8d8c",
         "strSlotParentID": "aad37c1f-324d-4dfb-a9ac-d097185d3f2d"
       },
       {
-        "strName": "DataTXTFusionManual02",
+        "strName": "DataSNDAttack02",
         "fX": -5.0,
         "fY": -3.0,
         "fRotation": 0.0,
-        "strID": "43be9560-0a4f-4a3e-9eaf-c0d3d403d2b6",
-        "strParentID": "27944243-a47d-4af6-80c8-de4b49363107"
+        "strID": "34a59e08-db9f-4b39-b364-c5d3c1ff8cff",
+        "strParentID": "f24c3782-927d-4137-b7fa-3900e2ff8d8c"
       },
       {
-        "strName": "DataVIDFilm05",
+        "strName": "DataBINPersonalAddressesJadeRabbit",
         "fX": -5.0,
         "fY": -3.0,
         "fRotation": 0.0,
-        "strID": "c519f284-1e26-4a2e-ab99-ae245c599f46",
-        "strParentID": "27944243-a47d-4af6-80c8-de4b49363107"
-      },
-      {
-        "strName": "DataBINPersonalAddressesNewcal",
-        "fX": -5.0,
-        "fY": -3.0,
-        "fRotation": 0.0,
-        "strID": "bc29a0ef-5dd6-4d06-96e2-41581097e6d1",
-        "strParentID": "27944243-a47d-4af6-80c8-de4b49363107"
+        "strID": "7a049765-27eb-46bc-bc49-08cc9eac523d",
+        "strParentID": "f24c3782-927d-4137-b7fa-3900e2ff8d8c"
       },
       {
         "strName": "ItmStationNav",
@@ -16364,7 +16316,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "O-XDFC"
+              "H-C6J"
             ]
           },
           {
@@ -20959,6 +20911,69 @@
         "strID": "b5eca01f-5716-4073-bf57-702b58fe904c"
       },
       {
+        "strName": "ItmToolGrinder02",
+        "fX": -6.5,
+        "fY": -15.5,
+        "fRotation": 0.0,
+        "strID": "19a11554-f1e8-4c2c-a295-037934dcaf05",
+        "strParentID": "6f54d184-c10a-498c-ab98-ab4d8689cdbd"
+      },
+      {
+        "strName": "ItmBatteryDrill01",
+        "fX": -6.5,
+        "fY": -15.5,
+        "fRotation": 0.0,
+        "strID": "c40caff4-e6d1-4e48-9bfb-53ccb857f350",
+        "strParentID": "19a11554-f1e8-4c2c-a295-037934dcaf05",
+        "aGPMSettings": [
+          {
+            "strName": "Panel A",
+            "dictGUIPropMap": [
+              "strGUIPrefab",
+              "GUIBattery",
+              "strFriendlyName",
+              "Battery",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strSubPoint",
+              "ignore",
+              "strCondMonitor01",
+              "IsReadyHeat"
+            ]
+          }
+        ]
+      },
+      {
+        "strName": "ItmComponentMotor01",
+        "fX": -6.5,
+        "fY": -15.5,
+        "fRotation": 0.0,
+        "strID": "51fd4b0a-0d65-47be-878d-f6fae841124c",
+        "strParentID": "6f54d184-c10a-498c-ab98-ab4d8689cdbd"
+      },
+      {
+        "strName": "ItmHeatSink01",
+        "fX": -6.5,
+        "fY": -15.5,
+        "fRotation": 0.0,
+        "strID": "2dc47443-d408-464a-822a-525fd5db4375",
+        "strParentID": "6f54d184-c10a-498c-ab98-ab4d8689cdbd"
+      },
+      {
+        "strName": "ItmComponentMobo01",
+        "fX": -6.5,
+        "fY": -15.5,
+        "fRotation": 0.0,
+        "strID": "0b1e5eee-c524-49a1-beca-a8636869e599",
+        "strParentID": "6f54d184-c10a-498c-ab98-ab4d8689cdbd"
+      },
+      {
         "strName": "ItmCrate01Lock",
         "fX": -6.5,
         "fY": -15.5,
@@ -22697,112 +22712,112 @@
         "fX": -21.0,
         "fY": 21.0,
         "fRotation": 0.0,
-        "strID": "c7987f26-3deb-47ae-b212-356a7306cbef"
+        "strID": "8cc8242d-64cb-4abe-8e09-4eb42a10d91a"
       },
       {
         "strName": "Compartment",
         "fX": -10.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "f8a24aa0-5543-4f61-a4b8-8d809cf18132"
+        "strID": "1dd53abd-12fd-4326-80ab-f9e1a8ce4042"
       },
       {
         "strName": "Compartment",
         "fX": 17.0,
         "fY": 16.0,
         "fRotation": 0.0,
-        "strID": "eb9cdbb7-341a-4752-996e-0282a1750d7b"
+        "strID": "4d5d34c1-1a84-4686-a3a8-420dc53f59b4"
       },
       {
         "strName": "Compartment",
         "fX": -12.0,
         "fY": 14.0,
         "fRotation": 0.0,
-        "strID": "058cf645-1dc6-46ba-b2fc-e96d1b9f7301"
+        "strID": "c0ab92ee-df18-42e0-af22-a00e1283a3dd"
       },
       {
         "strName": "Compartment",
         "fX": 1.0,
         "fY": 5.0,
         "fRotation": 0.0,
-        "strID": "b50c1fe4-198f-4df1-9bcb-9429ee8e20dc"
+        "strID": "438234a8-20ab-4e14-b064-0af1761e029f"
       },
       {
         "strName": "Compartment",
         "fX": 7.0,
         "fY": 5.0,
         "fRotation": 0.0,
-        "strID": "25529a6e-193d-4615-bb39-3f26c52a4ed4"
+        "strID": "17534e54-344e-41e0-bd46-e68a1da2ebab"
       },
       {
         "strName": "Compartment",
         "fX": -14.0,
         "fY": 4.0,
         "fRotation": 0.0,
-        "strID": "cfbc9dac-4518-4640-98e6-fcab60282576"
+        "strID": "9e03e1e1-5965-46f7-8f7b-8dcf2a8d36a0"
       },
       {
         "strName": "Compartment",
         "fX": -2.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "101246d5-1fb4-4002-83f7-0d6dd5c8b2b5"
+        "strID": "63d9f2c7-1e6c-4e28-aa55-8afc1704b7db"
       },
       {
         "strName": "Compartment",
         "fX": 12.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "d81c5077-591b-4b73-9595-3d6b9f93b739"
+        "strID": "fafaffd8-e4be-4b8e-b95b-940f34f7743e"
       },
       {
         "strName": "Compartment",
         "fX": -2.0,
         "fY": -1.0,
         "fRotation": 0.0,
-        "strID": "7e3ef607-83f6-4b2f-9861-433e8f1f83ae"
+        "strID": "8a4c7ada-1352-4652-bf82-1049ab083518"
       },
       {
         "strName": "Compartment",
         "fX": 12.0,
         "fY": -1.0,
         "fRotation": 0.0,
-        "strID": "f6b1e62d-6baf-4dba-bec4-15722a63b67d"
+        "strID": "9ae214dc-d862-488a-b60b-c0185b27da89"
       },
       {
         "strName": "Compartment",
         "fX": -8.0,
         "fY": -2.0,
         "fRotation": 0.0,
-        "strID": "7aee1b26-f265-47b1-9215-7800071fe6fb"
+        "strID": "c08ea0b5-16f7-4e6c-8c74-a68f96312789"
       },
       {
         "strName": "Compartment",
         "fX": -2.0,
         "fY": -4.0,
         "fRotation": 0.0,
-        "strID": "ff2406c0-8dba-40a2-a1cc-a09e12e93c39"
+        "strID": "72ffb6f8-9ba0-4958-a462-d71521746d83"
       },
       {
         "strName": "Compartment",
         "fX": 12.0,
         "fY": -4.0,
         "fRotation": 0.0,
-        "strID": "8c2905e1-17d8-4114-8868-dc779269c1e3"
+        "strID": "6ce5bdf8-5d85-4b8e-b92c-962051b3b2bc"
       },
       {
         "strName": "Compartment",
         "fX": -2.0,
         "fY": -15.0,
         "fRotation": 0.0,
-        "strID": "6a1f3b08-c225-4ef6-b124-539688e8a340"
+        "strID": "38f94428-d5a6-4997-83ac-ea735d8137ce"
       },
       {
         "strName": "Compartment",
         "fX": 12.0,
         "fY": -15.0,
         "fRotation": 0.0,
-        "strID": "5aa57b1a-4737-4e6d-b1ee-f98b688673cf"
+        "strID": "c19873f0-d4e2-4600-b681-90fe0128708f"
       }
     ],
     "aShallowPSpecs": [
@@ -22887,12 +22902,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -0.0064069925986068,
-      "vPosy": -0.00934714258083861,
+      "vPosx": -1.22571180862342e-07,
+      "vPosy": -1.78815523968264e-07,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -0.000179797995571279,
-      "vVelY": -0.000262306802317589,
+      "vVelX": -7.35427063256617e-07,
+      "vVelY": -1.07289311183488e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -22907,70 +22922,13 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498894.766,
-        65627498892.749,
-        65627498890.747,
-        65627498888.732,
-        65627498886.7249,
-        65627498884.7242,
-        65627498882.7136,
-        65627498880.6706,
-        65627498878.65,
-        65627498876.6243,
-        65627498874.6044,
-        65627498872.5895,
-        65627498870.5858,
-        65627498868.576,
-        65627498866.5586,
-        65627498864.5394,
-        65627498862.5288,
-        65627498860.5227,
-        65627498858.5057,
-        65627498856.4909
+        65627498854.407
       ],
       "aPathRecentX": [
-        -0.00634521926536192,
-        -0.00598257203594459,
-        -0.00562262668536517,
-        -0.00526032605390318,
-        -0.00489944478157477,
-        -0.0045397317721933,
-        -0.00417822183687772,
-        -0.00381087466143604,
-        -0.0034475686754601,
-        -0.00308333090827618,
-        -0.00272013232664852,
-        -0.00235784168885733,
-        -0.00199754657030326,
-        -0.00163614969079916,
-        -0.00127338420770651,
-        -0.000910271516127912,
-        -0.000548665805365688,
-        -0.000187688001821203,
-        -2.4588567871976e-05,
-        -6.27566692319249e-06
+        -1.22571180862342e-07
       ],
       "aPathRecentY": [
-        -0.00925702163449281,
-        -0.00872795658671221,
-        -0.00820283330255364,
-        -0.00767427390557928,
-        -0.00714778520774994,
-        -0.00662300088552809,
-        -0.00609559503299256,
-        -0.00555967324685662,
-        -0.00502964714094237,
-        -0.00449826166198143,
-        -0.00396839224797736,
-        -0.00343984743074551,
-        -0.00291421387105348,
-        -0.00238697295533661,
-        -0.00185773538760292,
-        -0.00132799127836648,
-        -0.000800445699317972,
-        -0.000273816172438605,
-        -3.58715709208854e-05,
-        -9.1553905253899e-06
+        -1.78815523968264e-07
       ],
       "vAccLift": {
         "x": 0.0,
@@ -22988,12 +22946,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 960,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "c7987f26-3deb-47ae-b212-356a7306cbef",
+        "strID": "8cc8242d-64cb-4abe-8e09-4eb42a10d91a",
         "bVoid": true,
         "aTiles": [
           0,
@@ -24005,7 +23967,7 @@
         "roomValue": 10562.0
       },
       {
-        "strID": "f8a24aa0-5543-4f61-a4b8-8d809cf18132",
+        "strID": "1dd53abd-12fd-4326-80ab-f9e1a8ce4042",
         "bVoid": false,
         "aTiles": [
           117,
@@ -24033,7 +23995,7 @@
         "roomValue": 126094.5
       },
       {
-        "strID": "eb9cdbb7-341a-4752-996e-0282a1750d7b",
+        "strID": "4d5d34c1-1a84-4686-a3a8-420dc53f59b4",
         "bVoid": false,
         "aTiles": [
           303,
@@ -24422,10 +24384,10 @@
           1730
         ],
         "roomSpec": "Reactor",
-        "roomValue": 741923.995136368
+        "roomValue": 727178.838331079
       },
       {
-        "strID": "058cf645-1dc6-46ba-b2fc-e96d1b9f7301",
+        "strID": "c0ab92ee-df18-42e0-af22-a00e1283a3dd",
         "bVoid": false,
         "aTiles": [
           380,
@@ -24538,10 +24500,10 @@
           1019
         ],
         "roomSpec": "Engineering",
-        "roomValue": 37905.6973628223
+        "roomValue": 27847.3995257616
       },
       {
-        "strID": "b50c1fe4-198f-4df1-9bcb-9429ee8e20dc",
+        "strID": "438234a8-20ab-4e14-b064-0af1761e029f",
         "bVoid": false,
         "aTiles": [
           870,
@@ -24600,7 +24562,7 @@
         "roomValue": 25723.799318552
       },
       {
-        "strID": "25529a6e-193d-4615-bb39-3f26c52a4ed4",
+        "strID": "17534e54-344e-41e0-bd46-e68a1da2ebab",
         "bVoid": false,
         "aTiles": [
           876,
@@ -24659,7 +24621,7 @@
         "roomValue": 25723.799318552
       },
       {
-        "strID": "cfbc9dac-4518-4640-98e6-fcab60282576",
+        "strID": "9e03e1e1-5965-46f7-8f7b-8dcf2a8d36a0",
         "bVoid": false,
         "aTiles": [
           908,
@@ -24955,10 +24917,10 @@
           1517
         ],
         "roomSpec": "WellnessRoom",
-        "roomValue": 160489.198007948
+        "roomValue": 160489.197986126
       },
       {
-        "strID": "101246d5-1fb4-4002-83f7-0d6dd5c8b2b5",
+        "strID": "63d9f2c7-1e6c-4e28-aa55-8afc1704b7db",
         "bVoid": true,
         "aTiles": [
           1026,
@@ -24968,7 +24930,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "d81c5077-591b-4b73-9595-3d6b9f93b739",
+        "strID": "fafaffd8-e4be-4b8e-b95b-940f34f7743e",
         "bVoid": true,
         "aTiles": [
           1040,
@@ -24978,7 +24940,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "7e3ef607-83f6-4b2f-9861-433e8f1f83ae",
+        "strID": "8a4c7ada-1352-4652-bf82-1049ab083518",
         "bVoid": true,
         "aTiles": [
           1185,
@@ -24988,7 +24950,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "f6b1e62d-6baf-4dba-bec4-15722a63b67d",
+        "strID": "9ae214dc-d862-488a-b60b-c0185b27da89",
         "bVoid": true,
         "aTiles": [
           1199,
@@ -24998,7 +24960,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "7aee1b26-f265-47b1-9215-7800071fe6fb",
+        "strID": "c08ea0b5-16f7-4e6c-8c74-a68f96312789",
         "bVoid": false,
         "aTiles": [
           1232,
@@ -25053,7 +25015,7 @@
         "roomValue": 103632.0
       },
       {
-        "strID": "ff2406c0-8dba-40a2-a1cc-a09e12e93c39",
+        "strID": "72ffb6f8-9ba0-4958-a462-d71521746d83",
         "bVoid": true,
         "aTiles": [
           1344,
@@ -25063,7 +25025,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "8c2905e1-17d8-4114-8868-dc779269c1e3",
+        "strID": "6ce5bdf8-5d85-4b8e-b92c-962051b3b2bc",
         "bVoid": true,
         "aTiles": [
           1358,
@@ -25073,7 +25035,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "6a1f3b08-c225-4ef6-b124-539688e8a340",
+        "strID": "38f94428-d5a6-4997-83ac-ea735d8137ce",
         "bVoid": true,
         "aTiles": [
           1927,
@@ -25083,7 +25045,7 @@
         "roomValue": 0.0
       },
       {
-        "strID": "5aa57b1a-4737-4e6d-b1ee-f98b688673cf",
+        "strID": "c19873f0-d4e2-4600-b681-90fe0128708f",
         "bVoid": true,
         "aTiles": [
           1941,
@@ -25112,7 +25074,7 @@
     "designation": "Survey",
     "publicName": "$TEMPLATE",
     "dimensions": "16.96m x 14.08m",
-    "fShallowMass": 29629.56,
+    "fShallowMass": 29630.905,
     "fShallowRCSRemass": 2247.7391892,
     "fShallowRCSRemassMax": 2248.09408414576,
     "fShallowFusionRemain": 47121.1446624814,
@@ -25129,7 +25091,7 @@
       "6c684fa1-ba69-4614-9ae4-0d31be3beed1"
     ],
     "bFusionTorch": true,
-    "strXPDR": "O-XDFC",
+    "strXPDR": "H-C6J",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

@@ -1,13 +1,13 @@
 [
   {
     "strName": "TankerPod Unmarked",
-    "strRegID": "E-U8L",
+    "strRegID": "B-ZAFF",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 0.3333333,
+    "fTimeEngaged": 2.491224,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-O-QE3C",
+      "strID": "CO-B-ZAFF",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "O-QE3C",
+      "strCondID": "B-ZAFF",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -27,10 +27,11 @@
         "O-QE3C",
         "E-AGM",
         "O-REK7",
-        "E-U8L"
+        "E-U8L",
+        "B-ZAFF"
       ],
-      "strFriendlyName": "CO-O-QE3C",
-      "strRegIDLast": "E-U8L",
+      "strFriendlyName": "CO-B-ZAFF",
+      "strRegIDLast": "B-ZAFF",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -1459,7 +1460,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "E-U8L"
+              "B-ZAFF"
             ]
           },
           {
@@ -1621,24 +1622,24 @@
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "fcec79c9-ec71-4596-8776-78402d40486c",
+        "strID": "26a6b36e-5e71-46c9-80fb-1fe4fddb49a7",
         "strSlotParentID": "0a532269-e24e-4e23-abf2-ebe1ad71e9c6"
       },
       {
-        "strName": "DataBINMundane01",
+        "strName": "DataBINCryptoLarge",
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "85320f0f-5873-462c-911e-c6d85deba1ea",
-        "strParentID": "fcec79c9-ec71-4596-8776-78402d40486c"
+        "strID": "b00e87a0-65c3-4083-8896-2a42dc422520",
+        "strParentID": "26a6b36e-5e71-46c9-80fb-1fe4fddb49a7"
       },
       {
-        "strName": "DataSNDNeverland",
+        "strName": "DataBINPersonalAddressesNewcal",
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "f982541f-a75e-435a-8345-7a7aaee49c74",
-        "strParentID": "fcec79c9-ec71-4596-8776-78402d40486c"
+        "strID": "064a8d8e-3767-4361-8488-77e695269c3e",
+        "strParentID": "26a6b36e-5e71-46c9-80fb-1fe4fddb49a7"
       },
       {
         "strName": "ItmStationNav",
@@ -1706,7 +1707,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -1948,7 +1953,7 @@
         "strID": "2a1b7803-7461-4242-8a1f-61644a0b9665"
       },
       {
-        "strName": "ItmAirPump01Off",
+        "strName": "ItmAirPump01OnG",
         "fX": -4.0,
         "fY": 9.0,
         "fRotation": 0.0,
@@ -2011,7 +2016,7 @@
           {
             "CondName": "StatDamage",
             "Chance": 1.0,
-            "Amount": 0.00200082167069614,
+            "Amount": 0.00250082167069614,
             "NegativeValue": false
           }
         ]
@@ -3531,21 +3536,21 @@
         "fX": -13.0,
         "fY": 25.0,
         "fRotation": 0.0,
-        "strID": "22f24916-89c0-404e-b257-c8356d2ae301"
+        "strID": "c229e715-3173-4dd0-976d-dbb35980541c"
       },
       {
         "strName": "Compartment",
         "fX": -5.0,
         "fY": 20.0,
         "fRotation": 0.0,
-        "strID": "76122a51-0a20-4c31-aae9-6555f6354274"
+        "strID": "3fdc10b6-ab14-4a66-b59b-76c5a44c8ffe"
       },
       {
         "strName": "Compartment",
         "fX": -8.0,
         "fY": 8.0,
         "fRotation": 0.0,
-        "strID": "dee91fdb-faa9-4367-8dfc-2663557ed94f"
+        "strID": "9f8a9d94-740f-48a0-8015-2021ac70fdc8"
       }
     ],
     "aShallowPSpecs": [
@@ -3676,12 +3681,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -1.22571180862342e-07,
-      "vPosy": -1.78815523968264e-07,
+      "vPosx": -7.14390098289977e-06,
+      "vPosy": -1.04220316970513e-05,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -7.35427063256617e-07,
-      "vVelY": -1.07289311183488e-06,
+      "vVelX": -6.00289389949135e-06,
+      "vVelY": -8.75745098589723e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -3696,13 +3701,16 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498854.4115
+        65627498856.4021,
+        65627498854.3966
       ],
       "aPathRecentX": [
-        -1.22571180862342e-07
+        -6.18966326296001e-06,
+        -1.13169334951423e-07
       ],
       "aPathRecentY": [
-        -1.78815523968264e-07
+        -9.02992148732772e-06,
+        -1.650994449438e-07
       ],
       "vAccLift": {
         "x": 0.0,
@@ -3720,12 +3728,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 200,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "22f24916-89c0-404e-b257-c8356d2ae301",
+        "strID": "c229e715-3173-4dd0-976d-dbb35980541c",
         "bVoid": true,
         "aTiles": [
           0,
@@ -3906,7 +3918,7 @@
         "roomValue": 3249.0
       },
       {
-        "strID": "76122a51-0a20-4c31-aae9-6555f6354274",
+        "strID": "3fdc10b6-ab14-4a66-b59b-76c5a44c8ffe",
         "bVoid": false,
         "aTiles": [
           83,
@@ -3998,10 +4010,10 @@
           247
         ],
         "roomSpec": "BridgeArea",
-        "roomValue": 104262.141175687
+        "roomValue": 115598.731170958
       },
       {
-        "strID": "dee91fdb-faa9-4367-8dfc-2663557ed94f",
+        "strID": "9f8a9d94-740f-48a0-8015-2021ac70fdc8",
         "bVoid": false,
         "aTiles": [
           260,
@@ -4018,7 +4030,7 @@
           307
         ],
         "roomSpec": "Airlock",
-        "roomValue": 119419.5
+        "roomValue": 121723.432617188
       }
     ],
     "DMGStatus": 0,
@@ -4057,7 +4069,7 @@
       "9d82194e-1f17-4fbe-b862-3710fd6493e6"
     ],
     "bFusionTorch": false,
-    "strXPDR": "E-U8L",
+    "strXPDR": "B-ZAFF",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

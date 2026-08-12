@@ -8,7 +8,7 @@
       "strIATrigger|PLOTTEMP3ActMIDStartTrigger,[protag],[contact],[target]"
     ],
     "aOverrideTriggerIAValues": [
-      "strDesc|[them] сообщает [us], спрашивая for a TEMP3ActMID of [3rd]."
+      "strDesc|[them] messages [us], asking for a TEMP3ActMID of [3rd]."
     ]
   },
   {
@@ -40,7 +40,7 @@
       "strIATrigger|PLOTTEMP3ActENDStartTrigger,[protag],[contact],[target]"
     ],
     "aOverrideTriggerIAValues": [
-      "strDesc|[them] сообщает [us], спрашивая for a TEMP3ActEND of [3rd]."
+      "strDesc|[them] messages [us], asking for a TEMP3ActEND of [3rd]."
     ]
   },
   {

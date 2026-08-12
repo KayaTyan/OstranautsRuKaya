@@ -1,13 +1,13 @@
 [
   {
     "strName": "TankerPod O2",
-    "strRegID": "V-XR0",
+    "strRegID": "J-D60E",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 0.3333333,
+    "fTimeEngaged": 2.191642,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-M-TXJJ",
+      "strID": "CO-J-D60E",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "M-TXJJ",
+      "strCondID": "J-D60E",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -26,10 +26,11 @@
       "aMyShips": [
         "M-TXJJ",
         "V-PRYQ",
-        "V-XR0"
+        "V-XR0",
+        "J-D60E"
       ],
-      "strFriendlyName": "CO-M-TXJJ",
-      "strRegIDLast": "V-XR0",
+      "strFriendlyName": "CO-J-D60E",
+      "strRegIDLast": "J-D60E",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -83,7 +84,7 @@
         "strID": "bf8dd78c-887a-4f51-9ca6-d6f161a05639"
       },
       {
-        "strName": "ItmAirPump01Off",
+        "strName": "ItmAirPump01OnG",
         "fX": -4.0,
         "fY": 7.0,
         "fRotation": 0.0,
@@ -146,7 +147,7 @@
           {
             "CondName": "StatDamage",
             "Chance": 1.0,
-            "Amount": 0.00200075239773542,
+            "Amount": 0.00250075239773542,
             "NegativeValue": false
           }
         ]
@@ -3532,32 +3533,24 @@
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "c604a5eb-c804-4fa7-bd57-1d3451b6706b",
+        "strID": "45aad862-2725-4ed4-abd3-d2d11fa483b6",
         "strSlotParentID": "b4cdae63-2a02-40c9-a062-9c7fff4c19a4"
       },
       {
-        "strName": "DataSNDAudioWill",
+        "strName": "DataBINPersonalAddressesJadeRabbit",
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "fcba2729-1d6d-4133-8eb6-2a961aed1574",
-        "strParentID": "c604a5eb-c804-4fa7-bd57-1d3451b6706b"
+        "strID": "611c92e0-6c39-4d58-9838-68714ccb053b",
+        "strParentID": "45aad862-2725-4ed4-abd3-d2d11fa483b6"
       },
       {
-        "strName": "DataIMGMergaSingerObituary",
+        "strName": "DataSNDLovedOneVoice",
         "fX": -4.0,
         "fY": 19.0,
         "fRotation": 0.0,
-        "strID": "da972aa2-32f4-4561-ac8d-a094832e0cb5",
-        "strParentID": "c604a5eb-c804-4fa7-bd57-1d3451b6706b"
-      },
-      {
-        "strName": "DataTXTFusionManual02",
-        "fX": -4.0,
-        "fY": 19.0,
-        "fRotation": 0.0,
-        "strID": "ff071e06-d72b-420a-a6d8-fdce8a00adcc",
-        "strParentID": "c604a5eb-c804-4fa7-bd57-1d3451b6706b"
+        "strID": "ddd9b33d-5a9d-476b-8f0f-63151083a99b",
+        "strParentID": "45aad862-2725-4ed4-abd3-d2d11fa483b6"
       },
       {
         "strName": "ItmStationNav",
@@ -3625,7 +3618,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -3777,7 +3774,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "V-XR0"
+              "J-D60E"
             ]
           },
           {
@@ -3888,21 +3885,21 @@
         "fX": -13.0,
         "fY": 25.0,
         "fRotation": 0.0,
-        "strID": "6a13c452-6f8f-48c2-b4f0-83ef9f0ff695"
+        "strID": "fa626e1e-fcce-4353-adab-3f8077b12a4e"
       },
       {
         "strName": "Compartment",
         "fX": -5.0,
         "fY": 20.0,
         "fRotation": 0.0,
-        "strID": "96b23845-06c0-43b0-8cd2-80e8e6470e35"
+        "strID": "4e219c1c-5963-4994-8e92-12569c588ef3"
       },
       {
         "strName": "Compartment",
         "fX": -8.0,
         "fY": 6.0,
         "fRotation": 0.0,
-        "strID": "5e321a39-ddc4-49f8-afe0-ca9312f34e1e"
+        "strID": "7388255f-f2cb-42d1-bcb8-27bc91179cd7"
       }
     ],
     "aShallowPSpecs": [
@@ -4033,12 +4030,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -1.2257116823047e-07,
-      "vPosy": -1.78815523968264e-07,
+      "vPosx": -5.47182429236338e-06,
+      "vPosy": -7.98268697611759e-06,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -7.3542698746539e-07,
-      "vVelY": -1.07289311183488e-06,
+      "vVelX": -5.16738082425313e-06,
+      "vVelY": -7.53854432828264e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -4053,7 +4050,7 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498854.7278
+        65627498854.4401
       ],
       "aPathRecentX": [
         -1.2257116823047e-07
@@ -4077,12 +4074,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 220,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "6a13c452-6f8f-48c2-b4f0-83ef9f0ff695",
+        "strID": "fa626e1e-fcce-4353-adab-3f8077b12a4e",
         "bVoid": true,
         "aTiles": [
           0,
@@ -4274,10 +4275,10 @@
           359
         ],
         "roomSpec": "Blank",
-        "roomValue": 3675.0
+        "roomValue": 3675.00057212997
       },
       {
-        "strID": "96b23845-06c0-43b0-8cd2-80e8e6470e35",
+        "strID": "4e219c1c-5963-4994-8e92-12569c588ef3",
         "bVoid": false,
         "aTiles": [
           83,
@@ -4383,10 +4384,10 @@
           277
         ],
         "roomSpec": "BridgeArea",
-        "roomValue": 106367.946098447
+        "roomValue": 216514.539525313
       },
       {
-        "strID": "5e321a39-ddc4-49f8-afe0-ca9312f34e1e",
+        "strID": "7388255f-f2cb-42d1-bcb8-27bc91179cd7",
         "bVoid": false,
         "aTiles": [
           290,
@@ -4403,7 +4404,7 @@
           337
         ],
         "roomSpec": "Airlock",
-        "roomValue": 119544.0
+        "roomValue": 121847.932617188
       }
     ],
     "DMGStatus": 0,
@@ -4442,7 +4443,7 @@
       "d8e5cb22-ce18-4c5f-b348-a278c858bda7"
     ],
     "bFusionTorch": false,
-    "strXPDR": "V-XR0",
+    "strXPDR": "J-D60E",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

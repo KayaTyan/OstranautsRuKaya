@@ -8842,7 +8842,7 @@
     "bRELOnly": false,
     "bCondRuleTrackAlways": false,
     "bCondRuleTrackInvert": false,
-    "fDuration": 1,
+    "fDuration": 0.0016,
     "fClampMax": 0,
     "strDesc": "[us] берет передышку между Фазой 1 и 2."
   },

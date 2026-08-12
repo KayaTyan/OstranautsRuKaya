@@ -706,7 +706,7 @@
       "strFriendlyName",
       "Gig Nexus",
       "strGUIPrefabRight",
-      null,
+      "Panel Right",
       "strGUIPrefabLeft",
       null,
       "strGUIPrefabUp",
@@ -1726,7 +1726,7 @@
       "strGUIPrefab",
       "GUIOneSheet",
       "strFriendlyName",
-      "Poster: Lucky говорит PANIC",
+      "Poster: Lucky says PANIC",
       "strGUIPrefabRight",
       null,
       "strGUIPrefabLeft",
@@ -1745,7 +1745,7 @@
       "strGUIPrefab",
       "GUIOneSheet",
       "strFriendlyName",
-      "Poster: Lucky говорит YIELD",
+      "Poster: Lucky says YIELD",
       "strGUIPrefabRight",
       null,
       "strGUIPrefabLeft",
@@ -2265,9 +2265,9 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyBCRS",
+      "CONDTraderDiscountBuyBCRSMed",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellBCRS",
+      "CONDTraderDiscountSellBCRSMed",
       "strLootCTsBuy",
       "TraderCTsBuyBCRSMed",
       "strLootCTsSell",
@@ -2337,7 +2337,7 @@
       "strLootSellDiscount",
       "CONDTraderDiscountSellKiosk",
       "strLootCTsBuy",
-      "TraderCTsBuyGovtKioskBCER",
+      "TraderCTsBuyBartender",
       "strLootCTsSell",
       "TraderCTsSellChargen"
     ]
@@ -2356,7 +2356,7 @@
       "strLootSellDiscount",
       "CONDTraderDiscountSellKiosk",
       "strLootCTsBuy",
-      "TraderCTsBuyGovtKioskBCRS",
+      "TraderCTsBuyBartender",
       "strLootCTsSell",
       "TraderCTsSellChargen"
     ]
@@ -2667,13 +2667,13 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyKioskOKLGFurnishings",
+      "CONDTraderDiscountBuyKioskBCERFurnishings",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellKioskOKLGFurnishings",
+      "CONDTraderDiscountSellKioskBCERFurnishings",
       "strLootCTsBuy",
-      "TraderCTsBuyOKLGFurnishingsKiosk",
+      "TraderCTsBuyFurnishingsKiosk",
       "strLootCTsSell",
-      "TraderCTsSellOKLGFurnishingsKiosk"
+      "TraderCTsSellFurnishingsKiosk"
     ]
   },
   {
@@ -2686,13 +2686,13 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyKioskOKLGFurnishings",
+      "CONDTraderDiscountBuyKioskBCRSFurnishings",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellKioskOKLGFurnishings",
+      "CONDTraderDiscountSellKioskBCRSFurnishings",
       "strLootCTsBuy",
-      "TraderCTsBuyOKLGFurnishingsKiosk",
+      "TraderCTsBuyFurnishingsKiosk",
       "strLootCTsSell",
-      "TraderCTsSellOKLGFurnishingsKiosk"
+      "TraderCTsSellFurnishingsKiosk"
     ]
   },
   {
@@ -2913,9 +2913,9 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyShipBrokerOKLG",
+      "CONDTraderDiscountBuyShipBrokerVENC",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellShipBrokerOKLG"
+      "CONDTraderDiscountSellShipBrokerVENC"
     ]
   },
   {
@@ -2928,9 +2928,9 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyShipBrokerOKLG",
+      "CONDTraderDiscountBuyShipBrokerVORB",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellShipBrokerOKLG"
+      "CONDTraderDiscountSellShipBrokerVORB"
     ]
   },
   {
@@ -2943,9 +2943,9 @@
       "strTicker",
       "RestockSupplyKiosk",
       "strLootBuyDiscount",
-      "CONDTraderDiscountBuyShipBrokerOKLG",
+      "CONDTraderDiscountBuyShipBrokerVNCA",
       "strLootSellDiscount",
-      "CONDTraderDiscountSellShipBrokerOKLG"
+      "CONDTraderDiscountSellShipBrokerVNCA"
     ]
   },
   {

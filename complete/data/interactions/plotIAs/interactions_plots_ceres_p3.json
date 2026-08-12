@@ -15,9 +15,9 @@
     "CTTestThem": "TIsTerminal01Installed",
     "strActionGroup": "Use",
     "aInverse": [
-      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply"
+      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply,[us],[them]"
     ],
-    "ShipTestThem": "BCER"
+    "ShipTestThem": "AnyShip_BCER"
   },
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply",
@@ -48,7 +48,7 @@
     ],
     "LootCondsUs": "",
     "CTTestUs": "",
-    "CTTestThem": "TIsNotPlayerAwake",
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword",
     "strThemType": "Other"
   },
   {
@@ -96,7 +96,7 @@
     "bSocial": true,
     "nLogging": 1,
     "fForcedChance": 1,
-    "CTTestThem": "TIsNotPlayerAwake"
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail",
@@ -135,7 +135,7 @@
     "bIgnoreFeelings": true,
     "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Xinhua",
     "aInverse": [
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,[us],[us]"
     ]
   },
   {
@@ -150,8 +150,10 @@
     "bIgnoreFeelings": true,
     "aInverse": [
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
-      "ENCFinish",
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return"
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+      "ENCFinish"
     ],
     "strDesc": "Тайников много. Какое задание хотите взять?",
     "fForcedChance": 1
@@ -163,7 +165,7 @@
     "strColor": "Dialogue",
     "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua",
     "aInverse": [
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Принять",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Accept",
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Deny"
     ],
     "strActionGroup": "Use",
@@ -264,6 +266,8 @@
     "aInverse": [
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Start",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
       "ENCFinish"
     ],
     "strDesc": "Тайников много. Какое задание хотите взять?",
@@ -275,7 +279,7 @@
     "strDesc": "Это мокрое дело. Принять?",
     "strColor": "Dialogue",
     "aInverse": [
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Принять",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Accept",
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Deny"
     ],
     "strActionGroup": "Use",

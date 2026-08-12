@@ -600,6 +600,7 @@
         "ctKioskDestination": "TIsTransitLiftDown"
       },
       {
+        "strTargetRegID": "VNCA_SD",
         "strLabelNameOptional": "San Diego Mall"
       },
       {
@@ -790,7 +791,8 @@
       {
         "strTargetRegID": "VLA05",
         "ctKioskOrigin": "TIsTransitLiftDown",
-        "ctKioskDestination": "TIsTransitLiftUp"
+        "ctKioskDestination": "TIsTransitLiftUp",
+        "strAchievementUnlock": "ACH_VLA05"
       },
       {
         "ctUserOptional": "TIsDead",

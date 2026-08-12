@@ -1,13 +1,13 @@
 [
   {
     "strName": "TankerPod He-3",
-    "strRegID": "B-3MV",
+    "strRegID": "O-XXPA",
     "nCurrentWaypoint": -1,
     "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-E-BFN",
+      "strID": "CO-O-XXPA",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "E-BFN",
+      "strCondID": "O-XXPA",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -26,10 +26,11 @@
       "aMyShips": [
         "E-BFN",
         "V-7YWX",
-        "B-3MV"
+        "B-3MV",
+        "O-XXPA"
       ],
-      "strFriendlyName": "CO-E-BFN",
-      "strRegIDLast": "B-3MV",
+      "strFriendlyName": "CO-O-XXPA",
+      "strRegIDLast": "O-XXPA",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -1606,24 +1607,16 @@
         "fX": 48.0,
         "fY": 5.0,
         "fRotation": 0.0,
-        "strID": "fe7ff577-1d0a-4641-947b-4be587104545",
+        "strID": "a40dfbce-9d4b-431d-9b29-008e4beaddbe",
         "strSlotParentID": "75efba07-1f05-4965-b0a5-cf14865e3df7"
       },
       {
-        "strName": "DataVIDFilm02",
+        "strName": "DataSNDCorporateSecret",
         "fX": 48.0,
         "fY": 5.0,
         "fRotation": 0.0,
-        "strID": "64a5b932-5677-4fef-9e4c-771e2e7fd192",
-        "strParentID": "fe7ff577-1d0a-4641-947b-4be587104545"
-      },
-      {
-        "strName": "DataSNDManifesto",
-        "fX": 48.0,
-        "fY": 5.0,
-        "fRotation": 0.0,
-        "strID": "8cf165dd-f972-425b-bffa-c6c31a58ca88",
-        "strParentID": "fe7ff577-1d0a-4641-947b-4be587104545"
+        "strID": "b45a00ea-44c5-4685-b35d-e4530b450563",
+        "strParentID": "a40dfbce-9d4b-431d-9b29-008e4beaddbe"
       },
       {
         "strName": "ItmStationNav",
@@ -1691,7 +1684,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -3914,7 +3911,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "B-3MV"
+              "O-XXPA"
             ]
           },
           {
@@ -4043,21 +4040,21 @@
         "fX": 42.0,
         "fY": 11.0,
         "fRotation": 0.0,
-        "strID": "38f814df-f4da-455d-b995-d5aeafd526a5"
+        "strID": "89f26ec3-944b-4dae-842e-e0f4ce33d98b"
       },
       {
         "strName": "Compartment",
         "fX": 47.0,
         "fY": 6.0,
         "fRotation": 0.0,
-        "strID": "e84cb2ff-8648-4a0a-ba7a-c7c0a81ddba8"
+        "strID": "bcedcef8-3dab-4ba5-b3b3-f8943af307e0"
       },
       {
         "strName": "Compartment",
         "fX": 47.0,
         "fY": -9.0,
         "fRotation": 0.0,
-        "strID": "e112a579-d370-4fd5-81c5-b568cd3db03e"
+        "strID": "c071fbe5-3dd5-4970-942c-e5fb53c5cf83"
       }
     ],
     "aShallowPSpecs": [
@@ -4168,7 +4165,7 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498854.4292
+        65627498854.4247
       ],
       "aPathRecentX": [
         -1.2257116823047e-07
@@ -4192,12 +4189,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 200,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "38f814df-f4da-455d-b995-d5aeafd526a5",
+        "strID": "89f26ec3-944b-4dae-842e-e0f4ce33d98b",
         "bVoid": true,
         "aTiles": [
           0,
@@ -4406,7 +4407,7 @@
         "roomValue": 4016.0
       },
       {
-        "strID": "e84cb2ff-8648-4a0a-ba7a-c7c0a81ddba8",
+        "strID": "bcedcef8-3dab-4ba5-b3b3-f8943af307e0",
         "bVoid": false,
         "aTiles": [
           80,
@@ -4513,7 +4514,7 @@
         "roomValue": 163626.873127535
       },
       {
-        "strID": "e112a579-d370-4fd5-81c5-b568cd3db03e",
+        "strID": "c071fbe5-3dd5-4970-942c-e5fb53c5cf83",
         "bVoid": false,
         "aTiles": [
           305,
@@ -4569,7 +4570,7 @@
       "f20e475c-74a7-48ff-b476-c9a3d4ee46fb"
     ],
     "bFusionTorch": false,
-    "strXPDR": "B-3MV",
+    "strXPDR": "O-XXPA",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

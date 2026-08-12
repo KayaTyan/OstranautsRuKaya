@@ -138,7 +138,7 @@
   {
     "strName": "SocialScareBigBasic",
     "aCOs": [
-      "SOCShareAnotherStory=0.25x1|(aCOs в добыче) SOCReminisce=0.25x1"
+      "SOCShareAnotherStory=0.25x1|SOCReminisce=0.25x1"
     ],
     "aLoots": [],
     "strType": "item"

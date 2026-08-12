@@ -98,7 +98,7 @@
     "strName": "AIRechargeBatteries",
     "strNameFriendly": "Техобслуживание: тушение",
     "strType": "recharge",
-    "strIATrigger": "PLGAIFirefightDo",
+    "strIATrigger": "PLGRechargeBatteriesDo",
     "aIAEnd": null,
     "strThemID": null,
     "bThemAllowDocked": false,
@@ -442,7 +442,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeCCREArrest",
     "aIAEnd": [
-      "PLGAIReportCrimeCCREArrestDone"
+      "PLGAIReportCrimeCCREArrestDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -453,7 +454,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeCCREThreat",
     "aIAEnd": [
-      "PLGAIReportCrimeCCREThreatDone"
+      "PLGAIReportCrimeCCREThreatDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -464,7 +466,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeOKLGArrest",
     "aIAEnd": [
-      "PLGAIReportCrimeOKLGArrestDone"
+      "PLGAIReportCrimeOKLGArrestDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -475,7 +478,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeOKLGThreat",
     "aIAEnd": [
-      "PLGAIReportCrimeOKLGThreatDone"
+      "PLGAIReportCrimeOKLGThreatDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -486,7 +490,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeVenusArrest",
     "aIAEnd": [
-      "PLGAIReportCrimeVenusArrestDone"
+      "PLGAIReportCrimeVenusArrestDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -497,7 +502,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeVenusThreat",
     "aIAEnd": [
-      "PLGAIReportCrimeVenusThreatDone"
+      "PLGAIReportCrimeVenusThreatDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -509,7 +515,8 @@
     "strIATrigger": "PLGAIReportCrimeVenusTrespass",
     "aIAEnd": [
       "PLGAIReportCrimeVenusTrespassNPCDone",
-      "PLGAIReportCrimeVenusTrespassDone"
+      "PLGAIReportCrimeVenusTrespassDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -527,7 +534,7 @@
     "strName": "AIReply",
     "strNameFriendly": "Ответ",
     "strType": "reply",
-    "strIATrigger": "",
+    "strIATrigger": "Blank",
     "aIAEnd": null,
     "strThemID": null,
     "nPriority": 5

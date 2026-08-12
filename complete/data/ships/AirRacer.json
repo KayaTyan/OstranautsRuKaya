@@ -1,13 +1,13 @@
 [
   {
     "strName": "AirRacer",
-    "strRegID": "J-24K3",
+    "strRegID": "O-ARZ",
     "nCurrentWaypoint": -1,
-    "fTimeEngaged": 33.37517,
+    "fTimeEngaged": 0.3333333,
     "fWearManeuver": 0.0,
     "fWearAccrued": 0.0,
     "shipCO": {
-      "strID": "CO-M-ESVF",
+      "strID": "CO-O-ARZ",
       "strCODef": "ShipCO",
       "bAlive": true,
       "aConds": [
@@ -16,7 +16,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID": "M-ESVF",
+      "strCondID": "O-ARZ",
       "inventoryX": 0,
       "inventoryY": 0,
       "fDGasTemp": 0.0,
@@ -27,10 +27,11 @@
         "O-2AS",
         "M-UWX",
         "M-EDAD",
-        "J-24K3"
+        "J-24K3",
+        "O-ARZ"
       ],
-      "strFriendlyName": "CO-M-ESVF",
-      "strRegIDLast": "J-24K3",
+      "strFriendlyName": "CO-O-ARZ",
+      "strRegIDLast": "O-ARZ",
       "fMSRedamageAmount": 0.0
     },
     "aItems": [
@@ -165,24 +166,24 @@
         "fX": -2.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "f1f12ddd-1a6d-46b0-bccd-394903fd1aa4",
+        "strID": "53fda434-a145-4556-ad82-0b57c0640a01",
         "strSlotParentID": "f5b150fe-80fd-445d-bd46-aa1bb807f3d0"
       },
       {
-        "strName": "DataSNDConfession",
+        "strName": "DataVIDVlog09",
         "fX": -2.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "4b90c017-d5c2-42dc-93a6-fe3d770d7611",
-        "strParentID": "f1f12ddd-1a6d-46b0-bccd-394903fd1aa4"
+        "strID": "06303013-cb95-47c5-935f-0e0196c87ddd",
+        "strParentID": "53fda434-a145-4556-ad82-0b57c0640a01"
       },
       {
-        "strName": "DataBINPersonalAddressesJadeRabbit",
+        "strName": "DataIMGSuperHarrison",
         "fX": -2.0,
         "fY": 2.0,
         "fRotation": 0.0,
-        "strID": "2092b1c3-2f76-469e-b795-e6b851bcb932",
-        "strParentID": "f1f12ddd-1a6d-46b0-bccd-394903fd1aa4"
+        "strID": "70062d74-e012-4df2-847a-4936662744ce",
+        "strParentID": "53fda434-a145-4556-ad82-0b57c0640a01"
       },
       {
         "strName": "ItmStationNav",
@@ -250,7 +251,11 @@
               "NavModWarnings",
               "0.75|0.8|1|1",
               "NavModWeaponsMFD",
-              "0|0|0.25|0.4"
+              "0|0|0.25|0.4",
+              "NavModFire3x3",
+              "0.65|0.4|0.75|0.8",
+              "NavModFire2x2",
+              "0.8|0.5|0.9|0.7"
             ]
           },
           {
@@ -421,7 +426,7 @@
             "strName": "Data",
             "dictGUIPropMap": [
               "strRegID",
-              "J-24K3"
+              "O-ARZ"
             ]
           },
           {
@@ -2340,14 +2345,14 @@
         "fX": -12.0,
         "fY": 11.0,
         "fRotation": 0.0,
-        "strID": "aa7b19c5-0184-49d7-a7fd-9bd363c6359f"
+        "strID": "c8c522d9-9663-478a-98f0-59ad70b3689b"
       },
       {
         "strName": "Compartment",
         "fX": -3.0,
         "fY": 3.0,
         "fRotation": 0.0,
-        "strID": "b0965be1-31d7-4faa-b74b-070aaf86af08"
+        "strID": "099fbd73-680f-49d9-bc75-734ed0896ae3"
       }
     ],
     "aShallowPSpecs": [
@@ -2438,12 +2443,12 @@
     },
     "objSS": {
       "boPORShip": "Sol",
-      "vPosx": -0.00596251191626695,
-      "vPosy": -0.00869870892856628,
+      "vPosx": -1.22571180862342e-07,
+      "vPosy": -1.78815523968264e-07,
       "vBOOffsetx": 0.0,
       "vBOOffsety": 0.0,
-      "vVelX": -0.000212996284058882,
-      "vVelY": -0.000310740343188308,
+      "vVelX": -7.35427063256617e-07,
+      "vVelY": -1.07289311183488e-06,
       "fPathLastEpoch": 0.0,
       "vAccIn": {
         "x": 0.0,
@@ -2458,61 +2463,13 @@
         "y": 0.0
       },
       "aPathRecentT": [
-        65627498886.6618,
-        65627498884.6394,
-        65627498882.6307,
-        65627498880.6216,
-        65627498878.6162,
-        65627498876.5926,
-        65627498874.5768,
-        65627498872.5698,
-        65627498870.5484,
-        65627498868.5372,
-        65627498866.5368,
-        65627498864.5131,
-        65627498862.4899,
-        65627498860.4683,
-        65627498858.448,
-        65627498856.4297,
-        65627498854.4192
+        65627498854.4064
       ],
       "aPathRecentX": [
-        -0.00579113855272972,
-        -0.00536036697335571,
-        -0.0049325342222168,
-        -0.0045045841384819,
-        -0.00407744453784633,
-        -0.00364641984243602,
-        -0.00321706126878744,
-        -0.0027895520710897,
-        -0.00235898626879874,
-        -0.00193060381402449,
-        -0.00150450457657531,
-        -0.00107340848766262,
-        -0.000642388647978447,
-        -0.000211595193310048,
-        -2.45352878790447e-05,
-        -6.24905393815874e-06,
-        -1.18708781508661e-07
+        -1.22571180862342e-07
       ],
       "aPathRecentY": [
-        -0.00844869227670689,
-        -0.0078202394893643,
-        -0.00719607415942226,
-        -0.00657173765292069,
-        -0.00594858356045793,
-        -0.00531976150205441,
-        -0.00469337014919299,
-        -0.00406967685146566,
-        -0.00344152427237414,
-        -0.00281655697963562,
-        -0.00219492067334419,
-        -0.0015659944589453,
-        -0.00093717948457545,
-        -0.000308694783404035,
-        -3.57938414393544e-05,
-        -9.11656528179781e-06,
-        -1.73180799951196e-07
+        -1.78815523968264e-07
       ],
       "vAccLift": {
         "x": 0.0,
@@ -2530,12 +2487,16 @@
       "bIsBO": false,
       "bIsRegion": false,
       "bIsNoFees": true,
+      "bGrounded": false,
       "size": 360,
-      "bIgnoreGrav": false
+      "bIgnoreGrav": false,
+      "fDockOffsetPosX": 0.0,
+      "fDockOffsetPosY": 0.0,
+      "fDockOffsetRot": 0.0
     },
     "aRooms": [
       {
-        "strID": "aa7b19c5-0184-49d7-a7fd-9bd363c6359f",
+        "strID": "c8c522d9-9663-478a-98f0-59ad70b3689b",
         "bVoid": true,
         "aTiles": [
           0,
@@ -2789,7 +2750,7 @@
         "roomValue": 343644.0
       },
       {
-        "strID": "b0965be1-31d7-4faa-b74b-070aaf86af08",
+        "strID": "099fbd73-680f-49d9-bc75-734ed0896ae3",
         "bVoid": false,
         "aTiles": [
           177,
@@ -2865,7 +2826,7 @@
       "830abb6c-5d19-4571-be48-484e5e5e7b52"
     ],
     "bFusionTorch": false,
-    "strXPDR": "J-24K3",
+    "strXPDR": "O-ARZ",
     "bXPDRAntenna": true,
     "bShipHidden": false,
     "bIsUnderConstruction": false,

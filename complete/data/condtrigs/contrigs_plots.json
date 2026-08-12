@@ -10072,7 +10072,6 @@
     "strName": "CTPlot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
     "fChance": 1,
     "aReqs": [
-      "Plot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
       "Plot_AVClub_The_Return_Completed"
     ],
     "aForbids": [
@@ -10086,9 +10085,7 @@
       "Plot_PLOT_Ceres_The_Scholar_Trigger_Completed"
     ],
     "aReqs": [
-      "Plot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
-      "Plot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
-      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Completed"
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed"
     ]
   },
   {
@@ -10098,9 +10095,7 @@
       "Plot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed"
     ],
     "aReqs": [
-      "Plot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
-      "Plot_PLOT_Ceres_The_Scholar_Trigger_Completed",
-      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Completed"
+      "Plot_PLOT_Ceres_The_Scholar_Trigger_Completed"
     ]
   },
   {
@@ -10122,19 +10117,17 @@
       "Plot_PLOT_Ceres_Valkyrie_Trigger_Completed"
     ],
     "aReqs": [
-      "Plot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
-      "Plot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed"
+      "Plot_ValkyrieSarcophagusFinish_Completed"
     ]
   },
   {
     "strName": "CTPlot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
     "fChance": 1,
     "aForbids": [
-      "Plot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
-      "Plot_PLOT_Ceres_Valkyrie_Trigger_Completed"
+      "Plot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed"
     ],
     "aReqs": [
-      "Plot_PLOT_Ceres_StartTrigger1_Isambard_Completed"
+      "Plot_DenouementStart2_Completed"
     ]
   },
   {
@@ -10170,7 +10163,8 @@
       "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Completed"
     ],
     "aReqs": [
-      "SkillHacking"
+      "SkillHacking",
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua"
     ]
   },
   {
@@ -10208,7 +10202,8 @@
     "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "fChance": 1,
     "aForbids": [
-      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Completed"
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Completed",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty_Completed"
     ]
   },
   {
@@ -10510,6 +10505,7 @@
       "SkillEngElectronic",
       "SkillEngMechanical",
       "SkillActing",
+      "SkillOpsSensors",
       "SkillPersuade"
     ],
     "bAND": false
@@ -10540,6 +10536,7 @@
       "IsBrave",
       "IsTreacherous",
       "IsObservant",
+      "IsCruel",
       "IsCoordinated"
     ],
     "bAND": false
@@ -10571,7 +10568,9 @@
     "strName": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua",
     "fChance": 1,
     "aForbids": [
-      "Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua"
+      "Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua",
+      "Plot_Ceres_Wetwork_Success_Xinhua",
+      "ValkyrieReqB"
     ]
   },
   {
@@ -10601,7 +10600,9 @@
     "strName": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Titan",
     "fChance": 1,
     "aForbids": [
-      "Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan"
+      "Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan",
+      "Plot_Ceres_Wetwork_Success_Titan",
+      "ValkyrieReqB"
     ]
   },
   {

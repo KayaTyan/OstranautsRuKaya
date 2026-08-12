@@ -20,7 +20,7 @@
     "strName": "ItmRandomPDACart",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomPDACartStock=0.75x1|(добыча в луте) ItmRandomPDACartModded=0.25x1"
+      "ItmRandomPDACartStock=0.75x1|ItmRandomPDACartModded=0.25x1"
     ],
     "strType": "item"
   },
@@ -109,7 +109,7 @@
       "IsDusty=0.25x1"
     ],
     "aLoots": [
-      "CONDPDARandomBasicPreset=0.65x1|(добыча в луте) CONDPDARandomRarePreset=0.35x1"
+      "CONDPDARandomBasicPreset=0.65x1|CONDPDARandomRarePreset=0.35x1"
     ],
     "strType": "condition"
   },
@@ -121,7 +121,7 @@
     ],
     "aLoots": [
       "CONDPDARandomBasicPreset=1.0x1",
-      "CONDPDARandomBasicPreset=0.65x1|(добыча в луте) CONDPDARandomRarePreset=0.35x1",
+      "CONDPDARandomBasicPreset=0.65x1|CONDPDARandomRarePreset=0.35x1",
       "CONDPDARandomBasicToggle=1.0x1",
       "CONDPDARandomGradient=1.0x1",
       "CONDPDARandomBasicVariable=1.0x1"
@@ -137,7 +137,7 @@
     "aLoots": [
       "CONDPDARandomBasicPreset=1.0x1",
       "CONDPDARandomRarePreset=1.0x1",
-      "CONDPDARandomBasicPreset=0.65x1|(добыча в луте) CONDPDARandomRarePreset=0.35x1",
+      "CONDPDARandomBasicPreset=0.65x1|CONDPDARandomRarePreset=0.35x1",
       "CONDPDARandomBasicToggle=1.0x2",
       "CONDPDARandomAnyToggle=1.0x1",
       "CONDPDARandomRareToggle=1.0x1",
@@ -362,7 +362,7 @@
   {
     "strName": "CONDPDARandomAnyInput",
     "aCOs": [
-      "PDAShowInputMinMax=0.5x1|(объекты в луте) PDAShowInputOpacity=0.5x1"
+      "PDAShowInputMinMax=0.5x1|PDAShowInputOpacity=0.5x1"
     ],
     "aLoots": [],
     "strType": "condition"
