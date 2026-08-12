@@ -35114,5 +35114,355 @@
       "IsMooringPort=1.0x1",
       "IsPortal=1.0x1"
     ]
+  },
+  {
+    "strName": "RegolithMars01",
+    "strNameShort": "Regolith",
+    "strNameFriendly": "Regolith",
+    "strItemDef": "ItmBGFloorRegolithMars01",
+    "strType": "Item",
+    "aStartingConds": [
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1"
+    ],
+    "strPortraitImg": "PlxDirtRed01"
+  },
+  {
+    "strName": "ItmCrate02_PLOT_Ceres_Brain_Case",
+    "strNameShort": "Brain Case",
+    "strNameFriendly": "Renbao Cerebrum Armature",
+    "strDesc": "A black box forty centimetres a side. It houses life support equipment for a disembodied human brain.",
+    "strItemDef": "ItmCrate01",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "InspectBraincase",
+      "InspectBraincase2",
+      "InspectBraincase3",
+      "InspectBraincase4",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsCrate=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRakow=1.0x1.0",
+      "IsWaterproof=1.0x1.0",
+      "IsIndestructable=1.0x1.0",
+      "PLOT_Ceres_Brain_Case=1.0x1.0",
+      "StatBasePrice=1.0x154600.0",
+      "StatMass=1.0x10.0",
+      "IsCategoryTools=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "paperdoll/held/portCrate01",
+    "strAudioEmitter": "ItmPlasticBoxSound",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmCrate01L",
+      "heldR",
+      "HeldItmCrate01R",
+      "drag",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmDocument01_PLOT_Ceres_Ben_Notebook",
+    "strNameShort": "Ben's Notes",
+    "strNameFriendly": "Ben Choong's Notebook",
+    "strDesc": "A graphed ledger penned in a neat hand. Names, dates, and a final column, unlabeled at the top, but with entries behind each name.\n\n<i>John Wayne (GalCon)\n\nFrancisco Ortega (Xinhua)\n\nHan Xiaoli (GalCon Double)\n\nLawrence Masterson (GalCon)\n\nPan Tao (GalCon)</i>\n\nFlipping to the very back page of the notebook, you find two additional lines\n\n<i>cw GalGon: Q: Where is true West? A: Follow the evening redness.\ncw Xinhua: Q: Have you ever grown nightshades? A: Only in borrowed soil.</i>",
+    "strItemDef": "ItmPaper04",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsHandheld=1.0x1.0",
+      "IsSheet=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x0.15",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.005",
+      "StatDamageMax=1.0x5",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "ItmPaper04",
+    "strAudioEmitter": "ItmManualSound",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "ItmFloorLabelEagleLarge",
+    "strNameShort": "Emblem",
+    "strNameFriendly": "Emblem: Eagle Large",
+    "strItemDef": "ItmFloorLabelEagleLarge",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsFloorLabel=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsInstalled=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsCategoryMedia=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "ItmLabelEagle",
+    "jsonPI": null
+  },
+  {
+    "strName": "ItmKioskGenericScrap01",
+    "strNameFriendly": "Scrap Kiosk",
+    "strDesc": "A resale vending machine full of bits of hull, scrap, nuts, bolts, and cable pulled together for marked up re-sale. Whoever is responsible for operating this kiosk is doing a subpar job, but at least it runs.",
+    "strItemDef": "ItmKioskSupplies02",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "ACTKioskUseNPC",
+      "GUITradeKiosk"
+    ],
+    "aStartingConds": [
+      "IsHiddenInv=1.0x1",
+      "IsInfiniteContainer=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsIndestructable=1.0x1",
+      "IsKiosk=1.0x1",
+      "IsKioskNPC=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsReadyRestock=1.0x1.0",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsTraderNPC=1.0x1",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x70",
+      "IsMechanical=1.0x1",
+      "IsCategoryIndustrialProducts=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerUnlimited",
+    "mapCondTolerance": [],
+    "mapPoints": [
+      "use,0,-16"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderGenericScrapKiosk"
+    ],
+    "strPortraitImg": "ItmKioskSupplies02",
+    "jsonPI": null,
+    "strAudioEmitter": "ItmKioskSupplies02Sound"
+  },
+  {
+    "strName": "ItmStorageBin3x101_Titan",
+    "strNameShort": "Depot",
+    "strItemDef": "ItmStorageBin3x101",
+    "strNameFriendly": "Munitions Depot",
+    "strDesc": "Munitions depot, courtesy of Titan's Navy. Resupplies every 24h.",
+    "strType": "Item",
+    "aInteractions": [
+      "GUITradeKiosk"
+    ],
+    "aStartingConds": [
+      "IsHiddenInv=1.0x1",
+      "IsInfiniteContainer=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsIndestructable=1.0x1",
+      "IsKiosk=1.0x1",
+      "IsKioskNPC=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsReadyRestock=1.0x1.0",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsTraderNPC=1.0x1",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x70",
+      "IsMechanical=1.0x1",
+      "IsCategoryIndustrialProducts=1.0x1"
+    ],
+    "strContainerCT": "TIsFitContainerUnlimited",
+    "mapPoints": [
+      "use,0,-24",
+      "LOS,0,-8"
+    ],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderTitanResupplyDepot"
+    ],
+    "strPortraitImg": "containers/ItmStorageBin3x101"
+  },
+  {
+    "strName": "ItmVent03Closed",
+    "strNameShort": "Vent (Closed)",
+    "strNameFriendly": "Power Vent (Closed, Off)",
+    "strDesc": "The Sokol powered air vents allow free flow of gas between compartments only when powered, but seal closed when unpowered; they cannot be manually opened or closed. Unlike Kang's emergency-shutoff vents, Sokol has designed these vents for scalable control through switch circuits or signal boxes.",
+    "strItemDef": "ItmVent03Closed",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsSokol=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x1505.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps": [
+      "Electrical"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTVent03Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers": [
+      "Power"
+    ],
+    "strPortraitImg": "ItmVent03Closed",
+    "jsonPI": "Vent03"
+  },
+  {
+    "strName": "ItmVent03Open",
+    "strNameShort": "Vent (Open)",
+    "strNameFriendly": "Power Vent (Open)",
+    "strDesc": "The Sokol powered air vents allow free flow of gas between compartments only when powered, but seal closed when unpowered; they cannot be manually opened or closed. Unlike Kang's emergency-shutoff vents, Sokol has designed these vents for scalable control through switch circuits or signal boxes.",
+    "strItemDef": "ItmVent03Open",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsSokol=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x1505.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands": [
+      "GasExchange,RoomA,RoomB,0.2",
+      "Destructable,StatDamage,ACTVent03Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps": [
+      "Electrical"
+    ],
+    "aTickers": [
+      "Power"
+    ],
+    "strPortraitImg": "ItmVent03Open",
+    "jsonPI": "Vent03"
+  },
+  {
+    "strName": "ItmVent03Loose",
+    "strNameShort": "Vent",
+    "strNameFriendly": "Power Vent (Loose)",
+    "strDesc": "The Sokol powered air vents allow free flow of gas between compartments only when powered, but seal closed when unpowered; they cannot be manually opened or closed. Unlike Kang's emergency-shutoff vents, Sokol has designed these vents for scalable control through switch circuits or signal boxes.",
+    "strItemDef": "ItmVent03Loose",
+    "strType": "Item",
+    "aInteractions": [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsAirVent=1.0x1",
+      "IsSokol=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1505.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints": [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps": [],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTVent03Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "ItmVent03Loose"
   }
 ]

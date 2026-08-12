@@ -1218,5 +1218,315 @@
     "bPaid": true,
     "bPayATC": false,
     "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatEJDRFinePublicDisorder",
+    "strDesc": "EJDR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatEJDRFinePublicDisorderDebt",
+    "strDesc": "EJDR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatGalConFinePublicDisorder",
+    "strDesc": "GalCon Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatGalConFinePublicDisorderDebt",
+    "strDesc": "GalCon Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatEJDRFinePublicDisorder",
+    "strDesc": "EJDR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatEJDRFinePublicDisorderDebt",
+    "strDesc": "EJDR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatHQCHFinePublicDisorder",
+    "strDesc": "HQCH Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatHQCHFinePublicDisorderDebt",
+    "strDesc": "HQCH Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatJATLFinePublicDisorder",
+    "strDesc": "JATL Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatJATLFinePublicDisorderDebt",
+    "strDesc": "JATL Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatJFTSFinePublicDisorder",
+    "strDesc": "JFTS Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatJFTSFinePublicDisorderDebt",
+    "strDesc": "JFTS Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMHNGFinePublicDisorder",
+    "strDesc": "MHNG Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMHNGFinePublicDisorderDebt",
+    "strDesc": "MHNG Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMTRSFinePublicDisorder",
+    "strDesc": "MTRS Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMTRSFinePublicDisorderDebt",
+    "strDesc": "MTRS Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMSUZFinePublicDisorder",
+    "strDesc": "MSUZ Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMSUZFinePublicDisorderDebt",
+    "strDesc": "MSUZ Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMVOLFinePublicDisorder",
+    "strDesc": "MVOL Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatMVOLFinePublicDisorderDebt",
+    "strDesc": "MVOL Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatSVIRFinePublicDisorder",
+    "strDesc": "SVIR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatSVIRFinePublicDisorderDebt",
+    "strDesc": "SVIR Fine (Public Disorder)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesMSUZVisaInvestor",
+    "strDesc": "MSUZ Embassy: Investor Visa Application",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesMTRSVisaInvestor",
+    "strDesc": "Xinhua Embassy: Investor Visa Application",
+    "fAmount": 10000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesMVOLVisaInvestor",
+    "strDesc": "MVOL Embassy: Investor Visa Application",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesSVIRVisaInvestor",
+    "strDesc": "Titan Embassy: Investor Visa Application",
+    "fAmount": 7999999,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCMedServiceNanoFirstAidAdv",
+    "strDesc": "Medical Service: Nanorobotic First Aid",
+    "fAmount": 25000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "TIsHealthKiosk"
+  },
+  {
+    "strName": "ENCMedServiceAntiHypoV",
+    "strDesc": "Medical Service: Dispensed 1 Dose Anti-Hypovolemia Treatment",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "TIsHealthKiosk"
+  },
+  {
+    "strName": "Plot_Ceres_MHNGRentIncome",
+    "strDesc": "Hangzhou Rental Property Income",
+    "fAmount": 115000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Daily",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOT_Ceres_CruzCall3",
+    "strDesc": "Payment for Travel to Ceres",
+    "fAmount": 200000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPayorOverride": "Isambard Cruz"
+  },
+  {
+    "strName": "PLOT_Ceres_AyoPunitive",
+    "strDesc": "Ayotimiwa Judicial Hearing f-57621043",
+    "fAmount": 523,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPayorOverride": null
   }
 ]

@@ -10145,5 +10145,443 @@
       "ItmFloorGrate01Loose",
       "ItmFloorMSHG09DLoose"
     ]
+  },
+  {
+    "strName": "ItmFloorLDPH04",
+    "strNameFriendly": "Floor A: Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04",
+    "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04",
+    "strCOBase": "ItmFloorGrate01",
+    "strCondLoot": "CNDOLFloorLDPH04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04Dmg",
+    "strNameFriendly": "Floor A (Damaged): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Dmg",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Dmg",
+    "strCOBase": "ItmFloorGrate01Dmg",
+    "strCondLoot": "CNDOLFloorLDPH04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04Patch",
+    "strNameFriendly": "Floor A (Patched): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Patch",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Patch",
+    "strCOBase": "ItmFloorGrate01Patch",
+    "strCondLoot": "CNDOLFloorLDPH04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04Loose",
+    "strNameFriendly": "Floor A (Loose): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Loose",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Loose",
+    "strCOBase": "ItmFloorGrate01Loose",
+    "strCondLoot": "CNDOLFloorLDPH04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04B",
+    "strNameFriendly": "Floor B: Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04b",
+    "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04b",
+    "strCOBase": "ItmFloorGrate01",
+    "strCondLoot": "CNDOLFloorLDPH04B",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04b",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04bPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04bDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04bLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04bDmg",
+    "strNameFriendly": "Floor B (Damaged): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bDmg",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bDmg",
+    "strCOBase": "ItmFloorGrate01Dmg",
+    "strCondLoot": "CNDOLFloorLDPH04B",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04b",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04bPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04bDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04bLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04bPatch",
+    "strNameFriendly": "Floor B (Patched): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bPatch",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bPatch",
+    "strCOBase": "ItmFloorGrate01Patch",
+    "strCondLoot": "CNDOLFloorLDPH04B",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04b",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04bPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04bDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04bLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04bLoose",
+    "strNameFriendly": "Floor B (Loose): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bLoose",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bLoose",
+    "strCOBase": "ItmFloorGrate01Loose",
+    "strCondLoot": "CNDOLFloorLDPH04B",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04b",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04bPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04bDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04bLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04C",
+    "strNameFriendly": "Floor C: Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04c",
+    "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04c",
+    "strCOBase": "ItmFloorGrate01",
+    "strCondLoot": "CNDOLFloorLDPH04C",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04c",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04cPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04bDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04cLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04cDmg",
+    "strNameFriendly": "Floor C (Damaged): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cDmg",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cDmg",
+    "strCOBase": "ItmFloorGrate01Dmg",
+    "strCondLoot": "CNDOLFloorLDPH04C",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04c",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04cPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04cDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04cLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04cPatch",
+    "strNameFriendly": "Floor C (Patched): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cPatch",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cPatch",
+    "strCOBase": "ItmFloorGrate01Patch",
+    "strCondLoot": "CNDOLFloorLDPH04C",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04c",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04cPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04cDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04cLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorLDPH04cLoose",
+    "strNameFriendly": "Floor C (Loose): Langdon-Phillips \"Capitol\"",
+    "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cLoose",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
+    "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cLoose",
+    "strCOBase": "ItmFloorGrate01Loose",
+    "strCondLoot": "CNDOLFloorLDPH04C",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorLDPH04c",
+      "ItmFloorGrate01Patch",
+      "ItmFloorLDPH04cPatch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorLDPH04cDmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorLDPH04cLoose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow03",
+    "strNameFriendly": "Floor A-2: Mobile Space Systems \"Panorama\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow03",
+    "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01n",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow03",
+    "strCOBase": "ItmFloorGrate01",
+    "strCondLoot": "CNDOLFloorMSSWindow03",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow03",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow03Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow03Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow03Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow03Dmg",
+    "strNameFriendly": "Floor A-2 (Damaged): Mobile Space Systems \"Panorama\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow03Dmg",
+    "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Dmgn",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow03Dmg",
+    "strCOBase": "ItmFloorGrate01Dmg",
+    "strCondLoot": "CNDOLFloorMSSWindow03",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow03",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow03Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow03Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow03Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow03Patch",
+    "strNameFriendly": "Floor A-2 (Patched): Mobile Space Systems \"Panorama\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow03Patch",
+    "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Patchn",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow03Patch",
+    "strCOBase": "ItmFloorGrate01Patch",
+    "strCondLoot": "CNDOLFloorMSSWindow03",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow03",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow03Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow03Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow03Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow03Loose",
+    "strNameFriendly": "Floor A-2 (Loose): Mobile Space Systems \"Panorama\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow03Loose",
+    "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Loosen",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow03Loose",
+    "strCOBase": "ItmFloorGrate01Loose",
+    "strCondLoot": "CNDOLFloorMSSWindow03",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow03",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow03Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow03Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow03Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow04",
+    "strNameFriendly": "Floor B-2: Mobile Space Systems \"Iris\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow04",
+    "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01n",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow04",
+    "strCOBase": "ItmFloorGrate01",
+    "strCondLoot": "CNDOLFloorMSSWindow04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow04Dmg",
+    "strNameFriendly": "Floor B-2 (Damaged): Mobile Space Systems \"Iris\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow04Dmg",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow04Dmg",
+    "strCOBase": "ItmFloorGrate01Dmg",
+    "strCondLoot": "CNDOLFloorMSSWindow04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow04Patch",
+    "strNameFriendly": "Floor B-2 (Patched): Mobile Space Systems \"Iris\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow04Patch",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow04Patch",
+    "strCOBase": "ItmFloorGrate01Patch",
+    "strCondLoot": "CNDOLFloorMSSWindow04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow04Loose"
+    ]
+  },
+  {
+    "strName": "ItmFloorMSSWindow04Loose",
+    "strNameFriendly": "Floor B-2 (Loose): Mobile Space Systems \"Iris\"",
+    "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
+    "strImg": "tiles/FloorGrate13/ItmFloorWindow04Loose",
+    "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
+    "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow04Loose",
+    "strCOBase": "ItmFloorGrate01Loose",
+    "strCondLoot": "CNDOLFloorMSSWindow04",
+    "strDmgColor": "DamageTintBrownMSSLF",
+    "mapSlotEffects": [
+      "heldL",
+      "Blank",
+      "heldR",
+      "Blank"
+    ],
+    "mapModeSwitches": [
+      "ItmFloorGrate01",
+      "ItmFloorMSSWindow04",
+      "ItmFloorGrate01Patch",
+      "ItmFloorMSSWindow04Patch",
+      "ItmFloorGrate01Dmg",
+      "ItmFloorMSSWindow04Dmg",
+      "ItmFloorGrate01Loose",
+      "ItmFloorMSSWindow04Loose"
+    ]
   }
 ]

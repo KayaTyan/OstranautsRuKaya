@@ -3529,5 +3529,1472 @@
       "strName",
       ""
     ]
+  },
+  {
+    "strName": "Bounties",
+    "dictGUIPropMap": [
+      "strGUIPrefab",
+      "GUIJobs/GUIBounties",
+      "strFriendlyName",
+      "Bounty Board",
+      "strGUIPrefabRight",
+      null,
+      "strGUIPrefabLeft",
+      "Panel A",
+      "strGUIPrefabUp",
+      null,
+      "strGUIPrefabDown",
+      null
+    ]
+  },
+  {
+    "strName": "TraderBCERMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderBCERMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyBCERMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellBCERMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyBCERMed",
+      "strLootCTsSell",
+      "TraderCTsSellBCERMed"
+    ]
+  },
+  {
+    "strName": "TraderEJDRMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderEJDRMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyEJDRMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellEJDRMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyEJDRMed",
+      "strLootCTsSell",
+      "TraderCTsSellEJDRMed"
+    ]
+  },
+  {
+    "strName": "TraderHQCHMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderHQCHMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyHQCHMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellHQCHMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyHQCHMed",
+      "strLootCTsSell",
+      "TraderCTsSellHQCHMed"
+    ]
+  },
+  {
+    "strName": "TraderJATLMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJATLMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyJATLMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellJATLMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyJATLMed",
+      "strLootCTsSell",
+      "TraderCTsSellJATLMed"
+    ]
+  },
+  {
+    "strName": "TraderJFTSMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJFTSMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyJFTSMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellJFTSMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyJFTSMed",
+      "strLootCTsSell",
+      "TraderCTsSellJFTSMed"
+    ]
+  },
+  {
+    "strName": "TraderJPTNMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJPTNMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyJPTNMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellJPTNMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyJPTNMed",
+      "strLootCTsSell",
+      "TraderCTsSellJPTNMed"
+    ]
+  },
+  {
+    "strName": "TraderMHNGMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMHNGMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyMHNGMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellMHNGMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyMHNGMed",
+      "strLootCTsSell",
+      "TraderCTsSellMHNGMed"
+    ]
+  },
+  {
+    "strName": "TraderMLABMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMLABMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyMLABMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellMLABMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyMLABMed",
+      "strLootCTsSell",
+      "TraderCTsSellMLABMed"
+    ]
+  },
+  {
+    "strName": "TraderMTRSMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMTRSMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyMTRSMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellMTRSMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyMTRSMed",
+      "strLootCTsSell",
+      "TraderCTsSellMTRSMed"
+    ]
+  },
+  {
+    "strName": "TraderMSUZMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMSUZMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyMSUZMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellMSUZMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyMSUZMed",
+      "strLootCTsSell",
+      "TraderCTsSellMSUZMed"
+    ]
+  },
+  {
+    "strName": "TraderMVOLMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMVOLMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyMVOLMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellMVOLMed",
+      "strLootCTsBuy",
+      "TraderCTsBuyMVOLMed",
+      "strLootCTsSell",
+      "TraderCTsSellMVOLMed"
+    ]
+  },
+  {
+    "strName": "TraderSVIRMed",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderSVIRMedInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuySVIRMed",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellSVIRMed",
+      "strLootCTsBuy",
+      "TraderCTsBuySVIRMed",
+      "strLootCTsSell",
+      "TraderCTsSellSVIRMed"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskEJDR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskEJDRInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskHQCH",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskHQCHInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskJATL",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskJATLInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskJFTS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskJFTSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskJPTN",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskJPTNInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskMHNG",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskMHNGInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskMLAB",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskMLABInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskMTRS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskMTRSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskMSUZ",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskMSUZInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskMVOL",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskMVOLInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskSVIR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskSVIRInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskVCBR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskVCBRInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskSupplyVCBR",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskVENC",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskVENCInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderChargenSupplyKioskVNCA",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSupplyKioskVNCAInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderFactionKioskBCRSWin",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFactionKioskBCRSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderBuyCCREFactionKioskWin",
+      "strLootSellDiscount",
+      "CONDTraderSellCCREFactionKioskWin",
+      "strLootCTsBuy",
+      "TraderCTsBuyGovtKioskBCER",
+      "strLootCTsSell",
+      "TraderCTsSellGovtKiosk",
+      "strFactionTierCTs",
+      "CTFactionTiers",
+      "strCurrency",
+      "StatCCREScrip",
+      "strFaction",
+      "CCRE"
+    ]
+  },
+  {
+    "strName": "TraderFactionKioskMTRS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFactionKioskMTRSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderBuyCCREFactionKiosk",
+      "strLootSellDiscount",
+      "CONDTraderSellCCREFactionKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyGovtKioskBCER",
+      "strLootCTsSell",
+      "TraderCTsSellGovtKiosk",
+      "strFactionTierCTs",
+      "CTFactionTiers",
+      "strCurrency",
+      "StatCCREScrip",
+      "strFaction",
+      "CCRE"
+    ]
+  },
+  {
+    "strName": "TraderEJDRKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderEJDRKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderJATLKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJATLKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderJFTSKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJFTSKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderJPTNKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderJPTNKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderMHNGKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMHNGKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderMLABKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMLABKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderMSUZKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMSUZKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderMTRSKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMTRSKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderMVOLKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderMVOLKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderSVIRKioskTSDO",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTraderSVIRKioskTSDOInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellChargen"
+    ]
+  },
+  {
+    "strName": "TraderGenericScrapKiosk",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmGenericScrapKioskInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyGenericScrapKiosk",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellGenericScrapKiosk",
+      "strLootCTsBuy",
+      "TraderCTsBuyGenericScrapKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellGenericScrapKiosk"
+    ]
+  },
+  {
+    "strName": "TraderTitanResupplyDepot",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmTitanResupplyInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderBuyGalileanFactionKiosk",
+      "strLootSellDiscount",
+      "CONDTraderSellTitanResupply",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TIsFactionTierNeutral"
+    ]
+  },
+  {
+    "strName": "TraderVendingMachineCoffee",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmVendingMachineCoffeeRestock",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockNPCTrader",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskEJDR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskEJDRInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskEJDRFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskEJDRFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskJATL",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskJATLInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskJATLFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskJATLFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskJFTS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskJFTSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskJFTSFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskJFTSFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskJPTN",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskJPTNInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskJPTNFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskJPTNFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskMHNG",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskMHNGInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskMHNGFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskMHNGFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskMLAB",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskMLABInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskMLABFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskMLABFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskMSUZ",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskMSUZInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskMSUZFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskMSUZFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskMTRS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskMTRSInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskMTRSFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskMTRSFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskMVOL",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskMVOLInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskMVOLFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskMVOLFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskSVIR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskSVIRInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskSVIRFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskSVIRFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskVENC",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskVNCAInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskVENCFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskVENCFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderFurnishingsKioskVNCA",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmFurnishingsKioskVNCAInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyKioskVNCAFurnishings",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellKioskVNCAFurnishings",
+      "strLootCTsBuy",
+      "TraderCTsBuyFurnishingsKiosk",
+      "strLootCTsSell",
+      "TraderCTsSellFurnishingsKiosk"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerJFTS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmJFTSResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerJFTS",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerJFTS",
+      "strLootResidence",
+      "CONDJFTSResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerMLAB",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMLABResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerMLAB",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerMLAB",
+      "strLootResidence",
+      "CONDMLABResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerMTRS",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMTRSResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerMTRS",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerMTRS",
+      "strLootResidence",
+      "CONDMTRSResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerMSUZ",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMSUZResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerMSUZ",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerMSUZ",
+      "strLootResidence",
+      "CONDMSUZResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerMVOL",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMVOLResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerMVOL",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerMVOL",
+      "strLootResidence",
+      "CONDMVOLResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderResBrokerSVIR",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmSVIRResBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyResBrokerSVIR",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellResBrokerSVIR",
+      "strLootResidence",
+      "CONDSVIRResBrokerConds"
+    ]
+  },
+  {
+    "strName": "TraderEJDRShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmEJDRShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerEJDR",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerEJDR"
+    ]
+  },
+  {
+    "strName": "TraderJFTSShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmJFTSShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerJFTS",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerJFTS"
+    ]
+  },
+  {
+    "strName": "TraderJPTNShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmJPTNShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerJPTN",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerJPTN"
+    ]
+  },
+  {
+    "strName": "TraderMHNGShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMHNGShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerMHNG",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerMHNG"
+    ]
+  },
+  {
+    "strName": "TraderMLABShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMLABShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerMLAB",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerMLAB"
+    ]
+  },
+  {
+    "strName": "TraderMTRSShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMTRSShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerMTRS",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerMTRS"
+    ]
+  },
+  {
+    "strName": "TraderMSUZShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMSUZShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerMSUZ",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerMSUZ"
+    ]
+  },
+  {
+    "strName": "TraderMVOLShipBroker",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmMVOLShipBrokerInv",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      "CONDTraderDiscountBuyShipBrokerMVOL",
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellShipBrokerMVOL"
+    ]
+  },
+  {
+    "strName": "TraderBCRSBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderEJDRBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderHQCHBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderJPTNBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderJFTSBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderMHNGBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderMLABBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderMTRSBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderMSUZBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderMVOLBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
+  },
+  {
+    "strName": "TraderSVIRBartender",
+    "dictGUIPropMap": [
+      "strLoot",
+      "ItmBartenderLoot",
+      "strRestockCond",
+      "IsReadyRestock",
+      "strTicker",
+      "RestockSupplyKiosk",
+      "strLootBuyDiscount",
+      null,
+      "strLootSellDiscount",
+      "CONDTraderDiscountSellFixer",
+      "strLootCTsBuy",
+      "TraderCTsBuyBartender",
+      "strLootCTsSell",
+      "TraderCTsSellBartender"
+    ]
   }
 ]

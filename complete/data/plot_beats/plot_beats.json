@@ -1974,5 +1974,54 @@
     "strIATrigger": "Scholar_Isambard_Contact",
     "bNoticeable": true,
     "nPhaseChange": 1
+  },
+  {
+    "strName": "CeresStartPhaseAVClub",
+    "strIATrigger": "PLOT_Ceres_StartTrigger1_Isambard",
+    "bRelease": true,
+    "bNoticeable": true,
+    "nPhaseChange": 1
+  },
+  {
+    "strName": "CeresEnterPhaseScholar",
+    "strIATrigger": "PLOT_Ceres_The_AV_Club_Trigger",
+    "bRelease": true,
+    "bNoticeable": true,
+    "nPhaseChange": 1
+  },
+  {
+    "strName": "CeresEnterPhaseClandestine",
+    "strIATrigger": "PLOT_Ceres_The_Scholar_Trigger",
+    "bNoticeable": true,
+    "nPhaseChange": 1,
+    "bRelease": true
+  },
+  {
+    "strName": "CeresEnterPhaseValkyrie",
+    "strIATrigger": "PLOT_Ceres_Clandestine_Interventions_Trigger",
+    "bNoticeable": true,
+    "nPhaseChange": 1,
+    "bRelease": true
+  },
+  {
+    "strName": "CeresEnterDenouement",
+    "strIATrigger": "PLOT_Ceres_Valkyrie_Trigger",
+    "bRelease": true,
+    "bNoticeable": true,
+    "nPhaseChange": 1
+  },
+  {
+    "strName": "CeresEndPlot",
+    "strIATrigger": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
+    "bNoticeable": true,
+    "nPhaseChange": 1,
+    "bRelease": true
+  },
+  {
+    "strName": "79auDreamOne",
+    "strIATrigger": "PLOT_79au_StartTrigger_DreamOne",
+    "bRelease": true,
+    "bNoticeable": true,
+    "nPhaseChange": 1
   }
 ]

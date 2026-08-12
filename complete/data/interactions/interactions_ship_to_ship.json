@@ -2207,5 +2207,15 @@
     "nLogging": 1,
     "ShipTestUs": "Derelict",
     "ShipTestThem": "PlayerCurrentShip"
+  },
+  {
+    "strName": "SHIPBlockadeComing",
+    "strTitle": "Blockade Warning",
+    "strDesc": "Vessel [them-regID], you are in a restricted area. Vacate immediately or be destroyed.",
+    "strActionGroup": "Ship",
+    "strColor": "Bad",
+    "aInverse": [],
+    "nLogging": 1,
+    "ShipTestUs": "IsBlockader"
   }
 ]

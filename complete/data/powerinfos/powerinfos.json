@@ -1,7 +1,7 @@
 [
   {
-    "strName" : "AICargo01",
-    "aInputPts"      : [
+    "strName": "AICargo01",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.066,
@@ -9,11 +9,11 @@
     "strIntPowerOff": "MSAICargo01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AICargo01Loose",
-    "aInputPts"      : [
+    "strName": "AICargo01Loose",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.066,
@@ -21,117 +21,117 @@
     "strIntPowerOff": "MSAICargo01OffLooseAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AirPump",
-    "aInputPts"      : [
+    "strName": "AirPump",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AirPump02",
-    "aInputPts"      : [
+    "strName": "AirPump02",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSAirPump02OnAllow",
     "strIntPowerOff": "MSAirPump02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,
-    "strOverrideCond" : "IsTurboOn",
-    "fOverrideAmount" : 1.5e-4
+    "bAllowExtPower": true,
+    "strOverrideCond": "IsTurboOn",
+    "fOverrideAmount": 0.00015
   },
   {
-    "strName" : "AlarmPressureCO2",
-    "aInputPts"      : [
+    "strName": "AlarmPressureCO2",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmCO2SwitchOnAllow",
     "strIntPowerOff": "MSAlarmCO2SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AlarmPressureContaminants",
-    "aInputPts"      : [
+    "strName": "AlarmPressureContaminants",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmContaminantsSwitchOnAllow",
     "strIntPowerOff": "MSAlarmContaminantsSwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AlarmPressureN2",
-    "aInputPts"      : [
+    "strName": "AlarmPressureN2",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmN2SwitchOnAllow",
     "strIntPowerOff": "MSAlarmN2SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AlarmPressureO2",
-    "aInputPts"      : [
+    "strName": "AlarmPressureO2",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmO2SwitchOnAllow",
     "strIntPowerOff": "MSAlarmO2SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AlarmPressureSmoke",
-    "aInputPts"      : [
+    "strName": "AlarmPressureSmoke",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmSmokeSwitchOnAllow",
     "strIntPowerOff": "MSAlarmSmokeSwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AlarmPressureTemp",
-    "aInputPts"      : [
+    "strName": "AlarmPressureTemp",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSAlarmTempSwitchOnAllow",
     "strIntPowerOff": "MSAlarmTempSwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Antenna01",
-    "aInputPts"      : [
+    "strName": "Antenna01",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.00248,
@@ -139,11 +139,11 @@
     "strIntPowerOff": "MSAntenna01SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Antenna02",
-    "aInputPts"      : [
+    "strName": "Antenna02",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
@@ -152,11 +152,11 @@
     "strIntPowerOff": "MSAntenna02SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "ArcadeGame01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
@@ -165,11 +165,11 @@
     "strIntPowerOff": "MSArcadeGame01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "ArcadeGame01Active",
-    "aInputPts"      : [
+    "aInputPts": [
       "Power"
     ],
     "fAmount": 0.0011,
@@ -177,11 +177,11 @@
     "strIntPowerOff": "MSArcadeGame01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AtmoScrubber01",
-    "aInputPts"      : [
+    "strName": "AtmoScrubber01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
@@ -191,24 +191,24 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "AtmoScrubber02",
-    "aInputPts"      : [
+    "strName": "AtmoScrubber02",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSAtmoScrubber02OnAllow",
     "strIntPowerOff": "MSAtmoScrubber02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Battery02",
-    "aInputPts"      : [
+    "strName": "Battery02",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 1.0,
@@ -216,22 +216,21 @@
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Battery02Loose",
-    "aInputPts"      : [
-    ],
+    "strName": "Battery02Loose",
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Battery02b",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 1.0,
@@ -239,22 +238,21 @@
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Battery02bLoose",
-    "aInputPts"      : [
-    ],
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Battery02c",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 1.0,
@@ -262,45 +260,21 @@
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Battery02cLoose",
-    "aInputPts"      : [
-    ],
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Battery03",
-    "aInputPts"      : [
-    ],
-    "fAmount": 1.0,
-    "strIntPowerOn": "",
-    "strIntPowerOff": "",
-    "strUsePowerCT": null,
-    "strRechargeCT": null
-  },
-
-  {
-    "strName" : "BatteryDisp01",
-    "aInputPts"      : [
-    ],
-    "fAmount": 1.0,
-    "strIntPowerOn": "",
-    "strIntPowerOff": "",
-    "strUsePowerCT": null,
-    "strRechargeCT": null
-  },
-
-  {
-    "strName" : "Battery04",
-    "aInputPts"      : [
-    ],
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
@@ -308,9 +282,8 @@
     "strRechargeCT": null
   },
   {
-    "strName" : "BatteryDrill01",
-    "aInputPts"      : [
-    ],
+    "strName": "BatteryDisp01",
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
@@ -318,9 +291,26 @@
     "strRechargeCT": null
   },
   {
-    "strName" : "BatteryWelder01",
-    "aInputPts"      : [
-    ],
+    "strName": "Battery04",
+    "aInputPts": [],
+    "fAmount": 1.0,
+    "strIntPowerOn": "",
+    "strIntPowerOff": "",
+    "strUsePowerCT": null,
+    "strRechargeCT": null
+  },
+  {
+    "strName": "BatteryDrill01",
+    "aInputPts": [],
+    "fAmount": 1.0,
+    "strIntPowerOn": "",
+    "strIntPowerOff": "",
+    "strUsePowerCT": null,
+    "strRechargeCT": null
+  },
+  {
+    "strName": "BatteryWelder01",
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
@@ -329,35 +319,34 @@
   },
   {
     "strName": "Bed01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 2.78e-6,
+    "fAmount": 2.78e-06,
     "strIntPowerOn": "MSBed01OnAllow",
     "strIntPowerOff": "MSBed01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "BedMedical01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB",
       "PowerC"
     ],
-    "fAmount": 6.25e-6,
+    "fAmount": 6.25e-06,
     "strIntPowerOn": "MSBedMedical01OnAllow",
     "strIntPowerOff": "MSBedMedical01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
-  
   {
-    "strName" : "Capacitor01",
-    "aInputPts"      : [
+    "strName": "Capacitor01",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 1.0,
@@ -365,184 +354,181 @@
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Capacitor01Loose",
-    "aInputPts"      : [
-    ],
+    "strName": "Capacitor01Loose",
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "ChairStrap01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 2.78e-6,
+    "fAmount": 2.78e-06,
     "strIntPowerOn": "MSChairStrap01OnAllow",
     "strIntPowerOff": "MSChairStrap01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ChargerDrill01",
-    "aInputPts"      : [
+    "strName": "ChargerDrill01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.000000015,
+    "fAmount": 1.5e-08,
     "strIntPowerOn": "MSChargerDrill01SwitchOnAllow",
     "strIntPowerOff": "MSChargerDrill01SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ChargerEVA",
-    "aInputPts"      : [
+    "strName": "ChargerEVA",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 0.00000013,
+    "fAmount": 1.3e-07,
     "strIntPowerOn": "MSChargerEVASwitchOnAllow",
     "strIntPowerOff": "MSChargerEVASwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Charger04",
-    "aInputPts"      : [
+    "strName": "Charger04",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.00000013,
+    "fAmount": 1.3e-07,
     "strIntPowerOn": "MSCharger04SwitchOnAllow",
     "strIntPowerOff": "MSCharger04SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ChargerWelder01",
-    "aInputPts"      : [
+    "strName": "ChargerWelder01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.000000015,
+    "fAmount": 1.5e-08,
     "strIntPowerOn": "MSChargerWelder01SwitchOnAllow",
     "strIntPowerOff": "MSChargerWelder01SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Cooler01",
-    "aInputPts"      : [
+    "strName": "Cooler01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSCooler01OnAllow",
     "strIntPowerOff": "MSCooler01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Door01Closed",
-    "aInputPts"      : [
+    "strName": "Door01Closed",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 5e-6,
+    "fAmount": 5e-06,
     "strIntPowerOn": "MSDoor01ClosedPowerupAllow",
     "strIntPowerOff": "MSDoor01ClosedShutdownAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Door01ClosedLocked",
-    "aInputPts"      : [
+    "strName": "Door01ClosedLocked",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 5e-6,
+    "fAmount": 5e-06,
     "strIntPowerOn": "MSDoor01ClosedLockedPowerupAllow",
     "strIntPowerOff": "MSDoor01ClosedLockedShutdownAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Door01Open",
-    "aInputPts"      : [
+    "strName": "Door01Open",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 5e-6,
+    "fAmount": 5e-06,
     "strIntPowerOn": "MSDoor01OpenPowerupAllow",
     "strIntPowerOff": "MSDoor01OpenShutdownAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Door01OpenLocked",
-    "aInputPts"      : [
+    "strName": "Door01OpenLocked",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 5e-6,
+    "fAmount": 5e-06,
     "strIntPowerOn": "MSDoor01OpenLockedPowerupAllow",
     "strIntPowerOff": "MSDoor01OpenLockedShutdownAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ElectricalBox01",
-    "aInputPts"      : [
+    "strName": "ElectricalBox01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSElectricalBox01SwitchOnAllow",
     "strIntPowerOff": "MSElectricalBox01SwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "EVASuit",
-    "aInputPts"      : [
-    ],
-    "fAmount": 0.0000278,
+    "strName": "EVASuit",
+    "aInputPts": [],
+    "fAmount": 2.78e-05,
     "strIntPowerOn": "MSEVASwitchOnAllow",
     "strIntPowerOff": "MSEVASwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePowerEVA",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false,
-    "strPowerSourceCT" : "TIsPowerStorageEVA"
+    "bAllowExtPower": false,
+    "strPowerSourceCT": "TIsPowerStorageEVA"
   },
-  
   {
-    "strName" : "FusionReactorCore01Batt",
-    "aInputPts"      : [
+    "strName": "FusionReactorCore01Batt",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -550,11 +536,11 @@
     "strIntPowerOff": "MSFusionReactorCore01SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "FusionReactorCore01Ignition",
-    "aInputPts"      : [
+    "strName": "FusionReactorCore01Ignition",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 34000000.0,
@@ -562,11 +548,11 @@
     "strIntPowerOff": "MSFusionReactorCore01SwitchOffAllow",
     "strUsePowerCT": null,
     "strRechargeCT": "TIsReadyRecharge",
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionReactorCore01Off",
-    "aInputPts"      : [
+    "strName": "FusionReactorCore01Off",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -574,37 +560,37 @@
     "strIntPowerOff": null,
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
-  },  
+    "bAllowExtPower": true
+  },
   {
-    "strName" : "FusionCorePump01",
-    "aInputPts"      : [
+    "strName": "FusionCorePump01",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 5.2e-5,
+    "fAmount": 5.2e-05,
     "strIntPowerOn": "MSFusionCorePump01OnAllow",
     "strIntPowerOff": "MSFusionCorePump01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionCryoPump01",
-    "aInputPts"      : [
+    "strName": "FusionCryoPump01",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 5.2e-5,
+    "fAmount": 5.2e-05,
     "strIntPowerOn": "MSFusionCryoPump01OnAllow",
     "strIntPowerOff": "MSFusionCryoPump01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionFieldCoils01",
-    "aInputPts"      : [
+    "strName": "FusionFieldCoils01",
+    "aInputPts": [
       "Power"
     ],
     "fAmount": 0.011,
@@ -613,24 +599,24 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionFuelRegulator01",
-    "aInputPts"      : [
+    "strName": "FusionFuelRegulator01",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSFusionFuelRegulator01OnAllow",
     "strIntPowerOff": "MSFusionFuelRegulator01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionLaserArray01",
-    "aInputPts"      : [
+    "strName": "FusionLaserArray01",
+    "aInputPts": [
       "Power"
     ],
     "fAmount": 0.011,
@@ -639,11 +625,11 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionMHDGenerator01",
-    "aInputPts"      : [
+    "strName": "FusionMHDGenerator01",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 1.0,
@@ -652,34 +638,32 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionMHDGenerator01Loose",
-    "aInputPts"      : [
-    ],
+    "strName": "FusionMHDGenerator01Loose",
+    "aInputPts": [],
     "fAmount": 1.0,
     "strIntPowerOn": "",
     "strIntPowerOff": "",
     "strUsePowerCT": null,
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "FusionPelletFeeder01",
-    "aInputPts"      : [
-    ],
-    "fAmount": 2.78e-6,
+    "strName": "FusionPelletFeeder01",
+    "aInputPts": [],
+    "fAmount": 2.78e-06,
     "strIntPowerOn": "MSFusionPelletFeeder01OnAllow",
     "strIntPowerOff": "MSFusionPelletFeeder01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "Heater01",
-    "aInputPts"      : [
+    "strName": "Heater01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
@@ -689,11 +673,11 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "HeavyLiftRotor01",
-    "aInputPts"      : [
+    "strName": "HeavyLiftRotor01",
+    "aInputPts": [
       "PowerA"
     ],
     "fAmount": 0.0015,
@@ -702,645 +686,644 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Jukebox01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 0.000000278,
+    "fAmount": 2.78e-07,
     "strIntPowerOn": "MSJukeboxSwitchOnAllow",
     "strIntPowerOff": "MSJukeboxSwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeiling",
-    "aInputPts"      : [
+    "strName": "LightCeiling",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingOrange",
-    "aInputPts"      : [
+    "strName": "LightCeilingOrange",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnOrangeAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffOrangeAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantRed",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantRed",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantRedAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantRedAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantPurple",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantPurple",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantPurpleAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantPurpleAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantGreen",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantGreen",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantGreenAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantGreenAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingWhite",
-    "aInputPts"      : [
+    "strName": "LightCeilingWhite",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnWhiteAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffWhiteAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
-  
   {
-    "strName" : "LightCeilingCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingOrangeCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingOrangeCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnOrangeCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffOrangeCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantRedCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantRedCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantRedCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantRedCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantPurpleCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantPurpleCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantPurpleCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantPurpleCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingVibrantGreenCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingVibrantGreenCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnVibrantGreenCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffVibrantGreenCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCeilingWhiteCustom",
-    "aInputPts"      : [
+    "strName": "LightCeilingWhiteCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSCeilingLightSwitchOnWhiteCustomAllow",
     "strIntPowerOff": "MSCeilingLightSwitchOffWhiteCustomAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Light",
-    "aInputPts"      : [
+    "strName": "Light",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnAllow",
     "strIntPowerOff": "MSLightSwitchOffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightOrange",
-    "aInputPts"      : [
+    "strName": "LightOrange",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnOrangeAllow",
     "strIntPowerOff": "MSLightSwitchOffOrangeAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightRed",
-    "aInputPts"      : [
+    "strName": "LightRed",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnRedAllow",
     "strIntPowerOff": "MSLightSwitchOffRedAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightVibrantPurple",
-    "aInputPts"      : [
+    "strName": "LightVibrantPurple",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnVibrantPurpleAllow",
     "strIntPowerOff": "MSLightSwitchOffVibrantPurpleAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightVibrantGreen",
-    "aInputPts"      : [
+    "strName": "LightVibrantGreen",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnVibrantGreenAllow",
     "strIntPowerOff": "MSLightSwitchOffVibrantGreenAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightWhite",
-    "aInputPts"      : [
+    "strName": "LightWhite",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnWhiteAllow",
     "strIntPowerOff": "MSLightSwitchOffWhiteAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightCustom",
-    "aInputPts"      : [
+    "strName": "LightCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightOrangeCustom",
-    "aInputPts"      : [
+    "strName": "LightOrangeCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnOrangeCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffOrangeCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightRedCustom",
-    "aInputPts"      : [
+    "strName": "LightRedCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnRedCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffRedCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightVibrantPurpleCustom",
-    "aInputPts"      : [
+    "strName": "LightVibrantPurpleCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnVibrantPurpleCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffVibrantPurpleCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightVibrantGreenCustom",
-    "aInputPts"      : [
+    "strName": "LightVibrantGreenCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnVibrantGreenCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffVibrantGreenCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "LightWhiteCustom",
-    "aInputPts"      : [
+    "strName": "LightWhiteCustom",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSLightSwitchOnWhiteCustomAllow",
     "strIntPowerOff": "MSLightSwitchOffWhiteCustomAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "RCSCluster01",
-    "aInputPts"      : [
+    "strName": "RCSCluster01",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 2.78e-6,
+    "fAmount": 2.78e-06,
     "strIntPowerOn": "MSRCSCluster01OnAllow",
     "strIntPowerOff": "MSRCSCluster01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "RCSDistro01",
-    "aInputPts"      : [
+    "strName": "RCSDistro01",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSRCSDistro01OnAllow",
     "strIntPowerOff": "MSRCSDistro01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "RCSDistro02",
-    "aInputPts"      : [
+    "strName": "RCSDistro02",
+    "aInputPts": [
       "Power"
     ],
-    "fAmount": 5.2e-5,
+    "fAmount": 5.2e-05,
     "strIntPowerOn": "MSRCSDistro02OnAllow",
     "strIntPowerOff": "MSRCSDistro02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorEM01",
-    "aInputPts"      : [
+    "strName": "SensorEM01",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorEM01OnAllow",
     "strIntPowerOff": "MSSensorEM01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorEM02",
-    "aInputPts"      : [
+    "strName": "SensorEM02",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorEM02OnAllow",
     "strIntPowerOff": "MSSensorEM02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorEOIR01",
-    "aInputPts"      : [
+    "strName": "SensorEOIR01",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorEOIR01OnAllow",
     "strIntPowerOff": "MSSensorEOIR01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorIR01",
-    "aInputPts"      : [
+    "strName": "SensorIR01",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorIR01OnAllow",
     "strIntPowerOff": "MSSensorIR01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorIR02",
-    "aInputPts"      : [
+    "strName": "SensorIR02",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorIR02OnAllow",
     "strIntPowerOff": "MSSensorIR02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorOptical01",
-    "aInputPts"      : [
+    "strName": "SensorOptical01",
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 1.25e-4,
+    "fAmount": 0.000125,
     "strIntPowerOn": "MSSensorOptical01OnAllow",
     "strIntPowerOff": "MSSensorOptical01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorLidar01",
-    "aInputPts"      : [
+    "strName": "SensorLidar01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 1.3e-4,
+    "fAmount": 0.00013,
     "strIntPowerOn": "MSSensorLidar01OnAllow",
     "strIntPowerOff": "MSSensorLidar01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorLidar02",
-    "aInputPts"      : [
+    "strName": "SensorLidar02",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 1.3e-4,
+    "fAmount": 0.00013,
     "strIntPowerOn": "MSSensorLidar02OnAllow",
     "strIntPowerOff": "MSSensorLidar02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorRadar01",
-    "aInputPts"      : [
+    "strName": "SensorRadar01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 1.94e-3,
+    "fAmount": 0.00194,
     "strIntPowerOn": "MSSensorRadar01OnAllow",
     "strIntPowerOff": "MSSensorRadar01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "SensorRadar02",
-    "aInputPts"      : [
+    "strName": "SensorRadar02",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 1.94e-3,
+    "fAmount": 0.00194,
     "strIntPowerOn": "MSSensorRadar02OnAllow",
     "strIntPowerOff": "MSSensorRadar02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponPDC01",
-    "aInputPts"      : [
+    "strName": "ShipWeaponPDC01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponPDC01OnAllow",
     "strIntPowerOff": "MSShipWeaponPDC01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponPDC02",
-    "aInputPts"      : [
+    "strName": "ShipWeaponPDC02",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponPDC02OnAllow",
     "strIntPowerOff": "MSShipWeaponPDC02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponPDC03",
-    "aInputPts"      : [
+    "strName": "ShipWeaponPDC03",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponPDC03OnAllow",
     "strIntPowerOff": "MSShipWeaponPDC03OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponMassThrower01",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMassThrower01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMassThrower01OnAllow",
     "strIntPowerOff": "MSShipWeaponMassThrower01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,
-    "strOverrideCond" : "IsReloading",
-    "fOverrideAmount" : 2.4
+    "bAllowExtPower": true,
+    "strOverrideCond": "IsReloading",
+    "fOverrideAmount": 2.4
   },
   {
-    "strName" : "ShipWeaponMassThrower02",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMassThrower02",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMassThrower02OnAllow",
     "strIntPowerOff": "MSShipWeaponMassThrower02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,
-    "strOverrideCond" : "IsReloading",
-    "fOverrideAmount" : 2.7
+    "bAllowExtPower": true,
+    "strOverrideCond": "IsReloading",
+    "fOverrideAmount": 2.7
   },
   {
-    "strName" : "ShipWeaponMassThrower03",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMassThrower03",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMassThrower03OnAllow",
     "strIntPowerOff": "MSShipWeaponMassThrower03OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,
-    "strOverrideCond" : "IsReloading",
-    "fOverrideAmount" : 3
+    "bAllowExtPower": true,
+    "strOverrideCond": "IsReloading",
+    "fOverrideAmount": 3
   },
   {
-    "strName" : "ShipWeaponDecoyLauncher01",
-    "aInputPts"      : [
+    "strName": "ShipWeaponDecoyLauncher01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponDecoyLauncher01OnAllow",
     "strIntPowerOff": "MSShipWeaponDecoyLauncher01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponMissileLauncher01",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMissileLauncher01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMissileLauncher01OnAllow",
     "strIntPowerOff": "MSShipWeaponMissileLauncher01OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponMissileLauncher02",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMissileLauncher02",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMissileLauncher02OnAllow",
     "strIntPowerOff": "MSShipWeaponMissileLauncher02OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ShipWeaponMissileLauncher03",
-    "aInputPts"      : [
+    "strName": "ShipWeaponMissileLauncher03",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSShipWeaponMissileLauncher03OnAllow",
     "strIntPowerOff": "MSShipWeaponMissileLauncher03OffAllow",
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "StabilizerActive01",
-    "aInputPts"      : [
+    "strName": "StabilizerActive01",
+    "aInputPts": [
       "PowerA"
     ],
     "fAmount": 0.0011,
@@ -1349,11 +1332,11 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "StationNav",
-    "aInputPts"      : [
+    "strName": "StationNav",
+    "aInputPts": [
       "PowerA"
     ],
     "fAmount": 0.000555,
@@ -1362,11 +1345,11 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ReactorIC02Batt",
-    "aInputPts"      : [
+    "strName": "ReactorIC02Batt",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -1375,11 +1358,11 @@
     "strShutDownCT": "TIsConnctedSignalledOff",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ReactorIC02Ignition",
-    "aInputPts"      : [
+    "strName": "ReactorIC02Ignition",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 34000000.0,
@@ -1387,11 +1370,11 @@
     "strIntPowerOff": "MSReactor02SwitchOffAllow",
     "strUsePowerCT": null,
     "strRechargeCT": "TIsReadyRecharge",
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "ReactorIC02Off",
-    "aInputPts"      : [
+    "strName": "ReactorIC02Off",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -1399,11 +1382,11 @@
     "strIntPowerOff": null,
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ReactorIC03Batt",
-    "aInputPts"      : [
+    "strName": "ReactorIC03Batt",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -1411,11 +1394,11 @@
     "strIntPowerOff": "MSReactor03SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "ReactorIC03Ignition",
-    "aInputPts"      : [
+    "strName": "ReactorIC03Ignition",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 34000000.0,
@@ -1423,11 +1406,11 @@
     "strIntPowerOff": "MSReactor03SwitchOffAllow",
     "strUsePowerCT": null,
     "strRechargeCT": "TIsReadyRecharge",
-    "bAllowExtPower" :  false
+    "bAllowExtPower": false
   },
   {
-    "strName" : "ReactorIC03Off",
-    "aInputPts"      : [
+    "strName": "ReactorIC03Off",
+    "aInputPts": [
       "PowerSource"
     ],
     "fAmount": 0.14,
@@ -1435,52 +1418,52 @@
     "strIntPowerOff": null,
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
-  },  
+    "bAllowExtPower": true
+  },
   {
     "strName": "SignNeon01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSSignNeon01OnAllow",
     "strIntPowerOff": "MSSignNeon01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Terminal01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA",
       "PowerB",
       "PowerC",
       "PowerD"
     ],
-    "fAmount": 2.78e-6,
+    "fAmount": 2.78e-06,
     "strIntPowerOn": "MSTerminal01OnAllow",
     "strIntPowerOff": "MSTerminal01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "TowingBrace01",
-    "aInputPts"      : [
+    "strName": "TowingBrace01",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
-    "fAmount": 5e-6,
+    "fAmount": 5e-06,
     "strIntPowerOn": "MSTowingBrace01OnAllow",
     "strIntPowerOff": "MSTowingBrace01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "TowingBrace01Secured",
-    "aInputPts"      : [
+    "strName": "TowingBrace01Secured",
+    "aInputPts": [
       "PowerA",
       "PowerB"
     ],
@@ -1489,83 +1472,81 @@
     "strIntPowerOff": "MSTowingBrace01OffSecuredAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
-    "strName" : "Transponder01",
-    "aInputPts"      : [
+    "strName": "Transponder01",
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 0.0000000625,
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSTransponder01SwitchOnAllow",
     "strIntPowerOff": "MSTransponder01SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "TV01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 0.000000625,
+    "fAmount": 6.25e-07,
     "strIntPowerOn": "MSTV01SwitchOnAllow",
     "strIntPowerOff": "MSTV01SwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Vent02",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerSource"
     ],
-    "fAmount": 7.6e-5,
+    "fAmount": 7.6e-05,
     "strIntPowerOn": "MSVent02OnAllow",
     "strIntPowerOff": "MSVent02OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "UbiqWISPNode01",
-    "aInputPts"      : [
-    ],
-    "fAmount": 0.0000000625,
+    "aInputPts": [],
+    "fAmount": 6.25e-08,
     "strIntPowerOn": null,
     "strIntPowerOff": null,
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,    
-    "strPowerSourceCT" : "TIsFitContainerBattDisp01"
+    "bAllowExtPower": true,
+    "strPowerSourceCT": "TIsFitContainerBattDisp01"
   },
   {
     "strName": "UbiqWISPNode01Hacked",
-    "aInputPts"      : [
-    ],
-    "fAmount": 0.000000625,
+    "aInputPts": [],
+    "fAmount": 6.25e-07,
     "strIntPowerOn": null,
     "strIntPowerOff": null,
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true,    
-    "strPowerSourceCT" : "TIsFitContainerBattDisp01"
+    "bAllowExtPower": true,
+    "strPowerSourceCT": "TIsFitContainerBattDisp01"
   },
   {
     "strName": "StrengthTrainer01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 0.000011,
+    "fAmount": 1.1e-05,
     "strIntPowerOn": "MSStrengthTrainer01OnAllow",
     "strIntPowerOff": "MSStrengthTrainer01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "StrengthTrainer01Active",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA"
     ],
     "fAmount": 0.0011,
@@ -1573,23 +1554,23 @@
     "strIntPowerOff": "MSStrengthTrainer01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Treadmill01",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA"
     ],
-    "fAmount": 0.000011,
+    "fAmount": 1.1e-05,
     "strIntPowerOn": "MSTreadmill01OnAllow",
     "strIntPowerOff": "MSTreadmill01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "Treadmill01Active",
-    "aInputPts"      : [
+    "aInputPts": [
       "PowerA"
     ],
     "fAmount": 0.0011,
@@ -1597,18 +1578,29 @@
     "strIntPowerOff": "MSTreadmill01OffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  true
+    "bAllowExtPower": true
   },
   {
     "strName": "WorkLamp01",
-    "aInputPts"      : [
-    ],
-    "fAmount": 0.0000000625,
+    "aInputPts": [],
+    "fAmount": 6.25e-08,
     "strIntPowerOn": "MSWorkLampSwitchOnAllow",
     "strIntPowerOff": "MSWorkLampSwitchOffAllow",
     "strUsePowerCT": "TIsReadyUsePower",
     "strRechargeCT": null,
-    "bAllowExtPower" :  false,
-    "strPowerSourceCT" : "TIsPowerStorageBatteryDisp"
-  }    
+    "bAllowExtPower": false,
+    "strPowerSourceCT": "TIsPowerStorageBatteryDisp"
+  },
+  {
+    "strName": "Vent03",
+    "aInputPts": [
+      "PowerSource"
+    ],
+    "fAmount": 7.6e-05,
+    "strIntPowerOn": "MSVent03OnAllow",
+    "strIntPowerOff": "MSVent03OffAllow",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  }
 ]

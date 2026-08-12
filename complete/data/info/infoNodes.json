@@ -623,5 +623,59 @@
     "strLookup": "",
     "strTutorialKey": "Tutorial Complete",
     "strArticleBody": "Вы достигли конца основного обучения!\n\nСделайте глубокий вдох. Вы это заслужили!\n\nВ Ostranouts есть еще много чего, что можно увидеть, и чему можно научиться. В будущем мы, возможно, предложим больше руководств для продвинутых функций, особенно если получим обратную связь о том, что это то, чего вы хотите.\n\nТем временем, что произойдет дальше, зависит от вас. Путешествуйте по Системе. Влюбляйтесь. Деритесь, зарабатывайте деньги, разгадывайте тайны. Постройте корабль своей мечты. И сопротивляйтесь угнетению. Везде, где можете, в любой форме, какой можете, всегда и навсегда.\n\nУдачи."
+  },
+  {
+    "strName": "TutorialFerry",
+    "strNodeLabel": "Tutorial: Ferry",
+    "strImage": "info/Ferry0",
+    "strNodeParent": "TutorialObjectives",
+    "strArticleTitle": "Ferry Intro",
+    "strLookup": "Ferry",
+    "strArticleBody": "Sometimes, during the course of a spaceship simulation game, you need to go places without your spaceship. Maybe your spaceship won't go there? Maybe you lost your spaceship? Maybe you yearn for a simpler time of hours spent staring at a seatback safety card?\n\nYour reasons are not for us to judge.\n\nBut if you're here, you're probably requesting a ferry service, and there are some things you should know."
+  },
+  {
+    "strName": "TutorialFerry1",
+    "strNodeLabel": "Tutorial: Short and Long Range",
+    "strImage": "info/Ferry1",
+    "strNodeParent": "TutorialFerry",
+    "strArticleTitle": "P.A.S.S. Ferry",
+    "strLookup": "Ferry",
+    "strArticleBody": "The P.A.S.S. ferry service runs a series of scheduled and charter flights throughout the System. It is a holdover from the halcyon days of human expansion into space.\n\nFor a nominal fee, PASSengers can take scheduled \"Long Range Service\" trips between most major ports of call, as well as \"Chartered Ferry\" service near most major stations.\n\nSimply access any PASS terminal (1), or the PASS app on your PDA (2), and you can see a list of destinations, the price of transit, the estimated travel time, and if applicable, the waiting time for pickup."
+  },
+  {
+    "strName": "TutorialFerry2",
+    "strNodeLabel": "Tutorial: Short Range",
+    "strImage": "info/Ferry2",
+    "strNodeParent": "TutorialFerry",
+    "strArticleTitle": "Local Shuttle Service",
+    "strLookup": "Ferry",
+    "strArticleBody": "The Local Shuttle and Ship's Tender Division runs a chartered ferry that can take passengers between most local stations, as well as to and from ships owned by the passenger. This can be useful for quick jaunts to do a mission, hopping a ride back to station from a dead ship, or getting out to a newly purchased derelict.\n\nPrices are based on the trip length, and pick-up ETA is based on dispatch distance from the primary regional station.\n\nRequesting local service will immediately dispatch a shuttle from the nearest regional station, and the PASS app will show the countdown until pick-up arrives."
+  },
+  {
+    "strName": "TutorialFerry3",
+    "strNodeLabel": "Tutorial: Long Range",
+    "strImage": "info/Ferry3",
+    "strNodeParent": "TutorialFerry",
+    "strArticleTitle": "Interplanetary Service",
+    "strLookup": "Ferry",
+    "strArticleBody": "Long range voyages can be booked between most regional starports, though the cost (in both dollars and time) is not trivial. Each destination lists the price and estimated flight duration, with a button to REQUEST the flight if you so choose.\n\nFlights depart from the main port area regularly. If you don't see the REQUEST button on long range flights, you're likely not standing in the departure zone map. The departure zone will be listed just above the long range flight listings.\n\nBecause of this departure requirement, all long range flights have zero waiting time to begin."
+  },
+  {
+    "strName": "TutorialFerry4",
+    "strNodeLabel": "Tutorial: Fees & Cancellation",
+    "strImage": "info/Ferry4",
+    "strNodeParent": "TutorialFerry",
+    "strArticleTitle": "Fees & Cancellation",
+    "strLookup": "Ferry",
+    "strArticleBody": "The PASS ferry service charges a fee for any service request, whether ultimately fulfilled or not. The minute you hit REQUEST, a shuttle is dispatched, and someone's gotta pay for all that reaction mass (and maybe a pilot, too, if they're lucky).\n\nCancelling a request before the ferry arrives charges a nominal dispatch fee. Once the ferry arrives, however, you're on the hook for the whole ticket price, whether you take it or not."
+  },
+  {
+    "strName": "TutorialFerry5",
+    "strNodeLabel": "Tutorial: Trip Duration",
+    "strImage": "info/Ferry5",
+    "strNodeParent": "TutorialFerry",
+    "strArticleTitle": "Trip Duration",
+    "strLookup": "Ferry",
+    "strArticleBody": "One more note about PASS travel for the intrepid passenger. Some of these trips, especially interplanetary ones, can take a long time. Like <i>really</i> long.\n\nIt is usually more time efficient (if not more economical) to fly yourself to an interplanetary destination, so if time is important to you, bear that in mind.\n\nOnce you board the flight, that time passes instantly. You (and any crew following you) will appear at the other end with the duration having passed. While you and your crew won't suddenly starve or suffocate from the time jump, the rest of the world plods on.\n\nFor best results, you should be sure to pay any current shift fees to avoid late penalties, finish any gigs that may expire, and double check where your ships are now vs. where they're heading. The NAV TIME/ZOOM module has a FFWD slider that can be useful to see where ships will be at some time in the future. Or if you want to be extra sure (and can afford the docking fees), just dock it at a station and rest assured it'll be right where you left it."
   }
 ]

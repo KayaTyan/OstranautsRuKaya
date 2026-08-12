@@ -305,5 +305,71 @@
     ],
     "aLoots": [],
     "strType": "text"
+  },
+  {
+    "strName": "TXTParallaxEJDRGrav",
+    "aCOs": [
+      "Starfield_Transparent01=1.0x1",
+      "PlxMoon_Luna01=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTParallaxMHNG",
+    "aCOs": [
+      "PlxOneillA01=1.0x1",
+      "PlxOneillA03=1.0x1",
+      "PlxOneillA04=1.0x1",
+      "PlxOneillA02=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTParallaxMSUZ",
+    "aCOs": [
+      "PlxOneillB01=1.0x1",
+      "PlxOneillA03=1.0x1",
+      "PlxOneillA04=1.0x1",
+      "PlxOneillA02=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTParallaxMarsSurface",
+    "aCOs": [
+      "Plx_Mars_lit=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTParallaxMarsSub",
+    "aCOs": [
+      "PlxMarsSubBG01=1.0x1",
+      "PlxScraper01Roofs=1.0x1",
+      "PlxScraper01Roofs=1.0x1",
+      "PlxScraper01Roofs=1.0x1",
+      "PlxScraper01=1.0x1",
+      "PlxScraper01a=1.0x1",
+      "PlxScraper02=1.0x1",
+      "PlxScraper02=1.0x1",
+      "PlxScraper02=1.0x1",
+      "PlxScraper02=1.0x1",
+      "PlxScraper02a=1.0x1",
+      "PlxScraper03=1.0x1",
+      "PlxScraper03=1.0x1",
+      "PlxScraper03=1.0x1",
+      "PlxScraper03=1.0x1",
+      "PlxScraper03a=1.0x1",
+      "PlxScraper04=1.0x1",
+      "PlxScraper04=1.0x1",
+      "PlxScraper04=1.0x1",
+      "PlxScraper04=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
   }
 ]

@@ -1981,5 +1981,26 @@
         "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan,[protag]"
       ]
     ]
+  },
+  {
+    "strName": "79au",
+    "FriendlyName": "Ceres",
+    "strNameFriendly": "The Object at 79au",
+    "aPhases": [
+      [
+        "79auDreamOne"
+      ],
+      [
+        "79auDreamTwo"
+      ]
+    ],
+    "aPhaseTitles": [
+      "STARTING",
+      "A golden beacon is calling to you in dreams."
+    ],
+    "aIADos": [
+      [],
+      []
+    ]
   }
 ]

@@ -1181,5 +1181,12 @@
     "nG": 165,
     "nB": 155,
     "nA": 255
+  },
+  {
+    "strName": "SunFaintPaleHalf",
+    "nR": 82,
+    "nG": 82,
+    "nB": 77,
+    "nA": 255
   }
 ]

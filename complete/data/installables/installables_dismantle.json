@@ -7354,5 +7354,74 @@
     "strProgressStat": "StatDismantleProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "Vent03ClosedDismantle",
+    "strActionCO": "ItmVent03Closed",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "strLootOut": "ItmVent03Dismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03OpenDismantle",
+    "strActionCO": "ItmVent03Open",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "strLootOut": "ItmVent03Dismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03LooseDismantle",
+    "strActionCO": "ItmVent03Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "strLootOut": "ItmVent03Dismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

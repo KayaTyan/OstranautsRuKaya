@@ -46698,5 +46698,5691 @@
     ],
     "aLoots": [],
     "strType": "trigger"
+  },
+  {
+    "strName": "ACTVent03Dmg",
+    "aCOs": [
+      "MSVent03Dmg=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "CONDDrunkPassingOutPer",
+    "aCOs": [
+      "-StatDefense=1.0x0.5",
+      "StatSleep=1.0x4",
+      "-ThreshStatSleep=1.0x0.95",
+      "StatSleepComfort=1.0x10",
+      "-StatPiloting=1.0x0.1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDDrunkPassingOut",
+    "aCOs": [
+      "DrunkPassingOut=1.0x1",
+      "StatSleepComfort=1.0x10"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDDrunkPassedOut",
+    "aCOs": [
+      "Unconscious=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLFloorLDPH04",
+    "aCOs": [
+      "-IsHiddenInv=1.0x1.0",
+      "IsLDPH=1.0x1.0",
+      "IsBlue=1.0x1",
+      "IsTypeA=1.0x1.0",
+      "StatBasePrice=1.0x440",
+      "StatMass=1.0x6.5",
+      "StatDamageMax=1.0x15",
+      "StatInstallProgressMax=1.0x75"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLFloorLDPH04B",
+    "aCOs": [
+      "-IsHiddenInv=1.0x1.0",
+      "IsLDPH=1.0x1.0",
+      "IsBlue=1.0x1",
+      "IsTypeB=1.0x1.0",
+      "StatBasePrice=1.0x440",
+      "StatMass=1.0x6.5",
+      "StatDamageMax=1.0x15",
+      "StatInstallProgressMax=1.0x75"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLFloorLDPH04C",
+    "aCOs": [
+      "-IsHiddenInv=1.0x1.0",
+      "IsLDPH=1.0x1.0",
+      "IsBlue=1.0x1",
+      "IsTypeC=1.0x1.0",
+      "StatBasePrice=1.0x440",
+      "StatMass=1.0x6.5",
+      "StatDamageMax=1.0x15",
+      "StatInstallProgressMax=1.0x75"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLFloorMSSWindow03",
+    "aCOs": [
+      "-IsHiddenInv=1.0x1.0",
+      "IsMSS=1.0x1.0",
+      "IsFloorWindow=1.0x1.0",
+      "IsTypeC=1.0x1.0",
+      "StatBasePrice=1.0x540",
+      "-StatMass=1.0x1.5",
+      "-StatDamageMax=1.0x5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLFloorMSSWindow04",
+    "aCOs": [
+      "-IsHiddenInv=1.0x1.0",
+      "IsMSS=1.0x1.0",
+      "IsFloorWindow=1.0x1.0",
+      "IsTypeD=1.0x1.0",
+      "StatBasePrice=1.0x540",
+      "-StatMass=1.0x3.5",
+      "-StatDamageMax=1.0x10"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskEmbassyMTRS",
+    "aCOs": [
+      "-IsVENC=1.0x1.0",
+      "IsMTRS=1.0x1.0",
+      "IsEJDR=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskEmbassyMVOL",
+    "aCOs": [
+      "-IsVENC=1.0x1.0",
+      "IsMVOL=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskEmbassyMSUZ",
+    "aCOs": [
+      "-IsVENC=1.0x1.0",
+      "IsMSUZ=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskEmbassySVIR",
+    "aCOs": [
+      "-IsVENC=1.0x1.0",
+      "IsSVIR=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskBCERMed01",
+    "aCOs": [
+      "IsBCER=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskEJDRMed01",
+    "aCOs": [
+      "IsEJDR=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskHQCHMed01",
+    "aCOs": [
+      "IsHQCH=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskJATLMed01",
+    "aCOs": [
+      "IsJATL=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskJPTNMed01",
+    "aCOs": [
+      "IsJPTN=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskJFTSMed01",
+    "aCOs": [
+      "IsJFTS=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskMHNGMed01",
+    "aCOs": [
+      "IsMHNG=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskMLABMed01",
+    "aCOs": [
+      "IsMLAB=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskMSUZMed01",
+    "aCOs": [
+      "IsMSUZ=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskMTRSMed01",
+    "aCOs": [
+      "IsMTRS=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskMVOLMed01",
+    "aCOs": [
+      "IsMVOL=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CNDOLKioskSVIRMed01",
+    "aCOs": [
+      "IsSVIR=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskBCERFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskBCERFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskBCRSFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskBCRSFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskEJDRFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskEJDRFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskJATLFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskJATLFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskJFTSFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskJFTSFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskJPTNFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskJPTNFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskMHNGFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskMHNGFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskMLABFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskMLABFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskMSUZFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskMSUZFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskMTRSFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskMTRSFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskMVOLFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskMVOLFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskSVIRFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskSVIRFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskVENCFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskVENCFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyKioskVNCAFurnishings",
+    "aCOs": [
+      "DiscountBuy=1.0x0.08-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskVNCAFurnishings",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellKioskSupplyVCBR",
+    "aCOs": [
+      "DiscountSell=1.0x3.0-3.25"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyBCERMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellBCERMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyBCRSMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellBCRSMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyEJDRMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellEJDRMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyHQCHMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellHQCHMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyJATLMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellJATLMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyJFTSMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellJFTSMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyJPTNMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellJPTNMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyMHNGMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellMHNGMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyMLABMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellMLABMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyMSUZMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellMSUZMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyMTRSMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellMTRSMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyMVOLMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellMVOLMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuySVIRMed",
+    "aCOs": [
+      "DiscountBuy=1.0x0.1-0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellSVIRMed",
+    "aCOs": [
+      "DiscountSell=1.0x2-3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyGenericScrapKiosk",
+    "aCOs": [
+      "DiscountBuy=1.0x2.5-4.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellGenericScrapKiosk",
+    "aCOs": [
+      "DiscountSell=1.0x4.1-5.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerEJDR",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerEJDR",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerHQCH",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerHQCH",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerJFTS",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerJFTS",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerJPTN",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerJPTN",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerMHNG",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerMHNG",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerMLAB",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerMLAB",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerMSUZ",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerMSUZ",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerMTRS",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerMTRS",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerMVOL",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerMVOL",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerSVIR",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerSVIR",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerVENC",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerVENC",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerVNCA",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerVNCA",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellShipBrokerVORB",
+    "aCOs": [
+      "DiscountSell=1.0x1.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyShipBrokerVORB",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerJFTS",
+    "aCOs": [
+      "DiscountSell=1.0x1.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerJFTS",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerMLAB",
+    "aCOs": [
+      "DiscountSell=1.0x1.0"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerMLAB",
+    "aCOs": [
+      "DiscountBuy=1.0x0.2"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerMSUZ",
+    "aCOs": [
+      "DiscountSell=1.0x1.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerMSUZ",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerMTRS",
+    "aCOs": [
+      "DiscountSell=1.0x1.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerMTRS",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerMVOL",
+    "aCOs": [
+      "DiscountSell=1.0x1.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerMVOL",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountSellResBrokerSVIR",
+    "aCOs": [
+      "DiscountSell=1.0x1.5"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderDiscountBuyResBrokerSVIR",
+    "aCOs": [
+      "DiscountBuy=1.0x0.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderSellTitanResupply",
+    "aCOs": [
+      "DiscountSell=1.0x0.05"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderBuyCCREFactionKioskWin",
+    "aCOs": [
+      "DiscountBuy=1.0x3.8"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDTraderSellCCREFactionKioskWin",
+    "aCOs": [
+      "DiscountSell=1.0x4"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "TraderCTsBuyFurnishingsKiosk",
+    "aCOs": [
+      "TIsBarterChargen=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellFurnishingsKiosk",
+    "aCOs": [
+      "TIsBarterFurnishingsKioskSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyBCERMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellBCERMed",
+    "aCOs": [
+      "TIsBarterBCERMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyEJDRMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellEJDRMed",
+    "aCOs": [
+      "TIsBarterEJDRMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyHQCHMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellHQCHMed",
+    "aCOs": [
+      "TIsBarterHQCHMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyJATLMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellJATLMed",
+    "aCOs": [
+      "TIsBarterJATLMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyJFTSMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellJFTSMed",
+    "aCOs": [
+      "TIsBarterJFTSMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyJPTNMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellJPTNMed",
+    "aCOs": [
+      "TIsBarterJPTNMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyMHNGMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellMHNGMed",
+    "aCOs": [
+      "TIsBarterMHNGMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyMLABMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellMLABMed",
+    "aCOs": [
+      "TIsBarterMLABMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyMSUZMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellMSUZMed",
+    "aCOs": [
+      "TIsBarterMSUZMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyMTRSMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellMTRSMed",
+    "aCOs": [
+      "TIsBarterMTRSMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyMVOLMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellMVOLMed",
+    "aCOs": [
+      "TIsBarterMVOLMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuySVIRMed",
+    "aCOs": [
+      "TNever=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellSVIRMed",
+    "aCOs": [
+      "TIsBarterSVIRMedSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsBuyGenericScrapKiosk",
+    "aCOs": [
+      "TIsBarterGenericScrapKiosk=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "TraderCTsSellGenericScrapKiosk",
+    "aCOs": [
+      "TIsBarterGenericScrapKioskSell=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "CTBountyClaim",
+    "aCOs": [
+      "TUpBountyClaim=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "ItmVendingMachineCoffeeRestock",
+    "aCOs": [],
+    "aLoots": [
+      "ItmVendingMachineCoffee=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootBCRS",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainer=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitBCRS=1.0x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootCOHO",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainer=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitBCRS=1.0x1",
+      "ItmRandomWeapon=0.1x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootJFTS",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainerUnlocked=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitJFTS=1.0x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootMHNG",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainerUnlocked=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitMHNG=1.0x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootMSUZ",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainerUnlocked=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitMSUZ=1.0x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootMVOLSci",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainer=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitMVOL=1.0x1",
+      "ItmRandomFood=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCrewStartLootSVIR",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomContainerUnlocked=1.0x1-2",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmRandomOutfitSVIR=1.0x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=0.5x1",
+      "ItmRandomDrinkNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDerelictSpareFloorMSUZ",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomFloorPartsMSUZ=1.0x2-12"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDerelictSpareWallMSUZ",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomWallPartsMSUZ=1.0x2-12"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDrinkPouchBlood",
+    "aCOs": [
+      "ItmDrinkPouch01=1.0x1"
+    ],
+    "aLoots": [
+      "LiquidBlood=1.0x1"
+    ],
+    "bSuppress": true,
+    "bNested": true,
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDrinkPouchBloodMeat",
+    "aCOs": [
+      "ItmDrinkPouch01=1.0x1"
+    ],
+    "aLoots": [
+      "LiquidBloodMeat=1.0x1"
+    ],
+    "bSuppress": true,
+    "bNested": true,
+    "strType": "item"
+  },
+  {
+    "strName": "ItmLootSpawnMedicalMVOL",
+    "aCOs": [],
+    "aLoots": [
+      "ItmAntiRadPen01=0.02x1-5|ItmRandomMedicalItem=0.3x1-3|ItmRandomMedical=0.15x1-3|ItmDrinkPouchBlood=0.25x1-4|ItmDrinkPouchBloodMeat=0.1x1-4"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmLootSpawnMedicalMVOLBlood",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkPouchBlood=0.75x1-2|ItmDrinkPouchBloodMeat=0.25x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomProvisionsQuality",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomDrinkNew=0.05x1-3",
+      "ItmRandomDrinkUsed=0.15x1-2",
+      "ItmRandomDrinkUsed=0.15x1-2",
+      "ItmRandomDrinkUsed=0.15x1-2",
+      "ItmRandomFoodHot=0.5x1-2",
+      "ItmRandomFood=0.25x1-2",
+      "ItmRandomMedicalItemUsedLoots=0.05x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomFoodHot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmFoodHot01=0.33x1-2|ItmFoodHot05=0.33x1-2|ItmFoodHot06=0.34x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomMeatLoose",
+    "aCOs": [],
+    "aLoots": [
+      "ItmMeat01EyeLoose=0.2x1-2",
+      "ItmMeat01Loose=0.2x1-2",
+      "ItmMeat01HoofLoose=0.2x1-3",
+      "ItmMeat01HornLoose=0.2x1-2",
+      "ItmPlanterMeat01Loose=0.2x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmEJDRLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmEJDRLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmEJDRLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMHNGLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmMHNGLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMHNGLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMSUZLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmMSUZLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMSUZLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMTRSLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmMTRSLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMTRSLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMVOLLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmMVOLLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmMVOLLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchersOriginal=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmGalConLEOStartLoot",
+    "aCOs": [],
+    "aLoots": [
+      "ItmCrewSlots=1.0x1",
+      "ItmGalConLEOStartLootItems=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmGalConLEOStartLootItems",
+    "aCOs": [
+      "OutfitHelmet04=1.0x1"
+    ],
+    "aLoots": [
+      "OutfitEVA03Full=1.0x1",
+      "ItmWristPDA01LockedUsed=1.0x1",
+      "ItmWeaponPistolEnergy01New=1.0x1",
+      "ItmBackpack02=1.0x1",
+      "ItmWeaponNightstick01=1.0x1",
+      "ItmToolWorkLamp01New=0.5x1",
+      "ItmRandomTrenchers02=0.75x1-2",
+      "ItmDrinkPouchNew=1x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskEJDRInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable03Loose=1.0x6",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair04Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster04Loose=1.0x5",
+      "ItmDecorPoster02Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x12",
+      "ItmTV01Loose=1.0x20",
+      "ItmSignNeon01Loose=1.0x20",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorWood01Loose=1.0x5-21",
+      "ItmFloorWood02Loose=1.0x5-21",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskJATLInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster03Loose=1.0x5",
+      "ItmDecorPoster05Loose=1.0x5",
+      "ItmDecorPoster06Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskJFTSInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster09Loose=1.0x5",
+      "ItmDecorPoster12Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskJPTNInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster09Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskMTRSInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable03Loose=1.0x6",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair04Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster02Loose=1.0x5",
+      "ItmDecorPoster10Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x16",
+      "ItmVent02Loose=1.0x16",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorWood01Loose=1.0x5-21",
+      "ItmFloorWood02Loose=1.0x5-21",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskMHNGInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable03Loose=1.0x6",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair04Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow03Loose=1.0x21",
+      "ItmFloorMSSWindow04Loose=1.0x21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorWood01Loose=1.0x51",
+      "ItmFloorWood02Loose=1.0x51",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskMLABInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmDecorPoster00Loose=1.0x1",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x16",
+      "ItmTV01Loose=1.0x16",
+      "ItmSignNeon01Loose=1.0x16",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed01Loose=1.0x16",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x10-21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskMSUZInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable03Loose=1.0x6",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair04Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorWood01Loose=1.0x5-21",
+      "ItmFloorWood02Loose=1.0x5-21",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskMVOLInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable03Loose=1.0x6",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair04Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster02Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor04ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor04ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmWallMSHG01Loose=1.0x10-21",
+      "ItmWallMSHG02Loose=1.0x10-21",
+      "ItmWallMSHG03Loose=1.0x10-21",
+      "ItmWallMSHG04Loose=1.0x10-21",
+      "ItmWallMSHG05Loose=1.0x10-21",
+      "ItmFloorWood01Loose=1.0x5-21",
+      "ItmFloorWood02Loose=1.0x5-21",
+      "ItmFloorMSHG08Loose=1.0x21",
+      "ItmFloorMSHG09ALoose=1.0x21",
+      "ItmFloorMSHG09BLoose=1.0x21",
+      "ItmFloorMSHG09CLoose=1.0x21",
+      "ItmFloorMSHG09DLoose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskSVIRInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster11Loose=1.0x5",
+      "ItmWallLDPH01Loose=1.0x21",
+      "ItmFloorLDPH01ALoose=1.0x21",
+      "ItmFloorLDPH01bLoose=1.0x21",
+      "ItmFloorLDPH02Loose=1.0x21",
+      "ItmFloorLDPH03ALoose=1.0x21",
+      "ItmFloorLDPH03BLoose=1.0x21",
+      "ItmFloorLDPH03CLoose=1.0x21",
+      "ItmFloorLDPH03DLoose=1.0x21",
+      "ItmFloorLDPH04Loose=1.0x21",
+      "ItmFloorLDPH04bLoose=1.0x21",
+      "ItmFloorLDPH04cLoose=1.0x21",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskVENCInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDecorPoster01Loose=1.0x10",
+      "ItmDecorPoster11Loose=1.0x10",
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x51",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFurnishingsKioskVNCAInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair03Loose=1.0x21",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmDecorPoster10Loose=1.0x5",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLoose=1.0x40",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmLitCeiling1x1OffLooseCustom=1.0x50",
+      "ItmLitCeiling1x1OffLoose=1.0x20",
+      "ItmLitCeiling1x1OrangeOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantRedOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantPurpleOffLoose=1.0x20",
+      "ItmLitCeiling1x1VibrantGreenOffLoose=1.0x20",
+      "ItmLitCeiling1x1WhiteOffLoose=1.0x20",
+      "ItmVent01Loose=1.0x6",
+      "ItmVent02Loose=1.0x6",
+      "ItmVent03Loose=1.0x16",
+      "ItmHatch01Loose=1.0x6",
+      "ItmDoor01ClosedLoose=1.0x6",
+      "ItmDockSys03ClosedLoose=1.0x1",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAlarmTempOffLoose=1.0x15",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmO2OffLoose=1.0x15",
+      "ItmAlarmN2OffLoose=1.0x15",
+      "ItmAlarmCO2OffLoose=1.0x15",
+      "ItmAlarmContaminantsOffLoose=1.0x15",
+      "ItmAlarmSmokeOffLoose=1.0x25",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmDoor05ClosedLoose=1.0x10",
+      "ItmWallWindow1x1Loose=1.0x51",
+      "ItmFloorMSSWindow01Loose=1.0x21",
+      "ItmFloorMSSWindow02Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmFloorTSDOC_08fLoose=1.0x21",
+      "ItmWallRYOB01Loose=1.0x10-21",
+      "ItmWallRYOB02Loose=1.0x10-21",
+      "ItmFloorRYOF01Loose=1.0x10-21",
+      "ItmFloorRYOF02Loose=1.0x10-21",
+      "ItmFloorRYOF03Loose=1.0x10-21",
+      "ItmFloorRYOF04Loose=1.0x10-21",
+      "ItmFloorRYOF05Loose=1.0x10-21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmEJDRShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerEJDR=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmHQCHShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerHQCH=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmJFTSShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerJFTS=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmJPTNShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerJPTN=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMHNGShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerMHNG=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMSUZShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerMSUZ=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMVOLShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerMVOL=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmSVIRShipBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerSVIR=1.0x3-10"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmJFTSResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResRyokka01=1.0x1",
+      "ResBCER01=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMLABResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResMLAB01=1.0x1",
+      "ResRyokka01=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMTRSResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResEJDR01=1.0x1",
+      "ResRyokka01=1.0x1",
+      "ResMSUZ01=1.0x1",
+      "ResMSUZ02=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMSUZResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResMSUZ01=1.0x1",
+      "ResMSUZ02=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmMVOLResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResMSUZ01=1.0x1",
+      "ResMSUZ02=1.0x1",
+      "ResEJDR01=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "ItmSVIRResBrokerInv",
+    "aCOs": [],
+    "aLoots": [
+      "ResRyokka01=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "CONDJFTSResBrokerConds",
+    "aCOs": [
+      "IsHomeownerJFTS=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMLABResBrokerConds",
+    "aCOs": [
+      "IsHomeownerMLAB=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMSUZResBrokerConds",
+    "aCOs": [
+      "IsHomeownerMSUZ=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMTRSResBrokerConds",
+    "aCOs": [
+      "IsHomeownerMTRS=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMVOLResBrokerConds",
+    "aCOs": [
+      "IsHomeownerMVOL=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDSVIRResBrokerConds",
+    "aCOs": [
+      "IsHomeownerSVIR=1.0x1",
+      "Plot_OKLGHousing_01Done=1.0x1",
+      "-TutorialNoHousingYet=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "ItmGenericScrapKioskInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomFloorPartsRYOF=0.5x15-20",
+      "ItmRandomFloorPartsTSDO46=0.5x15-20",
+      "ItmRandomFloorPartsTSDO=0.7x15-20",
+      "ItmRandomFloorPartsTSDOPastel=0.1x15-20",
+      "ItmRandomFloorPartsTSDOTurf=0.1x15-20",
+      "ItmRandomFloorPartsMSSLFWhite=0.1x5-10",
+      "ItmRandomFloorPartsMSSOW=0.1x5-10",
+      "ItmRandomFloorPartsVHF=0.1x5-10",
+      "ItmRandomFloorPartsMSHG=0.7x2-12",
+      "ItmRandomWall=1.0x20-30",
+      "ItmScrapAluminum=1.0x12-20",
+      "ItmScrapSteel=1.0x12-10",
+      "ItmScrapCarbonFiber=1.0x12-10",
+      "ItmPartsMechSmall01=1.0x10-15",
+      "ItmPartsElecSmall01=1.0x10-15",
+      "ItmConduit01Loose=1.0x4-8",
+      "ItmConduit04Loose=1.0x25-35",
+      "ItmRandomDamagedParts=1.0x5-10"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitJFTS",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomClothesLeggings=0.9x1",
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitBCRS",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomClothesLeggings=0.9x1",
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitMHNG",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomClothesLeggings=0.9x1",
+      "ItmRandomClothesNonEVA=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitMSUZ",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomClothesLeggings=0.9x1",
+      "ItmRandomClothesNonEVA=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitMVOL",
+    "aCOs": [],
+    "aLoots": [
+      "ItmTShirt01=1.0x1",
+      "OutfitLeggings01f=1.0x1",
+      "OutfitEVA05Full=0.25x1|ItmRandomOutfitMVOLNonEVA=0.75x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitMVOLNonEVA",
+    "aCOs": [],
+    "aLoots": [
+      "ItmShirt01=0.75x1|OutfitSuit06=0.25x1",
+      "ItmShoe01L=1.0x1",
+      "ItmShoe01R=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomOutfitSVIR",
+    "aCOs": [],
+    "aLoots": [
+      "ItmRandomClothesLeggings=0.9x1",
+      "ItmRandomClothesNonEVA=0.95x1|ItmRandomSpacesuitFull=0.05x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomClothesCargoPants",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitCargoPants01=0.2x1|OutfitCargoPants02=0.25x1|OutfitCargoPants03=0.25x1|OutfitCargoPants04=0.25x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomClothesCargoPantsStrapped",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitCargoPantsStrapped01=0.2x1|OutfitCargoPantsStrapped02=0.25x1|OutfitCargoPantsStrapped03=0.25x1|OutfitCargoPantsStrapped04=0.25x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomFloorPartsMSUZ",
+    "aCOs": [
+      "ItmFloorCross04Loose=0.2x1|ItmFloorMSHG04Loose=0.2x1|ItmFloorVHF04Loose=0.2x1|ItmFloorVHF05Loose=0.2x1|ItmFloorMSSWindow01Loose=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRandomWallPartsMSUZ",
+    "aCOs": [
+      "ItmWallMSHG04Loose=0.5x1|ItmWallMSHG05Loose=0.2x1|ItmWallThin1x106Loose=0.3x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskEJDRInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand07=1.0x10",
+      "OutfitTShirtBrand07b=1.0x10",
+      "OutfitTShirtBrand10=1.0x10",
+      "OutfitTShirtBrand14=1.0x10",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskHQCHInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirt01=1.0x10",
+      "OutfitSuit06=1.0x10",
+      "ItmShirt01=1.0x10",
+      "ItmShipCladding01Loose=1.0x100",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskJATLInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand18=1.0x5",
+      "OutfitTShirtBrand18b=1.0x5",
+      "OutfitTShirtBrand18c=1.0x5",
+      "OutfitSuit05=1.0x5",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskJFTSInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirt02=1.0x10",
+      "OutfitTShirtBrand05=1.0x5",
+      "OutfitTShirtBrand05b=1.0x5",
+      "OutfitTShirtBrand05c=1.0x5",
+      "OutfitTShirtBrand05d=1.0x5",
+      "OutfitTShirtBrand06=1.0x5",
+      "OutfitSuit01=1.0x5",
+      "ItmRandomClothesCargoPants=1.0x3",
+      "ItmRandomClothesCargoPantsStrapped=1.0x1-3",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskJPTNInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirt02=1.0x10",
+      "OutfitTShirt03=1.0x10",
+      "OutfitTShirtBrand06=1.0x5",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskMHNGInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand15=1.0x10",
+      "OutfitTShirtBrand15b=1.0x10",
+      "OutfitTShirtBrand15c=1.0x10",
+      "OutfitTShirtBrand15d=1.0x10",
+      "OutfitTShirtBrand15e=1.0x10",
+      "OutfitTShirtBrand15f=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x15",
+      "ItmDrinkFlask02WaterNew=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x40",
+      "ItmRandomDrinkLiquor=1.0x20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x50",
+      "ItmRandomToothbrush=1.0x15",
+      "ItmBackpack02=1.0x3",
+      "ItmCrate01=1.0x3",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskMLABInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmWeaponKnife01=1.0x1-2",
+      "OutfitTShirtBrand10=1.0x1-5",
+      "OutfitTShirtBrand13=1.0x1",
+      "OutfitTShirtBrand08=1.0x1",
+      "OutfitTShirtBrand08b=1.0x1",
+      "OutfitTShirtBrand14=1.0x10",
+      "ItmPants01=1.0x1",
+      "ItmRandomClothesLeggings02=1.0x2",
+      "ItmRandomClothesCargoPantsStrapped=1.0x1",
+      "ItmRandomClothesCargoPants=1.0x1",
+      "ItmRandomClothesSingleTraders=1.0x13-20",
+      "ItmRandomShoesMatched=1.0x5",
+      "ItmAmmo58=1.0x5-30",
+      "ItmAmmoHullsafe=1.0x17-34",
+      "ItmRandomDrinkLiquor=1.0x15",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmRandomTrenchersOriginal=1.0x1-5",
+      "ItmToolFireEx01=1.0x5",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x1",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmDocumentOgiso01Loose=1.0x10-25"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskMTRSInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand17=1.0x10",
+      "OutfitTShirtBrand17b=1.0x10",
+      "OutfitSuit06=1.0x10",
+      "ItmCigDamaskRoseBox01New=1.0x10-20",
+      "ItmCigUnicornDreamBox02New=1.0x10-20",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmDrinkCoffeePouchNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigViceroyBox02New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskMSUZInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand12=1.0x5",
+      "OutfitTShirtBrand12b=1.0x5",
+      "OutfitSuit04=1.0x5",
+      "OutfitTShirt04=1.0x5",
+      "ItmWristPDA01=1.0x15",
+      "ItmDataCard01=1.0x15",
+      "ItmRandomPDACartStock=1.0x20",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskMVOLInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand04=1.0x5",
+      "OutfitTShirtBrand04b=1.0x5",
+      "OutfitTShirtBrand04c=1.0x5",
+      "OutfitTShirtBrand09=1.0x5",
+      "OutfitTShirtBrand09b=1.0x5",
+      "OutfitTShirtBrand09c=1.0x5",
+      "ItmDolly01=1.0x5",
+      "ItmToolFireEx01=1.0x20",
+      "ItmFusionABLWall01Loose=1.0x25",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmAmmo58=1.0x50",
+      "ItmAmmoHullsafe=1.0x85",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=1.0x15",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=1.0x1-2",
+      "ItmNavModDiagnostics=1.0x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=1.0x1-2",
+      "ItmNavModCoursePlot=1.0x1-2",
+      "ItmNavModTorchDrive=1.0x1-2",
+      "ItmNavModFlightDynamics=1.0x1-2",
+      "ItmNavModDisplayControls=1.0x1-2",
+      "ItmNavModReserves=1.0x1-2",
+      "ItmNavModSensorsMFD=1.0x1-2",
+      "ItmNavModDuhrt=1.0x1-2",
+      "ItmNavModMooringControl=1.0x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskSVIRInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirt01=1.0x5",
+      "ItmShirt01=1.0x5",
+      "OutfitTShirtBrand02=1.0x5",
+      "OutfitTShirtBrand02b=1.0x5",
+      "OutfitTShirtBrand02c=1.0x5",
+      "OutfitTShirtBrand02d=1.0x5",
+      "ItmAmmoHullsafe=1.0x85",
+      "ItmAmmo556HG=1.0x50",
+      "ItmAmmo556=1.0x50",
+      "ItmAmmo9mm=1.0x51",
+      "ItmAmmo38=1.0x30",
+      "ItmAmmo45=1.0x40",
+      "ItmAmmo12GaugeHG=1.0x30",
+      "ItmAmmo12Gauge=1.0x30",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmShipCladding01Loose=1.0x40",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmRandomDrinkLiquor=1.0x5-8",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModWeaponsMFD=1.0x1-2",
+      "ItmNavModFire3x3=1.0x1-2",
+      "ItmNavModFire2x2=1.0x1-2",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=0.5x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModFlightDynamics=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=0.5x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskVCBRInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmSensorEM01Loose=1.0x5",
+      "ItmSensorIR01Loose=1.0x5",
+      "ItmSensorOptical01Loose=1.0x5",
+      "ItmSensorRadar01Loose=1.0x2",
+      "ItmSensorLidar01Loose=1.0x2",
+      "ItmAlarmSmokeOffLoose=1.0x20",
+      "ItmAlarmContaminantsOffLoose=1.0x20",
+      "ItmAlarmO2OffLoose=1.0x25",
+      "ItmAlarmN2OffLoose=1.0x25",
+      "ItmAlarmCO2OffLoose=1.0x25",
+      "ItmAlarmTempOffLoose=1.0x25",
+      "ItmAtmoScrubber02OffLoose=1.0x10",
+      "ItmToolFireEx01=1.0x20",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmBackpack02=0.5x1",
+      "ItmCrate01=1.0x15",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModControlToggle=1.0x1-2",
+      "ItmNavModDiagnostics=1.0x1-2",
+      "ItmNavModEngineMode=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=1.0x1-2",
+      "ItmNavModCoursePlot=1.0x1-2",
+      "ItmNavModTorchDrive=1.0x1-2",
+      "ItmNavModFlightDynamics=1.0x1-2",
+      "ItmNavModDisplayControls=1.0x1-2",
+      "ItmNavModReserves=1.0x1-2",
+      "ItmNavModSensorsMFD=1.0x1-2",
+      "ItmNavModDuhrt=1.0x1-2",
+      "ItmNavModMooringControl=1.0x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskVENCInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand01=1.0x5",
+      "OutfitTShirtBrand01b=1.0x5",
+      "ItmRandomClothesLeggings01=1.0x5",
+      "ItmNavModFlightDynamics=1.0x1-2",
+      "ItmNavModControlToggle=1.0x1-2",
+      "ItmNavModEngineMode=1.0x1-2",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigViceroyBox02New=1.0x10-20",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "ItmBackpack02=1.0x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmDrinkCoffeePouchNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=1.0x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSupplyKioskVNCAInv",
+    "aCOs": [],
+    "aLoots": [
+      "OutfitTShirtBrand16=1.0x10",
+      "OutfitTShirtBrand16b=1.0x10",
+      "OutfitTShirtBrand16c=1.0x10",
+      "OutfitSuit03=1.0x10",
+      "ItmRandomClothesLeggings02=1.0x5",
+      "ItmRandomClothesSingleTraders=1.0x4-6",
+      "OutfitSuit03=1.0x5",
+      "ItmCigDamaskRoseBox01New=1.0x10-20",
+      "ItmCigUnicornDreamBox02New=1.0x10-20",
+      "ItmCigViceroyBox01New=1.0x10-20",
+      "ItmCigViceroyBox02New=1.0x10-20",
+      "ItmNavModFlightDynamics=1.0x1-2",
+      "ItmNavModControlToggle=1.0x1-2",
+      "ItmNavModEngineMode=1.0x1-2",
+      "ItmBackpack02=1.0x1",
+      "ItmCrate01=0.5x2",
+      "ItmToolBox01=0.5x1-2",
+      "ItmToolBox02=1.0x2-4",
+      "ItmDolly01=1.0x1",
+      "ItmToolWorkLamp01New=1.0x2-4",
+      "ItmToolCrowbar01=1.0x3",
+      "ItmToolScrewDriver01=1.0x3",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3",
+      "ItmBattery04=1.0x2",
+      "ItmBatteryDisp01=1.0x10-20",
+      "ItmBattery03=1.0x3-5",
+      "ItmBattery02cLoose=1.0x6",
+      "ItmWristPDA01=1.0x1-2",
+      "ItmDataCard01=1.0x1-3",
+      "ItmRandomPDACartStock=1.0x1-3",
+      "ItmWeaponPocketKnife01=1.0x1-2",
+      "ItmOxygenCandle01=1.0x15",
+      "ItmCanisterO2Small=1.0x3-5",
+      "ItmFilterCO202=1.0x3-5",
+      "OutfitEVA01Full=1.0x1",
+      "OutfitHelmet03=1.0x1",
+      "OutfitHelmet02=1.0x1",
+      "OutfitPS01=1.0x1-5",
+      "OutfitPS02=0.05x1",
+      "ItmFilterCO201=1.0x5-10",
+      "ItmRTAO2Loose=1.0x2-3",
+      "ItmRTAN2Loose=1.0x2-3",
+      "ItmRTACO2Loose=1.0x1-2",
+      "ItmAirPump03OffLoose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x5-10",
+      "ItmRandomTrenchersOriginal=1.0x15",
+      "ItmDrinkPouchWaterNew=1.0x10-20",
+      "ItmDrinkCoffeePouchNew=1.0x10-20",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkNew=0.25x1",
+      "ItmRandomDrinkLiquor=1.0x1-2",
+      "ItmDrinkFlask01WaterNew=1.0x4-6",
+      "ItmDrinkFlask02WaterNew=1.0x4-10",
+      "ItmCigBoxNew=1.0x12-15",
+      "ItmScrapClothClean=1.0x4-8",
+      "ItmHygieneWipes01=1.0x5-15",
+      "ItmRandomToothbrush=0.1x3",
+      "ItmHullPatch01=1.0x15",
+      "ItmSealTemp01Loose=1.0x15",
+      "ItmToolFireEx01=1.0x5",
+      "ItmFusionABLWall01Loose=1.0x3",
+      "ItmBookEnvManual01=0.5x1-2",
+      "ItmBookFusionManual01=0.5x1-2",
+      "ItmBookPolarisNavManual01=0.5x1-2",
+      "ItmDocumentOgiso01Loose=1.0x10-25",
+      "ItmNavModMap=1.0x1-2",
+      "ItmNavModTargetData=1.0x1-2",
+      "ItmNavModControls=1.0x1-2",
+      "ItmNavModDiagnostics=0.5x1-2",
+      "ItmNavModWarnings=1.0x1-2",
+      "ItmNavModTransponder=1.0x1-2",
+      "ItmNavModTimeZoom=0.5x1-2",
+      "ItmNavModCoursePlot=0.5x1-2",
+      "ItmNavModTorchDrive=0.5x1-2",
+      "ItmNavModDisplayControls=0.5x1-2",
+      "ItmNavModReserves=1.0x1-2",
+      "ItmNavModSensorsMFD=0.5x1-2",
+      "ItmNavModDuhrt=0.5x1-2",
+      "ItmNavModMooringControl=0.5x1-2"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderEJDRKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJATLKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJFTSKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJPTNKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMHNGKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMLABKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMSUZKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMTRSKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMVOLKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderSVIRKioskTSDOInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkRiceWineNew=1.0x10",
+      "ItmDrinkFlask01WaterNew=1.0x10",
+      "ItmDrinkFlask02WaterNew=1.0x10",
+      "ItmToothbrush01=0.2x10|ItmToothbrush02=0.2x10|ItmToothbrush03=0.2x10|ItmToothbrush04=0.2x10|ItmToothbrush05=0.1x10|ItmToothbrush06=0.1x10",
+      "OutfitTShirtBrand03=1.0x5",
+      "OutfitTShirtBrand03b=1.0x5",
+      "OutfitTShirtBrand03c=1.0x5",
+      "ItmChair03Loose=1.0x5-15",
+      "ItmWallTSDO01Loose=1.0x5-15",
+      "ItmWallTSDO44Loose=1.0x5-15",
+      "ItmWallThin1x1Loose=0.5x10",
+      "ItmWallThin1x102Loose=0.5x5-10",
+      "ItmWallThin1x103Loose=0.5x5-10",
+      "ItmWallThin1x104Loose=0.5x5-10",
+      "ItmWallThin1x105Loose=0.5x5-10",
+      "ItmWallThin1x106Loose=0.5x5-10",
+      "ItmWallThin1x107Loose=0.5x5-10",
+      "ItmFloorTSDO01Loose=1.0x5-15",
+      "ItmFloorTSDO02Loose=1.0x5-15",
+      "ItmFloorTSDO03Loose=1.0x5-15",
+      "ItmFloorTSDO04Loose=1.0x5-15",
+      "ItmFloorTSDO05Loose=1.0x5-15",
+      "ItmFloorTSDO46_01Loose=1.0x5-15",
+      "ItmFloorTSDO46_02Loose=1.0x5-15",
+      "ItmFloorTSDO46_03Loose=1.0x5-15",
+      "ItmFloorTSDO46_04Loose=1.0x5-15",
+      "ItmFloorTSDO46_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_01Loose=1.0x5-15",
+      "ItmFloorTSDOC_02Loose=1.0x5-15",
+      "ItmFloorTSDOC_03Loose=1.0x5-15",
+      "ItmFloorTSDOC_04Loose=1.0x5-15",
+      "ItmFloorTSDOC_05Loose=1.0x5-15",
+      "ItmFloorTSDOC_06Loose=1.0x5-15",
+      "ItmFloorTSDOC_07Loose=1.0x5-15",
+      "ItmFloorTSDOC_08Loose=1.0x5-15",
+      "ItmFloorTSDOC_08aLoose=1.0x5-15",
+      "ItmFloorTSDOC_08bLoose=1.0x5-15",
+      "ItmFloorTSDOC_08cLoose=1.0x5-15",
+      "ItmFloorTSDOC_08dLoose=1.0x5-15",
+      "ItmFloorTSDOC_08eLoose=1.0x5-15",
+      "ItmFloorTSDOC_08fLoose=1.0x5-15"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmFactionKioskMTRSInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmNavModDuhrt=1.0x1",
+      "ItmNavModWeaponsMFD=1.0x1",
+      "ItmNavModSensorsMFD=1.0x1",
+      "ItmNavModMooringControl=1.0x1",
+      "ItmToolDrillMining01New=1.0x3",
+      "ItmToolDrillMining02New=1.0x3",
+      "ItmExplosiveCharge01=1.0x20-25",
+      "ItmExplosiveCharge02=1.0x30-50",
+      "ItmWeaponRifle01=1.0x10-15",
+      "ItmAmmo58=1.0x100-200",
+      "ItmAmmo20mm=1.0x100",
+      "ItmAmmo150mm=1.0x20",
+      "ItmToolHacksaw01=1.0x3",
+      "ItmToolSolderingIron01New=1.0x3",
+      "ItmToolDrill01New=1.0x3",
+      "ItmToolGrinder02New=1.0x3",
+      "ItmToolLaserTorch01New=1.0x1-2",
+      "ItmToolWelder01New=1.0x3",
+      "ItmChargerBattDrill01OffLoose=1.0x1-2",
+      "ItmChargerBattWelder01OffLoose=1.0x1-2",
+      "ItmChargerBattery04OffLoose=1.0x1",
+      "ItmBatteryDrill01=1.0x3",
+      "ItmBatteryWelder01=1.0x3"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTitanResupplyInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmExplosiveCharge01=1.0x2-5",
+      "ItmExplosiveCharge02=1.0x3-5",
+      "ItmWeaponRifle02=1.0x1-5",
+      "ItmWeaponShotgun02=1.0x1-3",
+      "ItmAmmo556=1.0x100-200",
+      "ItmAmmo556HG=1.0x100-200",
+      "ItmAmmo12Gauge=1.0x60-100",
+      "ItmAmmo12GaugeHG=1.0x60-100",
+      "ItmAmmo20mm=1.0x100",
+      "ItmAmmo150mm=1.0x20",
+      "ItmAmmoMissile01=1.0x20"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderBCERMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderEJDRMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderHQCHMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJATLMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJFTSMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderJPTNMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMHNGMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMLABMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMSUZMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMTRSMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderMVOLMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmDrinkPouchBlood=1.0x20",
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x50",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmTraderSVIRMedInv",
+    "aCOs": [],
+    "aLoots": [
+      "ItmBoxAntiNausea01New=1.0x40",
+      "ItmPillBottle01New=1.0x40",
+      "ItmPillBottle02New=1.0x40",
+      "ItmPillBottle03New=1.0x40",
+      "ItmAntiGravPen01=1.0x100",
+      "ItmOssifexPen01=1.0x50",
+      "ItmAntiRadPen01=1.0x15",
+      "ItmSplint01=1.0x20",
+      "ItmScrapClothClean=1.0x100",
+      "ItmHygieneWipes01=1.0x100"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "CONDBountyArrestAllowAIUs",
+    "aCOs": [
+      "IsTempDraftedLong=1.0x1"
+    ],
+    "aLoots": [
+      "CONDSurrenderDemandAllowPlayerUs=1.0x1"
+    ],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEmbassyServicesMSUZVisa",
+    "aCOs": [
+      "-IsStrataSuzhouIllegal=1.0x1",
+      "IsStrataSuzhouE2B=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEmbassyServicesMTRSVisa",
+    "aCOs": [
+      "-IsStrataXinhuaIllegal=1.0x1",
+      "IsStrataXinhuaPermRes=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEmbassyServicesMVOLVisa",
+    "aCOs": [
+      "-IsStrataVoltaireIllegal=1.0x1",
+      "IsStrataVoltairePermRes=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEmbassyServicesSVIRVisa",
+    "aCOs": [
+      "-IsStrataUSIllegal=1.0x1",
+      "IsStrataUSPermRes=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEndgameTitanVisa",
+    "aCOs": [
+      "-IsStrataGalConfedPermRes=1.0x1",
+      "-IsStrataGalConfedIllegal=1.0x1",
+      "-IsStrataUSIllegal=1.0x1",
+      "-IsStrataUSPermRes=1.0x1",
+      "IsStrataCitizen=1.0x1",
+      "IsStrataGalConfedCitizen=1.0x1",
+      "IsStrataUSCitizen=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDEndgameXinhuaVisa",
+    "aCOs": [
+      "-IsStrataCCREIllegal=1.0x1",
+      "-IsStrataCCREResident=1.0x1",
+      "-IsStrataVoltaireIllegal=1.0x1",
+      "-IsStrataHangzhouE2B=1.0x1",
+      "-IsStrataHangzhouIllegal=1.0x1",
+      "-IsStrataVoltairePermRes=1.0x1",
+      "-IsStrataXinhuaIllegal=1.0x1",
+      "-IsStrataXinhuaPermRes=1.0x1",
+      "IsStrataCitizen=1.0x1",
+      "IsStrataCCRECitizen=1.0x1",
+      "IsStrataVoltaireCitizen=1.0x1",
+      "IsStrataXinhuaCitizen=1.0x1",
+      "IsStrataHangzhouCitizen=1.0x1",
+      "Plot_OKLGEmbassy_01Done=1.0x1",
+      "Plot_OKLGEmbassy_02Done=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CTMedServiceNanoFirstAidAdv",
+    "aCOs": [
+      "TUpNanoFirstAidAdv=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "HW_MHNG_Plus",
+    "aCOs": [],
+    "aLoots": [
+      "HW_Xinhua=1x1"
+    ],
+    "strType": "text"
+  },
+  {
+    "strName": "HW_MSUZ_Plus",
+    "aCOs": [],
+    "aLoots": [
+      "HW_MSUZ=1x1"
+    ],
+    "strType": "text"
+  },
+  {
+    "strName": "HW_Xinhua",
+    "aCOs": [],
+    "aLoots": [
+      "HW_MHNG=0.5x1|HW_MSUZ=0.1x1|HW_MTRS=0.2x1|HW_MVOL=0.05x1|HW_MLAB=0.025x1|HW_EJDR=0.025x1|HW_ANY=0.1x1"
+    ],
+    "strType": "text"
+  },
+  {
+    "strName": "PSPIAAddNPCSchmuckPartner",
+    "aCOs": [
+      "CGEncRichSchmuckExAdd=1.0x1"
+    ],
+    "aLoots": [
+      "PSPIAAddNPCBasic=1.0x1"
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "RandomBlockadeShip",
+    "aCOs": [
+      "Babak Refit=0.5x1|Pequod Pirate Refit=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomBlockadeShipCCRE",
+    "aCOs": [
+      "Pequod Xinhua Refit=0.65x1|Pugongying=0.35x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomBlockadeShipBeltPirates",
+    "aCOs": [
+      "Babak Refit=0.5x1|Pequod Pirate Refit=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomBlockadeShipGalileanConfederacy",
+    "aCOs": [
+      "Pequod Titan Refit=0.5x1|Baleen=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomBlockadeShipTitan",
+    "aCOs": [
+      "Pequod Titan Refit=0.5x1|Baleen=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomBlockadeShipXinhua",
+    "aCOs": [
+      "Pequod Xinhua Refit=0.65x1|Pugongying=0.35x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomNavyShipTitan",
+    "aCOs": [
+      "Vector3 Titan Refit=0.65x1|Pequod Titan Refit=0.25x1|Baleen=0.1x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomNavyShipXinhua",
+    "aCOs": [
+      "Vector3 Xinhua Refit=0.65x1|Pequod Xinhua Refit=0.25x1|Pugongying=0.1x1"
+    ],
+    "aLoots": [],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerEJDR",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerHQCH",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerJFTS",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerJPTN",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerMHNG",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerMSUZ",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerMVOL",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "RandomShipBrokerSVIR",
+    "aCOs": [],
+    "aLoots": [
+      "RandomShipBrokerOKLG=1.0x1"
+    ],
+    "strType": "ship"
+  },
+  {
+    "strName": "TXTBountyList",
+    "aCOs": [
+      "ALL_NoShip_Harmless=0.3x1.0|ALL_Civ_Harmless=0.3x1.0|ALL_Pirate_Moderate=0.2x1.0|ALL_Navy_High=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobListHQCH",
+    "aCOs": [
+      "JOBDeadBody1=0.3x1.0|JOBViolentHeavy1=0.45x1|MVPTest00=0.1x1|MVPTest01=0.15x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobListMHNG",
+    "aCOs": [
+      "JOBDeadBody1=0.2x1.0|JOBMVPHoneypot=0.5x1|MVPTest00=0.05x1|MVPTest01=0.15x1|MVPCourierTestDeliverCOShortHopMHNG=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobListMSUZ",
+    "aCOs": [
+      "JOBDeadBody1=0.2x1.0|JOBViolentHeavy1=0.1x1|JOBMVPHoneypot=0.3x1|MVPTest00=0.05x1|MVPTest01=0.25x1|MVPCourierTestDeliverCOShortHopMSUZ=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobListMTRS",
+    "aCOs": [
+      "JOBDeadBody1=0.2x1.0|MVPCourierTestDeliverCOMTRS=0.3x1|JOBMVPHoneypot=0.2x1|MVPTest00=0.05x1|MVPTest01=0.15x1|MVPCourierTestDeliverCOShortHopMTRS=0.1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobListSVIR",
+    "aCOs": [
+      "JOBDeadBody1=0.2x1.0|JOBViolentHeavy1=0.2x1|JOBMVPHoneypot=0.2x1|MVPTest00=0.05x1|MVPTest01=0.15x1|MVPCourierTestDeliverCOShortHopSVIR=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTBountySetupClient01Txt1",
+    "aCOs": [
+      "Bounty_TXT_1=0.05x1|Bounty_TXT_2=0.05x1|Bounty_TXT_3=0.05x1|Bounty_TXT_4=0.05x1|Bounty_TXT_5=0.05x1|Bounty_TXT_6=0.05x1|Bounty_TXT_7=0.05x1|Bounty_TXT_8=0.05x1|Bounty_TXT_9=0.05x1|Bounty_TXT_10=0.05x1|Bounty_TXT_11=0.05x1|Bounty_TXT_12=0.05x1|Bounty_TXT_13=0.05x1|Bounty_TXT_14=0.05x1|Bounty_TXT_15=0.05x1|Bounty_TXT_16=0.05x1|Bounty_TXT_17=0.05x1|Bounty_TXT_18=0.05x1|Bounty_TXT_19=0.05x1|Bounty_TXT_20=0.05x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginMarsRegIDs",
+    "aCOs": [
+      "MTRS=0.2x1|MTRS_SUB=0.1x1|MTAM=0.1x1|MTAM_LZ=0.1x1|MLAB=0.1x1|MVOL=0.1x1|MVOL_Med=0.1x1|MHNG=0.05x1|MHNG_BBL=0.05x1|MSUZ=0.05x1|MSUZ_RB=0.05x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginMHNGShortHopRegIDs",
+    "aCOs": [
+      "MHNG=0.5x1|MHNG_BBL=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginMSUZShortHopRegIDs",
+    "aCOs": [
+      "MSUZ=0.5x1|MSUZ_RB=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginMTRSShortHopRegIDs",
+    "aCOs": [
+      "MTRS=0.25x1|MTRS_SUB=0.25x1|MTAM=0.15x1|MTAM_LZ=0.15x1|MLAB=0.2x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginMVOLShortHopRegIDs",
+    "aCOs": [
+      "MVOL=0.33x1|MVOL_Med=0.33x1|MVOL_Lab=0.34x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJobKioskOriginSVIRShortHopRegIDs",
+    "aCOs": [
+      "SVIR=0.5x1|SVIR_Shipyard=0.5x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJFTSRecycleStations",
+    "aCOs": [
+      "JFTS=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJFTSSpawnStations",
+    "aCOs": [
+      "JFTS=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJPTNRecycleStations",
+    "aCOs": [
+      "JPTN=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJPTNSpawnStations",
+    "aCOs": [
+      "JPTN=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMHNGRecycleStations",
+    "aCOs": [
+      "MHNG=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMHNGSpawnStations",
+    "aCOs": [
+      "MHNG=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMSUZRecycleStations",
+    "aCOs": [
+      "MSUZ=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMSUZSpawnStations",
+    "aCOs": [
+      "MSUZ=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMVOLRecycleStations",
+    "aCOs": [
+      "MVOL=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMVOLSpawnStations",
+    "aCOs": [
+      "MVOL=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMTRSRecycleStations",
+    "aCOs": [
+      "MTRS=1.0x1",
+      "MTRS_SUB=1.0x1",
+      "MTAM=1x1",
+      "MTAM_LZ=1x1",
+      "MLAB=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMTRSSpawnStations",
+    "aCOs": [
+      "MTRS=1.0x1",
+      "MTAM=1x1",
+      "MLAB=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTEJDR",
+    "aCOs": [
+      "EJDR=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTEJDRMainStations",
+    "aCOs": [
+      "EJDR=1x1",
+      "EJDR_GEO=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTHQCH",
+    "aCOs": [
+      "HQCH=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTHQCHMainStations",
+    "aCOs": [
+      "HQCH=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJATL",
+    "aCOs": [
+      "JATL=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJATLMainStations",
+    "aCOs": [
+      "JATL=1x1",
+      "JATL_SUB=1x1",
+      "JPTN=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJPTN",
+    "aCOs": [
+      "JPTN=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTBPAL",
+    "aCOs": [
+      "BPAL=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJFTS",
+    "aCOs": [
+      "JFTS=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTJFTSMainStations",
+    "aCOs": [
+      "JFTS=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMHNG",
+    "aCOs": [
+      "MHNG=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMHNGMainStations",
+    "aCOs": [
+      "MHNG=1x1",
+      "MHNG_BBL=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMLAB",
+    "aCOs": [
+      "MLAB=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMTRS",
+    "aCOs": [
+      "MTRS=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMTRSMainStations",
+    "aCOs": [
+      "MTRS=1x1",
+      "MTRS_SUB=1x1",
+      "MLAB=1x1",
+      "MTAM=1x1",
+      "MTAM_LZ=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMLAB",
+    "aCOs": [
+      "MLAB=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMSUZ",
+    "aCOs": [
+      "MSUZ=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMSUZMainStations",
+    "aCOs": [
+      "MSUZ=1x1",
+      "MSUZ_RB=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMVOL",
+    "aCOs": [
+      "MVOL=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTMVOLMainStations",
+    "aCOs": [
+      "MVOL=1x1",
+      "MVOL_Med=1x1",
+      "MVOL_Lab=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTSVIR",
+    "aCOs": [
+      "SVIR=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTSVIRMainStations",
+    "aCOs": [
+      "SVIR=1x1",
+      "SVIR_Shipyard=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTALLATC",
+    "aCOs": [
+      "OKLG=0.15x1|JFTS=0.05x1|HQCH=0.05x1|JPTN=0.05x1|SVIR=0.05x1|VNCA=0.15x1|EJDR=0.05x1|MTRS=0.10x1|MHNG=0.05x1|MSUZ=0.075x1|MVOL=0.075x1|BCER=0.15x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTNavyFriendlyATC",
+    "aCOs": [
+      "JFTS=0.08x1|HQCH=0.08x1|JPTN=0.1x1|SVIR=0.1x1|EJDR=0.1x1|MTRS=0.1x1|MHNG=0.1x1|MSUZ=0.1x1|MVOL=0.1x1|BCER=0.14x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTRandomFaction",
+    "aCOs": [
+      "BeltPirates=0.05x1|CCRE=0.1x1|GalileanConfederacy=0.1x1|Atlantis=0.1x1|OKLGCorp=0.1x1|OKLGLEO=0.1x1|OKLGPirates=0.05x1|VCBRLEO=0.1x1|VENCLEO=0.1x1|VNCALEO=0.1x1|Xinhua=0.1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "TXTStationsMedicalAdv",
+    "aCOs": [
+      "MVOL=1x1",
+      "MHNG=1x1",
+      "MTRS=1x1",
+      "MTRS_SUB=1x1",
+      "MTAM_LZ=1x1",
+      "SVIR=1x1"
+    ],
+    "aLoots": [],
+    "strType": "text"
+  },
+  {
+    "strName": "CONDJPTNBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDJFTSBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMHNGBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMTRSBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDMVOLBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "CONDSVIRBlockadeSpawner",
+    "aCOs": [
+      "StationMaxFactionNavy=1.0x10",
+      "StationSpawnsBlockade=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
   }
 ]

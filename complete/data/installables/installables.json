@@ -26260,5 +26260,221 @@
     "strProgressStat": "StatDamage",
     "strCTThemMultCondTools": "IsToolStructureCutter",
     "strCTThemMultCondUs": "StatInstallRateMISC"
+  },
+  {
+    "strName": "FloorLDPH04AInstall",
+    "strActionCO": "ItmFloorLDPH04Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsFloorLDPH04AUninstalled",
+    "aInputs": [
+      "TIsFloorLDPH04AUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmFloorLDPH04A"
+    ],
+    "strStartInstall": "ItmFloorLDPH04A",
+    "strBuildType": "HULL",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "FloorLDPH04BInstall",
+    "strActionCO": "ItmFloorLDPH04bLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsFloorLDPH04BUninstalled",
+    "aInputs": [
+      "TIsFloorLDPH04BUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmFloorLDPH04B"
+    ],
+    "strStartInstall": "ItmFloorLDPH04B",
+    "strBuildType": "HULL",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "FloorLDPH04CInstall",
+    "strActionCO": "ItmFloorLDPH04cLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsFloorLDPH04CUninstalled",
+    "aInputs": [
+      "TIsFloorLDPH04CUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmFloorLDPH04C"
+    ],
+    "strStartInstall": "ItmFloorLDPH04C",
+    "strBuildType": "HULL",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "FloorMSSWindow03Install",
+    "strActionCO": "ItmFloorMSSWindow03Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsFloorMSSWindow03Uninstalled",
+    "aInputs": [
+      "TIsFloorMSSWindow03Uninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmFloorMSSWindow03"
+    ],
+    "strStartInstall": "ItmFloorMSSWindow03",
+    "strBuildType": "HULL",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "FloorMSSWindow04Install",
+    "strActionCO": "ItmFloorMSSWindow04Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsFloorMSSWindow04Uninstalled",
+    "aInputs": [
+      "TIsFloorMSSWindow04Uninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmFloorMSSWindow04"
+    ],
+    "strStartInstall": "ItmFloorMSSWindow04",
+    "strBuildType": "HULL",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "Vent03Install",
+    "strActionCO": "ItmVent03Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsVent03Uninstalled",
+    "aInputs": [
+      "TIsVent03Uninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmVent03Closed"
+    ],
+    "strStartInstall": "ItmVent03Closed",
+    "strBuildType": "HVAC",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03ClosedUninstall",
+    "strActionCO": "ItmVent03Closed",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsVent03Installed",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmVent03Loose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03OpenUninstall",
+    "strActionCO": "ItmVent03Open",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsVent03Installed",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmVent03Loose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

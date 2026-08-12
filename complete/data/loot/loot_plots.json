@@ -8947,5 +8947,1187 @@
     "aCOs": [
       "-Plot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan=1.0x1"
     ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Ceres_Dead_Drop_Black_Hat_Xinhua_Is_Active",
+    "aCOs": [
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Ceres_Dead_Drop_Black_Hat_Titan_Is_Active",
+    "aCOs": [
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Titan=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPlot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+    "aCOs": [
+      "-Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua=1.0x1",
+      "ValkyrieReqA=1.0x1",
+      "-Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPlot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
+    "aCOs": [
+      "-Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Titan=1.0x1",
+      "ValkyrieReqA=1.0x1",
+      "-Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station",
+    "aCOs": [
+      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "item",
+    "strName": "ItmCrate02_PLOT_Ceres_Brain_Case",
+    "aCOs": [
+      "ItmCrate02_PLOT_Ceres_Brain_Case=1.0x1"
+    ]
+  },
+  {
+    "strName": "CTBrainCase",
+    "aCOs": [
+      "TIsBrainCase=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "CTBrainCaseAndVoidOpal",
+    "aCOs": [
+      "TIsBrainCase=1.0x1",
+      "TIsMineral79=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strName": "CTVoidOpal",
+    "aCOs": [
+      "TIsMineral79=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "trigger"
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongHistory",
+    "aCOs": [
+      "Plot_ChoongHistory_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongResearch",
+    "aCOs": [
+      "Plot_ChoongResearch_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongEnvironment",
+    "aCOs": [
+      "Plot_ChoongEnvironment_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongVideotapes",
+    "aCOs": [
+      "Plot_ChoongVideotapes_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongVideotapesDemo",
+    "aCOs": [
+      "Plot_ChoongVideotapesDemo_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongPrison",
+    "aCOs": [
+      "Plot_ChoongPrison_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongPlateau_1Exit",
+    "aCOs": [
+      "Plot_ChoongPlateau_1Exit_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTakeBreak",
+    "aCOs": [
+      "Plot_ChoongTakeBreak_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongMilitary",
+    "aCOs": [
+      "Plot_ChoongMilitary_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongKetevanLying",
+    "aCOs": [
+      "Plot_ChoongKetevanLying_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTeleportation",
+    "aCOs": [
+      "Plot_ChoongTeleportation_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTeleportation2",
+    "aCOs": [
+      "Plot_ChoongTeleportation2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongDisappeared",
+    "aCOs": [
+      "Plot_ChoongDisappeared_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongKetevan",
+    "aCOs": [
+      "Plot_ChoongKetevan_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongLibrary",
+    "aCOs": [
+      "Plot_ChoongLibrary_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_InspectBraincase3",
+    "aCOs": [
+      "Plot_InspectBraincase3_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongPlateau2_Exit",
+    "aCOs": [
+      "Plot_ChoongPlateau2_Exit_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongInformWarDemandExplanation",
+    "aCOs": [
+      "Plot_ChoongInformWarDemandExplanation_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongSarcophagus",
+    "aCOs": [
+      "Plot_ChoongSarcophagus_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongSarcophagus2",
+    "aCOs": [
+      "Plot_ChoongSarcophagus2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongSarcophagusGold",
+    "aCOs": [
+      "Plot_ChoongSarcophagusGold_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskAboutGod",
+    "aCOs": [
+      "Plot_ChoongAskAboutGod_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongPleaWar",
+    "aCOs": [
+      "Plot_ChoongPleaWar_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongSmiley",
+    "aCOs": [
+      "Plot_ChoongSmiley_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAccuseReligion",
+    "aCOs": [
+      "Plot_ChoongAccuseReligion_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAccuseGeneral",
+    "aCOs": [
+      "Plot_ChoongAccuseGeneral_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAccuseVideotapes",
+    "aCOs": [
+      "Plot_ChoongAccuseVideotapes_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAccuseKetevan",
+    "aCOs": [
+      "Plot_ChoongAccuseKetevan_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongDontCareLying",
+    "aCOs": [
+      "Plot_ChoongDontCareLying_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAccuseWar",
+    "aCOs": [
+      "Plot_ChoongAccuseWar_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongInformWar",
+    "aCOs": [
+      "Plot_ChoongInformWar_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskAboutChangeMind",
+    "aCOs": [
+      "Plot_ChoongAskAboutChangeMind_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongListenToIdea",
+    "aCOs": [
+      "Plot_ChoongListenToIdea_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongEnterDeviceYourself",
+    "aCOs": [
+      "Plot_ChoongEnterDeviceYourself_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTortureReconsider",
+    "aCOs": [
+      "Plot_ChoongTortureReconsider_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTortureHim",
+    "aCOs": [
+      "Plot_ChoongTortureHim_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongEuthaniseOffer",
+    "aCOs": [
+      "Plot_ChoongEuthaniseOffer_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskAboutNext",
+    "aCOs": [
+      "Plot_ChoongAskAboutNext_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTortureDetails",
+    "aCOs": [
+      "Plot_ChoongTortureDetails_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongHair",
+    "aCOs": [
+      "Plot_ChoongHair_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongReciprocate",
+    "aCOs": [
+      "Plot_ChoongReciprocate_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty_Completed=1.0x1",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty_Completed=1.0x1",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty_Completed=1.0x1",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty_Completed=1.0x1",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CruzCall",
+    "aCOs": [
+      "Plot_CruzCall_Completed=1.0x1",
+      "StatUSD=1x2000"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieBorderFinish1",
+    "aCOs": [
+      "Plot_ValkyrieBorderFinish1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieInterstitialPostCrossing",
+    "aCOs": [
+      "Plot_ValkyrieInterstitialPostCrossing_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieBorderIntro",
+    "aCOs": [
+      "Plot_ValkyrieBorderIntro_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus1",
+    "aCOs": [
+      "Plot_ValkyrieSarcophagus1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagusFinish",
+    "aCOs": [
+      "Plot_ValkyrieSarcophagusFinish_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_DenouementStart2",
+    "aCOs": [
+      "Plot_DenouementStart2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Plot_Scholar_Racks_Floor_Seam",
+    "aCOs": [
+      "PlayerLearnedOrtega=1.0x1",
+      "Plot_Plot_Scholar_Racks_Floor_Seam_Completed=1.0x1",
+      "PlayerLearnedPanTao=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Plot_Scholar_Flat_Enter",
+    "aCOs": [
+      "Plot_Plot_Scholar_Flat_Enter_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Plot_Scholar_Flat_Enter1",
+    "aCOs": [
+      "Plot_Plot_Scholar_Flat_Enter1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "aCOs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Plot_Scholar_Flat_Kitchenette_Ground",
+    "aCOs": [
+      "Plot_Plot_Scholar_Flat_Kitchenette_Ground_Completed=1.0x1",
+      "PlayerLearnedOrtega=1x1.0"
+    ]
+  },
+  {
+    "strType": "item",
+    "strName": "Itm_PLOT_Plot_Scholar_Notebook",
+    "aCOs": [
+      "ItmDocument01_PLOT_Ceres_Ben_Notebook=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSInfoAskWar",
+    "aCOs": [
+      "ENCFirstDockBCRSInfoAskWar_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSInfoAskWar2",
+    "aCOs": [
+      "ENCFirstDockBCRSInfoAskWar2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSInfoAskCalico",
+    "aCOs": [
+      "ENCFirstDockBCRSInfoAskCalico_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSInfoAskGalCon",
+    "aCOs": [
+      "ENCFirstDockBCRSInfoAskGalCon_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSInfoAskWar3",
+    "aCOs": [
+      "ENCFirstDockBCRSInfoAskWar3_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "aCOs": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed=1.0x1",
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "aCOs": [
+      "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CeresP3Finale_Titan",
+    "aCOs": [
+      "CeresP3Finale_Completed=1.0x1",
+      "TriggerCeresP4TitanIntro=1.0x1",
+      "CeresP3Finale_Completed_Titan=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CeresP3Finale_Xinhua",
+    "aCOs": [
+      "CeresP3Finale_Completed=1.0x1",
+      "TriggerCeresP4XinhuaIntro=1.0x1",
+      "CeresP3Finale_Completed_Xinhua=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CeresP3FinaleScreens",
+    "aCOs": [
+      "CeresP3FinaleScreens_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CeresP3FinaleListen",
+    "aCOs": [
+      "CeresP3FinaleListen_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_CeresP3FinaleMothman",
+    "aCOs": [
+      "CeresP3FinaleMothman_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus7",
+    "aCOs": [
+      "ValkyrieSarcophagus7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus8",
+    "aCOs": [
+      "ValkyrieSarcophagus8_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus9",
+    "aCOs": [
+      "ValkyrieSarcophagus9_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus12",
+    "aCOs": [
+      "ValkyrieSarcophagus12_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus17",
+    "aCOs": [
+      "ValkyrieSarcophagus17_Completed=1.0x1",
+      "ChoongTimer=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus18",
+    "aCOs": [
+      "ValkyrieSarcophagus18_Completed=1.0x1",
+      "ChoongTimer=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus19",
+    "aCOs": [
+      "ValkyrieSarcophagus19_Completed=1.0x1",
+      "ChoongTimer=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus111",
+    "aCOs": [
+      "ValkyrieSarcophagus111_Completed=1.0x1",
+      "ChoongTimer=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus110",
+    "aCOs": [
+      "ValkyrieSarcophagus110_Completed=1.0x1",
+      "ChoongTimer=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus112",
+    "aCOs": [
+      "ValkyrieSarcophagus112_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_StartTrigger",
+    "aCOs": [
+      "79AU_StartTrigger_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_DreamOne",
+    "aCOs": [
+      "79AU_DreamOne_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Approach20",
+    "aCOs": [
+      "79AU_Approach20_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme11",
+    "aCOs": [
+      "79AU_Boheme11_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside2",
+    "aCOs": [
+      "79AU_Inside2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside3",
+    "aCOs": [
+      "79AU_Inside3_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside4",
+    "aCOs": [
+      "79AU_Inside4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside5",
+    "aCOs": [
+      "79AU_Inside5_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside6",
+    "aCOs": [
+      "79AU_Inside6_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside10",
+    "aCOs": [
+      "79AU_Inside10_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside9",
+    "aCOs": [
+      "79AU_Inside9_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside13",
+    "aCOs": [
+      "79AU_Inside13_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside18",
+    "aCOs": [
+      "79AU_Inside18_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside14",
+    "aCOs": [
+      "79AU_Inside14_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Inside7",
+    "aCOs": [
+      "79AU_Inside7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Elevator1",
+    "aCOs": [
+      "79AU_Elevator1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme3",
+    "aCOs": [
+      "79AU_Boheme3_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme4",
+    "aCOs": [
+      "79AU_Boheme4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme5",
+    "aCOs": [
+      "79AU_Boheme5_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme6",
+    "aCOs": [
+      "79AU_Boheme6_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme7",
+    "aCOs": [
+      "79AU_Boheme7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme12",
+    "aCOs": [
+      "79AU_Boheme12_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme14",
+    "aCOs": [
+      "79AU_Boheme14_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme1",
+    "aCOs": [
+      "79AU_Boheme1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme10",
+    "aCOs": [
+      "79AU_Boheme10_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Boheme9",
+    "aCOs": [
+      "79AU_Boheme9_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement4",
+    "aCOs": [
+      "79AU_Basement4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement5",
+    "aCOs": [
+      "79AU_Basement5_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement6",
+    "aCOs": [
+      "79AU_Basement6_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement7",
+    "aCOs": [
+      "79AU_Basement7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement10",
+    "aCOs": [
+      "79AU_Basement10_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement11",
+    "aCOs": [
+      "79AU_Basement11_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement12",
+    "aCOs": [
+      "79AU_Basement12_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement13",
+    "aCOs": [
+      "79AU_Basement13_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement14",
+    "aCOs": [
+      "79AU_Basement14_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Basement1",
+    "aCOs": [
+      "79AU_Basement1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Phone1",
+    "aCOs": [
+      "79AU_Phone1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Night4",
+    "aCOs": [
+      "79AU_Night4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose2",
+    "aCOs": [
+      "79AU_Ose2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose3",
+    "aCOs": [
+      "79AU_Ose3_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose4",
+    "aCOs": [
+      "79AU_Ose4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose5",
+    "aCOs": [
+      "79AU_Ose5_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose9",
+    "aCOs": [
+      "79AU_Ose9_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose7",
+    "aCOs": [
+      "79AU_Ose7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose6",
+    "aCOs": [
+      "79AU_Ose6_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose8",
+    "aCOs": [
+      "79AU_Ose8_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose11",
+    "aCOs": [
+      "79AU_Ose11_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose1",
+    "aCOs": [
+      "79AU_Ose1_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose12",
+    "aCOs": [
+      "79AU_Ose12_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose10",
+    "aCOs": [
+      "79AU_Ose10_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_Ose13",
+    "aCOs": [
+      "79AU_Ose13_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_79AU_DeadUniverse4",
+    "aCOs": [
+      "79AU_DeadUniverse4_Completed=1.0x1",
+      "DeadUniverse=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_VideotapeInspectFinish",
+    "aCOs": [
+      "VideotapeInspectFinish_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_InspectBraincase",
+    "aCOs": [
+      "InspectBraincase_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTakeBreak2",
+    "aCOs": [
+      "ChoongTakeBreak2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_InspectBraincase2",
+    "aCOs": [
+      "InspectBraincase2_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_Ceres_Asked_Codeword",
+    "aCOs": [
+      "Plot_Ceres_Asked_Codeword=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthKetevan",
+    "aCOs": [
+      "ChoongAskTruthKetevan_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthKetevanRepeat",
+    "aCOs": [
+      "ChoongAskTruthKetevanRepeat_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthSecret",
+    "aCOs": [
+      "ChoongAskTruthSecret_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthAlien",
+    "aCOs": [
+      "ChoongAskTruthAlien_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthAlienMeaning",
+    "aCOs": [
+      "ChoongAskTruthAlienMeaning_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongAskTruthAlienWhy",
+    "aCOs": [
+      "ChoongAskTruthAlienWhy_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongLeaveAndEnd",
+    "aCOs": [
+      "ChoongLeaveAndEnd_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ENCFirstDockBCRSHmm",
+    "aCOs": [
+      "ENCFirstDockBCRSHmm_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ChoongTortureHimOutput",
+    "aCOs": [
+      "ChoongTortureHimOutput_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_InspectBraincase4",
+    "aCOs": [
+      "InspectBraincase4_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus114",
+    "aCOs": [
+      "ValkyrieSarcophagus114_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieSarcophagus119",
+    "aCOs": [
+      "ValkyrieSarcophagus119_Completed=1.0x1"
+    ]
+  },
+  {
+    "strName": "BorderReactorRads",
+    "aCOs": [
+      "StatRad=1.0x5000"
+    ],
+    "strType": "condition"
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieTitanIntro7",
+    "aCOs": [
+      "ValkyrieTitanIntro7_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieTitanIntro6",
+    "aCOs": [
+      "ValkyrieTitanIntro6_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieBorderInitialFalseID",
+    "aCOs": [
+      "ValkyrieBorderInitialFalseID_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieBorderForgedCreds",
+    "aCOs": [
+      "ValkyrieBorderForgedCreds_Completed=1.0x1"
+    ]
+  },
+  {
+    "strType": "condition",
+    "strName": "CONDPLOT_ValkyrieBorderCoolNoCreds",
+    "aCOs": [
+      "ValkyrieBorderCoolNoCreds_Completed=1.0x1"
+    ]
   }
 ]

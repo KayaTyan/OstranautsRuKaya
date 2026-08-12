@@ -112,5 +112,17 @@
     "strFriendlyName": "ЗАКРЫТЬ",
     "strIcon": "pda_apps/IcoCancel",
     "bHidden": true
+  },
+  {
+    "strName": "bounties",
+    "strFriendlyName": "BOUNTIES",
+    "strIcon": "pda_apps/IcoPDABounties",
+    "bHidden": false
+  },
+  {
+    "strName": "notes",
+    "strFriendlyName": "NOTES",
+    "strIcon": "pda_apps/IcoPDANotes",
+    "bHidden": false
   }
 ]

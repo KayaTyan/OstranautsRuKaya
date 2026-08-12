@@ -18124,5 +18124,193 @@
     "nDisplaySelf": 0,
     "nDisplayOther": 0,
     "bPersists": true
+  },
+  {
+    "strName": "DrunkPassingOut",
+    "strNameFriendly": "Blacking Out",
+    "strColor": "BadVery",
+    "strDesc": "[us] [is] drunk enough to lose consciousness.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "aNext": [
+      "TUpDrunkPassingOut",
+      "TUpDrunkPassedOut"
+    ],
+    "fDuration": 0.02,
+    "aPer": [
+      "CONDDrunkPassingOutPer"
+    ],
+    "fClampMax": 1.0,
+    "bInvert": true
+  },
+  {
+    "strName": "DrunkPassedOut",
+    "strNameFriendly": "Passed Out Drunk",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] lost consciousness due to alcohol.",
+    "bResetTimer": true,
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "bFatal": false,
+    "bKO": true,
+    "aNext": [
+      "TUpDrunkPassedOut",
+      "TUpAlcoholPoisoning"
+    ],
+    "fDuration": 0.015,
+    "aPer": [],
+    "fClampMax": 1.0,
+    "bInvert": true
+  },
+  {
+    "strName": "NanoFirstAidAdv",
+    "strNameFriendly": "Used Nanorobotic First Aid",
+    "strColor": "Good",
+    "strDesc": "[us] used a nanorobotic first aid treatment, and [us-pos] wounds have started mending.",
+    "bResetTimer": true,
+    "nDisplaySelf": 2,
+    "nDisplayOther": 0,
+    "aNext": [
+      "TUpNanoFirstAid2"
+    ],
+    "fDuration": 23.0,
+    "aPer": [
+      "CONDNanoFirstAidPer"
+    ],
+    "fClampMax": 1.0,
+    "bInvert": true
+  },
+  {
+    "strName": "IsBountyTarget",
+    "strNameFriendly": "Bounty Target",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] a bounty target.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "IsBountyClaim",
+    "strNameFriendly": "Bounty Claimed",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] a bounty claim.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "IsBountyWantedAlive",
+    "strNameFriendly": "Wanted Alive",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] wanted alive.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "IsBountyTargetShip",
+    "strNameFriendly": "Bounty Target Ship",
+    "strColor": "Neutral",
+    "strDesc": "[us] belongs to a bounty target.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "IsBountyTarget",
+    "strNameFriendly": "Bounty Target",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] a bounty target.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "BountyStatCaptured",
+    "strNameFriendly": "Captured Targets",
+    "strColor": "Neutral",
+    "strDesc": "Captured target count",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "BountyStatKilled",
+    "strNameFriendly": "Killed Targets",
+    "strColor": "Neutral",
+    "strDesc": "Killed target count",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "BountyStatEarned",
+    "strNameFriendly": "Earned Rewards",
+    "strColor": "Neutral",
+    "strDesc": "Total earned rewards",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "BountyStatDangerous",
+    "strNameFriendly": "Dangerous Targets",
+    "strColor": "Neutral",
+    "strDesc": "Dangerous target count",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "BountyStatModerate",
+    "strNameFriendly": "Moderate Targets",
+    "strColor": "Neutral",
+    "strDesc": "Moderate target count",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "BountyStatHarmless",
+    "strNameFriendly": "Harmless Targets",
+    "strColor": "Neutral",
+    "strDesc": "Harmless target count",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0
+  },
+  {
+    "strName": "IsTempDraftedLong",
+    "strNameFriendly": "Temporarily Drafted Long",
+    "strColor": "MarinerPurple",
+    "strDesc": "[us] [is] submitted to coercion.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.083,
+    "aPer": [
+      "CONDTempDraftedPer"
+    ],
+    "strAnti": null,
+    "fClampMax": 1.0
+  },
+  {
+    "strName": "EnvironmentMapID",
+    "strNameFriendly": "EnvironmentMapID",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] a environment map ID.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bPersists": true
+  },
+  {
+    "strName": "IsEnvironmentEntity",
+    "strNameFriendly": "EnvironmentEntity",
+    "strColor": "Neutral",
+    "strDesc": "[us] [is] an environment entity.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bPersists": true
   }
 ]

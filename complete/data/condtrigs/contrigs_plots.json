@@ -10649,5 +10649,1515 @@
     ],
     "ValuesWereChanged": true,
     "RulesInfo": "Is Agent of GalCon."
+  },
+  {
+    "strName": "TIsReady_LonesomeTaskGreeted",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "DcIntimacy05",
+      "DcIntimacy04",
+      "IsLustful"
+    ],
+    "aForbids": [],
+    "aTriggersForbid": [
+      "TIsValidSocialTargetGreeted"
+    ],
+    "bAND": false
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed_AnyValkyrie",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_Ceres_FactionRatings_Complete"
+    ],
+    "bAND": false
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Ask_Prove_BCER",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Dead_Drop_Black_Hat_Is_Not_Active_Xinhua",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua"
+    ],
+    "aReqs": [
+      "SkillHacking"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Dead_Drop_Black_Hat_Xinhua_Success",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Dead_Drop_Black_Hat_Is_Not_Active_Titan",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Titan",
+      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed",
+      "ValkyrieReqA"
+    ]
+  },
+  {
+    "strName": "TIsMineral79",
+    "fChance": 1,
+    "aReqs": [
+      "IsMineral79"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Dead_Drop_Black_Hat_Titan_Success",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Titan"
+    ],
+    "aForbids": [
+      "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongHistory",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongHistory_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongResearch",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongResearch_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongEnvironment",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongEnvironment_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongVideotapes",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongVideotapes_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongVideotapesDemo",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongVideotapesDemo_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongVideotapes_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPrison",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongPrison_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_1Exit",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongPlateau_1Exit_Completed"
+    ],
+    "bAND": true,
+    "aReqs": [
+      "Plot_ChoongEnvironment_Completed",
+      "Plot_ChoongVideotapesDemo_Completed",
+      "Plot_ChoongHistory_Completed",
+      "Plot_ChoongResearch_Completed",
+      "Plot_ChoongPrison_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_1ExitNOT",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongPlateau_1Exit_Completed"
+    ],
+    "bAND": true,
+    "aReqs": [
+      "Plot_ChoongEnvironment_Completed",
+      "Plot_ChoongVideotapesDemo_Completed",
+      "Plot_ChoongHistory_Completed",
+      "Plot_ChoongResearch_Completed",
+      "Plot_ChoongPrison_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_1Enter",
+    "fChance": 1,
+    "aTriggersForbid": [
+      "CTPlot_ChoongPlateau_1ExitNOT"
+    ],
+    "bNOT": true,
+    "bAND": false
+  },
+  {
+    "strName": "CTPlot_ChoongTakeBreak",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTakeBreak_Completed"
+    ]
+  },
+  {
+    "strName": "CT_InspectBraincase2_Ready",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_ChoongTakeBreak_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_2Exit",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_ChoongMilitary_Completed",
+      "Plot_ChoongKetevanLying_Completed"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "CTPlot_ChoongMilitary",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongMilitary_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongKetevanLying",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongKetevanLying_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongKetevan_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_2Enter",
+    "fChance": 1,
+    "bNOT": true,
+    "bAND": false,
+    "aTriggersForbid": [
+      "CTPlot_ChoongPlateau_2Exit"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTeleportation",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTeleportation_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongMilitary_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTeleportation2",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTeleportation2_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongTeleportation_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongDisappeared",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongDisappeared_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongTeleportation2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongKetevan",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongKetevan_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongTeleportation2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongLibrary",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongLibrary_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_InspectBraincase3",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_InspectBraincase3_Completed"
+    ],
+    "aReqs": [
+      "ChoongTakeBreak2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau2_Exit",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongPlateau2_Exit_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongInformWarDemandExplanation",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongInformWarDemandExplanation_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau3_Exit",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_ChoongInformWarDemandExplanation_Completed",
+      "Plot_ChoongAskAboutGod_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_3Enter",
+    "bNOT": true,
+    "bAND": false,
+    "fChance": 1,
+    "aTriggersForbid": [
+      "CTPlot_ChoongPlateau3_Exit"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongSarcophagus",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongSarcophagus_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongSarcophagus2",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongSarcophagus2_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongSarcophagus_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongSarcophagusGold",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongSarcophagusGold_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongSarcophagus2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskAboutGod",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAskAboutGod_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPlateau_4Enter",
+    "fChance": 1,
+    "aTriggersForbid": [
+      "CTPlot_ChoongPlateau3_Exit"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongPleaWar",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongPleaWar_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongInformWarDemandExplanation_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongSmiley",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongSmiley_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAccuseReligion",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAccuseReligion_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAccuseGeneral",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAccuseGeneral_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAccuseVideotapes",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAccuseVideotapes_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAccuseKetevan",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAccuseKetevan_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongDontCareLying",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongDontCareLying_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAccuseWar",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAccuseWar_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongInformWar",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongInformWar_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskAboutChangeMind",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAskAboutChangeMind_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongListenToIdea",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongListenToIdea_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongAskAboutChangeMind_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongEnterDeviceYourself",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongEnterDeviceYourself_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongListenToIdea_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTortureReconsider",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTortureReconsider_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTortureHim",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTortureHim_Completed",
+      "Plot_ChoongTortureReconsider_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongEuthaniseOffer",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongEuthaniseOffer_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskAboutNext",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongAskAboutNext_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTortureDetails",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongTortureDetails_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongHair",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongHair_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongReciprocate",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ChoongReciprocate_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_CruzCall",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_CruzCall_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderFinish1",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ValkyrieBorderFinish1_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieInterstitialPostCrossing",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ValkyrieInterstitialPostCrossing_Completed"
+    ],
+    "aReqs": [
+      "Plot_ValkyrieBorderFinish1_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderIntro",
+    "fChance": 1,
+    "aReqs": [
+      "CeresP3Finale_Completed"
+    ],
+    "aForbids": [
+      "Plot_ValkyrieBorderIntro_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderIntroTorture",
+    "fChance": 1,
+    "aReqs": [
+      "CeresP3Finale_Completed",
+      "ChoongTortureHimOutput_Completed"
+    ],
+    "aForbids": [
+      "Plot_ValkyrieBorderIntro_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus1",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ValkyrieSarcophagus1_Completed"
+    ],
+    "aReqs": [
+      "Plot_ValkyrieInterstitialPostCrossing_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagusFinish",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_ValkyrieSarcophagusFinish_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_DenouementStart2",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_DenouementStart2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Plot_Scholar_Racks_Floor_Seam",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_Plot_Scholar_Racks_Floor_Seam_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Plot_Scholar_Flat_Enter",
+    "fChance": 1,
+    "aForbids": [
+      "PlayerLearnedOrtega",
+      "PlayerLearnedPanTao",
+      "Plot_Plot_Scholar_Flat_Enter_Completed"
+    ],
+    "aReqs": [
+      "Plot_CruzCall_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Plot_Scholar_Flat_Enter1",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_Plot_Scholar_Flat_Enter_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "fChance": 1,
+    "aForbids": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Completed",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed"
+    ],
+    "aReqs": [
+      "PlayerLearnedOrtega"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Ask_Prove_BCRS",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Plot_Scholar_Flat_Kitchenette_Ground",
+    "fChance": 1
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSInfoAskWar",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSInfoAskWar_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSInfoAskWar2",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSInfoAskWar2_Completed"
+    ],
+    "aReqs": [
+      "ENCFirstDockBCRSInfoAskWar_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSInfoAskCalico",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSInfoAskCalico_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSInfoAskGalCon",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSInfoAskGalCon_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSInfoAskWar3",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSInfoAskWar3_Completed"
+    ],
+    "aReqs": [
+      "ENCFirstDockBCRSInfoAskWar2_Completed",
+      "ENCFirstDockBCRSInfoAskCalico_Completed",
+      "ENCFirstDockBCRSInfoAskGalCon_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieReqA",
+      "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "fChance": 1,
+    "aForbids": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "fChance": 1,
+    "aForbids": [
+      "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Completed"
+    ],
+    "aReqs": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed"
+    ]
+  },
+  {
+    "strName": "TIsBrainCase",
+    "fChance": 1,
+    "aReqs": [
+      "PLOT_Ceres_Brain_Case"
+    ]
+  },
+  {
+    "strName": "CTPlot_CeresP3Finale",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed"
+    ],
+    "aForbids": [
+      "CeresP3Finale_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Valkyrie_Titan",
+    "fChance": 1,
+    "aReqs": [
+      "CeresP3Finale_Completed_Titan"
+    ]
+  },
+  {
+    "strName": "CTPlot_Not_Titan_Win",
+    "fChance": 1,
+    "aForbids": [
+      "CeresP3Finale_Completed_Titan"
+    ]
+  },
+  {
+    "strName": "CTPlot_PLOT_Ceres_Valkyrie_Xinhua",
+    "fChance": 1,
+    "aReqs": [
+      "CeresP3Finale_Completed_Xinhua"
+    ]
+  },
+  {
+    "strName": "CTPlot_CeresP3FinaleScreens",
+    "fChance": 1,
+    "aForbids": [
+      "CeresP3FinaleScreens_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_CeresP3FinaleListen",
+    "fChance": 1,
+    "aForbids": [
+      "CeresP3FinaleListen_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_CeresP3FinaleMothman",
+    "fChance": 1,
+    "aForbids": [
+      "CeresP3FinaleMothman_Completed"
+    ],
+    "aReqs": [
+      "CeresP3FinaleListen_Completed",
+      "CeresP3FinaleScreens_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus7",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus7_Completed",
+      "ValkyrieSarcophagus8_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus8",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus8_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus9",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus9_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus12",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus12_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus17",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus17_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus18",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus18_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus19",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus19_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus111",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus111_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus110",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus110_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus112",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus112_Completed"
+    ],
+    "aReqs": [
+      "ValkyrieSarcophagus111_Completed",
+      "ValkyrieSarcophagus19_Completed",
+      "ValkyrieSarcophagus18_Completed",
+      "ValkyrieSarcophagus17_Completed",
+      "ValkyrieSarcophagus110_Completed"
+    ]
+  },
+  {
+    "strName": "ChoongBNOT",
+    "fChance": 1
+  },
+  {
+    "strName": "CTPlot_79AU_StartTrigger",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_ValkyrieSarcophagusFinish_Completed"
+    ],
+    "aForbids": [
+      "79AU_StartTrigger_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_DreamOne",
+    "fChance": 1,
+    "aReqs": [
+      "79AU_StartTrigger_Completed"
+    ],
+    "aForbids": [
+      "79AU_DreamOne_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Approach20",
+    "fChance": 1,
+    "aReqs": [
+      "79AU_DreamOne_Completed"
+    ],
+    "aForbids": [
+      "79AU_Approach20_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme11",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme11_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside2",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside3",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside3_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside5",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside5_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside6",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside6_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside10",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside10_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside9",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside9_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside13",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside13_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside18",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside18_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside14",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside14_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Inside7",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Inside7_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Elevator1",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Elevator1_Completed"
+    ],
+    "aReqs": [
+      "79AU_Inside10_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme3",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme3_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme4_Completed"
+    ],
+    "aReqs": [
+      "79AU_Boheme3_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme5",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme5_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme6",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme6_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme7",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme7_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme12",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme12_Completed"
+    ],
+    "aReqs": [
+      "79AU_Boheme4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme14",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme14_Completed"
+    ],
+    "aReqs": [
+      "79AU_Boheme12_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme1",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme1_Completed"
+    ],
+    "aTriggers": [
+      "CTPlot_79AU_No2Rooms_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme10",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme10_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme9",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Boheme9_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement5",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement5_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement6",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement6_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement7",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement7_Completed"
+    ],
+    "bAND": true,
+    "aReqs": [
+      "79AU_Basement5_Completed",
+      "79AU_Basement6_Completed",
+      "79AU_Basement4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement10",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement10_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement11",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement11_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement12",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement12_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement13",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement13_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement14",
+    "fChance": 1,
+    "bAND": true,
+    "aForbids": [
+      "79AU_Basement14_Completed"
+    ],
+    "aReqs": [
+      "79AU_Basement10_Completed",
+      "79AU_Basement11_Completed",
+      "79AU_Basement12_Completed",
+      "79AU_Basement13_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement1",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Basement1_Completed"
+    ],
+    "aTriggers": [
+      "CTPlot_79AU_No2Rooms_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Phone1",
+    "fChance": 1,
+    "bAND": false,
+    "aForbids": [
+      "79AU_Phone1_Completed"
+    ],
+    "aTriggers": [
+      "CTPlot_79AU_Any2Rooms_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Any2Rooms_Completed",
+    "fChance": 1,
+    "bAND": false,
+    "aTriggers": [
+      "CTPlot_79AU_Boheme_Ose",
+      "CTPlot_79AU_Boheme_Basement",
+      "CTPlot_79AU_Basement_Ose"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_No2Rooms_Completed",
+    "fChance": 1,
+    "bNOT": true,
+    "aTriggers": [
+      "CTPlot_79AU_Any2Rooms_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme_Ose",
+    "fChance": 1,
+    "bAND": true,
+    "aReqs": [
+      "79AU_Boheme1_Completed",
+      "79AU_Ose2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Boheme_Basement",
+    "fChance": 1,
+    "bAND": true,
+    "aReqs": [
+      "79AU_Basement1_Completed",
+      "79AU_Boheme1_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Basement_Ose",
+    "fChance": 1,
+    "bAND": true,
+    "aReqs": [
+      "79AU_Basement1_Completed",
+      "79AU_Ose2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Night4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Night4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose2",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose3",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose3_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose5",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose5_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose9",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose9_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose7",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose7_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose6",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose6_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose8",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose8_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose11",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose11_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose1",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose1_Completed"
+    ],
+    "aTriggers": [
+      "CTPlot_79AU_No2Rooms_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose12",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose12_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose10",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose10_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_Ose13",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_Ose13_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_79AU_DeadUniverse4",
+    "fChance": 1,
+    "aForbids": [
+      "79AU_DeadUniverse4_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_VideotapeInspectFinish",
+    "fChance": 1,
+    "aForbids": [
+      "VideotapeInspectFinish_Completed"
+    ],
+    "aReqs": [
+      "Plot_VideotapeDecideResearch_Completed",
+      "Plot_TurnTapeOver_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_InspectBraincase",
+    "fChance": 1,
+    "aForbids": [
+      "InspectBraincase_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTakeBreak2",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongTakeBreak2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_InspectBraincase2",
+    "fChance": 1,
+    "aForbids": [
+      "InspectBraincase2_Completed"
+    ],
+    "aReqs": [
+      "Plot_ChoongTakeBreak_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Asked_Codeword",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aForbids": [
+      "IsPlayer",
+      "Plot_Ceres_Asked_Codeword"
+    ],
+    "bAND": true,
+    "aTriggers": [
+      "TIsHumanAwake"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_Xinhua_Loyalty",
+    "fChance": 1,
+    "aReqs": [
+      "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_Ceres_GalCon_Loyalty",
+    "fChance": 1,
+    "aReqs": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthKetevan",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthKetevan_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthKetevanRepeat",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthKetevanRepeat_Completed"
+    ],
+    "aReqs": [
+      "ChoongAskTruthKetevan_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthSecret",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthSecret_Completed"
+    ],
+    "aReqs": [
+      "ChoongAskTruthKetevanRepeat_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthAlien",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthAlien_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthAlienMeaning",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthAlienMeaning_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongAskTruthAlienWhy",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongAskTruthAlienWhy_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongLeaveAndEnd",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongLeaveAndEnd_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ENCFirstDockBCRSHmm",
+    "fChance": 1,
+    "aForbids": [
+      "ENCFirstDockBCRSHmm_Completed"
+    ],
+    "aReqs": [
+      "ENCFirstDockBCRSInfoAskCalico_Completed",
+      "Plot_AVClub_The_Return_Completed",
+      "Plot_AVClub_FirstWatch_Extras_FF2_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ChoongTortureHimOutput",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_InspectBraincase4",
+    "fChance": 1,
+    "aReqs": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus114",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieSarcophagus119",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieSarcophagus119_Completed"
+    ],
+    "aReqs": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieTitanIntro7",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieTitanIntro7_Completed"
+    ],
+    "aReqs": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieTitanIntro6",
+    "fChance": 1,
+    "aForbids": [
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderInitialFalseID",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieBorderInitialFalseID_Completed",
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderForgedCreds",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieBorderForgedCreds_Completed",
+      "ChoongTortureHimOutput_Completed"
+    ]
+  },
+  {
+    "strName": "CTPlot_ValkyrieBorderCoolNoCreds",
+    "fChance": 1,
+    "aForbids": [
+      "ValkyrieBorderCoolNoCreds_Completed"
+    ],
+    "aReqs": [
+      "ChoongTortureHimOutput_Completed"
+    ]
   }
 ]

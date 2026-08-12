@@ -12508,5 +12508,80 @@
     "strProgressStat": "StatDamage",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "Vent03ClosedUndamage",
+    "strActionCO": "ItmVent03Closed",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmVent03Closed"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03OpenUndamage",
+    "strActionCO": "ItmVent03Open",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmVent03Open"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Vent03LooseUndamage",
+    "strActionCO": "ItmVent03Loose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmVent03Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

@@ -898,5 +898,16 @@
     "bThemAllowDocked": false,
     "bThemForgetOnDo": true,
     "nPriority": 2
+  },
+  {
+    "strName": "AIReplaceO2Bottles",
+    "strNameFriendly": "Replace O2 Bottles",
+    "strType": "replaceo2",
+    "strIATrigger": "PLGReplaceO2BottlesDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 9
   }
 ]
