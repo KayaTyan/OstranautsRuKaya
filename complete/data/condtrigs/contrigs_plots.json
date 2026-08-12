@@ -10418,16 +10418,6 @@
     ]
   },
   {
-    "strName": "CTPlot_Scholar_Isambard_Contact",
-    "fChance": 1,
-    "fCount": 0,
-    "aForbids": [
-      "Plot_Scholar_Isambard_Contact_Completed",
-      "Phase1FinaleCooldown"
-    ],
-    "RequiresHumans": false
-  },
-  {
     "strName": "CTPLOT_Ceres_Is_ChoongDoor",
     "fChance": 1,
     "fCount": 1,

@@ -90,7 +90,7 @@
     "bHidden": false
   },
   {
-    "strName": "отмечает",
+    "strName": "tasks",
     "strFriendlyName": "ЗАМЕТКИ",
     "strIcon": "pda_apps/IcoPDANotes",
     "bHidden": false

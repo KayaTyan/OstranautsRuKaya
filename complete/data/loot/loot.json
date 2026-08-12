@@ -5021,7 +5021,7 @@
     "strType": "condition"
   },
   {
-    "strName": "CONDDrunкПаssingOutPer",
+    "strName": "CONDDrunkPassingOutPer",
     "aCOs": [
       "-StatDefense=1.0x0.5",
       "StatSleep=1.0x4",
@@ -11090,7 +11090,7 @@
     "strType": "condition"
   },
   {
-    "strName": "CONDDrunкПаssingOut",
+    "strName": "CONDDrunkPassingOut",
     "aCOs": [
       "DrunкПаssingOut=1.0x1",
       "StatSleepComfort=1.0x10"
@@ -11099,7 +11099,7 @@
     "strType": "condition"
   },
   {
-    "strName": "CONDDrunкПаssedOut",
+    "strName": "CONDDrunkPassedOut",
     "aCOs": [
       "Unconscious=1.0x1"
     ],
@@ -21874,22 +21874,6 @@
     "strType": "condition"
   },
   {
-    "strName": "CONDTraderDiscountBuyBCRS",
-    "aCOs": [
-      "DiscountBuy=1.0x1.0-1.2"
-    ],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
-    "strName": "CONDTraderDiscountSellBCRS",
-    "aCOs": [
-      "DiscountSell=1.0x2-3"
-    ],
-    "aLoots": [],
-    "strType": "condition"
-  },
-  {
     "strName": "CONDTraderDiscountBuyFixer",
     "aCOs": [
       "DiscountBuy=1.0x0.5-0.9"
@@ -31517,32 +31501,6 @@
     "strType": "item"
   },
   {
-    "strName": "ItmBCERLEOStartLoot",
-    "aCOs": [],
-    "aLoots": [
-      "ItmCrewSlots=1.0x1",
-      "ItmBCERLEOStartLootItems=1.0x1"
-    ],
-    "strType": "item"
-  },
-  {
-    "strName": "ItmBCERLEOStartLootItems",
-    "aCOs": [
-      "OutfitHelmet04=1.0x1"
-    ],
-    "aLoots": [
-      "OutfitEVA03Full=1.0x1",
-      "ItmWristPDA01LockedUsed=1.0x1",
-      "ItmWeaponPistolEnergy01New=1.0x1",
-      "ItmWeaponNightstick01=1.0x1",
-      "ItmBackpack02=1.0x1",
-      "ItmToolWorkLamp01New=0.5x1",
-      "ItmRandomTrenchers02=0.75x1-2",
-      "ItmDrinkPouchNew=1x1"
-    ],
-    "strType": "item"
-  },
-  {
     "strName": "ItmCCRELEOStartLoot",
     "aCOs": [],
     "aLoots": [
@@ -33062,15 +33020,6 @@
     "strName": "ItmRandomOutfit",
     "aCOs": [],
     "aLoots": [
-      "ItmRandomClothesNonEVA=0.95x1|(добыча из aLoots) ItmRandomSpacesuitFull=0.05x1"
-    ],
-    "strType": "item"
-  },
-  {
-    "strName": "ItmRandomOutfitBCER",
-    "aCOs": [],
-    "aLoots": [
-      "ItmRandomClothesLeggings=0.9x1",
       "ItmRandomClothesNonEVA=0.95x1|(добыча из aLoots) ItmRandomSpacesuitFull=0.05x1"
     ],
     "strType": "item"
@@ -42861,14 +42810,6 @@
     "strType": "text"
   },
   {
-    "strName": "HW_HHNG_Plus",
-    "aCOs": [],
-    "aLoots": [
-      "HW_Hangzhou=1x1"
-    ],
-    "strType": "text"
-  },
-  {
     "strName": "HW_MLAB",
     "aCOs": [
       "MLAB=1x1"
@@ -42890,14 +42831,6 @@
       "MSUZ=1x1"
     ],
     "aLoots": [],
-    "strType": "text"
-  },
-  {
-    "strName": "HW_HSUZ_Plus",
-    "aCOs": [],
-    "aLoots": [
-      "HW_Suzhou=1x1"
-    ],
     "strType": "text"
   },
   {
@@ -43065,14 +42998,6 @@
     "aCOs": [],
     "aLoots": [
       "HW_MTRS=0.45x1|HW_MLAB=0.25x1|HW_MVOL=0.1x1|HW_MHNG=0.07x1|HW_MSUZ=0.03x1|HW_ANY=0.1x1"
-    ],
-    "strType": "text"
-  },
-  {
-    "strName": "HW_Hangzhou",
-    "aCOs": [],
-    "aLoots": [
-      "HW_MHNG=0.5x1|HW_MSUZ=0.1x1|HW_MTRS=0.2x1|HW_MVOL=0.05x1|HW_MLAB=0.025x1|HW_EJDR=0.025x1|HW_ANY=0.1x1"
     ],
     "strType": "text"
   },
@@ -43345,7 +43270,7 @@
     "strType": "interaction"
   },
   {
-    "strName": "PSPIAAddNPCSchmucкПаrtner",
+    "strName": "PSPIAAddNPCSchmuckPartner",
     "aCOs": [
       "CGEncRichSchmuckExAdd=1.0x1"
     ],

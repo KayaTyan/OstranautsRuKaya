@@ -1921,61 +1921,6 @@
     "nPhaseChange": 1
   },
   {
-    "strName": "Beat_Ceres_Start_Character_Add_Isambard",
-    "strIATrigger": "PLOT_Ceres_StartTrigger1_Isambard",
-    "bRelease": true,
-    "bNoticeable": true,
-    "nPhaseChange": 1
-  },
-  {
-    "strName": "Beat_Ceres_The_AV_Club",
-    "strIATrigger": "PLOT_Ceres_The_AV_Club_Trigger",
-    "bRelease": true,
-    "bNoticeable": true,
-    "nPhaseChange": 1
-  },
-  {
-    "strName": "Beat_Ceres_The_Scholar",
-    "strIATrigger": "PLOT_Ceres_The_Scholar_Trigger",
-    "bNoticeable": true,
-    "nPhaseChange": 1,
-    "bRelease": true
-  },
-  {
-    "strName": "Beat_Ceres_Clandestine_Interventions",
-    "strIATrigger": "PLOT_Ceres_Clandestine_Interventions_Trigger",
-    "bNoticeable": true,
-    "nPhaseChange": 1,
-    "bRelease": true
-  },
-  {
-    "strName": "Beat_Ceres_Our_System_For_Whom?",
-    "strIATrigger": "PLOT_Ceres_Our_System_For_Whom_Trigger",
-    "bNoticeable": true,
-    "nPhaseChange": 1,
-    "bRelease": true
-  },
-  {
-    "strName": "Beat_Ceres_Valkyrie",
-    "strIATrigger": "PLOT_Ceres_Valkyrie_Trigger",
-    "bRelease": true,
-    "bNoticeable": true,
-    "nPhaseChange": 1
-  },
-  {
-    "strName": "Beat_Ceres_Our_Strange_Denouement",
-    "strIATrigger": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
-    "bNoticeable": true,
-    "nPhaseChange": 1,
-    "bRelease": true
-  },
-  {
-    "strName": "Beat_Ceres_Isambard_Contact",
-    "strIATrigger": "Scholar_Isambard_Contact",
-    "bNoticeable": true,
-    "nPhaseChange": 1
-  },
-  {
     "strName": "CeresStartPhaseAVClub",
     "strIATrigger": "PLOT_Ceres_StartTrigger1_Isambard",
     "bRelease": true,

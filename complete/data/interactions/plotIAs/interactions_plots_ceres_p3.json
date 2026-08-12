@@ -175,7 +175,7 @@
     "fForcedChance": 1
   },
   {
-    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Принять",
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Accept",
     "strTitle": "Мокрое дело Принять",
     "strDesc": "Это мокрое дело. Принять?",
     "strColor": "Dialogue",
@@ -287,7 +287,7 @@
     "fForcedChance": 1
   },
   {
-    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Принять",
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Accept",
     "strTitle": "Мокрое дело Принять",
     "strDesc": "Это мокрое дело. Принять?",
     "strColor": "Dialogue",

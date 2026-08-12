@@ -144,18 +144,6 @@
     "strType": "text"
   },
   {
-    "strName": "TXTParallaxMarsAtmosphere",
-    "aCOs": [
-      "PlxAtmosphereMars_Transparent01=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|PlxCloud03=1.0x1",
-      "PlxCloud01=0.55x1|PlxCloud02=0.35x1|blank=1.0x1",
-      "PlxCloud03=0.5x1|(объекты в луте) PlxCloud01=0.5x1"
-    ],
-    "aLoots": [],
-    "strType": "text"
-  },
-  {
     "strName": "TXTParallaxMarsGrav",
     "aCOs": [
       "Starfield_Transparent01=1.0x1",

@@ -8843,13 +8843,6 @@
   },
   {
     "strType": "condition",
-    "strName": "CONDPLOT_Scholar_Isambard_Contact",
-    "aCOs": [
-      "Plot_Scholar_Isambard_Contact_Completed=1.0x1"
-    ]
-  },
-  {
-    "strType": "condition",
     "strName": "CONDPLOT_VideotapeDecideResearch",
     "aCOs": [
       "Plot_VideotapeDecideResearch_Completed=1.0x1"

@@ -14,34 +14,6 @@
     "bAlive": true
   },
   {
-    "strName": "AF_BCERLEO",
-    "strFirstName": "",
-    "strLastName": "",
-    "strGender": "",
-    "strCareerNow": "LEOfficer",
-    "strHomeworldFind": "BCER",
-    "strStrata": "",
-    "strCT": "",
-    "strCTRelFind": "",
-    "nAgeRangeBelow": -1,
-    "nAgeRangeAbove": -1,
-    "bAlive": true
-  },
-  {
-    "strName": "AF_BCRSLEO",
-    "strFirstName": "",
-    "strLastName": "",
-    "strGender": "",
-    "strCareerNow": "LEOfficer",
-    "strHomeworldFind": "BCRS",
-    "strStrata": "",
-    "strCT": "",
-    "strCTRelFind": "",
-    "nAgeRangeBelow": -1,
-    "nAgeRangeAbove": -1,
-    "bAlive": true
-  },
-  {
     "strName": "AF_OKLGCiv",
     "strFirstName": "",
     "strLastName": "",
