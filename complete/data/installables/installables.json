@@ -26265,7 +26265,7 @@
     "strName": "FloorLDPH04AInstall",
     "strActionCO": "ItmFloorLDPH04Loose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsFloorLDPH04AUninstalled",
     "aInputs": [
@@ -26293,7 +26293,7 @@
     "strName": "FloorLDPH04BInstall",
     "strActionCO": "ItmFloorLDPH04bLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsFloorLDPH04BUninstalled",
     "aInputs": [
@@ -26321,7 +26321,7 @@
     "strName": "FloorLDPH04CInstall",
     "strActionCO": "ItmFloorLDPH04cLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsFloorLDPH04CUninstalled",
     "aInputs": [
@@ -26349,7 +26349,7 @@
     "strName": "FloorMSSWindow03Install",
     "strActionCO": "ItmFloorMSSWindow03Loose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsFloorMSSWindow03Uninstalled",
     "aInputs": [
@@ -26377,7 +26377,7 @@
     "strName": "FloorMSSWindow04Install",
     "strActionCO": "ItmFloorMSSWindow04Loose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsFloorMSSWindow04Uninstalled",
     "aInputs": [
@@ -26405,7 +26405,7 @@
     "strName": "Vent03Install",
     "strActionCO": "ItmVent03Loose",
     "strActionGroup": "Work",
-    "strTooltip": "Installs item.",
+    "strTooltip": "Устанавливает предмет.",
     "strInteractionTemplate": "ACTInstallTEMP",
     "CTThem": "TIsVent03Uninstalled",
     "aInputs": [
@@ -26433,7 +26433,7 @@
     "strName": "Vent03ClosedUninstall",
     "strActionCO": "ItmVent03Closed",
     "strActionGroup": "Work",
-    "strTooltip": "Uninstalls item.",
+    "strTooltip": "Демонтирует предмет.",
     "strInteractionTemplate": "ACTUninstallTEMP",
     "CTThem": "TIsVent03Installed",
     "aInputs": [],
@@ -26457,7 +26457,7 @@
     "strName": "Vent03OpenUninstall",
     "strActionCO": "ItmVent03Open",
     "strActionGroup": "Work",
-    "strTooltip": "Uninstalls item.",
+    "strTooltip": "Демонтирует предмет.",
     "strInteractionTemplate": "ACTUninstallTEMP",
     "CTThem": "TIsVent03Installed",
     "aInputs": [],

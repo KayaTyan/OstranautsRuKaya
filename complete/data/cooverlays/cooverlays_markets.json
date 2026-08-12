@@ -448,8 +448,8 @@
   },
   {
     "strName": "ItmFactionKiosk01BCRSWin",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Faction Kiosk (CCRE Victory)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Инфокиоск фракции (CCRE Victory)",
     "strCOBase": "ItmKioskGovt01",
     "strCondLoot": "CNDOLKioskGovtCCRE",
     "mapGUIPropMaps": [
@@ -463,8 +463,8 @@
   },
   {
     "strName": "ItmFactionKiosk01MTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Faction Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Инфокиоск фракции (MTRS)",
     "strCOBase": "ItmKioskGovt01",
     "strCondLoot": "CNDOLKioskGovtCCRE",
     "mapGUIPropMaps": [

@@ -1,19 +1,19 @@
 [
-{
-    "strName" : "ItmDocumentMeatPackaging2",
-    "strNameShort" : "Packaging",
-    "strNameFriendly" : "Packaging: 'Perpetual Protein Project' Meat Product",
-    "strDesc" : "Empty industrial packaging for a messy meat product. Bits of protein and blood remain inside, while old-fashioned Brave New World, LLC corporate marketing adorns the outside.",
-    "strItemDef" : "ItmMeatPackaging01",
-    "strType"    : "Item",
-    "strLoot"    : null,
-    "aInteractions" : [
+  {
+    "strName": "ItmDocumentMeatPackaging2",
+    "strNameShort": "Упаковка",
+    "strNameFriendly": "Упаковка: мясной продукт «Perpetual Protein Project»",
+    "strDesc": "Пустая промышленная упаковка для грязного мясного продукта. Внутри остались куски белка и крови, а снаружи украшает старомодная корпоративная реклама Brave New World, LLC.",
+    "strItemDef": "ItmMeatPackaging01",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
       "DropItem",
       "DropItemStack",
       "PickupItem",
       "PickupItemStack"
     ],
-    "aStartingConds" : [
+    "aStartingConds": [
       "IsEdged=1.0x1.0",
       "IsFlammable=1.0x1",
       "IsFlexible=1.0x1",
@@ -30,66 +30,73 @@
       "StatDamageMax=1.0x1",
       "IsCategoryMisc=1.0x1"
     ],
-    "mapCondTolerance"       : [
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
     ],
-    "mapPoints"      : [
-    ],
-    "mapChargeProfiles"  : [
-      "Melee","MeleeAttackDefaultFragile"
-    ],
-    "aUpdateCommands" : [
+    "aUpdateCommands": [
       "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
     ],
-    "mapGUIPropMaps"  : [
-    ],
-    "strPortraitImg"  : "ItmMeatPackaging01",
-    "strAudioEmitter" : "ItmManualSound",
-    "mapSlotEffects" : [
-      "heldL","HeldItmDefaultSoftL",
-      "heldR","HeldItmDefaultSoftR"
+    "mapGUIPropMaps": [],
+    "strPortraitImg": "ItmMeatPackaging01",
+    "strAudioEmitter": "ItmManualSound",
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
     ]
   },
-	{
-		"strName" : "Videotape",
-		"strType" : "Item",
-		"strItemDef" : "ItmVideotape",
-		"strNameFriendly" : "Videotape",
-		"strDesc" : "A thin prism covered in strange marks. The product of an anterior, alien culture: the 1980s.",
-		"aStartingConds" : [ 
-			"IsHandheld=1.0x1.0", 
-			"IsPocketable=1.0x1.0", 
-			"IsVideotape=1.0x1.0", 
-			"StatMass=1.0x0.198",
-			"IsSolid=1.0x1.0" 
-			],
-		"aInteractions" : [ "PickupItem", "DropItem" ],
-		"mapSlotEffects" : [ 
-			"heldL", 
-			"HeldItmDefaultL", 
-			"heldR", 
-			"HeldItmDefaultR" 
-			],
-		"strPortraitImg" : "ItmVHS01"
-	},
-	{
-		"strName" : "Braincase",
-		"strType" : "Item",
-		"strItemDef" : "ItmBraincase",
-		"strNameFriendly" : "Renbao Cerebrum Armature",
-		"strDesc" : "A black box forty centimetres a side. It houses life support equipment for a disembodied human brain.",
-		"aStartingConds" : [ 
-			"IsHandheld=1.0x1.0", 
-			"IsPocketable=1.0x1.0",
-			"StatMass=1.0x24.79",
-			"IsSolid=1.0x1.0" 
-			],
-		"aInteractions" : [ "PickupItem", "DropItem", "InspectBraincase" ],
-		"mapSlotEffects" : [ 
-			"heldL", 
-			"HeldItmDefaultL", 
-			"heldR", 
-			"HeldItmDefaultR" 
-			],
-		"strPortraitImg" : "ItmVHS01"
-	}
+  {
+    "strName": "Videotape",
+    "strType": "Item",
+    "strItemDef": "ItmVideotape",
+    "strNameFriendly": "Видеокассета",
+    "strDesc": "Тонкая призма, покрытая странными метками. Продукт древней, инопланетной цивилизации: 1980-х.",
+    "aStartingConds": [
+      "IsHandheld=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsVideotape=1.0x1.0",
+      "StatMass=1.0x0.198",
+      "IsSolid=1.0x1.0"
+    ],
+    "aInteractions": [
+      "PickupItem",
+      "DropItem"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "strPortraitImg": "ItmVHS01"
+  },
+  {
+    "strName": "Braincase",
+    "strType": "Item",
+    "strItemDef": "ItmBraincase",
+    "strNameFriendly": "Каркас мозга Renbao",
+    "strDesc": "Чёрный ящик сорок сантиметров в ширину. В нём размещено оборудование жизнеобеспечения для отделённого человеческого мозга.",
+    "aStartingConds": [
+      "IsHandheld=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatMass=1.0x24.79",
+      "IsSolid=1.0x1.0"
+    ],
+    "aInteractions": [
+      "PickupItem",
+      "DropItem",
+      "InspectBraincase"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "strPortraitImg": "ItmVHS01"
+  }
 ]

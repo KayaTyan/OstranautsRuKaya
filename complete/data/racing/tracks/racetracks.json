@@ -2,7 +2,7 @@
   {
     "strName": "TutorialCircuit",
     "strNameFriendly": "Тип трассы: Кольцо",
-    "strDescription": "A small oval shaped circuit. Finish 2 full laps, by crossing the start/finish waypoint to complete the race. Make sure to bring enough fuel if you use RCS thrusters!",
+    "strDescription": "Небольшая овальная трасса. Завершите 2 полных круга, пересекая точку старта/финиша, чтобы закончить гонку. Убедитесь, что у вас достаточно топлива, если вы используете двигатели RCS!",
     "strTrackType": "Circuit",
     "nLaps": 2,
     "fOrbitHeightKM": 35,
@@ -54,7 +54,7 @@
   {
     "strName": "TutorialOrientation",
     "strNameFriendly": "Тип трассы: Ориентирование",
-    "strDescription": "Waypoints can be passed in any order that you want. It's up to you to find the quickest route. Finish the race by crossing the start/finish waypoint",
+    "strDescription": "Точки можно проходить в любом порядке. Вам решать, какой маршрут быстрее. Завершите гонку, пересекая точку старта/финиша",
     "strTrackType": "Orientation",
     "nLaps": 1,
     "fOrbitHeightKM": 35,
@@ -96,7 +96,7 @@
     "strName": "TutorialPointToPoint",
     "strNameFriendly": "Тип трассы: Из точки в точку",
     "strTrackType": "PointToPoint",
-    "strDescription": "A small U shaped point to point track. Reach the last waypoint to finish the track",
+    "strDescription": "Маленькая U-образная трасса из точки в точку. Доберитесь до последней точки маршрута, чтобы закончить",
     "nLaps": 1,
     "fOrbitHeightKM": 35,
     "fAvgLapTime": 65,
@@ -139,7 +139,7 @@
   },
   {
     "strName": "Fluid",
-    "strNameFriendly": "Fluid",
+    "strNameFriendly": "Жидкость",
     "strTrackType": "Circuit",
     "nLaps": 1,
     "fOrbitHeightKM": 32,
@@ -239,7 +239,7 @@
   },
   {
     "strName": "Ladder",
-    "strNameFriendly": "Ladder",
+    "strNameFriendly": "Лестница",
     "strTrackType": "Circuit",
     "nLaps": 1,
     "fOrbitHeightKM": 27,
@@ -318,8 +318,8 @@
   },
   {
     "strName": "Cue",
-    "strNameFriendly": "Cue",
-    "strDescription": "A twisty track with tight corners at a low orbit",
+    "strNameFriendly": "Кий",
+    "strDescription": "Извилистая трасса с крутыми поворотами на низкой орбите",
     "strTrackType": "Circuit",
     "nLaps": 1,
     "fOrbitHeightKM": 25,
@@ -399,7 +399,7 @@
   {
     "strName": "RisingStar",
     "strNameFriendly": "Восходящая звезда",
-    "strDescription": "A dangerously low orbiting track that will lead you into the high pressure abyss of the lower Venus atmosphere",
+    "strDescription": "Трасса на опасно низкой орбите, которая приведёт вас в бездну высокого давления нижних слоёв атмосферы Венеры",
     "strTrackType": "Orientation",
     "nLaps": 1,
     "fOrbitHeightKM": 30,
@@ -464,7 +464,7 @@
   {
     "strName": "ORing",
     "strNameFriendly": "O-Кольцо",
-    "strDescription": "A tiny ring that requires precision",
+    "strDescription": "Крошечное кольцо, требующее точности",
     "strTrackType": "Circuit",
     "nLaps": 4,
     "fOrbitHeightKM": 40,

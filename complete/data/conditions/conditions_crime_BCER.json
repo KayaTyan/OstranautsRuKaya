@@ -1,8 +1,67 @@
 [
-{ "strName" : "StatCrimeGalConArrestWarning", "strNameFriendly" : "GalCon Arrest Warning Count", "strColor" : "Bad", "strDesc"  : "[us] [has] been warned of arrest this many times.", "nDisplaySelf" : 0, "nDisplayOther" : 0, "fDuration" : 0.0, "bRemoveAll" : true },
-{ "strName" : "CrimeGalConArrest", "strNameFriendly" : "GalCon Arrest Warrant", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant in the Galilean Confederacy.", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true, "bInvert" : true },
-{ "strName" : "CrimeGalConThreat", "strNameFriendly" : "GalCon Public Enemy", "strColor" : "Bad", "strDesc"  : "[us] [is] wanted dead or alive by Galilean Confederacy LAs, and [is] considered a Public Enemy.", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true, "bInvert" : true },
-{ "strName" : "CrimeGalConTrespass", "strNameFriendly" : "GalCon Trespass Warrant", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding trespass warrant with the Galilean Confederacy.", "nDisplaySelf" : 0, "nDisplayOther" : 0, "fDuration" : 0.00001, "bRemoveAll" : true, "aNext" : ["TUpCrimeGalConTrespassNext"] },
-{ "strName" : "CrimeGalConStolenShip", "strNameFriendly" : "GalCon Arrest Warrant for Stolen Ship", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant with the Galilean Confederacy for Stealing a Ship", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true },
-{ "strName" : "CrimeGalConNoUndock", "strNameFriendly" : "GalCon Arrest Warrant for Failure to Undock", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant in the Galilean Confederacy for Failure to Undock During Officer Inspection", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true }
+  {
+    "strName": "StatCrimeGalConArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждения об аресте такое количество раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConArrest",
+    "strNameFriendly": "Ордер на арест GalCon",
+    "strColor": "Bad",
+    "strDesc": "У [us] [has] действующий ордер на арест в Галилеевской Конфедерации.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConThreat",
+    "strNameFriendly": "Враг общества GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] [is] wanted dead or alive by Galilean Confederacy LAs, and [is] considered a Public Enemy.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConTrespass",
+    "strNameFriendly": "Ордер за незаконное проникновение GalCon",
+    "strColor": "Bad",
+    "strDesc": "У [us] [has] действующий ордер за незаконное проникновение в владения Галилеевской Конфедерации.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeGalConTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeGalConStolenShip",
+    "strNameFriendly": "Ордер на арест GalCon за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "У [us] [has] действующий ордер на арест Галилеевской Конфедерации за кражу корабля",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConNoUndock",
+    "strNameFriendly": "Ордер на арест GalCon за отказ от отстыковки",
+    "strColor": "Bad",
+    "strDesc": "У [us] [has] действующий ордер на арест в Галилеевской Конфедерации за отказ отстыковаться во время досмотра офицером",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
 ]

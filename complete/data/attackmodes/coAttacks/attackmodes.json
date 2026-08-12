@@ -25,7 +25,7 @@
   },
   {
     "strName": "AModeBlank",
-    "strNameFriendly": "blank",
+    "strNameFriendly": "пусто",
     "strType": "melee",
     "fRange": 1.0,
     "fDmgBlunt": 0.0,

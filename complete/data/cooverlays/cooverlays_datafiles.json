@@ -246,13 +246,13 @@
   },
   {
     "strName": "DataIMGCryptid01",
-    "strNameFriendly": "UFO_SIGHTING?!.IMG",
+    "strNameFriendly": "НЛО_ЗАМЕЧЕНО?!.IMG",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileIMG"
   },
   {
     "strName": "DataIMGCryptid02",
-    "strNameFriendly": "I_FOUND_BIGFOOT.IMG",
+    "strNameFriendly": "Я_НАШЁЛ_БИГФУТА.IMG",
     "strDesc": "Невыразительное изображение волосатого, покрытого темной шерстью, мускулистого человека-зверя с длинной мордой, передвигающегося на двух ногах по лесам и руинам Мичигана.\n\nНесмотря на отсутствие чего-либо подобного лесам за пределами Земли, некоторые легенды не умирают никогда.",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileIMG"
@@ -265,7 +265,7 @@
   },
   {
     "strName": "DataIMGXinhua02",
-    "strNameFriendly": "来得好!不然离开通过气闸!.IMG",
+    "strNameFriendly": "Хорошо, что пришли! Иначе уйдите через шлюз!.IMG",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileIMG"
   },
@@ -664,7 +664,7 @@
   },
   {
     "strName": "DataBINMergaSuspiciousGaps",
-    "strNameFriendly": "              .BIN",
+    "strNameFriendly": ".BIN",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileBINMerga"
   },

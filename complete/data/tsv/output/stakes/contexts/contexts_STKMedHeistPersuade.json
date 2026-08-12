@@ -1,13 +1,12 @@
-
 [
   {
-    "strName" : "ACTSTKMedHeistPersuadeUs",
-    "strTitle" : "Convince Friend",
-    "strMainText" : "Convince contact to let you help in their plan of action"
+    "strName": "ACTSTKMedHeistPersuadeUs",
+    "strTitle": "Убедить друга",
+    "strMainText": "Convince contact to let you help in their plan of action"
   },
   {
-    "strName" : "ACTSTKMedHeistPersuadeThem",
-    "strTitle" : "Convince Friend",
-    "strMainText" : "Convince contact to let you help in their plan of action"
+    "strName": "ACTSTKMedHeistPersuadeThem",
+    "strTitle": "Убедить друга",
+    "strMainText": "Convince contact to let you help in their plan of action"
   }
 ]

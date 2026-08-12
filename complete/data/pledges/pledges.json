@@ -908,7 +908,7 @@
   },
   {
     "strName": "AIReplaceO2Bottles",
-    "strNameFriendly": "Replace O2 Bottles",
+    "strNameFriendly": "Заменить баллоны O2",
     "strType": "replaceo2",
     "strIATrigger": "PLGReplaceO2BottlesDo",
     "aIAEnd": null,

@@ -352,7 +352,7 @@
   },
   {
     "strName": "Plot_Messenger_QuestionLegality",
-    "strNameFriendly": "Plot_Messenger_QuestionLegality",
+    "strNameFriendly": "Это законно?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в законности задания.",
     "bResetTimer": false,
@@ -365,7 +365,7 @@
   },
   {
     "strName": "Plot_Messenger_QuestionPay",
-    "strNameFriendly": "Plot_Messenger_QuestionPay",
+    "strNameFriendly": "Сколько заплатите?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в ценности задания.",
     "bResetTimer": false,
@@ -378,7 +378,7 @@
   },
   {
     "strName": "Plot_Messenger_QuestionPayLow",
-    "strNameFriendly": "Plot_Messenger_QuestionPayLow",
+    "strNameFriendly": "Это слишком мало.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено базовое вознаграждение.",
     "bResetTimer": false,
@@ -391,7 +391,7 @@
   },
   {
     "strName": "Plot_Messenger_QuestionPayMed",
-    "strNameFriendly": "Plot_Messenger_QuestionPayMed",
+    "strNameFriendly": "Неплохая сумма.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено среднее вознаграждение.",
     "bResetTimer": false,
@@ -404,7 +404,7 @@
   },
   {
     "strName": "Plot_Messenger_QuestionPayHigh",
-    "strNameFriendly": "Plot_Messenger_QuestionPayHigh",
+    "strNameFriendly": "Отличная плата.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено высокое вознаграждение.",
     "bResetTimer": false,
@@ -417,7 +417,7 @@
   },
   {
     "strName": "Plot_Messenger_Agree",
-    "strNameFriendly": "Plot_Messenger_Agree",
+    "strNameFriendly": "Я согласен.",
     "strColor": "Neutral",
     "strDesc": "Курьер согласился на задание.",
     "bResetTimer": false,
@@ -430,7 +430,7 @@
   },
   {
     "strName": "Plot_Messenger_Refuse",
-    "strNameFriendly": "Plot_Messenger_Refuse",
+    "strNameFriendly": "Я откажусь.",
     "strColor": "Neutral",
     "strDesc": "Курьер отклонил задание.",
     "bResetTimer": false,
@@ -937,7 +937,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Started",
-    "strNameFriendly": "Plot_MessengerFamily_Started",
+    "strNameFriendly": "Задание начато.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: MessengerFamily.",
     "bResetTimer": false,
@@ -950,7 +950,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Offer",
-    "strNameFriendly": "Plot_MessengerFamily_Offer",
+    "strNameFriendly": "Я предлагаю вам доставить это.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily было предложено задание.",
     "bResetTimer": false,
@@ -963,7 +963,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_QuestionLegality",
-    "strNameFriendly": "Plot_MessengerFamily_QuestionLegality",
+    "strNameFriendly": "Это законно?",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily усомнился в законности задания.",
     "bResetTimer": false,
@@ -976,7 +976,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_QuestionPay",
-    "strNameFriendly": "Plot_MessengerFamily_QuestionPay",
+    "strNameFriendly": "Сколько заплатите?",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily усомнился в ценности задания.",
     "bResetTimer": false,
@@ -989,7 +989,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_QuestionPayLow",
-    "strNameFriendly": "Plot_MessengerFamily_QuestionPayLow",
+    "strNameFriendly": "Это слишком мало.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily было предложено базовое вознаграждение.",
     "bResetTimer": false,
@@ -1002,7 +1002,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_QuestionPayMed",
-    "strNameFriendly": "Plot_MessengerFamily_QuestionPayMed",
+    "strNameFriendly": "Неплохая сумма.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily было предложено среднее вознаграждение.",
     "bResetTimer": false,
@@ -1015,7 +1015,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_QuestionPayHigh",
-    "strNameFriendly": "Plot_MessengerFamily_QuestionPayHigh",
+    "strNameFriendly": "Отличная плата.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily было предложено высокое вознаграждение.",
     "bResetTimer": false,
@@ -1028,7 +1028,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Agree",
-    "strNameFriendly": "Plot_MessengerFamily_Agree",
+    "strNameFriendly": "Я согласен.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily согласился на задание.",
     "bResetTimer": false,
@@ -1041,7 +1041,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Refuse",
-    "strNameFriendly": "Plot_MessengerFamily_Refuse",
+    "strNameFriendly": "Я откажусь.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily отказался от задания.",
     "bResetTimer": false,
@@ -1054,7 +1054,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Done",
-    "strNameFriendly": "Plot_MessengerFamily_Done",
+    "strNameFriendly": "Задание выполнено.",
     "strColor": "Neutral",
     "strDesc": "MessengerFamily взаимодействовал с целью.",
     "bResetTimer": false,
@@ -1067,7 +1067,7 @@
   },
   {
     "strName": "Plot_MessengerFamily_Cooldown",
-    "strNameFriendly": "Plot_MessengerFamily_Cooldown",
+    "strNameFriendly": "Повторное задание пока недоступно.",
     "strColor": "Neutral",
     "strDesc": "Недавно завершил сюжет MessengerFamily и не может повторить этого в течение 60 минут.",
     "bResetTimer": false,
@@ -1132,7 +1132,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Started",
-    "strNameFriendly": "Plot_MessengerLegal_Started",
+    "strNameFriendly": "Задание начато.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: MessengerLegal.",
     "bResetTimer": false,
@@ -1145,7 +1145,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Offer",
-    "strNameFriendly": "Plot_MessengerLegal_Offer",
+    "strNameFriendly": "Я предлагаю вам доставить это.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal было предложено задание.",
     "bResetTimer": false,
@@ -1158,7 +1158,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_QuestionLegality",
-    "strNameFriendly": "Plot_MessengerLegal_QuestionLegality",
+    "strNameFriendly": "Это законно?",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal подверг сомнению законность задания.",
     "bResetTimer": false,
@@ -1171,7 +1171,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_QuestionPay",
-    "strNameFriendly": "Plot_MessengerLegal_QuestionPay",
+    "strNameFriendly": "Сколько заплатите?",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal подверг сомнению ценность задания.",
     "bResetTimer": false,
@@ -1184,7 +1184,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_QuestionPayLow",
-    "strNameFriendly": "Plot_MessengerLegal_QuestionPayLow",
+    "strNameFriendly": "Это слишком мало.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal было предложено базовое вознаграждение.",
     "bResetTimer": false,
@@ -1197,7 +1197,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_QuestionPayMed",
-    "strNameFriendly": "Plot_MessengerLegal_QuestionPayMed",
+    "strNameFriendly": "Неплохая сумма.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal было предложено среднее вознаграждение.",
     "bResetTimer": false,
@@ -1210,7 +1210,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_QuestionPayHigh",
-    "strNameFriendly": "Plot_MessengerLegal_QuestionPayHigh",
+    "strNameFriendly": "Отличная плата.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal было предложено высокое вознаграждение.",
     "bResetTimer": false,
@@ -1223,7 +1223,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Agree",
-    "strNameFriendly": "Plot_MessengerLegal_Agree",
+    "strNameFriendly": "Я согласен.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal согласился на задание.",
     "bResetTimer": false,
@@ -1236,7 +1236,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Refuse",
-    "strNameFriendly": "Plot_MessengerLegal_Refuse",
+    "strNameFriendly": "Я откажусь.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal отказался от задания.",
     "bResetTimer": false,
@@ -1249,7 +1249,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Done",
-    "strNameFriendly": "Plot_MessengerLegal_Done",
+    "strNameFriendly": "Задание выполнено.",
     "strColor": "Neutral",
     "strDesc": "MessengerLegal взаимодействовал с целью.",
     "bResetTimer": false,
@@ -1262,7 +1262,7 @@
   },
   {
     "strName": "Plot_MessengerLegal_Cooldown",
-    "strNameFriendly": "Plot_MessengerLegal_Cooldown",
+    "strNameFriendly": "Повторное задание пока недоступно.",
     "strColor": "Neutral",
     "strDesc": "Недавно завершил сюжет MessengerLegal и не может повторить это в течение 60 минут.",
     "bResetTimer": false,
@@ -1327,7 +1327,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Started",
-    "strNameFriendly": "Plot_MessengerRomantic_Started",
+    "strNameFriendly": "Задание начато.",
     "strColor": "Neutral",
     "strDesc": "Сюжет «Курьер» начат.",
     "bResetTimer": false,
@@ -1340,7 +1340,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Offer",
-    "strNameFriendly": "Plot_MessengerRomantic_Offer",
+    "strNameFriendly": "Я предлагаю вам доставить это.",
     "strColor": "Neutral",
     "strDesc": "Курьеру было предложено задание.",
     "bResetTimer": false,
@@ -1353,7 +1353,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_QuestionLegality",
-    "strNameFriendly": "Plot_MessengerRomantic_QuestionLegality",
+    "strNameFriendly": "Это законно?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в законности задания.",
     "bResetTimer": false,
@@ -1366,7 +1366,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_QuestionPay",
-    "strNameFriendly": "Plot_MessengerRomantic_QuestionPay",
+    "strNameFriendly": "Сколько заплатите?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в ценности задания.",
     "bResetTimer": false,
@@ -1379,7 +1379,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_QuestionPayLow",
-    "strNameFriendly": "Plot_MessengerRomantic_QuestionPayLow",
+    "strNameFriendly": "Это слишком мало.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено базовое вознаграждение.",
     "bResetTimer": false,
@@ -1392,7 +1392,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_QuestionPayMed",
-    "strNameFriendly": "Plot_MessengerRomantic_QuestionPayMed",
+    "strNameFriendly": "Неплохая сумма.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено среднее вознаграждение.",
     "bResetTimer": false,
@@ -1405,7 +1405,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_QuestionPayHigh",
-    "strNameFriendly": "Plot_MessengerRomantic_QuestionPayHigh",
+    "strNameFriendly": "Отличная плата.",
     "strColor": "Neutral",
     "strDesc": "Курьеру предложено высокое вознаграждение.",
     "bResetTimer": false,
@@ -1418,7 +1418,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Agree",
-    "strNameFriendly": "Plot_MessengerRomantic_Agree",
+    "strNameFriendly": "Я согласен.",
     "strColor": "Neutral",
     "strDesc": "Курьер согласился на задание.",
     "bResetTimer": false,
@@ -1431,7 +1431,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Refuse",
-    "strNameFriendly": "Plot_MessengerRomantic_Refuse",
+    "strNameFriendly": "Я откажусь.",
     "strColor": "Neutral",
     "strDesc": "Курьер отклонил задание.",
     "bResetTimer": false,
@@ -1444,7 +1444,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Done",
-    "strNameFriendly": "Plot_MessengerRomantic_Done",
+    "strNameFriendly": "Задание выполнено.",
     "strColor": "Neutral",
     "strDesc": "Курьер взаимодействовал с целью.",
     "bResetTimer": false,
@@ -1457,7 +1457,7 @@
   },
   {
     "strName": "Plot_MessengerRomantic_Cooldown",
-    "strNameFriendly": "Plot_MessengerRomantic_Cooldown",
+    "strNameFriendly": "Повторное задание пока недоступно.",
     "strColor": "Neutral",
     "strDesc": "Недавно завершил сюжет курьера и не сможет повторить в течение 60 минут.",
     "bResetTimer": false,
@@ -1639,7 +1639,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_Started",
-    "strNameFriendly": "Plot_MessengerTechnical_Started",
+    "strNameFriendly": "Запущен сюжетный квест: Техническая помощь гонцу.",
     "strColor": "Neutral",
     "strDesc": "Сюжет «Курьер» начат.",
     "bResetTimer": false,
@@ -1652,7 +1652,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_Offer",
-    "strNameFriendly": "Plot_MessengerTechnical_Offer",
+    "strNameFriendly": "Гонцу нужна техническая помощь с устройством связи.",
     "strColor": "Neutral",
     "strDesc": "Курьеру было предложено задание.",
     "bResetTimer": false,
@@ -1665,7 +1665,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_QuestionLegality",
-    "strNameFriendly": "Plot_MessengerTechnical_QuestionLegality",
+    "strNameFriendly": "Можно ли законно восстановить это устройство?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в законности задания.",
     "bResetTimer": false,
@@ -1678,7 +1678,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_QuestionPay",
-    "strNameFriendly": "Plot_MessengerTechnical_QuestionPay",
+    "strNameFriendly": "Сколько вам за это заплатят?",
     "strColor": "Neutral",
     "strDesc": "Курьер усомнился в ценности задания.",
     "bResetTimer": false,
@@ -1756,7 +1756,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_Done",
-    "strNameFriendly": "Plot_MessengerTechnical_Done",
+    "strNameFriendly": "Задание по ремонту выполнено.",
     "strColor": "Neutral",
     "strDesc": "Курьер взаимодействовал с целью.",
     "bResetTimer": false,
@@ -1769,7 +1769,7 @@
   },
   {
     "strName": "Plot_MessengerTechnical_Cooldown",
-    "strNameFriendly": "Plot_MessengerTechnical_Cooldown",
+    "strNameFriendly": "Некоторое время подобные задания появляться не будут.",
     "strColor": "Neutral",
     "strDesc": "Недавно завершил сюжет курьера и не сможет повторить в течение 60 минут.",
     "bResetTimer": false,
@@ -2887,7 +2887,7 @@
   },
   {
     "strName": "PlotChoicePanhandlingSolicitReady",
-    "strNameFriendly": "PlotChoicePanhandlingSolicitReady",
+    "strNameFriendly": "Вы готовы попросить милостыню.",
     "strColor": "Neutral",
     "strDesc": "Цель ChoicePanhandling готова к обращению к протагонисту.",
     "bResetTimer": false,
@@ -2941,7 +2941,7 @@
   },
   {
     "strName": "PlotOKLGCritterStarted",
-    "strNameFriendly": "PlotOKLGCritterStarted",
+    "strNameFriendly": "Начат сюжетный квест: Зверёк OKLG.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: OKLGCritter.",
     "bResetTimer": false,
@@ -2968,7 +2968,7 @@
   },
   {
     "strName": "PlotOKLGCritter01Done",
-    "strNameFriendly": "PlotOKLGCritter01Done",
+    "strNameFriendly": "Зверёк доставлен на Hangzhou.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGCritter: [us] продвинулся на шаг.",
     "bResetTimer": false,
@@ -2981,7 +2981,7 @@
   },
   {
     "strName": "PlotOKLGCritter01bDone",
-    "strNameFriendly": "PlotOKLGCritter01bDone",
+    "strNameFriendly": "Груз успешно сдан и оплачен.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGCritter: [us] достиг финальной стадии.",
     "bResetTimer": false,
@@ -3008,7 +3008,7 @@
   },
   {
     "strName": "PlotOKLGCritter02Done",
-    "strNameFriendly": "PlotOKLGCritter02Done",
+    "strNameFriendly": "Груз отправлен на Qincheng.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGCritter: [us] продвинулся на шаг.",
     "bResetTimer": false,
@@ -3021,7 +3021,7 @@
   },
   {
     "strName": "PlotOKLGCritter03Done",
-    "strNameFriendly": "PlotOKLGCritter03Done",
+    "strNameFriendly": "Груз отправлен на Atlantis.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGCritter: [us] продвинулся на шаг.",
     "bResetTimer": false,
@@ -3047,7 +3047,7 @@
   },
   {
     "strName": "PlotOKLGCritter04Done",
-    "strNameFriendly": "PlotOKLGCritter04Done",
+    "strNameFriendly": "Груз отправлен на Fort Simpson.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGCritter: [us] продвинулся на шаг.",
     "bResetTimer": false,
@@ -3143,7 +3143,7 @@
   },
   {
     "strName": "Plot_OKLGEmbassy_Started",
-    "strNameFriendly": "Plot_OKLGEmbassy_Started",
+    "strNameFriendly": "Начат сюжетный квест: Посольство OKLG.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: OKLGEmbassy.",
     "bResetTimer": false,
@@ -3156,7 +3156,7 @@
   },
   {
     "strName": "Plot_OKLGEmbassy_PreReadyTriggered",
-    "strNameFriendly": "Plot_OKLGEmbassy_PreReadyTriggered",
+    "strNameFriendly": "Вы находитесь на станции, где есть представительство OKLG.",
     "strColor": "Neutral",
     "strDesc": "Для сюжета OKLGEmbassy активирована фаза PreReady.",
     "bResetTimer": false,
@@ -3182,7 +3182,7 @@
   },
   {
     "strName": "TutorialNoEmbassyYet",
-    "strNameFriendly": "TutorialNoEmbassyYet",
+    "strNameFriendly": "Вам пока не нужно искать посольство. Продолжайте исследовать другие аспекты игры.",
     "strColor": "Neutral",
     "strDesc": "Еще не посещалась киоск-посольство.",
     "bResetTimer": false,
@@ -3195,7 +3195,7 @@
   },
   {
     "strName": "Plot_OKLGEmbassy_01Done",
-    "strNameFriendly": "Plot_OKLGEmbassy_01Done",
+    "strNameFriendly": "Вы встретились с дипломатом OKLG.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGEmbassy: [us] посетил посольство.",
     "bResetTimer": false,
@@ -3221,7 +3221,7 @@
   },
   {
     "strName": "Plot_OKLGEmbassy_Pre02Triggered",
-    "strNameFriendly": "Plot_OKLGEmbassy_Pre02Triggered",
+    "strNameFriendly": "Задание в посольстве готово к продолжению.",
     "strColor": "Neutral",
     "strDesc": "Для сюжета OKLGEmbassy активирована фаза Pre02.",
     "bResetTimer": false,
@@ -3234,7 +3234,7 @@
   },
   {
     "strName": "Plot_OKLGEmbassy_02Done",
-    "strNameFriendly": "Plot_OKLGEmbassy_02Done",
+    "strNameFriendly": "Вы успешно зарегистрировались в посольстве.",
     "strColor": "Neutral",
     "strDesc": "Сюжет OKLGEmbassy: [us] получил легальный статус.",
     "bResetTimer": false,
@@ -3247,7 +3247,7 @@
   },
   {
     "strName": "TutorialNoHousingYet",
-    "strNameFriendly": "TutorialNoHousingYet",
+    "strNameFriendly": "Вам пока не нужно искать жильё. Продолжайте исследовать другие аспекты игры.",
     "strColor": "Neutral",
     "strDesc": "Еще не посещал жилищное управление.",
     "bResetTimer": false,
@@ -3260,7 +3260,7 @@
   },
   {
     "strName": "Plot_OKLGHousing_01Done",
-    "strNameFriendly": "Plot_OKLGHousing_01Done",
+    "strNameFriendly": "Вы сняли жильё.",
     "strColor": "Neutral",
     "strDesc": "Сюжет Жилье: [us] приобрел жилье.",
     "bResetTimer": false,
@@ -3273,7 +3273,7 @@
   },
   {
     "strName": "PlotFixerTrustIssues",
-    "strNameFriendly": "PlotFixerTrustIssues",
+    "strNameFriendly": "У посредника возникли проблемы с доверием к вам.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: FixerTrustIssues.",
     "bResetTimer": false,
@@ -3286,7 +3286,7 @@
   },
   {
     "strName": "PlotFixerTrustIssuesKilledLEO",
-    "strNameFriendly": "PlotFixerTrustIssuesKilledLEO",
+    "strNameFriendly": "У посредника возникли проблемы с доверием из-за того, что вы убили сотрудника правоохранительных органов.",
     "strColor": "Neutral",
     "strDesc": "FixerTrustIssues: убит LEO.",
     "bResetTimer": false,
@@ -3312,7 +3312,7 @@
   },
   {
     "strName": "DcPlotFixerTrustIssues01",
-    "strNameFriendly": "DcPlotFixerTrustIssues01",
+    "strNameFriendly": "Вы повредили репутацию у посредника.",
     "strColor": "Neutral",
     "strDesc": "Достигнут порог для FixerTrustIssues.",
     "bResetTimer": false,
@@ -3949,7 +3949,7 @@
   },
   {
     "strName": "Plot_Whodunnit_KnowsCauseOfDeath",
-    "strNameFriendly": "Plot_Whodunnit_KnowsCauseOfDeath",
+    "strNameFriendly": "Вы знаете причину смерти.",
     "strColor": "Neutral",
     "strDesc": "Whodunnit: [us] знает причину смерти этого тела, не подозревая криминала.",
     "bResetTimer": false,
@@ -5601,7 +5601,7 @@
   },
   {
     "strName": "Plot_Lonesome_Started",
-    "strNameFriendly": "Plot_Lonesome_Started",
+    "strNameFriendly": "Начат сюжетный квест: Одиночество.",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Lonesome.",
     "bResetTimer": false,
@@ -5614,7 +5614,7 @@
   },
   {
     "strName": "Plot_Lonesome_Stage01",
-    "strNameFriendly": "Plot_Lonesome_Stage01",
+    "strNameFriendly": "Вы нашли первый след.",
     "strColor": "Neutral",
     "strDesc": "Сюжет Этап 01: Одиночество.",
     "bResetTimer": false,
@@ -5627,7 +5627,7 @@
   },
   {
     "strName": "Plot_Lonesome_Stage02",
-    "strNameFriendly": "Plot_Lonesome_Stage02",
+    "strNameFriendly": "Вы нашли второй след.",
     "strColor": "Neutral",
     "strDesc": "Сюжет Этап 02: Одиночество.",
     "bResetTimer": false,
@@ -5640,7 +5640,7 @@
   },
   {
     "strName": "Plot_Lonesome_Stage03",
-    "strNameFriendly": "Plot_Lonesome_Stage03",
+    "strNameFriendly": "Вы нашли третий след.",
     "strColor": "Neutral",
     "strDesc": "Сюжет Этап 03: Одиночество.",
     "bResetTimer": false,
@@ -5653,7 +5653,7 @@
   },
   {
     "strName": "Plot_Lonesome_Stage04",
-    "strNameFriendly": "Plot_Lonesome_Stage04",
+    "strNameFriendly": "Сюжет_Одиночество_Этап04",
     "strColor": "Neutral",
     "strDesc": "Сюжет Этап 04: Одиночество.",
     "bResetTimer": false,
@@ -5692,7 +5692,7 @@
   },
   {
     "strName": "DcPlotLonesome01",
-    "strNameFriendly": "Normal",
+    "strNameFriendly": "Обычный",
     "strColor": "Neutral",
     "strDesc": "[us] [has] особых потребностей в близости.",
     "bResetTimer": false,
@@ -5770,7 +5770,7 @@
   },
   {
     "strName": "Plot_Meat_Started",
-    "strNameFriendly": "Plot_Meat_Started",
+    "strNameFriendly": "Сюжет_Мясо_Начало",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Мясо.",
     "bResetTimer": false,
@@ -5783,7 +5783,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound",
-    "strNameFriendly": "Plot_Meat_WhispersFound",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер события WhispersFound сюжета: Мясо.",
     "bResetTimer": false,
@@ -5796,7 +5796,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFoundTriggered",
-    "strNameFriendly": "Plot_Meat_WhispersFoundTriggered",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайденыЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активировано событие WhispersFound сюжета: Мясо.",
     "bResetTimer": false,
@@ -5809,7 +5809,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound01",
-    "strNameFriendly": "Plot_Meat_WhispersFound 01",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 01",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 01 сюжета: Мясо.",
     "bResetTimer": false,
@@ -5835,7 +5835,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound02",
-    "strNameFriendly": "Plot_Meat_WhispersFound 02",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 02",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 02 сюжета: Мясо.",
     "bResetTimer": false,
@@ -5861,7 +5861,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound03",
-    "strNameFriendly": "Plot_Meat_WhispersFound 03",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 03",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 03 сюжета: Мясо.",
     "bResetTimer": false,
@@ -5874,7 +5874,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound04",
-    "strNameFriendly": "Plot_Meat_WhispersFound 04",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 04",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 04 сюжета: Мясо.",
     "bResetTimer": false,
@@ -5887,7 +5887,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound04b",
-    "strNameFriendly": "Plot_Meat_WhispersFound 04b",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 04b",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 04b сюжета: Мясо.",
     "bResetTimer": false,
@@ -5900,7 +5900,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound05",
-    "strNameFriendly": "Plot_Meat_WhispersFound 05",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 05",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 05 сюжета: Мясо.",
     "bResetTimer": false,
@@ -5926,7 +5926,7 @@
   },
   {
     "strName": "Plot_Meat_WhispersFound06",
-    "strNameFriendly": "Plot_Meat_WhispersFound 06",
+    "strNameFriendly": "Сюжет_Мясо_ШёпотыНайдены 06",
     "strColor": "Neutral",
     "strDesc": "Завершено IA WhispersFound 06 сюжета: Meat.",
     "bResetTimer": false,
@@ -5952,7 +5952,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены",
     "strColor": "Neutral",
     "strDesc": "Включен триггер бита SignsDiscussed сюжета: Meat.",
     "bResetTimer": false,
@@ -5965,7 +5965,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussedTriggered",
-    "strNameFriendly": "Plot_Meat_SignsDiscussedTriggered",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсужденыЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активирован бит SignsDiscussed сюжета: Meat.",
     "bResetTimer": false,
@@ -5978,7 +5978,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed01",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 01",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 01",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 01 сюжета: Meat.",
     "bResetTimer": false,
@@ -5991,7 +5991,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed02",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 02",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 02",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 02 сюжета: Meat.",
     "bResetTimer": false,
@@ -6004,7 +6004,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed03",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 03",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 03",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 03 сюжета: Meat.",
     "bResetTimer": false,
@@ -6017,7 +6017,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed04",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 04",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 04",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 04 сюжета: Meat.",
     "bResetTimer": false,
@@ -6030,7 +6030,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed05",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 05",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 05",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 05 сюжета: Meat.",
     "bResetTimer": false,
@@ -6043,7 +6043,7 @@
   },
   {
     "strName": "Plot_Meat_SignsDiscussed06",
-    "strNameFriendly": "Plot_Meat_SignsDiscussed 06",
+    "strNameFriendly": "Сюжет_Мясо_ЗнакиОбсуждены 06",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 06 сюжета: Meat.",
     "bResetTimer": false,
@@ -6069,7 +6069,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged",
-    "strNameFriendly": "Plot_Meat_MeatEngaged",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление",
     "strColor": "Neutral",
     "strDesc": "Включен триггер бита MeatEngaged сюжета: Meat.",
     "bResetTimer": false,
@@ -6082,7 +6082,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngagedTriggered",
-    "strNameFriendly": "Plot_Meat_MeatEngagedTriggered",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступлениеЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активирован бит MeatEngaged сюжета: Meat.",
     "bResetTimer": false,
@@ -6095,7 +6095,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged01",
-    "strNameFriendly": "Plot_Meat_MeatEngaged 01",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление 01",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatEngaged 01 сюжета: Meat.",
     "bResetTimer": false,
@@ -6108,7 +6108,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged02",
-    "strNameFriendly": "Plot_Meat_MeatEngaged 02",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление 02",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatEngaged 02 сюжета: Meat.",
     "bResetTimer": false,
@@ -6121,7 +6121,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged03",
-    "strNameFriendly": "Plot_Meat_MeatEngaged 03",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление 03",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatEngaged 03 сюжета: Meat.",
     "bResetTimer": false,
@@ -6160,7 +6160,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged04",
-    "strNameFriendly": "Plot_Meat_MeatEngaged 04",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление 04",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatEngaged 04 сюжета: Meat.",
     "bResetTimer": false,
@@ -6173,7 +6173,7 @@
   },
   {
     "strName": "Plot_Meat_MeatEngaged05",
-    "strNameFriendly": "Plot_Meat_MeatEngaged 05",
+    "strNameFriendly": "Сюжет_Мясо_МясоВступление 05",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatEngaged 05 сюжета: Meat.",
     "bResetTimer": false,
@@ -6225,7 +6225,7 @@
   },
   {
     "strName": "Plot_Meat_MeatKnown",
-    "strNameFriendly": "Plot_Meat_MeatKnown",
+    "strNameFriendly": "Сюжет_Мясо_МясоИзвестно",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер события MeatKnown сюжета: Meat.",
     "bResetTimer": false,
@@ -6238,7 +6238,7 @@
   },
   {
     "strName": "Plot_Meat_MeatKnownTriggered",
-    "strNameFriendly": "Plot_Meat_MeatKnownTriggered",
+    "strNameFriendly": "Сюжет_Мясо_МясоИзвестноЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активировано событие MeatKnown сюжета: Meat.",
     "bResetTimer": false,
@@ -6290,7 +6290,7 @@
   },
   {
     "strName": "Plot_Meat_MeatKnown04",
-    "strNameFriendly": "Plot_Meat_MeatKnown 04",
+    "strNameFriendly": "Сюжет_Мясо_МясоИзвестно 04",
     "strColor": "Neutral",
     "strDesc": "Завершено IA MeatKnown 04 сюжета: Meat.",
     "bResetTimer": false,
@@ -6316,7 +6316,7 @@
   },
   {
     "strName": "Plot_Meat_RitualPrepared",
-    "strNameFriendly": "Plot_Meat_RitualPrepared",
+    "strNameFriendly": "Сюжет_Мясо_РитуалПодготовлен",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер события RitualPrepared сюжета: Meat.",
     "bResetTimer": false,
@@ -6329,7 +6329,7 @@
   },
   {
     "strName": "Plot_Meat_RitualPreparedTriggered",
-    "strNameFriendly": "Plot_Meat_RitualPreparedTriggered",
+    "strNameFriendly": "Сюжет_Мясо_РитуалПодготовленЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активировано событие RitualPrepared сюжета: Meat.",
     "bResetTimer": false,
@@ -6342,7 +6342,7 @@
   },
   {
     "strName": "Plot_Meat_RitualPrepared01",
-    "strNameFriendly": "Plot_Meat_RitualPrepared 01",
+    "strNameFriendly": "Сюжет_Мясо_РитуалПодготовлен 01",
     "strColor": "Neutral",
     "strDesc": "Завершено IA RitualPrepared 01 сюжета: Meat.",
     "bResetTimer": false,
@@ -6355,7 +6355,7 @@
   },
   {
     "strName": "Plot_Meat_RitualPrepared02",
-    "strNameFriendly": "Plot_Meat_RitualPrepared 02",
+    "strNameFriendly": "Сюжет_Мясо_РитуалПодготовлен 02",
     "strColor": "Neutral",
     "strDesc": "Завершено IA RitualPrepared 02 сюжета: Meat.",
     "bResetTimer": false,
@@ -6368,7 +6368,7 @@
   },
   {
     "strName": "Plot_Meat_GoatBoss_MFinal",
-    "strNameFriendly": "Plot_Meat_GoatBoss_MFinal",
+    "strNameFriendly": "Сюжет_Мясо_БоссКозёл_МФинал",
     "strColor": "Neutral",
     "strDesc": "Выбрано IA GoatBoss A1 сюжета: Meat.",
     "bResetTimer": false,
@@ -6381,7 +6381,7 @@
   },
   {
     "strName": "Plot_Meat_GoatBoss_ZFinal",
-    "strNameFriendly": "Plot_Meat_GoatBoss_ZFinal",
+    "strNameFriendly": "Сюжет_Мясо_БоссКозёл_ZФинал",
     "strColor": "Neutral",
     "strDesc": "Выбрано IA GoatBoss A2 сюжета: Meat.",
     "bResetTimer": false,
@@ -6394,7 +6394,7 @@
   },
   {
     "strName": "Plot_Meat_GoatBoss_CFinal",
-    "strNameFriendly": "Plot_Meat_GoatBoss_CFinal",
+    "strNameFriendly": "Сюжет_Мясо_БоссКозёл_CФинал",
     "strColor": "Neutral",
     "strDesc": "Выбрано IA GoatBoss A3 сюжета: Meat.",
     "bResetTimer": false,
@@ -6407,7 +6407,7 @@
   },
   {
     "strName": "Plot_Meat_RitualCompleted",
-    "strNameFriendly": "Plot_Meat_RitualCompleted",
+    "strNameFriendly": "Сюжет_Мясо_РитуалЗавершён",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер события RitualCompleted сюжета: Meat.",
     "bResetTimer": false,
@@ -6420,7 +6420,7 @@
   },
   {
     "strName": "Plot_Meat_RitualCompletedTriggered",
-    "strNameFriendly": "Plot_Meat_RitualCompletedTriggered",
+    "strNameFriendly": "Сюжет_Мясо_РитуалЗавершёнЗапуск",
     "strColor": "Neutral",
     "strDesc": "Активировано событие RitualCompleted сюжета: Meat.",
     "bResetTimer": false,
@@ -6433,7 +6433,7 @@
   },
   {
     "strName": "Plot_Meat_End",
-    "strNameFriendly": "Plot_Meat_End",
+    "strNameFriendly": "Сюжет_Мясо_Конец",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер события End сюжета: Meat.",
     "bResetTimer": false,
@@ -6446,7 +6446,7 @@
   },
   {
     "strName": "Plot_Meat_EndTriggered",
-    "strNameFriendly": "Plot_Meat_EndTriggered",
+    "strNameFriendly": "Plot_Meat_EndTriggered: Сюжет_Мясо_КонецЗапущен",
     "strColor": "Neutral",
     "strDesc": "Активировано событие End сюжета: Meat.",
     "bResetTimer": false,
@@ -6726,7 +6726,7 @@
   },
   {
     "strName": "IsReadyEvolve",
-    "strNameFriendly": "ReadyEvolve",
+    "strNameFriendly": "ReadyEvolve: ГотовКЭволюции",
     "strColor": "Neutral",
     "strDesc": "[us] готов к эволюции.",
     "bResetTimer": false,
@@ -6740,7 +6740,7 @@
   },
   {
     "strName": "IsReadyEvolveMax",
-    "strNameFriendly": "ReadyEvolveMax",
+    "strNameFriendly": "ReadyEvolveMax: ГотовКМаксЭволюции",
     "strColor": "Neutral",
     "strDesc": "Максимальный прогресс, который [us] может достичь до того, как Destructable инициирует эволюцию.",
     "bResetTimer": false,
@@ -6856,7 +6856,7 @@
   },
   {
     "strName": "IsLeadDetective",
-    "strNameFriendly": "Lead_Detective",
+    "strNameFriendly": "Lead_Detective: Ведущий_Детектив",
     "strColor": "Neutral",
     "strDesc": "[us] — главный детектив по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6911,7 +6911,7 @@
   },
   {
     "strName": "GuiltLeadDetective",
-    "strNameFriendly": "Guilt_Lead_Detective",
+    "strNameFriendly": "Guilt_Lead_Detective: Вина_Ведущий_Детектив",
     "strColor": "Neutral",
     "strDesc": "[us] находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6922,7 +6922,7 @@
   },
   {
     "strName": "GuiltSuperfan",
-    "strNameFriendly": "Guilt_Superfan",
+    "strNameFriendly": "Guilt_Superfan: Вина_Суперфанат",
     "strColor": "Neutral",
     "strDesc": "[us] находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6933,7 +6933,7 @@
   },
   {
     "strName": "GuiltMogul",
-    "strNameFriendly": "Guilt_Mogul",
+    "strNameFriendly": "Guilt_Mogul: Вина_Магнат",
     "strColor": "Neutral",
     "strDesc": "[us] находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6944,7 +6944,7 @@
   },
   {
     "strName": "GuiltJournalist",
-    "strNameFriendly": "Guilt_Tabloid_Journalist",
+    "strNameFriendly": "Guilt_Tabloid_Journalist: Вина_Журналист_Бульварки",
     "strColor": "Neutral",
     "strDesc": "[us] находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6955,7 +6955,7 @@
   },
   {
     "strName": "GuiltMiddlemist",
-    "strNameFriendly": "Guilt_Middlemist",
+    "strNameFriendly": "Guilt_Middlemist: Вина_Миддлмист",
     "strColor": "Neutral",
     "strDesc": "В отношении самой Camellia Middlemist существуют дополнительные подозрения в деле Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6966,7 +6966,7 @@
   },
   {
     "strName": "GuiltRacingIcon",
-    "strNameFriendly": "Guilt_Racing_Icon",
+    "strNameFriendly": "Guilt_Racing_Icon: Вина_Гоночный_Кумир",
     "strColor": "Neutral",
     "strDesc": "[us] находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6977,7 +6977,7 @@
   },
   {
     "strName": "GuiltTanner",
-    "strNameFriendly": "Guilt_Tanner",
+    "strNameFriendly": "Guilt_Tanner: Вина_Таннер",
     "strColor": "Neutral",
     "strDesc": "Детектив Джозефус Таннер находится под дополнительным подозрением по делу Camellia Middlemist.",
     "nDisplaySelf": 2,
@@ -6988,7 +6988,7 @@
   },
   {
     "strName": "Plot_Merga_Started",
-    "strNameFriendly": "Plot_Merga_Started",
+    "strNameFriendly": "Plot_Merga_Started: Сюжет_Мерга_Начат",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Merga.",
     "bResetTimer": false,
@@ -7001,7 +7001,7 @@
   },
   {
     "strName": "Plot_Merga_Started2",
-    "strNameFriendly": "Plot_Merga_Started2",
+    "strNameFriendly": "Plot_Merga_Started2: Сюжет_Мерга_Начат2",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Merga2.",
     "bResetTimer": false,
@@ -7014,7 +7014,7 @@
   },
   {
     "strName": "Plot_Merga_Started3",
-    "strNameFriendly": "Plot_Merga_Started3",
+    "strNameFriendly": "Plot_Merga_Started3: Сюжет_Мерга_Начат3",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Merga3.",
     "bResetTimer": false,
@@ -7027,7 +7027,7 @@
   },
   {
     "strName": "Plot_Merga_Started4",
-    "strNameFriendly": "Plot_Merga_Started4",
+    "strNameFriendly": "Plot_Merga_Started4: Сюжет_Мерга_Начат4",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Merga4.",
     "bResetTimer": false,
@@ -7040,7 +7040,7 @@
   },
   {
     "strName": "Plot_Merga_Started5",
-    "strNameFriendly": "Plot_Merga_Started5",
+    "strNameFriendly": "Plot_Merga_Started5: Сюжет_Мерга_Начат5",
     "strColor": "Neutral",
     "strDesc": "Начат сюжет: Merga5.",
     "bResetTimer": false,
@@ -7053,7 +7053,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound",
-    "strNameFriendly": "Plot_Merga_WhispersFound",
+    "strNameFriendly": "Plot_Merga_WhispersFound: Сюжет_Мерга_ШепотыНайдены",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер этапа WhispersFound сюжета: Merga.",
     "bResetTimer": false,
@@ -7066,7 +7066,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFoundTriggered",
-    "strNameFriendly": "Plot_Merga_WhispersFoundTriggered",
+    "strNameFriendly": "Plot_Merga_WhispersFoundTriggered: Сюжет_Мерга_ШепотыНайденыЗапущено",
     "strColor": "Neutral",
     "strDesc": "Активирован этап WhispersFound сюжета: Merga.",
     "bResetTimer": false,
@@ -7079,7 +7079,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound01",
-    "strNameFriendly": "Plot_Merga_WhispersFound 01",
+    "strNameFriendly": "Plot_Merga_WhispersFound 01: Сюжет_Мерга_ШепотыНайдены 01",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 01 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7092,7 +7092,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound02",
-    "strNameFriendly": "Plot_Merga_WhispersFound 02",
+    "strNameFriendly": "Plot_Merga_WhispersFound 02: Сюжет_Мерга_ШепотыНайдены 02",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 02 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7105,7 +7105,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound03",
-    "strNameFriendly": "Plot_Merga_WhispersFound 03",
+    "strNameFriendly": "Plot_Merga_WhispersFound 03: Сюжет_Мерга_ШепотыНайдены 03",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 03 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7118,7 +7118,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound04",
-    "strNameFriendly": "Plot_Merga_WhispersFound 04",
+    "strNameFriendly": "Plot_Merga_WhispersFound 04: Сюжет_Мерга_ШепотыНайдены 04",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 04 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7131,7 +7131,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound05",
-    "strNameFriendly": "Plot_Merga_WhispersFound 05",
+    "strNameFriendly": "Plot_Merga_WhispersFound 05: Сюжет_Мерга_ШепотыНайдены 05",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 05 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7144,7 +7144,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound06",
-    "strNameFriendly": "Plot_Merga_WhispersFound 06",
+    "strNameFriendly": "Plot_Merga_WhispersFound 06: Сюжет_Мерга_ШепотыНайдены 06",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 06 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7157,7 +7157,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound07",
-    "strNameFriendly": "Plot_Merga_WhispersFound 07",
+    "strNameFriendly": "Plot_Merga_WhispersFound 07: Сюжет_Мерга_ШепотыНайдены 07",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 07 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7170,7 +7170,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound08",
-    "strNameFriendly": "Plot_Merga_WhispersFound 08",
+    "strNameFriendly": "Plot_Merga_WhispersFound 08: Сюжет_Мерга_ШепотыНайдены 08",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 08 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7183,7 +7183,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound09",
-    "strNameFriendly": "Plot_Merga_WhispersFound 09",
+    "strNameFriendly": "Plot_Merga_WhispersFound 09: Сюжет_Мерга_ШепотыНайдены 09",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 09 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7196,7 +7196,7 @@
   },
   {
     "strName": "Plot_Merga_WhispersFound10",
-    "strNameFriendly": "Plot_Merga_WhispersFound 10",
+    "strNameFriendly": "Plot_Merga_WhispersFound 10: Сюжет_Мерга_ШепотыНайдены 10",
     "strColor": "Neutral",
     "strDesc": "Завершен этап WhispersFound 10 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7209,7 +7209,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed: Сюжет_Мерга_ЗнакиОбсуждены",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер этапа SignsDiscussed сюжета: Merga.",
     "bResetTimer": false,
@@ -7222,7 +7222,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussedTriggered",
-    "strNameFriendly": "Plot_Merga_SignsDiscussedTriggered",
+    "strNameFriendly": "Plot_Merga_SignsDiscussedTriggered: Сюжет_Мерга_ЗнакиОбсужденыЗапущено",
     "strColor": "Neutral",
     "strDesc": "Активирован этап SignsDiscussed сюжета: Merga.",
     "bResetTimer": false,
@@ -7235,7 +7235,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed01",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 01",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 01: Сюжет_Мерга_ЗнакиОбсуждены 01",
     "strColor": "Neutral",
     "strDesc": "Завершен этап SignsDiscussed 01 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7248,7 +7248,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed02",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 02",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 02: Сюжет_Мерга_ЗнакиОбсуждены 02",
     "strColor": "Neutral",
     "strDesc": "Завершен этап SignsDiscussed 02 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7261,7 +7261,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed03",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 03",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 03: Сюжет_Мерга_ЗнакиОбсуждены 03",
     "strColor": "Neutral",
     "strDesc": "Завершен этап SignsDiscussed 03 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7274,7 +7274,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed04",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 04",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 04: Сюжет_Мерга_ЗнакиОбсуждены 04",
     "strColor": "Neutral",
     "strDesc": "Завершен этап SignsDiscussed 04 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7287,7 +7287,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed05",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 05",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 05: Сюжет_Мерга_ЗнакиОбсуждены 05",
     "strColor": "Neutral",
     "strDesc": "Завершен этап SignsDiscussed 05 IA сюжета: Merga.",
     "bResetTimer": false,
@@ -7300,7 +7300,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed06",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 06",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 06: Сюжет_Мерга_ЗнакиОбсуждены 06",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 06 сюжета: Merga.",
     "bResetTimer": false,
@@ -7313,7 +7313,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed07",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 07",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 07: Сюжет_Мерга_ЗнакиОбсуждены 07",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 06 сюжета: Merga.",
     "bResetTimer": false,
@@ -7326,7 +7326,7 @@
   },
   {
     "strName": "Plot_Merga_SignsDiscussed08",
-    "strNameFriendly": "Plot_Merga_SignsDiscussed 08",
+    "strNameFriendly": "Plot_Merga_SignsDiscussed 08: Сюжет_Мерга_ЗнакиОбсуждены 08",
     "strColor": "Neutral",
     "strDesc": "Завершено IA SignsDiscussed 06 сюжета: Merga.",
     "bResetTimer": false,
@@ -7339,7 +7339,7 @@
   },
   {
     "strName": "Plot_Merga_MergaEngaged",
-    "strNameFriendly": "Plot_Merga_MergaEngaged",
+    "strNameFriendly": "Plot_Merga_MergaEngaged: Сюжет_Мерга_МергаВступил",
     "strColor": "Neutral",
     "strDesc": "Активирован триггер этапа MergaEngaged сюжета: Merga.",
     "bResetTimer": false,
@@ -7352,7 +7352,7 @@
   },
   {
     "strName": "Plot_Merga_MergaEngagedTriggered",
-    "strNameFriendly": "Plot_Merga_MergaEngagedTriggered",
+    "strNameFriendly": "Plot_Merga_MergaEngagedTriggered: Сюжет_Мерга_МергаВступилЗапущено",
     "strColor": "Neutral",
     "strDesc": "Активирован этап MergaEngaged сюжета: Merga.",
     "bResetTimer": false,
@@ -8964,330 +8964,330 @@
   },
   {
     "strName": "Plot_Ceres_FactionRatings_Complete",
-    "strDesc": "Raised factions enough to progress past clandestine interventions."
+    "strDesc": "Повысил репутацию фракций достаточно, чтобы продвинуться дальше в секретных операциях."
   },
   {
     "strName": "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Xinhua",
-    "strDesc": "Player is ready to perform a Black Hat mission for Xinhua"
+    "strDesc": "Игрок готов выполнить секретную миссию для Xinhua"
   },
   {
     "strName": "Plot_Ceres_Dead_Drop_Black_Hat_Is_Active_Titan",
-    "strDesc": "Player is ready to perform a Black Hat mission for Titan"
+    "strDesc": "Игрок готов выполнить секретную миссию для Titan"
   },
   {
     "strName": "Plot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Completed",
-    "strDesc": "Completed PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station"
+    "strDesc": "Выполнено PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station"
   },
   {
     "strName": "PLOT_Ceres_Brain_Case",
-    "strDesc": "Is a brain case item for the Ceres Plot."
+    "strDesc": "Это предмет «мозговой капсулы» для сюжета Цереры."
   },
   {
     "strName": "Plot_ChoongHistory_Completed",
-    "strDesc": "Completed ChoongHistory"
+    "strDesc": "Выполнено ChoongHistory"
   },
   {
     "strName": "Plot_ChoongResearch_Completed",
-    "strDesc": "Completed ChoongResearch"
+    "strDesc": "Выполнено ChoongResearch"
   },
   {
     "strName": "Plot_ChoongEnvironment_Completed",
-    "strDesc": "Completed ChoongEnvironment"
+    "strDesc": "Выполнено ChoongEnvironment"
   },
   {
     "strName": "Plot_ChoongVideotapes_Completed",
-    "strDesc": "Completed ChoongVideotapes"
+    "strDesc": "Выполнено ChoongVideotapes"
   },
   {
     "strName": "Plot_ChoongVideotapesDemo_Completed",
-    "strDesc": "Completed ChoongVideotapesDemo"
+    "strDesc": "Выполнено ChoongVideotapesDemo"
   },
   {
     "strName": "Plot_ChoongPrison_Completed",
-    "strDesc": "Completed ChoongPrison"
+    "strDesc": "Выполнено ChoongPrison"
   },
   {
     "strName": "Plot_ChoongPlateau_1Exit_Completed",
-    "strDesc": "Completed ChoongPlateau_1Exit"
+    "strDesc": "Выполнено ChoongPlateau_1Exit"
   },
   {
     "strName": "Plot_ChoongTakeBreak_Completed",
-    "strDesc": "Completed ChoongTakeBreak"
+    "strDesc": "Выполнено ChoongTakeBreak"
   },
   {
     "strName": "Plot_ChoongMilitary_Completed",
-    "strDesc": "Completed ChoongMilitary"
+    "strDesc": "Выполнено ChoongMilitary"
   },
   {
     "strName": "Plot_ChoongKetevanLying_Completed",
-    "strDesc": "Completed ChoongKetevanLying"
+    "strDesc": "Выполнено ChoongKetevanLying"
   },
   {
     "strName": "Plot_ChoongTeleportation_Completed",
-    "strDesc": "Completed ChoongTeleportation"
+    "strDesc": "Выполнено ChoongTeleportation"
   },
   {
     "strName": "Plot_ChoongTeleportation2_Completed",
-    "strDesc": "Completed ChoongTeleportation2"
+    "strDesc": "Выполнено ChoongTeleportation2"
   },
   {
     "strName": "Plot_ChoongDisappeared_Completed",
-    "strDesc": "Completed ChoongDisappeared"
+    "strDesc": "Выполнено ChoongDisappeared"
   },
   {
     "strName": "Plot_ChoongKetevan_Completed",
-    "strDesc": "Completed ChoongKetevan"
+    "strDesc": "Выполнено ChoongKetevan"
   },
   {
     "strName": "Plot_ChoongLibrary_Completed",
-    "strDesc": "Completed ChoongLibrary"
+    "strDesc": "Пройдено ChoongLibrary"
   },
   {
     "strName": "Plot_InspectBraincase3_Completed",
-    "strDesc": "Completed InspectBraincase3"
+    "strDesc": "Пройдено InspectBraincase3"
   },
   {
     "strName": "Plot_ChoongPlateau2_Exit_Completed",
-    "strDesc": "Completed ChoongPlateau2_Exit"
+    "strDesc": "Пройдено ChoongPlateau2_Exit"
   },
   {
     "strName": "Plot_ChoongInformWarDemandExplanation_Completed",
-    "strDesc": "Completed ChoongInformWarDemandExplanation"
+    "strDesc": "Пройдено ChoongInformWarDemandExplanation"
   },
   {
     "strName": "Plot_ChoongSarcophagus_Completed",
-    "strDesc": "Completed ChoongSarcophagus"
+    "strDesc": "Пройдено ChoongSarcophagus"
   },
   {
     "strName": "Plot_ChoongSarcophagus2_Completed",
-    "strDesc": "Completed ChoongSarcophagus2"
+    "strDesc": "Пройдено ChoongSarcophagus2"
   },
   {
     "strName": "Plot_ChoongSarcophagusGold_Completed",
-    "strDesc": "Completed ChoongSarcophagusGold"
+    "strDesc": "Пройдено ChoongSarcophagusGold"
   },
   {
     "strName": "Plot_ChoongAskAboutGod_Completed",
-    "strDesc": "Completed ChoongAskAboutGod"
+    "strDesc": "Пройдено ChoongAskAboutGod"
   },
   {
     "strName": "Plot_ChoongPleaWar_Completed",
-    "strDesc": "Completed ChoongPleaWar"
+    "strDesc": "Пройдено ChoongPleaWar"
   },
   {
     "strName": "Plot_ChoongSmiley_Completed",
-    "strDesc": "Completed ChoongSmiley"
+    "strDesc": "Пройдено ChoongSmiley"
   },
   {
     "strName": "Plot_ChoongAccuseReligion_Completed",
-    "strDesc": "Completed ChoongAccuseReligion"
+    "strDesc": "Пройдено ChoongAccuseReligion"
   },
   {
     "strName": "Plot_ChoongAccuseGeneral_Completed",
-    "strDesc": "Completed ChoongAccuseGeneral"
+    "strDesc": "Пройдено ChoongAccuseGeneral"
   },
   {
     "strName": "Plot_ChoongAccuseVideotapes_Completed",
-    "strDesc": "Completed ChoongAccuseVideotapes"
+    "strDesc": "Пройдено ChoongAccuseVideotapes"
   },
   {
     "strName": "Plot_ChoongAccuseKetevan_Completed",
-    "strDesc": "Completed ChoongAccuseKetevan"
+    "strDesc": "Пройдено ChoongAccuseKetevan"
   },
   {
     "strName": "Plot_ChoongDontCareLying_Completed",
-    "strDesc": "Completed ChoongDontCareLying"
+    "strDesc": "Пройдено ChoongDontCareLying"
   },
   {
     "strName": "Plot_ChoongAccuseWar_Completed",
-    "strDesc": "Completed ChoongAccuseWar"
+    "strDesc": "Пройдено ChoongAccuseWar"
   },
   {
     "strName": "Plot_ChoongInformWar_Completed",
-    "strDesc": "Completed ChoongInformWar"
+    "strDesc": "Пройдено ChoongInformWar"
   },
   {
     "strName": "Plot_ChoongAskAboutChangeMind_Completed",
-    "strDesc": "Completed ChoongAskAboutChangeMind"
+    "strDesc": "Пройдено ChoongAskAboutChangeMind"
   },
   {
     "strName": "Plot_ChoongListenToIdea_Completed",
-    "strDesc": "Completed ChoongListenToIdea"
+    "strDesc": "Пройдено ChoongListenToIdea"
   },
   {
     "strName": "Plot_ChoongEnterDeviceYourself_Completed",
-    "strDesc": "Completed ChoongEnterDeviceYourself"
+    "strDesc": "Пройдено ChoongEnterDeviceYourself"
   },
   {
     "strName": "Plot_ChoongTortureReconsider_Completed",
-    "strDesc": "Completed ChoongTortureReconsider"
+    "strDesc": "Пройдено ChoongTortureReconsider"
   },
   {
     "strName": "Plot_ChoongTortureHim_Completed",
-    "strDesc": "Completed ChoongTortureHim"
+    "strDesc": "Пройдено ChoongTortureHim"
   },
   {
     "strName": "Plot_ChoongEuthaniseOffer_Completed",
-    "strDesc": "Completed ChoongEuthaniseOffer"
+    "strDesc": "Пройдено ChoongEuthaniseOffer"
   },
   {
     "strName": "Plot_ChoongAskAboutNext_Completed",
-    "strDesc": "Completed ChoongAskAboutNext"
+    "strDesc": "Пройдено ChoongAskAboutNext"
   },
   {
     "strName": "Plot_ChoongTortureDetails_Completed",
-    "strDesc": "Completed ChoongTortureDetails"
+    "strDesc": "Пройдено ChoongTortureDetails"
   },
   {
     "strName": "Plot_ChoongHair_Completed",
-    "strDesc": "Completed ChoongHair"
+    "strDesc": "Пройдено ChoongHair"
   },
   {
     "strName": "Plot_ChoongReciprocate_Completed",
-    "strDesc": "Completed ChoongReciprocate"
+    "strDesc": "Пройдено ChoongReciprocate"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_Completed",
-    "strDesc": "Established contact with a fixer in the Ceres Proxy War"
+    "strDesc": "Установлен контакт с посредником в прокси-войне Цереры"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty"
+    "strDesc": "Пройдено PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
+    "strDesc": "Пройдено PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty"
+    "strDesc": "Пройдено PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty"
+    "strDesc": "Пройдено PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty"
+    "strDesc": "Пройдено PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty"
   },
   {
     "strName": "Clandestine_Phase_Advance_Ready"
   },
   {
     "strName": "ValkyrieReqA",
-    "strDesc": "Completed one of the requirements for Valkyrie"
+    "strDesc": "Выполнено одно из требований для Валькирии"
   },
   {
     "strName": "ValkyrieReqB",
-    "strDesc": "Completed one of the requirements for Valkyrie"
+    "strDesc": "Выполнено одно из требований для Валькирии"
   },
   {
     "strName": "Plot_CruzCall_Completed",
-    "strDesc": "Completed CruzCall",
-    "strNameFriendly": "Completed CruzCall"
+    "strDesc": "Пройдено CruzCall",
+    "strNameFriendly": "Пройдено CruzCall"
   },
   {
     "strName": "Plot_ValkyrieBorderFinish1_Completed",
-    "strDesc": "Completed ValkyrieBorderFinish1"
+    "strDesc": "Пройдено ValkyrieBorderFinish1"
   },
   {
     "strName": "Plot_ValkyrieInterstitialPostCrossing_Completed",
-    "strDesc": "Completed ValkyrieInterstitialPostCrossing"
+    "strDesc": "Пройдено ValkyrieInterstitialPostCrossing"
   },
   {
     "strName": "Plot_ValkyrieBorderIntro_Completed",
-    "strDesc": "Completed ValkyrieBorderIntro"
+    "strDesc": "Пройдено ValkyrieBorderIntro"
   },
   {
     "strName": "Plot_ValkyrieSarcophagus1_Completed",
-    "strDesc": "Completed ValkyrieSarcophagus1"
+    "strDesc": "Завершено ValkyrieSarcophagus1"
   },
   {
     "strName": "Plot_ValkyrieSarcophagusFinish_Completed",
-    "strDesc": "Completed ValkyrieSarcophagusFinish"
+    "strDesc": "Завершено ValkyrieSarcophagusFinish"
   },
   {
     "strName": "Plot_DenouementStart2_Completed",
-    "strDesc": "Completed DenouementStart2"
+    "strDesc": "Завершено DenouementStart2"
   },
   {
     "strName": "Plot_Plot_Scholar_Racks_Floor_Seam_Completed",
-    "strDesc": "Completed Plot_Scholar_Racks_Floor_Seam"
+    "strDesc": "Завершено Plot_Scholar_Racks_Floor_Seam"
   },
   {
     "strName": "PlayerLearnedOrtega",
-    "strDesc": "Player found Ortega's name in Choong's apt"
+    "strDesc": "Игрок нашёл имя Ортеги в квартире Чуна"
   },
   {
     "strName": "PlayerLearnedPanTao",
-    "strDesc": "Player found Pan's name in Choong's apt"
+    "strDesc": "Игрок нашёл имя Пана в квартире Чуна"
   },
   {
     "strName": "Plot_Plot_Scholar_Flat_Enter_Completed",
-    "strNameFriendly": "Completed Plot_Scholar_Flat_Enter",
-    "strDesc": "Completed Plot_Scholar_Flat_Enter"
+    "strNameFriendly": "Завершено Plot_Scholar_Flat_Enter",
+    "strDesc": "Завершено Plot_Scholar_Flat_Enter"
   },
   {
     "strName": "Plot_Plot_Scholar_Flat_Enter1_Completed",
-    "strDesc": "Completed Plot_Scholar_Flat_Enter1"
+    "strDesc": "Завершено Plot_Scholar_Flat_Enter1"
   },
   {
     "strName": "Plot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Completed",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_BCRS"
+    "strDesc": "Завершено PLOT_Ceres_The_Scholar_Establish_Contact_BCRS"
   },
   {
     "strName": "Plot_Plot_Scholar_Flat_Kitchenette_Ground_Completed",
-    "strDesc": "Completed Plot_Scholar_Flat_Kitchenette_Ground"
+    "strDesc": "Завершено Plot_Scholar_Flat_Kitchenette_Ground"
   },
   {
     "strName": "ENCFirstDockBCRSInfoAskWar_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSInfoAskWar",
-    "strDesc": "Completed ENCFirstDockBCRSInfoAskWar"
+    "strNameFriendly": "Завершено ENCFirstDockBCRSInfoAskWar",
+    "strDesc": "Завершено ENCFirstDockBCRSInfoAskWar"
   },
   {
     "strName": "ENCFirstDockBCRSInfoAskWar2_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSInfoAskWar2",
-    "strDesc": "Completed ENCFirstDockBCRSInfoAskWar2"
+    "strNameFriendly": "Завершено ENCFirstDockBCRSInfoAskWar2",
+    "strDesc": "Завершено ENCFirstDockBCRSInfoAskWar2"
   },
   {
     "strName": "ENCFirstDockBCRSInfoAskCalico_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSInfoAskCalico",
-    "strDesc": "Completed ENCFirstDockBCRSInfoAskCalico"
+    "strNameFriendly": "Завершено ENCFirstDockBCRSInfoAskCalico",
+    "strDesc": "Завершено ENCFirstDockBCRSInfoAskCalico"
   },
   {
     "strName": "ENCFirstDockBCRSInfoAskGalCon_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSInfoAskGalCon",
-    "strDesc": "Completed ENCFirstDockBCRSInfoAskGalCon"
+    "strNameFriendly": "Завершено ENCFirstDockBCRSInfoAskGalCon",
+    "strDesc": "Завершено ENCFirstDockBCRSInfoAskGalCon"
   },
   {
     "strName": "ENCFirstDockBCRSInfoAskWar3_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSInfoAskWar3",
-    "strDesc": "Completed ENCFirstDockBCRSInfoAskWar3"
+    "strNameFriendly": "Завершено ENCFirstDockBCRSInfoAskWar3",
+    "strDesc": "Завершено ENCFirstDockBCRSInfoAskWar3"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes_Completed",
-    "strNameFriendly": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes"
+    "strNameFriendly": "Завершено PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "strDesc": "Завершено PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Completed",
-    "strNameFriendly": "Completed PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
-    "strDesc": "Completed PLOT_Ceres_The_Scholar_Discuss_Tradecraft"
+    "strNameFriendly": "Завершено PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "strDesc": "Завершено PLOT_Ceres_The_Scholar_Discuss_Tradecraft"
   },
   {
     "strName": "CeresP3Finale_Completed",
-    "strNameFriendly": "Completed CeresP3Finale",
-    "strDesc": "Completed CeresP3Finale"
+    "strNameFriendly": "Завершено CeresP3Finale",
+    "strDesc": "Завершено CeresP3Finale"
   },
   {
     "strName": "CeresP3Finale_Completed_Titan",
-    "strNameFriendly": "Completed CeresP3Finale Titan Choice",
-    "strDesc": "Completed CeresP3Finale Titan Choice"
+    "strNameFriendly": "Завершено CeresP3Finale Titan Choice",
+    "strDesc": "Завершено CeresP3Finale Titan Choice"
   },
   {
     "strName": "CeresP3Finale_Completed_Xinhua",
-    "strNameFriendly": "Completed CeresP3Finale Xinhua Choice",
-    "strDesc": "Completed CeresP3Finale Xinhua Choice"
+    "strNameFriendly": "Завершено CeresP3Finale Xinhua Choice",
+    "strDesc": "Завершено CeresP3Finale Xinhua Choice"
   },
   {
     "strName": "TriggerCeresP4XinhuaIntro",
@@ -9301,451 +9301,451 @@
   },
   {
     "strName": "CeresP3FinaleScreens_Completed",
-    "strNameFriendly": "Completed CeresP3FinaleScreens",
-    "strDesc": "Completed CeresP3FinaleScreens"
+    "strNameFriendly": "Завершено CeresP3FinaleScreens",
+    "strDesc": "Завершено CeresP3FinaleScreens"
   },
   {
     "strName": "CeresP3FinaleListen_Completed",
-    "strNameFriendly": "Completed CeresP3FinaleListen",
-    "strDesc": "Completed CeresP3FinaleListen"
+    "strNameFriendly": "Завершено CeresP3FinaleListen",
+    "strDesc": "Завершено CeresP3FinaleListen"
   },
   {
     "strName": "CeresP3FinaleMothman_Completed",
-    "strNameFriendly": "Completed CeresP3FinaleMothman",
-    "strDesc": "Completed CeresP3FinaleMothman"
+    "strNameFriendly": "Завершено CeresP3FinaleMothman",
+    "strDesc": "Выполнено: CeresP3FinaleMothman"
   },
   {
     "strName": "ValkyrieSarcophagus7_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus7",
-    "strDesc": "Completed ValkyrieSarcophagus7"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus7",
+    "strDesc": "Выполнено: ValkyrieSarcophagus7"
   },
   {
     "strName": "ValkyrieSarcophagus8_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus8",
-    "strDesc": "Completed ValkyrieSarcophagus8"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus8",
+    "strDesc": "Выполнено: ValkyrieSarcophagus8"
   },
   {
     "strName": "ValkyrieSarcophagus9_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus9",
-    "strDesc": "Completed ValkyrieSarcophagus9"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus9",
+    "strDesc": "Выполнено: ValkyrieSarcophagus9"
   },
   {
     "strName": "ValkyrieSarcophagus12_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus12",
-    "strDesc": "Completed ValkyrieSarcophagus12"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus12",
+    "strDesc": "Выполнено: ValkyrieSarcophagus12"
   },
   {
     "strName": "ValkyrieSarcophagus17_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus17",
-    "strDesc": "Completed ValkyrieSarcophagus17"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus17",
+    "strDesc": "Выполнено: ValkyrieSarcophagus17"
   },
   {
     "strName": "ValkyrieSarcophagus18_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus18",
-    "strDesc": "Completed ValkyrieSarcophagus18"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus18",
+    "strDesc": "Выполнено: ValkyrieSarcophagus18"
   },
   {
     "strName": "ValkyrieSarcophagus19_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus19",
-    "strDesc": "Completed ValkyrieSarcophagus19"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus19",
+    "strDesc": "Выполнено: ValkyrieSarcophagus19"
   },
   {
     "strName": "ValkyrieSarcophagus111_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus111",
-    "strDesc": "Completed ValkyrieSarcophagus111"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus111",
+    "strDesc": "Выполнено: ValkyrieSarcophagus111"
   },
   {
     "strName": "ValkyrieSarcophagus110_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus110",
-    "strDesc": "Completed ValkyrieSarcophagus110"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus110",
+    "strDesc": "Выполнено: ValkyrieSarcophagus110"
   },
   {
     "strName": "ChoongTimer",
-    "strNameFriendly": "Increments as Choong approaches"
+    "strNameFriendly": "Увеличивается по мере приближения Чуна"
   },
   {
     "strName": "ValkyrieSarcophagus112_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus112",
-    "strDesc": "Completed ValkyrieSarcophagus112"
+    "strNameFriendly": "Выполнено: ValkyrieSarcophagus112",
+    "strDesc": "Выполнено: ValkyrieSarcophagus112"
   },
   {
     "strName": "79AU_StartTrigger_Completed",
-    "strNameFriendly": "Completed 79AU_StartTrigger",
-    "strDesc": "Completed 79AU_StartTrigger"
+    "strNameFriendly": "Выполнено: 79AU_StartTrigger",
+    "strDesc": "Выполнено: 79AU_StartTrigger"
   },
   {
     "strName": "79AU_DreamOne_Completed",
-    "strNameFriendly": "Completed 79AU_DreamOne",
-    "strDesc": "Completed 79AU_DreamOne"
+    "strNameFriendly": "Выполнено: 79AU_DreamOne",
+    "strDesc": "Выполнено: 79AU_DreamOne"
   },
   {
     "strName": "79AU_Approach20_Completed",
-    "strNameFriendly": "Completed 79AU_Approach20",
-    "strDesc": "Completed 79AU_Approach20"
+    "strNameFriendly": "Выполнено: 79AU_Approach20",
+    "strDesc": "Выполнено: 79AU_Approach20"
   },
   {
     "strName": "79AU_Boheme11_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme11",
-    "strDesc": "Completed 79AU_Boheme11"
+    "strNameFriendly": "Выполнено: 79AU_Boheme11",
+    "strDesc": "Выполнено: 79AU_Boheme11"
   },
   {
     "strName": "79AU_Inside2_Completed",
-    "strNameFriendly": "Completed 79AU_Inside2",
-    "strDesc": "Completed 79AU_Inside2"
+    "strNameFriendly": "Выполнено: 79AU_Inside2",
+    "strDesc": "Выполнено: 79AU_Inside2"
   },
   {
     "strName": "79AU_Inside3_Completed",
-    "strNameFriendly": "Completed 79AU_Inside3",
-    "strDesc": "Completed 79AU_Inside3"
+    "strNameFriendly": "Выполнено: 79AU_Inside3",
+    "strDesc": "Выполнено: 79AU_Inside3"
   },
   {
     "strName": "79AU_Inside4_Completed",
-    "strNameFriendly": "Completed 79AU_Inside4",
-    "strDesc": "Completed 79AU_Inside4"
+    "strNameFriendly": "Выполнено: 79AU_Inside4",
+    "strDesc": "Выполнено: 79AU_Inside4"
   },
   {
     "strName": "79AU_Inside5_Completed",
-    "strNameFriendly": "Completed 79AU_Inside5",
-    "strDesc": "Completed 79AU_Inside5"
+    "strNameFriendly": "Выполнено: 79AU_Inside5",
+    "strDesc": "Выполнено: 79AU_Inside5"
   },
   {
     "strName": "79AU_Inside6_Completed",
-    "strNameFriendly": "Completed 79AU_Inside6",
-    "strDesc": "Completed 79AU_Inside6"
+    "strNameFriendly": "Выполнено: 79AU_Inside6",
+    "strDesc": "Выполнено: 79AU_Inside6"
   },
   {
     "strName": "79AU_Inside10_Completed",
-    "strNameFriendly": "Completed 79AU_Inside10",
-    "strDesc": "Completed 79AU_Inside10"
+    "strNameFriendly": "Выполнено 79AU_Inside10",
+    "strDesc": "Выполнено 79AU_Inside10"
   },
   {
     "strName": "79AU_Inside9_Completed",
-    "strNameFriendly": "Completed 79AU_Inside9",
-    "strDesc": "Completed 79AU_Inside9"
+    "strNameFriendly": "Выполнено 79AU_Inside9",
+    "strDesc": "Выполнено 79AU_Inside9"
   },
   {
     "strName": "79AU_Inside13_Completed",
-    "strNameFriendly": "Completed 79AU_Inside13",
-    "strDesc": "Completed 79AU_Inside13"
+    "strNameFriendly": "Выполнено 79AU_Inside13",
+    "strDesc": "Выполнено 79AU_Inside13"
   },
   {
     "strName": "79AU_Inside18_Completed",
-    "strNameFriendly": "Completed 79AU_Inside18",
-    "strDesc": "Completed 79AU_Inside18"
+    "strNameFriendly": "Выполнено 79AU_Inside18",
+    "strDesc": "Выполнено 79AU_Inside18"
   },
   {
     "strName": "79AU_Inside14_Completed",
-    "strNameFriendly": "Completed 79AU_Inside14",
-    "strDesc": "Completed 79AU_Inside14"
+    "strNameFriendly": "Выполнено 79AU_Inside14",
+    "strDesc": "Выполнено 79AU_Inside14"
   },
   {
     "strName": "79AU_Inside7_Completed",
-    "strNameFriendly": "Completed 79AU_Inside7",
-    "strDesc": "Completed 79AU_Inside7"
+    "strNameFriendly": "Выполнено 79AU_Inside7",
+    "strDesc": "Выполнено 79AU_Inside7"
   },
   {
     "strName": "79AU_Elevator1_Completed",
-    "strNameFriendly": "Completed 79AU_Elevator1",
-    "strDesc": "Completed 79AU_Elevator1"
+    "strNameFriendly": "Выполнено 79AU_Elevator1",
+    "strDesc": "Выполнено 79AU_Elevator1"
   },
   {
     "strName": "79AU_Boheme3_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme3",
-    "strDesc": "Completed 79AU_Boheme3"
+    "strNameFriendly": "Выполнено 79AU_Boheme3",
+    "strDesc": "Выполнено 79AU_Boheme3"
   },
   {
     "strName": "79AU_Boheme4_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme4",
-    "strDesc": "Completed 79AU_Boheme4"
+    "strNameFriendly": "Выполнено 79AU_Boheme4",
+    "strDesc": "Выполнено 79AU_Boheme4"
   },
   {
     "strName": "79AU_Boheme5_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme5",
-    "strDesc": "Completed 79AU_Boheme5"
+    "strNameFriendly": "Выполнено 79AU_Boheme5",
+    "strDesc": "Выполнено 79AU_Boheme5"
   },
   {
     "strName": "79AU_Boheme6_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme6",
-    "strDesc": "Completed 79AU_Boheme6"
+    "strNameFriendly": "Выполнено 79AU_Boheme6",
+    "strDesc": "Выполнено 79AU_Boheme6"
   },
   {
     "strName": "79AU_Boheme7_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme7",
-    "strDesc": "Completed 79AU_Boheme7"
+    "strNameFriendly": "Выполнено 79AU_Boheme7",
+    "strDesc": "Выполнено 79AU_Boheme7"
   },
   {
     "strName": "79AU_Boheme12_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme12",
-    "strDesc": "Completed 79AU_Boheme12"
+    "strNameFriendly": "Выполнено 79AU_Boheme12",
+    "strDesc": "Выполнено 79AU_Boheme12"
   },
   {
     "strName": "79AU_Boheme14_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme14",
-    "strDesc": "Completed 79AU_Boheme14"
+    "strNameFriendly": "Выполнено 79AU_Boheme14",
+    "strDesc": "Выполнено 79AU_Boheme14"
   },
   {
     "strName": "79AU_Boheme1_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme1",
-    "strDesc": "Completed 79AU_Boheme1"
+    "strNameFriendly": "Выполнено 79AU_Boheme1",
+    "strDesc": "Выполнено 79AU_Boheme1"
   },
   {
     "strName": "79AU_Boheme10_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme10",
-    "strDesc": "Completed 79AU_Boheme10"
+    "strNameFriendly": "Выполнено 79AU_Boheme10",
+    "strDesc": "Выполнено 79AU_Boheme10"
   },
   {
     "strName": "79AU_Boheme9_Completed",
-    "strNameFriendly": "Completed 79AU_Boheme9",
-    "strDesc": "Completed 79AU_Boheme9"
+    "strNameFriendly": "Выполнено 79AU_Boheme9",
+    "strDesc": "Выполнено 79AU_Boheme9"
   },
   {
     "strName": "79AU_Basement4_Completed",
-    "strNameFriendly": "Completed 79AU_Basement4",
-    "strDesc": "Completed 79AU_Basement4"
+    "strNameFriendly": "Выполнено 79AU_Basement4",
+    "strDesc": "Выполнено 79AU_Basement4"
   },
   {
     "strName": "79AU_Basement5_Completed",
-    "strNameFriendly": "Completed 79AU_Basement5",
-    "strDesc": "Completed 79AU_Basement5"
+    "strNameFriendly": "Выполнено 79AU_Basement5",
+    "strDesc": "Выполнено 79AU_Basement5"
   },
   {
     "strName": "79AU_Basement6_Completed",
-    "strNameFriendly": "Completed 79AU_Basement6",
-    "strDesc": "Completed 79AU_Basement6"
+    "strNameFriendly": "Выполнено 79AU_Basement6",
+    "strDesc": "Выполнено 79AU_Basement6"
   },
   {
     "strName": "79AU_Basement7_Completed",
-    "strNameFriendly": "Completed 79AU_Basement7",
-    "strDesc": "Completed 79AU_Basement7"
+    "strNameFriendly": "Выполнено 79AU_Basement7",
+    "strDesc": "Выполнено 79AU_Basement7"
   },
   {
     "strName": "79AU_Basement10_Completed",
-    "strNameFriendly": "Completed 79AU_Basement10",
-    "strDesc": "Completed 79AU_Basement10"
+    "strNameFriendly": "Выполнено 79AU_Basement10",
+    "strDesc": "Выполнено 79AU_Basement10"
   },
   {
     "strName": "79AU_Basement11_Completed",
-    "strNameFriendly": "Completed 79AU_Basement11",
-    "strDesc": "Completed 79AU_Basement11"
+    "strNameFriendly": "Выполнено 79AU_Basement11",
+    "strDesc": "Выполнено 79AU_Basement11"
   },
   {
     "strName": "79AU_Basement12_Completed",
-    "strNameFriendly": "Completed 79AU_Basement12",
-    "strDesc": "Completed 79AU_Basement12"
+    "strNameFriendly": "Выполнено 79AU_Basement12",
+    "strDesc": "Выполнено 79AU_Basement12"
   },
   {
     "strName": "79AU_Basement13_Completed",
-    "strNameFriendly": "Completed 79AU_Basement13",
-    "strDesc": "Completed 79AU_Basement13"
+    "strNameFriendly": "Выполнено 79AU_Basement13",
+    "strDesc": "Выполнено 79AU_Basement13"
   },
   {
     "strName": "79AU_Basement14_Completed",
-    "strNameFriendly": "Completed 79AU_Basement14",
-    "strDesc": "Completed 79AU_Basement14"
+    "strNameFriendly": "Выполнено 79AU_Basement14",
+    "strDesc": "Выполнено 79AU_Basement14"
   },
   {
     "strName": "79AU_Basement1_Completed",
-    "strNameFriendly": "Completed 79AU_Basement1",
-    "strDesc": "Completed 79AU_Basement1"
+    "strNameFriendly": "Выполнено 79AU_Basement1",
+    "strDesc": "Выполнено 79AU_Basement1"
   },
   {
     "strName": "79AU_Phone1_Completed",
-    "strNameFriendly": "Completed 79AU_Phone1",
-    "strDesc": "Completed 79AU_Phone1"
+    "strNameFriendly": "Выполнено 79AU_Phone1",
+    "strDesc": "Выполнено 79AU_Phone1"
   },
   {
     "strName": "79AU_Night4_Completed",
-    "strNameFriendly": "Completed 79AU_Night4",
-    "strDesc": "Completed 79AU_Night4"
+    "strNameFriendly": "Выполнено 79AU_Night4",
+    "strDesc": "Выполнено 79AU_Night4"
   },
   {
     "strName": "79AU_Ose2_Completed",
-    "strNameFriendly": "Completed 79AU_Ose2",
-    "strDesc": "Completed 79AU_Ose2"
+    "strNameFriendly": "Выполнено 79AU_Ose2",
+    "strDesc": "Выполнено 79AU_Ose2"
   },
   {
     "strName": "79AU_Ose3_Completed",
-    "strNameFriendly": "Completed 79AU_Ose3",
-    "strDesc": "Completed 79AU_Ose3"
+    "strNameFriendly": "Выполнено 79AU_Ose3",
+    "strDesc": "Выполнено 79AU_Ose3"
   },
   {
     "strName": "79AU_Ose4_Completed",
-    "strNameFriendly": "Completed 79AU_Ose4",
-    "strDesc": "Completed 79AU_Ose4"
+    "strNameFriendly": "Выполнено 79AU_Ose4",
+    "strDesc": "Выполнено 79AU_Ose4"
   },
   {
     "strName": "79AU_Ose5_Completed",
-    "strNameFriendly": "Completed 79AU_Ose5",
-    "strDesc": "Completed 79AU_Ose5"
+    "strNameFriendly": "Выполнено 79AU_Ose5",
+    "strDesc": "Выполнено 79AU_Ose5"
   },
   {
     "strName": "79AU_Ose9_Completed",
-    "strNameFriendly": "Completed 79AU_Ose9",
-    "strDesc": "Completed 79AU_Ose9"
+    "strNameFriendly": "Выполнено 79AU_Ose9",
+    "strDesc": "Выполнено 79AU_Ose9"
   },
   {
     "strName": "79AU_Ose7_Completed",
-    "strNameFriendly": "Completed 79AU_Ose7",
-    "strDesc": "Completed 79AU_Ose7"
+    "strNameFriendly": "Выполнено 79AU_Ose7",
+    "strDesc": "Выполнено 79AU_Ose7"
   },
   {
     "strName": "79AU_Ose6_Completed",
-    "strNameFriendly": "Completed 79AU_Ose6",
-    "strDesc": "Completed 79AU_Ose6"
+    "strNameFriendly": "Выполнено 79AU_Ose6",
+    "strDesc": "Выполнено 79AU_Ose6"
   },
   {
     "strName": "79AU_Ose8_Completed",
-    "strNameFriendly": "Completed 79AU_Ose8",
-    "strDesc": "Completed 79AU_Ose8"
+    "strNameFriendly": "Выполнено 79AU_Ose8",
+    "strDesc": "Выполнено 79AU_Ose8"
   },
   {
     "strName": "79AU_Ose11_Completed",
-    "strNameFriendly": "Completed 79AU_Ose11",
-    "strDesc": "Completed 79AU_Ose11"
+    "strNameFriendly": "Выполнено 79AU_Ose11",
+    "strDesc": "Выполнено 79AU_Ose11"
   },
   {
     "strName": "79AU_Ose1_Completed",
-    "strNameFriendly": "Completed 79AU_Ose1",
-    "strDesc": "Completed 79AU_Ose1"
+    "strNameFriendly": "Выполнено 79AU_Ose1",
+    "strDesc": "Выполнено 79AU_Ose1"
   },
   {
     "strName": "79AU_Ose12_Completed",
-    "strNameFriendly": "Completed 79AU_Ose12",
-    "strDesc": "Completed 79AU_Ose12"
+    "strNameFriendly": "Выполнено 79AU_Ose12",
+    "strDesc": "Выполнено 79AU_Ose12"
   },
   {
     "strName": "79AU_Ose10_Completed",
-    "strNameFriendly": "Completed 79AU_Ose10",
-    "strDesc": "Completed 79AU_Ose10"
+    "strNameFriendly": "Выполнено 79AU_Ose10",
+    "strDesc": "Выполнено 79AU_Ose10"
   },
   {
     "strName": "79AU_Ose13_Completed",
-    "strNameFriendly": "Completed 79AU_Ose13",
-    "strDesc": "Completed 79AU_Ose13"
+    "strNameFriendly": "Выполнено 79AU_Ose13",
+    "strDesc": "Выполнено 79AU_Ose13"
   },
   {
     "strName": "DeadUniverse",
-    "strNameFriendly": "Dead Universe",
-    "strDesc": "You walk the graveyard of the old world, looking for a resting place of your own."
+    "strNameFriendly": "Мёртвая вселенная",
+    "strDesc": "Вы бредёте по кладбищу старого мира, ища место упокоения для себя."
   },
   {
     "strName": "79AU_DeadUniverse4_Completed",
-    "strNameFriendly": "Completed 79AU_DeadUniverse4",
-    "strDesc": "Completed 79AU_DeadUniverse4"
+    "strNameFriendly": "Выполнено 79AU_DeadUniverse4",
+    "strDesc": "Выполнено 79AU_DeadUniverse4"
   },
   {
     "strName": "VideotapeInspectFinish_Completed",
-    "strNameFriendly": "Completed VideotapeInspectFinish",
-    "strDesc": "Completed VideotapeInspectFinish"
+    "strNameFriendly": "Выполнено VideotapeInspectFinish",
+    "strDesc": "Выполнено VideotapeInspectFinish"
   },
   {
     "strName": "InspectBraincase_Completed",
-    "strNameFriendly": "Completed InspectBraincase",
-    "strDesc": "Completed InspectBraincase"
+    "strNameFriendly": "Выполнено InspectBraincase",
+    "strDesc": "Выполнено InspectBraincase"
   },
   {
     "strName": "ChoongTakeBreak2_Completed",
-    "strNameFriendly": "Completed ChoongTakeBreak2",
-    "strDesc": "Completed ChoongTakeBreak2"
+    "strNameFriendly": "Выполнено ChoongTakeBreak2",
+    "strDesc": "Выполнено ChoongTakeBreak2"
   },
   {
     "strName": "InspectBraincase2_Completed",
-    "strNameFriendly": "Completed InspectBraincase2",
-    "strDesc": "Completed InspectBraincase2"
+    "strNameFriendly": "Выполнено InspectBraincase2",
+    "strDesc": "Выполнено InspectBraincase2"
   },
   {
     "strName": "Plot_Ceres_Asked_Codeword",
-    "strNameFriendly": "Completed Codeword Drop",
-    "strDesc": "Completed Codeword Drop True West"
+    "strNameFriendly": "Выполнено Codeword Drop",
+    "strDesc": "Выполнено Codeword Drop True West"
   },
   {
     "strName": "ChoongAskTruthKetevan_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthKetevan",
-    "strDesc": "Completed ChoongAskTruthKetevan"
+    "strNameFriendly": "Выполнено ChoongAskTruthKetevan",
+    "strDesc": "Выполнено ChoongAskTruthKetevan"
   },
   {
     "strName": "ChoongAskTruthKetevanRepeat_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthKetevanRepeat",
-    "strDesc": "Completed ChoongAskTruthKetevanRepeat"
+    "strNameFriendly": "Выполнено ChoongAskTruthKetevanRepeat",
+    "strDesc": "Выполнено ChoongAskTruthKetevanRepeat"
   },
   {
     "strName": "ChoongAskTruthSecret_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthSecret",
-    "strDesc": "Completed ChoongAskTruthSecret"
+    "strNameFriendly": "Выполнено ChoongAskTruthSecret",
+    "strDesc": "Выполнено ChoongAskTruthSecret"
   },
   {
     "strName": "ChoongAskTruthAlien_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthAlien",
-    "strDesc": "Completed ChoongAskTruthAlien"
+    "strNameFriendly": "Выполнено ChoongAskTruthAlien",
+    "strDesc": "Выполнено ChoongAskTruthAlien"
   },
   {
     "strName": "ChoongAskTruthAlienMeaning_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthAlienMeaning",
-    "strDesc": "Completed ChoongAskTruthAlienMeaning"
+    "strNameFriendly": "Выполнено ChoongAskTruthAlienMeaning",
+    "strDesc": "Выполнено ChoongAskTruthAlienMeaning"
   },
   {
     "strName": "ChoongAskTruthAlienWhy_Completed",
-    "strNameFriendly": "Completed ChoongAskTruthAlienWhy",
-    "strDesc": "Completed ChoongAskTruthAlienWhy"
+    "strNameFriendly": "Выполнено ChoongAskTruthAlienWhy",
+    "strDesc": "Выполнено ChoongAskTruthAlienWhy"
   },
   {
     "strName": "ChoongLeaveAndEnd_Completed",
-    "strNameFriendly": "Completed ChoongLeaveAndEnd",
-    "strDesc": "Completed ChoongLeaveAndEnd"
+    "strNameFriendly": "Выполнено ChoongLeaveAndEnd",
+    "strDesc": "Выполнено ChoongLeaveAndEnd"
   },
   {
     "strName": "ENCFirstDockBCRSHmm_Completed",
-    "strNameFriendly": "Completed ENCFirstDockBCRSHmm",
-    "strDesc": "Completed ENCFirstDockBCRSHmm"
+    "strNameFriendly": "Выполнено ENCFirstDockBCRSHmm",
+    "strDesc": "Выполнено ENCFirstDockBCRSHmm"
   },
   {
     "strName": "AVClub_FirstWatch_Extras_FF2_Completed",
-    "strNameFriendly": "Completed AVClub_FirstWatch_Extras_FF2",
-    "strDesc": "Completed AVClub_FirstWatch_Extras_FF2"
+    "strNameFriendly": "Выполнено AVClub_FirstWatch_Extras_FF2",
+    "strDesc": "Выполнено AVClub_FirstWatch_Extras_FF2"
   },
   {
     "strName": "ChoongTortureHimOutput_Completed",
-    "strNameFriendly": "Completed ChoongTortureHimOutput",
-    "strDesc": "Completed ChoongTortureHimOutput"
+    "strNameFriendly": "Выполнено ChoongTortureHimOutput",
+    "strDesc": "Выполнено ChoongTortureHimOutput"
   },
   {
     "strName": "InspectBraincase4_Completed",
-    "strNameFriendly": "Completed InspectBraincase4",
-    "strDesc": "Completed InspectBraincase4"
+    "strNameFriendly": "Выполнено InspectBraincase4",
+    "strDesc": "Выполнено InspectBraincase4"
   },
   {
     "strName": "ValkyrieSarcophagus114_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus114",
-    "strDesc": "Completed ValkyrieSarcophagus114"
+    "strNameFriendly": "Выполнено ValkyrieSarcophagus114",
+    "strDesc": "Выполнено ValkyrieSarcophagus114"
   },
   {
     "strName": "ValkyrieSarcophagus119_Completed",
-    "strNameFriendly": "Completed ValkyrieSarcophagus119",
-    "strDesc": "Completed ValkyrieSarcophagus119"
+    "strNameFriendly": "Выполнено ValkyrieSarcophagus119",
+    "strDesc": "Выполнено ValkyrieSarcophagus119"
   },
   {
     "strName": "ValkyrieTitanIntro7_Completed",
-    "strNameFriendly": "Completed ValkyrieTitanIntro7",
-    "strDesc": "Completed ValkyrieTitanIntro7"
+    "strNameFriendly": "Выполнено ValkyrieTitanIntro7",
+    "strDesc": "Выполнено ValkyrieTitanIntro7"
   },
   {
     "strName": "ValkyrieTitanIntro6_Completed",
-    "strNameFriendly": "Completed ValkyrieTitanIntro6",
-    "strDesc": "Completed ValkyrieTitanIntro6"
+    "strNameFriendly": "Выполнено ValkyrieTitanIntro6",
+    "strDesc": "Выполнено ValkyrieTitanIntro6"
   },
   {
     "strName": "ValkyrieBorderInitialFalseID_Completed",
-    "strNameFriendly": "Completed ValkyrieBorderInitialFalseID",
-    "strDesc": "Completed ValkyrieBorderInitialFalseID"
+    "strNameFriendly": "Выполнено ValkyrieBorderInitialFalseID",
+    "strDesc": "Выполнено ValkyrieBorderInitialFalseID"
   },
   {
     "strName": "ValkyrieBorderForgedCreds_Completed",
-    "strNameFriendly": "Completed ValkyrieBorderForgedCreds",
-    "strDesc": "Completed ValkyrieBorderForgedCreds"
+    "strNameFriendly": "Выполнено ValkyrieBorderForgedCreds",
+    "strDesc": "Выполнено ValkyrieBorderForgedCreds"
   },
   {
     "strName": "ValkyrieBorderCoolNoCreds_Completed",
-    "strNameFriendly": "Completed ValkyrieBorderCoolNoCreds",
-    "strDesc": "Completed ValkyrieBorderCoolNoCreds"
+    "strNameFriendly": "Выполнено ValkyrieBorderCoolNoCreds",
+    "strDesc": "Выполнено ValkyrieBorderCoolNoCreds"
   }
 ]

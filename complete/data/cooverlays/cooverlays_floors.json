@@ -10148,7 +10148,7 @@
   },
   {
     "strName": "ItmFloorLDPH04",
-    "strNameFriendly": "Floor A: Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол A: Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04",
@@ -10168,7 +10168,7 @@
   },
   {
     "strName": "ItmFloorLDPH04Dmg",
-    "strNameFriendly": "Floor A (Damaged): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол A (Повреждён): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Dmg",
@@ -10188,7 +10188,7 @@
   },
   {
     "strName": "ItmFloorLDPH04Patch",
-    "strNameFriendly": "Floor A (Patched): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол A (Залатан): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Patch",
@@ -10208,7 +10208,7 @@
   },
   {
     "strName": "ItmFloorLDPH04Loose",
-    "strNameFriendly": "Floor A (Loose): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол A (Сорван): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04Loose",
@@ -10234,7 +10234,7 @@
   },
   {
     "strName": "ItmFloorLDPH04B",
-    "strNameFriendly": "Floor B: Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол B: Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04b",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04b",
@@ -10254,7 +10254,7 @@
   },
   {
     "strName": "ItmFloorLDPH04bDmg",
-    "strNameFriendly": "Floor B (Damaged): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол B (Повреждён): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bDmg",
@@ -10274,7 +10274,7 @@
   },
   {
     "strName": "ItmFloorLDPH04bPatch",
-    "strNameFriendly": "Floor B (Patched): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол B (Залатан): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bPatch",
@@ -10294,7 +10294,7 @@
   },
   {
     "strName": "ItmFloorLDPH04bLoose",
-    "strNameFriendly": "Floor B (Loose): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол B (Сорван): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04bLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04bLoose",
@@ -10320,7 +10320,7 @@
   },
   {
     "strName": "ItmFloorLDPH04C",
-    "strNameFriendly": "Floor C: Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол C: Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04c",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Fn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04c",
@@ -10340,7 +10340,7 @@
   },
   {
     "strName": "ItmFloorLDPH04cDmg",
-    "strNameFriendly": "Floor C (Damaged): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол C (Повреждён): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cDmg",
@@ -10360,7 +10360,7 @@
   },
   {
     "strName": "ItmFloorLDPH04cPatch",
-    "strNameFriendly": "Floor C (Patched): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол C (Залатан): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cPatch",
@@ -10380,7 +10380,7 @@
   },
   {
     "strName": "ItmFloorLDPH04cLoose",
-    "strNameFriendly": "Floor C (Loose): Langdon-Phillips \"Capitol\"",
+    "strNameFriendly": "Пол C (Сорван): Langdon-Phillips \"Capitol\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C04cLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C04cLoose",
@@ -10406,7 +10406,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow03",
-    "strNameFriendly": "Floor A-2: Mobile Space Systems \"Panorama\"",
+    "strNameFriendly": "Пол A-2: Mobile Space Systems \"Panorama\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow03",
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01n",
@@ -10427,7 +10427,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow03Dmg",
-    "strNameFriendly": "Floor A-2 (Damaged): Mobile Space Systems \"Panorama\"",
+    "strNameFriendly": "Пол A-2 (Повреждён): Mobile Space Systems \"Panorama\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow03Dmg",
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Dmgn",
@@ -10448,7 +10448,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow03Patch",
-    "strNameFriendly": "Floor A-2 (Patched): Mobile Space Systems \"Panorama\"",
+    "strNameFriendly": "Пол A-2 (Залатан): Mobile Space Systems \"Panorama\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow03Patch",
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Patchn",
@@ -10469,7 +10469,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow03Loose",
-    "strNameFriendly": "Floor A-2 (Loose): Mobile Space Systems \"Panorama\"",
+    "strNameFriendly": "Пол A-2 (Сорван): Mobile Space Systems \"Panorama\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow03Loose",
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01Loosen",
@@ -10496,7 +10496,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow04",
-    "strNameFriendly": "Floor B-2: Mobile Space Systems \"Iris\"",
+    "strNameFriendly": "Пол B-2: Mobile Space Systems \"Iris\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow04",
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01n",
@@ -10517,7 +10517,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow04Dmg",
-    "strNameFriendly": "Floor B-2 (Damaged): Mobile Space Systems \"Iris\"",
+    "strNameFriendly": "Пол B-2 (Повреждён): Mobile Space Systems \"Iris\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow04Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
@@ -10538,7 +10538,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow04Patch",
-    "strNameFriendly": "Floor B-2 (Patched): Mobile Space Systems \"Iris\"",
+    "strNameFriendly": "Пол B-2 (Залатан): Mobile Space Systems \"Iris\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow04Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
@@ -10559,7 +10559,7 @@
   },
   {
     "strName": "ItmFloorMSSWindow04Loose",
-    "strNameFriendly": "Floor B-2 (Loose): Mobile Space Systems \"Iris\"",
+    "strNameFriendly": "Пол B-2 (Сорван): Mobile Space Systems \"Iris\"",
     "strNameDesc": "Transparent aluminum panel flooring. Aluminium oxynitride (ALON) is a polycrystalline ceramic made from pressurized, heat-treated powder, polished to an optical finish for a robust material resistant to oxidation, corrosion, and radiation.",
     "strImg": "tiles/FloorGrate13/ItmFloorWindow04Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",

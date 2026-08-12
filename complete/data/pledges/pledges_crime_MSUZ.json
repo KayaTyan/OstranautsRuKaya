@@ -1,64 +1,69 @@
 [
   {
-    "strName" : "AICrimeArrestMSUZLEODo",
-    "strNameFriendly" : "Attack",
-    "strType" : "repeat",
-    "strIATrigger" : "PLGAICrimeMSUZLEOArrestDo",
-    "aIAEnd" : [
-      "PLGAICrimeLEOArrestCancelScan", 
+    "strName": "AICrimeArrestMSUZLEODo",
+    "strNameFriendly": "Атака",
+    "strType": "repeat",
+    "strIATrigger": "PLGAICrimeMSUZLEOArrestDo",
+    "aIAEnd": [
+      "PLGAICrimeLEOArrestCancelScan",
       "PLGAICrimeMSUZLEOArrestEnd"
-     ],
-    "strThemID" : "[them]",
-    "bThemAllowDocked" : true,
-    "nPriority" : 8
+    ],
+    "strThemID": "[them]",
+    "bThemAllowDocked": true,
+    "nPriority": 8
   },
   {
-    "strName" : "AICrimeAttackMSUZLEO",
-    "strNameFriendly" : "Attack",
-    "strType" : "crime",
-    "strIATrigger" : "PLGAICrimeMSUZLEOThreat",
-    "aIAEnd" : null,
-    "strThemID" : null,
-    "bThemAllowDocked" : true,
-    "nPriority" : 8
+    "strName": "AICrimeAttackMSUZLEO",
+    "strNameFriendly": "Атака",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeMSUZLEOThreat",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
   },
   {
-    "strName" : "AICrimeArrestMSUZLEOStart",
-    "strNameFriendly" : "Crime arrest",
-    "strType" : "crime",
-    "strIATrigger" : "PLGAICrimeMSUZLEOArrest",
-    "aIAEnd" : null,
-    "strThemID" : null,
-    "bThemAllowDocked" : true,
-    "nPriority" : 6
+    "strName": "AICrimeArrestMSUZLEOStart",
+    "strNameFriendly": "Арест за преступление",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeMSUZLEOArrest",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
   },
   {
-    "strName" : "AICrimeArrestMSUZLEOStolenShipStart",
-    "strNameFriendly" : "Crime arrest",
-    "strType" : "crime",
-    "strIATrigger" : "PLGAICrimeMSUZLEOArrestStolenShip",
-    "aIAEnd" : null,
-    "strThemID" : null,
-    "bThemAllowDocked" : true,
-    "nPriority" : 6
+    "strName": "AICrimeArrestMSUZLEOStolenShipStart",
+    "strNameFriendly": "Арест за преступление",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeMSUZLEOArrestStolenShip",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
   },
   {
-    "strName" : "AIReportCrimeMSUZArrest",
-    "strNameFriendly" : "Report crime",
-    "strType" : "repeat",
-    "strIATrigger" : "PLGAIReportCrimeMSUZArrest",
-    "aIAEnd" : ["PLGAIReportCrimeMSUZArrestDone","PLGAIReportCrimeImmuneDone"],
-    "strThemID" : null,
-    "nPriority" : 6
+    "strName": "AIReportCrimeMSUZArrest",
+    "strNameFriendly": "Сообщить о преступлении",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIReportCrimeMSUZArrest",
+    "aIAEnd": [
+      "PLGAIReportCrimeMSUZArrestDone",
+      "PLGAIReportCrimeImmuneDone"
+    ],
+    "strThemID": null,
+    "nPriority": 6
   },
   {
-    "strName" : "AIReportCrimeMSUZThreat",
-    "strNameFriendly" : "Report crime",
-    "strType" : "repeat",
-    "strIATrigger" : "PLGAIReportCrimeMSUZThreat",
-    "aIAEnd" : ["PLGAIReportCrimeMSUZThreatDone","PLGAIReportCrimeImmuneDone"],
-    "strThemID" : null,
-    "nPriority" : 6
+    "strName": "AIReportCrimeMSUZThreat",
+    "strNameFriendly": "Сообщить о преступлении",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIReportCrimeMSUZThreat",
+    "aIAEnd": [
+      "PLGAIReportCrimeMSUZThreatDone",
+      "PLGAIReportCrimeImmuneDone"
+    ],
+    "strThemID": null,
+    "nPriority": 6
   }
-
 ]

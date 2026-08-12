@@ -177,7 +177,7 @@
   },
   {
     "strName": "AF_GalConCiv",
-    "strTitle": "Galilean Confederacy Faction Test",
+    "strTitle": "Тест фракции Galilean Confederacy",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -188,7 +188,7 @@
   },
   {
     "strName": "AF_GalCon",
-    "strTitle": "GalileanConfederacy LEO Faction Test",
+    "strTitle": "Тест фракции GalileanConfederacy LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -199,7 +199,7 @@
   },
   {
     "strName": "AF_BCRS",
-    "strTitle": "CCRE LEO Faction Test",
+    "strTitle": "Тест фракции CCRE LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -210,7 +210,7 @@
   },
   {
     "strName": "AF_BCRSCiv",
-    "strTitle": "CCRE Faction Test",
+    "strTitle": "Тест фракции CCRE",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -221,7 +221,7 @@
   },
   {
     "strName": "AF_EJDRCiv",
-    "strTitle": "Old China Faction Test",
+    "strTitle": "Тест фракции Old China",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -232,7 +232,7 @@
   },
   {
     "strName": "AF_EJDR",
-    "strTitle": "Old China LEO Faction Test",
+    "strTitle": "Тест фракции Old China LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -243,7 +243,7 @@
   },
   {
     "strName": "AF_HQCHCiv",
-    "strTitle": "Prokofiev Faction Test",
+    "strTitle": "Тест фракции Prokofiev",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -254,7 +254,7 @@
   },
   {
     "strName": "AF_HQCH",
-    "strTitle": "Prokofiev LEO Faction Test",
+    "strTitle": "Тест фракции Prokofiev LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -265,7 +265,7 @@
   },
   {
     "strName": "AF_AtlantisCiv",
-    "strTitle": "Atlantis Faction Test",
+    "strTitle": "Тест фракции Atlantis",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -276,7 +276,7 @@
   },
   {
     "strName": "AF_Atlantis",
-    "strTitle": "Atlantis LEO Faction Test",
+    "strTitle": "Тест фракции Atlantis LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -287,7 +287,7 @@
   },
   {
     "strName": "AF_MHNGCiv",
-    "strTitle": "Hanzhou Faction Test",
+    "strTitle": "Тест фракции Hanzhou",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -298,7 +298,7 @@
   },
   {
     "strName": "AF_MHNG",
-    "strTitle": "Hanzhou LEO Faction Test",
+    "strTitle": "Тест фракции Hanzhou LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -309,7 +309,7 @@
   },
   {
     "strName": "AF_MSUZCiv",
-    "strTitle": "Suzhou Faction Test",
+    "strTitle": "Тест фракции Suzhou",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -320,7 +320,7 @@
   },
   {
     "strName": "AF_MSUZ",
-    "strTitle": "Suzhou LEO Faction Test",
+    "strTitle": "Тест фракции Suzhou LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -331,7 +331,7 @@
   },
   {
     "strName": "AF_TitanCiv",
-    "strTitle": "Titan Faction Test",
+    "strTitle": "Тест фракции Titan",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -342,7 +342,7 @@
   },
   {
     "strName": "AF_Titan",
-    "strTitle": "Titan LEO Faction Test",
+    "strTitle": "Тест фракции Titan LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -353,7 +353,7 @@
   },
   {
     "strName": "AF_XinhuaCiv",
-    "strTitle": "Xinhua Faction Test",
+    "strTitle": "Тест фракции Xinhua",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -364,7 +364,7 @@
   },
   {
     "strName": "AF_Xinhua",
-    "strTitle": "Xinhua LEO Faction Test",
+    "strTitle": "Тест фракции Xinhua LEO",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,

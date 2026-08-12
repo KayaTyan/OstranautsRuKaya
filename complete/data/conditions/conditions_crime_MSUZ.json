@@ -1,8 +1,67 @@
 [
-{ "strName" : "StatCrimeMSUZArrestWarning", "strNameFriendly" : "MSUZ Arrest Warning Count", "strColor" : "Bad", "strDesc"  : "[us] [has] been warned of arrest this many times.", "nDisplaySelf" : 0, "nDisplayOther" : 0, "fDuration" : 0.0, "bRemoveAll" : true },
-{ "strName" : "CrimeMSUZArrest", "strNameFriendly" : "MSUZ Arrest Warrant", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant in Suzhou.", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true, "bInvert" : true },
-{ "strName" : "CrimeMSUZThreat", "strNameFriendly" : "MSUZ Public Enemy", "strColor" : "Bad", "strDesc"  : "[us] [is] wanted dead or alive by Suzhou LAs, and [is] considered a Public Enemy.", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true, "bInvert" : true },
-{ "strName" : "CrimeMSUZTrespass", "strNameFriendly" : "MSUZ Trespass Warrant", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding trespass warrant with Suzhou.", "nDisplaySelf" : 0, "nDisplayOther" : 0, "fDuration" : 0.00001, "bRemoveAll" : true, "aNext" : ["TUpCrimeMSUZTrespassNext"] },
-{ "strName" : "CrimeMSUZStolenShip", "strNameFriendly" : "MSUZ Arrest Warrant for Stolen Ship", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant with Suzhou for Stealing a Ship", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true },
-{ "strName" : "CrimeMSUZNoUndock", "strNameFriendly" : "MSUZ Arrest Warrant for Failure to Undock", "strColor" : "Bad", "strDesc"  : "[us] [has] an outstanding arrest warrant in Suzhou for Failure to Undock During Officer Inspection", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : true }
+  {
+    "strName": "StatCrimeMSUZArrestWarning",
+    "strNameFriendly": "Счёт предупреждений об аресте MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждения об аресте такое количество раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZArrest",
+    "strNameFriendly": "Ордер на арест MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Suzhou.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZThreat",
+    "strNameFriendly": "Враг общества MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [is] wanted dead or alive by Suzhou LAs, and [is] considered a Public Enemy.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZTrespass",
+    "strNameFriendly": "Ордер на незаконное проникновение MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на незаконное проникновение, выданный в Suzhou.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMSUZTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMSUZStolenShip",
+    "strNameFriendly": "Ордер на арест MSUZ за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест, выданный в Suzhou за угон корабля",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZNoUndock",
+    "strNameFriendly": "Ордер на арест MSUZ за отказ от отстыковки",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Suzhou за отказ от отстыковки во время досмотра офицером",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
 ]

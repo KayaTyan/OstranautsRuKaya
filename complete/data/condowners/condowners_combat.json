@@ -527,7 +527,7 @@
   {
     "strName": "ItmWeaponBaseballBat01",
     "strNameShort": "Бита",
-    "strNameFriendly": "Bat",
+    "strNameFriendly": "Бита",
     "strDesc": "Классическая бита из староземного развлечения, обычно изготавливаемая из алюминия или фибергласа.",
     "strItemDef": "ItmWeaponBaseballBat01",
     "strType": "Item",
@@ -573,7 +573,7 @@
   {
     "strName": "ItmWeaponBaseballBat02",
     "strNameShort": "Бита",
-    "strNameFriendly": "Slugger",
+    "strNameFriendly": "Дубинка",
     "strDesc": "Редкая деревянная версия классической биты из староземного развлечения, с выцветшим автографом и перемотанной рукояткой.",
     "strItemDef": "ItmWeaponBaseballBat02",
     "strType": "Item",
@@ -733,7 +733,7 @@
   {
     "strName": "ItmWeaponCutlass01",
     "strNameShort": "Катлас",
-    "strNameFriendly": "Cutlass",
+    "strNameFriendly": "Мачете",
     "strDesc": "Это абордажное оружие эпохи парусов может показаться анахронизмом, но в умелых руках короткий изогнутый клинок может быть эффективен против небронированных целей в тесных пространствах.",
     "strItemDef": "ItmWeaponCutlass01",
     "strType": "Item",
@@ -836,7 +836,7 @@
   {
     "strName": "ItmWeaponKatana01",
     "strNameShort": "Катана",
-    "strNameFriendly": "Katana",
+    "strNameFriendly": "Катана",
     "strDesc": "Длинный изогнутый меч с 70-см однолезвийным клинком и плетёной рукояткой для одной или двух рук. Создан для баланса, точности и стиля, но иногда бывает слишком длинным для тесных пространств.",
     "strItemDef": "ItmWeaponKatana01",
     "strType": "Item",
@@ -938,7 +938,7 @@
   {
     "strName": "ItmWeaponKnuckles01",
     "strNameShort": "Кастет",
-    "strNameFriendly": "Knuckleduster",
+    "strNameFriendly": "Кастанеты",
     "strDesc": "Кастет для незаметного утяжеления и усиления ваших ударов.",
     "strItemDef": "ItmWeaponKnuckles01",
     "strType": "Item",
@@ -985,7 +985,7 @@
   {
     "strName": "ItmWeaponMachete01",
     "strNameShort": "Мачете",
-    "strNameFriendly": "Machete",
+    "strNameFriendly": "Мачете",
     "strDesc": "Городской мачете с 46-см закалённым стальным клинком и рифлёной синтетической рукояткой. Предназначен для рубки и взлома препятствий.",
     "strItemDef": "ItmWeaponMachete01",
     "strType": "Item",
@@ -1083,7 +1083,7 @@
   {
     "strName": "ItmWeaponNightstick02",
     "strNameShort": "Дубинка",
-    "strNameFriendly": "Nightstick",
+    "strNameFriendly": "Полицейская дубинка",
     "strDesc": "Длинная Т-дубинка с боковой рукоятью из алюминия, стекловолокна или углеводного композита. Дубинки, вдохновлённые тонфа, часто носятся сотрудниками силовых ведомств в качестве оборонительного средства принуждения к подчинению.",
     "strItemDef": "ItmWeaponNightstick02",
     "strType": "Item",
@@ -1475,7 +1475,7 @@
   {
     "strName": "ItmWeaponPocketKnife01",
     "strNameShort": "Нож",
-    "strNameFriendly": "Pocketknife",
+    "strNameFriendly": "Складной нож",
     "strDesc": "Маленький складной нож, помещающийся в кармане.",
     "strItemDef": "ItmWeaponPocketKnife01",
     "strType": "Item",
@@ -1654,7 +1654,7 @@
   {
     "strName": "ItmWeaponShiv01",
     "strNameShort": "Заточка",
-    "strNameFriendly": "Shiv",
+    "strNameFriendly": "Заточка",
     "strDesc": "Самодельный клинок из заточённого металла или стекла, обмотанный тканью, шнуром или другими подобными материалами для защиты удерживающей руки.",
     "strItemDef": "ItmWeaponShiv01",
     "strType": "Item",
@@ -1888,7 +1888,7 @@
   {
     "strName": "ItmWeaponSpear01",
     "strNameShort": "Копьё",
-    "strNameFriendly": "Spear",
+    "strNameFriendly": "Копьё",
     "strDesc": "Копьё с острым стальным наконечником на метровой рукояти.",
     "strItemDef": "ItmWeaponSpear01",
     "strType": "Item",

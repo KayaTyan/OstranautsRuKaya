@@ -374,8 +374,8 @@
   },
   {
     "strName": "ItmKioskEmbassy01MTRS",
-    "strNameShort": "Kiosk: Tharsis Landing Embassy",
-    "strNameFriendly": "Embassy Services: Tharsis Landing, Mars",
+    "strNameShort": "Киоск: посольство Tharsis Landing",
+    "strNameFriendly": "Услуги посольства: Tharsis Landing, Марс",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassyMTRS",
     "aInteractionsReplace": [
@@ -387,8 +387,8 @@
   },
   {
     "strName": "ItmKioskEmbassy01MSUZ",
-    "strNameShort": "Kiosk: Suzhou Embassy",
-    "strNameFriendly": "Embassy Services: Suzhou Orbital",
+    "strNameShort": "Киоск: посольство Suzhou",
+    "strNameFriendly": "Услуги посольства: Suzhou Orbital",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassyMSUZ",
     "aInteractionsReplace": [
@@ -400,8 +400,8 @@
   },
   {
     "strName": "ItmKioskEmbassy01MVOL",
-    "strNameShort": "Kiosk: Voltaire Embassy",
-    "strNameFriendly": "Embassy Services: Voltaire, Deimos",
+    "strNameShort": "Киоск: посольство Вольтера",
+    "strNameFriendly": "Услуги посольства: Вольтер, Деймос",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassyMVOL",
     "aInteractionsReplace": [
@@ -413,8 +413,8 @@
   },
   {
     "strName": "ItmKioskEmbassy01SVIR",
-    "strNameShort": "Kiosk: Titan Embassy",
-    "strNameFriendly": "Embassy Services: Titan, Saturn",
+    "strNameShort": "Киоск: посольство Титана",
+    "strNameFriendly": "Услуги посольства: Титан, Сатурн",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassySVIR",
     "aInteractionsReplace": [
@@ -426,8 +426,8 @@
   },
   {
     "strName": "ItmFactionKiosk01BCER",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Faction Kiosk (GalFed)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Фракционный киоск (GalFed)",
     "strCOBase": "ItmKioskGovt01",
     "strCondLoot": "CNDOLKioskGovtGalileanConfederacy",
     "mapGUIPropMaps": [
@@ -441,8 +441,8 @@
   },
   {
     "strName": "ItmFactionKiosk01BCRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Faction Kiosk (CCRE)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Фракционный киоск (CCRE)",
     "strCOBase": "ItmKioskGovt01",
     "strCondLoot": "CNDOLKioskGovtCCRE",
     "mapGUIPropMaps": [
@@ -456,8 +456,8 @@
   },
   {
     "strName": "ItmFactionKiosk01MTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Faction Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Фракционный киоск (MTRS)",
     "strCOBase": "ItmKioskGovt01",
     "strCondLoot": "CNDOLKioskGovtCCRE",
     "mapGUIPropMaps": [
@@ -471,8 +471,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskBCER",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (BCER)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (BCER)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -485,8 +485,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskBCRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (BCRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (BCRS)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -499,8 +499,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskEJDR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (EJDR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (EJDR)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -513,8 +513,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskJATL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (JATL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (JATL)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -527,8 +527,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskJFTS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (JFTS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (JFTS)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -541,8 +541,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskJPTN",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (JPTN)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (JPTN)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -555,8 +555,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskMHNG",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (MHNG)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (MHNG)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -569,8 +569,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskMLAB",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (MLAB)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (MLAB)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -583,8 +583,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskMTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (MTRS)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -597,8 +597,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskMSUZ",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (MSUZ)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (MSUZ)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -611,8 +611,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskMVOL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (MVOL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (MVOL)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -625,8 +625,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskSVIR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (SVIR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (SVIR)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -639,8 +639,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskVENC",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (VENC)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (VENC)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -653,8 +653,8 @@
   },
   {
     "strName": "TraderFurnishingsKioskVNCA",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Furnishings Kiosk (VNCA)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск мебели (VNCA)",
     "strCOBase": "ItmKioskFurnishings01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -667,8 +667,8 @@
   },
   {
     "strName": "ItmKioskResBroker01JFTS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (JFTS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (JFTS)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -680,8 +680,8 @@
   },
   {
     "strName": "ItmKioskResBroker01MLAB",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (MLAB)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (MLAB)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -693,8 +693,8 @@
   },
   {
     "strName": "ItmKioskResBroker01MTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (MTRS)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -706,8 +706,8 @@
   },
   {
     "strName": "ItmKioskResBroker01MSUZ",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (MSUZ)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (MSUZ)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -719,8 +719,8 @@
   },
   {
     "strName": "ItmKioskResBroker01MVOL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (MVOL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (MVOL)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -732,8 +732,8 @@
   },
   {
     "strName": "ItmKioskResBroker01SVIR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Real Estate Kiosk (SVIR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (SVIR)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -745,8 +745,8 @@
   },
   {
     "strName": "ItmKioskEJDRShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (EJDR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (EJDR)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -762,8 +762,8 @@
   },
   {
     "strName": "ItmKioskJFTSShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (JFTS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (JFTS)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -779,8 +779,8 @@
   },
   {
     "strName": "ItmKioskJPTNShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (JPTN)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (JPTN)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -796,8 +796,8 @@
   },
   {
     "strName": "ItmKioskMHNGShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (MHNG)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (MHNG)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -813,8 +813,8 @@
   },
   {
     "strName": "ItmKioskMTRSShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (MTRS)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -830,8 +830,8 @@
   },
   {
     "strName": "ItmKioskMSUZShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (MSUZ)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (MSUZ)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -847,8 +847,8 @@
   },
   {
     "strName": "ItmKioskMVOLShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (MVOL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (MVOL)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -864,8 +864,8 @@
   },
   {
     "strName": "ItmKioskSVIRShipBroker01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Ship Broker Kiosk (SVIR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск брокера кораблей (SVIR)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -881,8 +881,8 @@
   },
   {
     "strName": "ItmKioskSupplies01BCER",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (BCER)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (BCER)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -895,8 +895,8 @@
   },
   {
     "strName": "ItmKioskSupplies01BCRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (BCRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (BCRS)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -909,8 +909,8 @@
   },
   {
     "strName": "ItmKioskSupplies01EJDR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (EJDR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (EJDR)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -923,8 +923,8 @@
   },
   {
     "strName": "ItmKioskSupplies01HQCH",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (HQCH)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (HQCH)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -937,8 +937,8 @@
   },
   {
     "strName": "ItmKioskSupplies01JATL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (JATL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (JATL)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -951,8 +951,8 @@
   },
   {
     "strName": "ItmKioskSupplies01JFTS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (JFTS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (JFTS)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -965,8 +965,8 @@
   },
   {
     "strName": "ItmKioskSupplies01JPTN",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (JPTN)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Торговый киоск (JPTN)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -979,8 +979,8 @@
   },
   {
     "strName": "ItmKioskSupplies01MHNG",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (MHNG)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (MHNG)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -993,8 +993,8 @@
   },
   {
     "strName": "ItmKioskSupplies01MLAB",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (MLAB)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (MLAB)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1007,8 +1007,8 @@
   },
   {
     "strName": "ItmKioskSupplies01MTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (MTRS)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1021,8 +1021,8 @@
   },
   {
     "strName": "ItmKioskSupplies01MSUZ",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (MSUZ)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (MSUZ)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1035,8 +1035,8 @@
   },
   {
     "strName": "ItmKioskSupplies01MVOL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (MVOL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (MVOL)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1049,8 +1049,8 @@
   },
   {
     "strName": "ItmKioskSupplies01SVIR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (SVIR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (SVIR)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1063,8 +1063,8 @@
   },
   {
     "strName": "ItmKioskSupplies01VCBR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (VCBR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (VCBR)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1077,8 +1077,8 @@
   },
   {
     "strName": "ItmKioskSupplies01VENC",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (VENC)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (VENC)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1091,8 +1091,8 @@
   },
   {
     "strName": "ItmKioskSupplies01VNCA",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Supply Kiosk (VNCA)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Снабженческий киоск (VNCA)",
     "strCOBase": "ItmKioskSupplies01",
     "mapGUIPropMaps": [
       "Panel A",
@@ -1105,9 +1105,9 @@
   },
   {
     "strName": "ItmKioskTestudo01BCER",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (BCER)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (BCER)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1124,9 +1124,9 @@
   },
   {
     "strName": "ItmKioskTestudo01BCRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (BCRS)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (BCRS)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1143,9 +1143,9 @@
   },
   {
     "strName": "ItmKioskTestudo01EJDR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (EJDR)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (EJDR)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1162,9 +1162,9 @@
   },
   {
     "strName": "ItmKioskTestudo01HQCH",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (HQCH)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (HQCH)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1181,9 +1181,9 @@
   },
   {
     "strName": "ItmKioskTestudo01JATL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (JATL)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (JATL)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1200,9 +1200,9 @@
   },
   {
     "strName": "ItmKioskTestudo01JFTS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (JFTS)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (JFTS)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1219,9 +1219,9 @@
   },
   {
     "strName": "ItmKioskTestudo01JPTN",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (JPTN)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (JPTN)",
+    "strDesc": "Киоск, управляемый корпорацией Testudo, предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму брендированной продукции, выпускаемой всепроникающей мегакорпорацией.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1238,9 +1238,9 @@
   },
   {
     "strName": "ItmKioskTestudo01MHNG",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (MHNG)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (MHNG)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1257,9 +1257,9 @@
   },
   {
     "strName": "ItmKioskTestudo01MLAB",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (MLAB)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (MLAB)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1276,9 +1276,9 @@
   },
   {
     "strName": "ItmKioskTestudo01MTRS",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (MTRS)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (MTRS)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1295,9 +1295,9 @@
   },
   {
     "strName": "ItmKioskTestudo01MSUZ",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (MSUZ)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (MSUZ)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1314,9 +1314,9 @@
   },
   {
     "strName": "ItmKioskTestudo01MVOL",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (MVOL)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (MVOL)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1333,9 +1333,9 @@
   },
   {
     "strName": "ItmKioskTestudo01SVIR",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Testudo Kiosk (SVIR)",
-    "strDesc": "A kiosk operated by Testudo Corp. offering a dizzying array of diverse consumer products running the gamut of branded offerings produced by the omnipresent ubercorp.",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (SVIR)",
+    "strDesc": "Киоск, управляемый Testudo Corp., предлагающий головокружительный ассортимент разнообразных потребительских товаров, охватывающий всю гамму фирменных продуктов, выпускаемых всепроникающим корпоративным гигантом.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -1352,8 +1352,8 @@
   },
   {
     "strName": "ItmKioskBCERMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (BCER)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (BCER)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskBCERMed01",
     "mapGUIPropMaps": [
@@ -1367,8 +1367,8 @@
   },
   {
     "strName": "ItmKioskEJDRMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (EJDR)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (EJDR)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskEJDRMed01",
     "mapGUIPropMaps": [
@@ -1382,8 +1382,8 @@
   },
   {
     "strName": "ItmKioskHQCHMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (HQCH)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (HQCH)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskHQCHMed01",
     "mapGUIPropMaps": [
@@ -1397,8 +1397,8 @@
   },
   {
     "strName": "ItmKioskJATLMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (JATL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (JATL)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskJATLMed01",
     "mapGUIPropMaps": [
@@ -1412,8 +1412,8 @@
   },
   {
     "strName": "ItmKioskJFTSMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (JFTS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (JFTS)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskJFTSMed01",
     "mapGUIPropMaps": [
@@ -1427,8 +1427,8 @@
   },
   {
     "strName": "ItmKioskJPTNMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (JPTN)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (JPTN)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskJPTNMed01",
     "mapGUIPropMaps": [
@@ -1442,8 +1442,8 @@
   },
   {
     "strName": "ItmKioskMHNGMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (MHNG)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (MHNG)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskMHNGMed01",
     "mapGUIPropMaps": [
@@ -1461,8 +1461,8 @@
   },
   {
     "strName": "ItmKioskMLABMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (MLAB)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (MLAB)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskMLABMed01",
     "mapGUIPropMaps": [
@@ -1476,8 +1476,8 @@
   },
   {
     "strName": "ItmKioskMTRSMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (MTRS)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (MTRS)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskMTRSMed01",
     "mapGUIPropMaps": [
@@ -1495,8 +1495,8 @@
   },
   {
     "strName": "ItmKioskMSUZMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (MSUZ)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (MSUZ)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskMSUZMed01",
     "mapGUIPropMaps": [
@@ -1510,8 +1510,8 @@
   },
   {
     "strName": "ItmKioskMVOLMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (MVOL)",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (MVOL)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskMVOLMed01",
     "mapGUIPropMaps": [
@@ -1529,8 +1529,8 @@
   },
   {
     "strName": "ItmKioskSVIRMed01",
-    "strNameShort": "Kiosk",
-    "strNameFriendly": "Medical Kiosk (SVIR)",
+    "strNameShort": "Кiosk",
+    "strNameFriendly": "Медицинский киоск (SVIR)",
     "strCOBase": "ItmKioskHealth01",
     "strCondLoot": "CNDOLKioskSVIRMed01",
     "mapGUIPropMaps": [

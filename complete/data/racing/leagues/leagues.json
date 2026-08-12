@@ -2,7 +2,7 @@
   {
     "strName": "Trials",
     "strNameFriendly": "Испытания",
-    "strDescription": "Short entry level league that showcases each track type",
+    "strDescription": "Короткая лига начального уровня, демонстрирующая каждый тип трасс",
     "strImgPath": null,
     "ctLeagueHost": null,
     "ctEntryRequirements": null,
@@ -33,7 +33,7 @@
   {
     "strName": "VenusBronze",
     "strNameFriendly": "Бронзовая лига Венеры",
-    "strDescription": "Entry level league for every rookie racing pilot",
+    "strDescription": "Лига начального уровня для каждого начинающего гоночного пилота",
     "strImgPath": "leaguebronzelogo.png",
     "ctLeagueHost": null,
     "ctEntryRequirements": null,
@@ -64,7 +64,7 @@
   {
     "strName": "VenusSilver",
     "strNameFriendly": "Серебряная лига Венеры",
-    "strDescription": "Entry level league for every rookie racing pilot",
+    "strDescription": "Лига начального уровня для каждого начинающего гоночного пилота",
     "strImgPath": "leaguesilverlogo.png",
     "ctLeagueHost": null,
     "ctEntryRequirements": "TIsRaceLicenseBronze",
@@ -95,7 +95,7 @@
   {
     "strName": "VenusGold",
     "strNameFriendly": "Золотая лига Венеры",
-    "strDescription": "Gold level league only for experienced racing pilots",
+    "strDescription": "Лига золотого уровня только для опытных гоночных пилотов",
     "strImgPath": "leaguegoldlogo.png",
     "ctLeagueHost": null,
     "ctEntryRequirements": "TIsRaceLicenseSilver",
@@ -126,7 +126,7 @@
   {
     "strName": "GrandePremioEncantato",
     "strNameFriendly": "Гран-при Энкантадо",
-    "strDescription": "One of the system's top tier racing leagues",
+    "strDescription": "Одна из лучших гоночных лиг системы",
     "strImgPath": "racing/encantado.png",
     "ctLeagueHost": null,
     "ctEntryRequirements": "TIsRaceLicenseDiamond",

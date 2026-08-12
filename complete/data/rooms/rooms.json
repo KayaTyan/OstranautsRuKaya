@@ -64,7 +64,7 @@
   },
   {
     "strName": "Airlock",
-    "strNameFriendly": "Airlock",
+    "strNameFriendly": "Шлюз",
     "strIconName": "airlock",
     "nMinTileSize": 3,
     "nMaxTileSize": -1,
@@ -161,7 +161,7 @@
   },
   {
     "strName": "Bathroom",
-    "strNameFriendly": "Bathroom",
+    "strNameFriendly": "Санузел",
     "strIconName": "bathroom",
     "nMinTileSize": 4,
     "nMaxTileSize": -1,
@@ -176,7 +176,7 @@
   },
   {
     "strName": "Galley",
-    "strNameFriendly": "Galley",
+    "strNameFriendly": "Камбуз",
     "strIconName": "galley",
     "nMinTileSize": 6,
     "nMaxTileSize": -1,

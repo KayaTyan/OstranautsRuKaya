@@ -1,8 +1,8 @@
 [
   {
     "strName": "DenouementStart",
-    "strTitle": "Consider Ramifications",
-    "strDesc": "PLACEHOLDER: We're in uncharted territory. The player must be informed of the changes their actions have wrought, and also possibly begin working towards 79 AU. Where to from here?",
+    "strTitle": "Обдумать последствия",
+    "strDesc": "ЗАГЛУШКА: Мы в неизведанной территории. Игрок должен быть проинформирован об изменениях, которые его действия произвели, а также, возможно, начать работу над 79 а.е. Куда отсюда?",
     "strColor": "Dialogue",
     "aInverse": [
       "DenouementStart2"
@@ -13,12 +13,12 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strTooltip": "PLACEHOLDER: The player clicks on something to begin the denouement."
+    "strTooltip": "ЗАГЛУШКА: Игрок нажимает на что-то, чтобы начать развязку."
   },
   {
     "strName": "DenouementStart2",
-    "strTitle": "Conclude Ramificating",
-    "strDesc": "PLACEHOLDER: What choices did the player make? We'll need a vehicle to explore that, whether it's a character or exposition or some kind of action sequence!",
+    "strTitle": "Завершить обдумывание последствий",
+    "strDesc": "ЗАГЛУШКА: Какой выбор сделал игрок? Нам понадобится средство, чтобы исследовать это, будет ли это персонаж или экспозиция или какой-то экшн-сценарий!",
     "strThemType": "Self",
     "strColor": "Dialogue",
     "aInverse": [

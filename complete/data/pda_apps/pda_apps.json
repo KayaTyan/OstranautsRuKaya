@@ -115,13 +115,13 @@
   },
   {
     "strName": "bounties",
-    "strFriendlyName": "BOUNTIES",
+    "strFriendlyName": "НАГРАДЫ",
     "strIcon": "pda_apps/IcoPDABounties",
     "bHidden": false
   },
   {
     "strName": "notes",
-    "strFriendlyName": "NOTES",
+    "strFriendlyName": "ЗАМЕТКИ",
     "strIcon": "pda_apps/IcoPDANotes",
     "bHidden": false
   }

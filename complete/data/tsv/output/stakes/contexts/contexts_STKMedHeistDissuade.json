@@ -1,13 +1,12 @@
-
 [
   {
-    "strName" : "ACTSTKMedHeistDissuadeUs",
-    "strTitle" : "Convince Friend",
-    "strMainText" : "Convince them to abandon their course of action."
+    "strName": "ACTSTKMedHeistDissuadeUs",
+    "strTitle": "Убедить друга",
+    "strMainText": "Convince them to abandon their course of action."
   },
   {
-    "strName" : "ACTSTKMedHeistDissuadeThem",
-    "strTitle" : "Convince Friend",
-    "strMainText" : "Convince them to abandon their course of action."
+    "strName": "ACTSTKMedHeistDissuadeThem",
+    "strTitle": "Убедить друга",
+    "strMainText": "Convince them to abandon their course of action."
   }
 ]
