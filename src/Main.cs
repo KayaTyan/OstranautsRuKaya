@@ -19,7 +19,7 @@ using Ostranauts.Ships;
 
 namespace OstranautsRuKaya
 {
-    [BepInPlugin("ru.kaya.ostranautsrukaya", "OstranautsRuKaya", "1.3.1")]
+    [BepInPlugin("ru.kaya.ostranautsrukaya", "OstranautsRuKaya", "1.3.2")]
     public class RuTranslation : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
