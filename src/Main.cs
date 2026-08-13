@@ -370,22 +370,9 @@ namespace OstranautsRuKaya
             return verb;
         }
 
-        private static string WrapItemNames(string text)
-        {
-            // Wrap bare item names in «» guillemets.
-            // Strategy: only wrap when the sentence is a player-action template
-            // (starts with "Ты " and contains a known action verb).
-            // We wrap the last Russian lowercase word that is NOT a common noun/adjective.
-
-            // Skip if already has guillemets
-            if (text.Contains("«") || text.Contains("»")) return text;
-
-            // Only wrap for player-action sentences (start with "Ты ")
-            if (!text.StartsWith("Ты ") && !text.StartsWith("ты "))
-                return text;
-
-            // Common words that should NOT be wrapped (nouns, adjectives, etc.)
-            var skipWords = new System.Collections.Generic.HashSet<string>(System.StringComparer.Ordinal)
+        // Static skip-words set — allocated ONCE, not per call (was causing GC pressure)
+        private static readonly System.Collections.Generic.HashSet<string> _skipWordsWrap =
+            new System.Collections.Generic.HashSet<string>(System.StringComparer.Ordinal)
             {
                 // pronouns
                 "ты", "я", "он", "она", "они", "оно", "мы", "вы",
@@ -418,6 +405,20 @@ namespace OstranautsRuKaya
                 "доступ", "доступ.", "доступ,",
             };
 
+        private static string WrapItemNames(string text)
+        {
+            // Wrap bare item names in «» guillemets.
+            // Strategy: only wrap when the sentence is a player-action template
+            // (starts with "Ты " and contains a known action verb).
+            // We wrap the last Russian lowercase word that is NOT a common noun/adjective.
+
+            // Skip if already has guillemets
+            if (text.Contains("«") || text.Contains("»")) return text;
+
+            // Only wrap for player-action sentences (start with "Ты ")
+            if (!text.StartsWith("Ты ") && !text.StartsWith("ты "))
+                return text;
+
             var words = text.Split(' ');
             if (words.Length < 3) return text;
 
@@ -429,7 +430,7 @@ namespace OstranautsRuKaya
                 string w = words[i].Trim(' ', '.', ',', ';', ':', '!', '?');
                 if (string.IsNullOrEmpty(w)) continue;
                 string wLower = w.ToLowerInvariant();
-                if (skipWords.Contains(wLower)) continue;
+                if (_skipWordsWrap.Contains(wLower)) continue;
                 // Must be Russian (Cyrillic)
                 if (!IsRussianWord(w)) continue;
                 // Must be 3+ chars
@@ -1500,16 +1501,30 @@ namespace OstranautsRuKaya
         }
 
         /// <summary>
-        /// Fast translation for high-frequency hooks (set_text, DoLabel).
-        /// Only exact dictionary match + cache. No regex. O(1).
+        /// Fast translation for high-frequency hooks (set_text, DoLabel, ShowMenu).
+        /// Only exact dictionary match + cache. No regex. No cache for misses.
         /// </summary>
         internal static string TranslateStringFast(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
 
-            // Check cache
-            if (_cache.TryGetValue(value, out string cached))
-                return cached;
+            // Early exit: already Russian text or numbers/symbols → skip entirely
+            // This catches dynamic strings ("12.5 m/s", "1523.4") and already-translated text
+            // without any dictionary lookup or cache insert
+            char c0 = value[0];
+            if ((c0 >= 'А' && c0 <= 'я') || c0 == 'ё' || c0 == 'Ё')
+                return value; // Already Cyrillic → no translation needed
+            if (c0 < 'A' || c0 > 'z')
+            {
+                // Not ASCII letter (number, symbol, punctuation) → check cache only
+                if (_cache.TryGetValue(value, out string cached))
+                    return cached;
+                return value; // Don't cache misses for dynamic strings
+            }
+
+            // Check cache for ASCII strings
+            if (_cache.TryGetValue(value, out string cachedMatch))
+                return cachedMatch;
 
             // Exact match only
             if (TranslationData.Hud.TryGetValue(value, out string translated))
@@ -1524,8 +1539,8 @@ namespace OstranautsRuKaya
                 return trimmedT;
             }
 
-            // Cache the miss too, so we don't check again
-            _cache[value] = value;
+            // Do NOT cache misses: dynamic strings (coordinates, timers) would
+            // grow the cache unbounded and cause GC pressure
             return value;
         }
 
@@ -1563,16 +1578,18 @@ namespace OstranautsRuKaya
             if (mfdDto == null) return;
             try
             {
+                // Fast path only: MFD updates every frame while flying.
+                // Full regex here was causing per-frame stutters.
                 if (!string.IsNullOrEmpty(mfdDto.Title))
-                    mfdDto.Title = HUDTranslation.TranslateString(mfdDto.Title);
+                    mfdDto.Title = HUDTranslation.TranslateStringFast(mfdDto.Title);
 
                 if (mfdDto.Left != null)
                     for (int i = 0; i < mfdDto.Left.Count; i++)
-                        mfdDto.Left[i] = HUDTranslation.TranslateString(mfdDto.Left[i]);
+                        mfdDto.Left[i] = HUDTranslation.TranslateStringFast(mfdDto.Left[i]);
 
                 if (mfdDto.Right != null)
                     for (int i = 0; i < mfdDto.Right.Count; i++)
-                        mfdDto.Right[i] = HUDTranslation.TranslateString(mfdDto.Right[i]);
+                        mfdDto.Right[i] = HUDTranslation.TranslateStringFast(mfdDto.Right[i]);
             }
             catch { }
         }
