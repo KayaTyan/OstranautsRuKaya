@@ -178,8 +178,6 @@ namespace OstranautsRuKaya
             if (tr.Complete != null) objective.strDisplayDescComplete = FormatTutorialText(tr.Complete);
         }
 
-        private int _scanFrameCounter = 0;
-
         private void Awake()
         {
             try
@@ -190,6 +188,7 @@ namespace OstranautsRuKaya
                 LoadTranslations();
                 LoadConjugations();
                 LoadTutorialTranslations();
+                HUDTranslation.BuildCompiledRegex();
                 ReplaceGrammarDictionaries();
                 Log.LogInfo("[Kaya] Grammar replaced");
 
@@ -197,11 +196,85 @@ namespace OstranautsRuKaya
                 harmony.PatchAll();
                 Log.LogInfo("[Kaya] Harmony patches applied");
 
+                // One delayed scan to catch prefab-deserialized text (PLA, SIGNAL, ON/OFF etc.)
+                // that initializes AFTER scene load. Replaces the old Update() scanner.
+                StartCoroutine(DelayedScan());
+
                 Log.LogInfo("[Kaya] Ru Translation loaded");
             }
             catch (Exception ex)
             {
                 Log?.LogError($"[Kaya] Awake failed: {ex}");
+            }
+        }
+
+        private IEnumerator DelayedScan()
+        {
+            // Wait for scene to settle, then scan once
+            yield return new UnityEngine.WaitForSeconds(3f);
+            try
+            {
+                ScanAndTranslateAllUI();
+                Log?.LogInfo("[Kaya] Delayed scan complete");
+            }
+            catch (Exception ex)
+            {
+                Log?.LogError($"[Kaya] DelayedScan failed: {ex}");
+            }
+        }
+
+        internal static void ScanAndTranslateAllUI()
+        {
+            // Find ALL active Text components and translate
+            var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
+            foreach (var t in texts)
+            {
+                if (t != null && !string.IsNullOrEmpty(t.text))
+                {
+                    string translated = HUDTranslation.TranslateString(t.text);
+                    if (translated != t.text)
+                        t.text = translated;
+                }
+            }
+
+            // Find ALL active TMP_Text components and translate
+            var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
+            foreach (var t in tmpTexts)
+            {
+                if (t != null && !string.IsNullOrEmpty(t.text))
+                {
+                    string translated = HUDTranslation.TranslateString(t.text);
+                    if (translated != t.text)
+                        t.text = translated;
+                }
+            }
+
+            // Traverse ALL root objects including INACTIVE children
+            var rootObjects = UnityEngine.SceneManagement.SceneManager
+                .GetActiveScene().GetRootGameObjects();
+            foreach (var root in rootObjects)
+            {
+                if (root == null) continue;
+                var inactiveTmp = root.GetComponentsInChildren<TMPro.TMP_Text>(true);
+                foreach (var t in inactiveTmp)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
+                var inactiveText = root.GetComponentsInChildren<UnityEngine.UI.Text>(true);
+                foreach (var t in inactiveText)
+                {
+                    if (t != null && !string.IsNullOrEmpty(t.text))
+                    {
+                        string translated = HUDTranslation.TranslateString(t.text);
+                        if (translated != t.text)
+                            t.text = translated;
+                    }
+                }
             }
         }
 
@@ -395,75 +468,9 @@ namespace OstranautsRuKaya
             return true;
         }
 
-        // ─── Periodic scanner: runs EVERY frame from the plugin's own MonoBehaviour ───
-        // This is the ONLY reliable way to catch prefab-deserialized text (PLA, SIGNAL, ON, OFF etc.)
-        // because Unity deserialization bypasses C# set_text, and GUIOrbitDraw.Update only
-        // fires when the orbit screen is open.
-        private void Update()
-        {
-            try
-            {
-                _scanFrameCounter++;
-                if (_scanFrameCounter < 300) return; // every ~5 seconds at 60fps
-                _scanFrameCounter = 0;
-
-                // ── Method 1: FindObjectsOfType for active components ──
-                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
-                foreach (var t in texts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
-
-                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
-                foreach (var t in tmpTexts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
-
-                // ── Method 2: Traverse ALL root objects including INACTIVE children ──
-                // NavMod panels may be inactive until player interacts with NavStation.
-                // GetComponentsInChildren(true) includes inactive children.
-                var rootObjects = UnityEngine.SceneManagement.SceneManager
-                    .GetActiveScene().GetRootGameObjects();
-                foreach (var root in rootObjects)
-                {
-                    if (root == null) continue;
-                    // Get ALL TMP_Text including inactive
-                    var inactiveTmp = root.GetComponentsInChildren<TMPro.TMP_Text>(true);
-                    foreach (var t in inactiveTmp)
-                    {
-                        if (t != null && !string.IsNullOrEmpty(t.text))
-                        {
-                            string translated = HUDTranslation.TranslateString(t.text);
-                            if (translated != t.text)
-                                t.text = translated;
-                        }
-                    }
-                    // Get ALL UI.Text including inactive
-                    var inactiveText = root.GetComponentsInChildren<UnityEngine.UI.Text>(true);
-                    foreach (var t in inactiveText)
-                    {
-                        if (t != null && !string.IsNullOrEmpty(t.text))
-                        {
-                            string translated = HUDTranslation.TranslateString(t.text);
-                            if (translated != t.text)
-                                t.text = translated;
-                        }
-                    }
-                }
-            }
-            catch { }
-        }
+        // ─── Old periodic Update() scanner REMOVED ───
+        // Was causing 2-second freezes: FindObjectsOfType + 463-entry regex loop every 300 frames.
+        // Replaced by: DelayedScan() in Awake() (one-shot, 3s after load) + ScanAndTranslateAllUI().
 
         private static void RegisterVerbsInDictVerbs()
         {
@@ -1409,26 +1416,116 @@ namespace OstranautsRuKaya
     // ─── Universal HUD string replacement ───
     public static class HUDTranslation
     {
+        // Cache: avoids re-running regex on the same strings (breaks feedback loop)
+        private static readonly Dictionary<string, string> _cache = new Dictionary<string, string>(System.StringComparer.Ordinal);
+
+        // One pre-compiled regex for all partial replacements (instead of 463 individual Regex.Replace calls)
+        private static System.Text.RegularExpressions.Regex _compiledPartialRegex;
+        private static Dictionary<string, string> _partialLookup;
+
+        internal static void BuildCompiledRegex()
+        {
+            _cache.Clear();
+            _partialLookup = new Dictionary<string, string>(System.StringComparer.Ordinal);
+            var keys = new List<string>();
+
+            foreach (var kvp in TranslationData.Hud)
+            {
+                if (kvp.Key.Length >= 2 && kvp.Value.Length > 0)
+                {
+                    _partialLookup[kvp.Key] = kvp.Value;
+                    keys.Add(System.Text.RegularExpressions.Regex.Escape(kvp.Key));
+                }
+            }
+
+            if (keys.Count > 0)
+            {
+                // Sort by length descending so longer keys match first (prevents "CLEAR" stealing from "CLEARANCE")
+                keys.Sort((a, b) =>
+                {
+                    int la = a.Length, lb = b.Length;
+                    if (la != lb) return lb.CompareTo(la);
+                    return string.Compare(a, b, System.StringComparison.Ordinal);
+                });
+                string pattern = @"\b(" + string.Join("|", keys) + @")\b";
+                _compiledPartialRegex = new System.Text.RegularExpressions.Regex(pattern,
+                    System.Text.RegularExpressions.RegexOptions.Compiled | System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            }
+            RuTranslation.Log?.LogInfo($"[Kaya] Compiled regex with {_partialLookup.Count} partial keys");
+        }
+
         internal static string TranslateString(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
+
+            // Fast path: check cache first
+            if (_cache.TryGetValue(value, out string cached))
+                return cached;
+
+            string result = value;
+
             // Exact match (trimmed for whitespace tolerance)
-            if (TranslationData.Hud.TryGetValue(value, out string translated))
+            if (TranslationData.Hud.TryGetValue(result, out string translated))
+            {
+                _cache[value] = translated;
                 return translated;
+            }
+            string trimmed = result.Trim();
+            if (trimmed != result && TranslationData.Hud.TryGetValue(trimmed, out string trimmedT))
+            {
+                _cache[value] = trimmedT;
+                return trimmedT;
+            }
+
+            // Partial replacement with ONE pre-compiled regex
+            if (_compiledPartialRegex != null)
+            {
+                result = _compiledPartialRegex.Replace(result, m =>
+                {
+                    // Case-insensitive lookup in partial dictionary
+                    if (_partialLookup.TryGetValue(m.Value, out string replacement))
+                        return replacement;
+                    // Try case-insensitive match
+                    foreach (var kvp in _partialLookup)
+                    {
+                        if (string.Equals(kvp.Key, m.Value, System.StringComparison.OrdinalIgnoreCase))
+                            return kvp.Value;
+                    }
+                    return m.Value;
+                });
+            }
+
+            _cache[value] = result;
+            return result;
+        }
+
+        /// <summary>
+        /// Fast translation for high-frequency hooks (set_text, DoLabel).
+        /// Only exact dictionary match + cache. No regex. O(1).
+        /// </summary>
+        internal static string TranslateStringFast(string value)
+        {
+            if (string.IsNullOrEmpty(value)) return value;
+
+            // Check cache
+            if (_cache.TryGetValue(value, out string cached))
+                return cached;
+
+            // Exact match only
+            if (TranslationData.Hud.TryGetValue(value, out string translated))
+            {
+                _cache[value] = translated;
+                return translated;
+            }
             string trimmed = value.Trim();
             if (trimmed != value && TranslationData.Hud.TryGetValue(trimmed, out string trimmedT))
-                return trimmedT;
-            // Partial replacement with WORD BOUNDARIES
-            // Prevents "CLEAR" matching inside "CLEARANCE", "DOCK" inside "DOCKED" etc.
-            foreach (var kvp in TranslationData.Hud)
             {
-                if (kvp.Key.Length >= 2 && kvp.Value.Length > 0 && value.Contains(kvp.Key))
-                {
-                    // Use regex with word boundaries to avoid breaking compound words
-                    string pattern = @"\b" + System.Text.RegularExpressions.Regex.Escape(kvp.Key) + @"\b";
-                    value = System.Text.RegularExpressions.Regex.Replace(value, pattern, kvp.Value, System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-                }
+                _cache[value] = trimmedT;
+                return trimmedT;
             }
+
+            // Cache the miss too, so we don't check again
+            _cache[value] = value;
             return value;
         }
 
@@ -1483,8 +1580,8 @@ namespace OstranautsRuKaya
 
 
 
-    // Periodic scanner moved to RuTranslation.Update() — see below.
-    // Was on GUIOrbitDraw.Update which only fires when orbit screen is open.
+    // Periodic scanner REMOVED (was causing 2s freezes).
+    // Now: one-shot DelayedScan() in Awake() + this scene-load scan.
 
     // ─── Scan and translate all UI text after scene load ───
     [HarmonyPatch(typeof(GUIOrbitDraw), "Init")]
@@ -1494,28 +1591,7 @@ namespace OstranautsRuKaya
         {
             try
             {
-                // Find ALL Text components in scene and translate
-                var texts = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Text>();
-                foreach (var t in texts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
-                // Find ALL TMP_Text components
-                var tmpTexts = UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>();
-                foreach (var t in tmpTexts)
-                {
-                    if (t != null && !string.IsNullOrEmpty(t.text))
-                    {
-                        string translated = HUDTranslation.TranslateString(t.text);
-                        if (translated != t.text)
-                            t.text = translated;
-                    }
-                }
+                RuTranslation.ScanAndTranslateAllUI();
             }
             catch { }
         }
@@ -1528,7 +1604,7 @@ namespace OstranautsRuKaya
         static void Prefix(ref string value)
         {
             if (!string.IsNullOrEmpty(value))
-                value = HUDTranslation.TranslateString(value);
+                value = HUDTranslation.TranslateStringFast(value);
         }
     }
 
@@ -1539,7 +1615,7 @@ namespace OstranautsRuKaya
         static void Prefix(ref string value)
         {
             if (!string.IsNullOrEmpty(value))
-                value = HUDTranslation.TranslateString(value);
+                value = HUDTranslation.TranslateStringFast(value);
         }
     }
 
@@ -1554,7 +1630,7 @@ namespace OstranautsRuKaya
         {
             if (content != null && !string.IsNullOrEmpty(content.text))
             {
-                string translated = HUDTranslation.TranslateString(content.text);
+                string translated = HUDTranslation.TranslateStringFast(content.text);
                 if (translated != content.text)
                     content.text = translated;
             }
@@ -1568,7 +1644,7 @@ namespace OstranautsRuKaya
         {
             if (content != null && !string.IsNullOrEmpty(content.text))
             {
-                string translated = HUDTranslation.TranslateString(content.text);
+                string translated = HUDTranslation.TranslateStringFast(content.text);
                 if (translated != content.text)
                     content.text = translated;
             }
