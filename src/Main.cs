@@ -797,7 +797,7 @@ namespace OstranautsRuKaya
     {
         static void Postfix(ref string __result)
         {
-            __result = HUDTranslation.TranslateString(__result);
+            __result = HUDTranslation.TranslateStringFast(__result);
         }
     }
 
@@ -845,20 +845,29 @@ namespace OstranautsRuKaya
     {
         static void Postfix(ref string __result)
         {
-            __result = HUDTranslation.TranslateString(__result);
+            __result = HUDTranslation.TranslateStringFast(__result);
         }
     }
 
     // MFDMessageLog: translates right panel labels
+    // get_Right may be called every frame by MFD rendering — cache to avoid repeated ApplyMfdReplacements
     [HarmonyPatch(typeof(MFDMessageLog), "get_Right")]
     public static class Patch_MFDMessageLog_Right
     {
+        private static List<string> _lastResult;
+        private static int _replacementsApplied = 0;
+
         static void Postfix(ref List<string> __result)
         {
             try
             {
-                if (__result != null)
-                    HUDTranslation.ApplyMfdReplacements(__result);
+                if (__result == null) return;
+                // Skip if same list reference as last time (already translated)
+                if (ReferenceEquals(__result, _lastResult))
+                    return;
+                _lastResult = __result;
+                HUDTranslation.ApplyMfdReplacements(__result);
+                _replacementsApplied++;
             }
             catch { }
         }
@@ -1502,46 +1511,44 @@ namespace OstranautsRuKaya
 
         /// <summary>
         /// Fast translation for high-frequency hooks (set_text, DoLabel, ShowMenu).
-        /// Only exact dictionary match + cache. No regex. No cache for misses.
+        /// Only exact dictionary match + cache. No regex. Cache misses cached with limit.
         /// </summary>
         internal static string TranslateStringFast(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
 
-            // Early exit: already Russian text or numbers/symbols → skip entirely
-            // This catches dynamic strings ("12.5 m/s", "1523.4") and already-translated text
-            // without any dictionary lookup or cache insert
+            // Early exit: already Russian text → skip entirely
             char c0 = value[0];
             if ((c0 >= 'А' && c0 <= 'я') || c0 == 'ё' || c0 == 'Ё')
                 return value; // Already Cyrillic → no translation needed
-            if (c0 < 'A' || c0 > 'z')
-            {
-                // Not ASCII letter (number, symbol, punctuation) → check cache only
-                if (_cache.TryGetValue(value, out string cached))
-                    return cached;
-                return value; // Don't cache misses for dynamic strings
-            }
 
-            // Check cache for ASCII strings
-            if (_cache.TryGetValue(value, out string cachedMatch))
-                return cachedMatch;
+            // Check cache (covers both hits and misses)
+            if (_cache.TryGetValue(value, out string cached))
+                return cached;
 
-            // Exact match only
+            // Not in cache — do exact match
             if (TranslationData.Hud.TryGetValue(value, out string translated))
             {
-                _cache[value] = translated;
+                CacheSet(value, translated);
                 return translated;
             }
             string trimmed = value.Trim();
             if (trimmed != value && TranslationData.Hud.TryGetValue(trimmed, out string trimmedT))
             {
-                _cache[value] = trimmedT;
+                CacheSet(value, trimmedT);
                 return trimmedT;
             }
 
-            // Do NOT cache misses: dynamic strings (coordinates, timers) would
-            // grow the cache unbounded and cause GC pressure
+            // Cache the miss too — with auto-clear at 5000 to prevent unbounded growth
+            CacheSet(value, value);
             return value;
+        }
+
+        private static void CacheSet(string key, string val)
+        {
+            if (_cache.Count > 5000)
+                _cache.Clear();
+            _cache[key] = val;
         }
 
         internal static void TranslateList(List<string> list)
